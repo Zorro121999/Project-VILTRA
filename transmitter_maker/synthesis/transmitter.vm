@@ -1,0 +1,51 @@
+//
+// Written by Synplify Pro 
+// Product Version "S-2021.09M-SP1"
+// Program "Synplify Pro", Mapper "map202109actsp1, Build 056R"
+// Sat Jan  7 23:58:37 2023
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd2008\std.vhd "
+// file 1 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd\snps_haps_pkg.vhd "
+// file 2 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd2008\std1164.vhd "
+// file 3 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd2008\std_textio.vhd "
+// file 4 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd2008\numeric.vhd "
+// file 5 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd\umr_capim.vhd "
+// file 6 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd2008\arith.vhd "
+// file 7 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd2008\unsigned.vhd "
+// file 8 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd\hyperents.vhd "
+// file 9 "\c:\users\user\documents\isisa\optical_transmission\transmitter_maker\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd "
+// file 10 "\c:\users\user\documents\isisa\optical_transmission\transmitter_maker\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd "
+// file 11 "\c:\users\user\documents\isisa\optical_transmission\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd "
+// file 12 "\c:\users\user\documents\isisa\optical_transmission\transmitter_maker\component\work\transmitter_sb\ccc_0\transmitter_sb_ccc_0_fccc.vhd "
+// file 13 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\generic\smartfusion2.vhd "
+// file 14 "\c:\users\user\documents\isisa\optical_transmission\transmitter_maker\component\actel\sgcore\osc\2.0.101\osc_comps.vhd "
+// file 15 "\c:\users\user\documents\isisa\optical_transmission\transmitter_maker\component\work\transmitter_sb_mss\transmitter_sb_mss_syn.vhd "
+// file 16 "\c:\users\user\documents\isisa\optical_transmission\transmitter_maker\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\components.vhd "
+// file 17 "\c:\users\user\documents\isisa\optical_transmission\transmitter_maker\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3.vhd "
+// file 18 "\c:\users\user\documents\isisa\optical_transmission\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd "
+// file 19 "\c:\users\user\documents\isisa\optical_transmission\transmitter_maker\component\work\transmitter_sb\fabosc_0\transmitter_sb_fabosc_0_osc.vhd "
+// file 20 "\c:\users\user\documents\isisa\optical_transmission\transmitter_maker\component\work\transmitter_sb_mss\transmitter_sb_mss.vhd "
+// file 21 "\c:\users\user\documents\isisa\optical_transmission\transmitter_maker\component\work\transmitter_sb\transmitter_sb.vhd "
+// file 22 "\c:\users\user\documents\isisa\optical_transmission\transmitter_maker\component\work\transmitter\transmitter.vhd "
+// file 23 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\nlconst.dat "
+// file 24 "\c:\users\user\documents\isisa\optical_transmission\transmitter_maker\designer\transmitter\synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module transmitter (
+  DEVRST_N
+)
+;
+input DEVRST_N ;
+wire DEVRST_N ;
+wire GND ;
+wire VCC ;
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* transmitter */
+

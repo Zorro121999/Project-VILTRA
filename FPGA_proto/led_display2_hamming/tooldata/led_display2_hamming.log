@@ -1,0 +1,16 @@
+Project Name: led_display2_hamming
+Location: C:\Users\user\Documents\ISISA\optical_transmission\led_display2_hamming
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S010-TQ144
+Family         : SmartFusion2
+Die            : M2S010
+Package        : 144 TQ
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

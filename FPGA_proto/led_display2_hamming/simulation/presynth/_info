@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2022.2 2022.04, Apr 26 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/Documents/ISISA/optical_transmission/led_display2_hamming/simulation
+Edisp2_ham
+Z1 w1673287352
+Z2 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z3 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z4 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 10
+R0
+Z5 8C:/Users/user/Documents/ISISA/optical_transmission/led_display2_hamming/hdl/disp2_ham.vhd
+Z6 FC:/Users/user/Documents/ISISA/optical_transmission/led_display2_hamming/hdl/disp2_ham.vhd
+l0
+L24 1
+Vnh61:]hCJaMZGS[=;FzAA0
+!s100 zfSXK;Q1PfFWVE@d^n<6W3
+Z7 OW;C;2022.2;75
+33
+Z8 !s110 1673287367
+!i10b 1
+Z9 !s108 1673287366.000000
+Z10 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/user/Documents/ISISA/optical_transmission/led_display2_hamming/hdl/disp2_ham.vhd|
+Z11 !s107 C:/Users/user/Documents/ISISA/optical_transmission/led_display2_hamming/hdl/disp2_ham.vhd|
+!i113 1
+Z12 o-2008 -explicit -work presynth -O0
+Z13 tCvgOpt 0
+Aarchitecture_disp2_ham
+R2
+R3
+R4
+DEx4 work 9 disp2_ham 0 22 nh61:]hCJaMZGS[=;FzAA0
+!i122 10
+l47
+L35 67
+VlkXaGGDnM8L^j@R5D`RXl2
+!s100 241@BbDjk:0Rmji0Yn:]>3
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edisp2_ham_test
+Z14 w1673196909
+R2
+R3
+R4
+!i122 11
+R0
+Z15 8C:/Users/user/Documents/ISISA/optical_transmission/led_display2_hamming/stimulus/disp2_ham_test.vhd
+Z16 FC:/Users/user/Documents/ISISA/optical_transmission/led_display2_hamming/stimulus/disp2_ham_test.vhd
+l0
+L33 1
+VY>1?A8g<m2D1TCe<l8mLF2
+!s100 enzLk@nWhF4T7GgJ1=aB22
+R7
+33
+R8
+!i10b 1
+Z17 !s108 1673287367.000000
+Z18 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|C:/Users/user/Documents/ISISA/optical_transmission/led_display2_hamming/stimulus/disp2_ham_test.vhd|
+Z19 !s107 C:/Users/user/Documents/ISISA/optical_transmission/led_display2_hamming/stimulus/disp2_ham_test.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+Z20 DEx4 work 14 disp2_ham_test 0 22 Y>1?A8g<m2D1TCe<l8mLF2
+!i122 11
+l63
+Z21 L36 84
+Z22 V57;b:6QMQ3f@B5_>oC0`c3
+Z23 !s100 RJbkPkiD3mLbfX3PgL4k[3
+R7
+33
+R8
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R12
+R13

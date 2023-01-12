@@ -1,0 +1,267 @@
+KEY LIBERO "2022.2"
+KEY CAPTURE "2022.2.0.10"
+KEY DEFAULT_IMPORT_LOC "E:\Hotline_Cases\IP_cases\2012\493642-863181735\Mir_429\component\Actel\DirectCore\CORE429\3.1.103\rtl\vhdl\core"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "SmartFusion2"
+KEY VendorTechnology_Die "PA4M1000_N"
+KEY VendorTechnology_Package "tq144"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M1000_N"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "C:\Users\user\Documents\ISISA\optical_transmission\led_display2"
+KEY ProjectDescription ""
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "led_counter::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>\hdl\led_counter.vhd,hdl"
+STATE="utd"
+TIME="1673095418"
+SIZE="2144"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1672405123"
+SIZE="711"
+ENDFILE
+VALUE "<project>\simulation\subsystem.bfm,sim"
+STATE="utd"
+TIME="1672405123"
+SIZE="233"
+ENDFILE
+VALUE "<project>\simulation\transmit_fabric_test_presynth_simulation.log,log"
+STATE="utd"
+TIME="1673095432"
+SIZE="20"
+ENDFILE
+VALUE "<project>\stimulus\transmit_fabric_test.vhd,tb_hdl"
+STATE="utd"
+TIME="1673094121"
+SIZE="3067"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "led_counter::work"
+FILE "<project>\hdl\led_counter.vhd,hdl"
+LIST UserCustomizedFileList
+LIST "ideSIMULATION"
+USE_LIST=TRUE
+FILELIST
+VALUE "<project>\hdl\led_counter.vhd,hdl"
+ENDFILELIST
+ENDLIST
+ENDLIST 
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\transmit_fabric_test.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST led_counter
+VALUE "<project>\stimulus\transmit_fabric_test.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1fs
+VsimOpt=
+EntityName=transmit_fabric_test
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro 2021-09M"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="C:\Microchip\Libero_SoC_v2022.2\ModelSimPro\win32acoem\modelsim.exe"
+PARAM=" -l transmit_fabric_test_presynth_simulation.log "
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microchip\Libero_SoC_v2022.2\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "led_counter::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+LIST "led_counter"
+LIST "ideSIMULATION"
+USE_LIST=TRUE
+FILELIST
+VALUE "<project>\hdl\led_counter.vhd,hdl"
+ENDFILELIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+HDL;stimulus\transmit_fabric_test.vhd;0
+Reports;Reports;0
+ReportsCurrentItem;Project Summary:led_display2.log
+HDL;hdl\led_counter.vhd;0
+StartPage;StartPage;0
+ACTIVEVIEW;hdl\led_counter.vhd
+ENDLIST
+LIST ModuleSubBlockList
+LIST "led_counter::work","hdl\led_counter.vhd","FALSE","FALSE"
+ENDLIST
+LIST "transmit_fabric_test::work","stimulus\transmit_fabric_test.vhd","FALSE","TRUE"
+SUBBLOCK "led_counter::work","hdl\led_counter.vhd","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

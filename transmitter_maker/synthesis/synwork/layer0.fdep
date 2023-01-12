@@ -1,0 +1,109 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\transmitter_maker\\synthesis\\synwork\\transmitter_comp.srs|-top|work.transmitter|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\bin64\\c_vhdl.exe":1655232168
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\location.map":1655230200
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\std.vhd":1655230258
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd\\snps_haps_pkg.vhd":1655230198
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\std1164.vhd":1655230200
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\std_textio.vhd":1655230200
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\numeric.vhd":1655232432
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd\\umr_capim.vhd":1655230198
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\arith.vhd":1655230200
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\unsigned.vhd":1655230200
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd\\hyperents.vhd":1655230198
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\transmitter_maker\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_muxptob3.vhd":1671180472
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\transmitter_maker\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_iaddr_reg.vhd":1671180472
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\transmitter_maker\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vhdl\\core\\coreresetp_pcie_hotreset.vhd":1669383889
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\transmitter_maker\\component\\work\\transmitter_sb\\CCC_0\\transmitter_sb_CCC_0_FCCC.vhd":1673132146
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\generic\\smartfusion2.vhd":1655238056
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\transmitter_maker\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.vhd":1668164907
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\transmitter_maker\\component\\work\\transmitter_sb_MSS\\transmitter_sb_MSS_syn.vhd":1673131396
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\transmitter_maker\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\components.vhd":1671180472
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\transmitter_maker\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3.vhd":1671180472
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\transmitter_maker\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vhdl\\core\\coreresetp.vhd":1669383889
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\transmitter_maker\\component\\work\\transmitter_sb\\FABOSC_0\\transmitter_sb_FABOSC_0_OSC.vhd":1673132149
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\transmitter_maker\\component\\work\\transmitter_sb_MSS\\transmitter_sb_MSS.vhd":1673131397
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\transmitter_maker\\component\\work\\transmitter_sb\\transmitter_sb.vhd":1673132149
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\transmitter_maker\\component\\work\\transmitter\\transmitter.vhd":1673132279
+0 "C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd" vhdl
+1 "C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd" vhdl
+2 "C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd" vhdl
+3 "C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd" vhdl
+4 "C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd" vhdl
+5 "C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker\component\work\transmitter_sb\CCC_0\transmitter_sb_CCC_0_FCCC.vhd" vhdl
+6 "C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd" vhdl
+7 "C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker\component\work\transmitter_sb\FABOSC_0\transmitter_sb_FABOSC_0_OSC.vhd" vhdl
+8 "C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker\component\work\transmitter_sb_MSS\transmitter_sb_MSS_syn.vhd" vhdl
+9 "C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker\component\work\transmitter_sb_MSS\transmitter_sb_MSS.vhd" vhdl
+10 "C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd" vhdl
+11 "C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker\component\work\transmitter_sb\transmitter_sb.vhd" vhdl
+12 "C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker\component\work\transmitter\transmitter.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 0 1 
+3 -1
+4 3 
+5 -1
+6 -1
+7 6 
+8 -1
+9 8 
+10 -1
+11 5 2 4 7 9 10 
+12 11 
+
+# Dependency Lists (Users Of)
+0 2 
+1 2 
+2 11 
+3 4 
+4 11 
+5 11 
+6 7 
+7 11 
+8 9 
+9 11 
+10 11 
+11 12 
+12 -1
+
+# Design Unit to File Association
+arch coreapb3_lib coreapb3_muxptob3 coreapb3_muxptob3_arch 0
+module coreapb3_lib coreapb3_muxptob3 0
+arch coreapb3_lib coreapb3_iaddr_reg rtl 1
+module coreapb3_lib coreapb3_iaddr_reg 1
+arch coreapb3_lib coreapb3 coreapb3_arch 2
+module coreapb3_lib coreapb3 2
+arch work coreresetp_pcie_hotreset rtl 3
+module work coreresetp_pcie_hotreset 3
+arch work coreresetp rtl 4
+module work coreresetp 4
+arch work transmitter_sb_ccc_0_fccc def_arch 5
+module work transmitter_sb_ccc_0_fccc 5
+arch work xtlosc_fab def_arch 6
+module work xtlosc_fab 6
+arch work rcosc_25_50mhz_fab def_arch 6
+module work rcosc_25_50mhz_fab 6
+arch work rcosc_1mhz_fab def_arch 6
+module work rcosc_1mhz_fab 6
+arch work xtlosc def_arch 6
+module work xtlosc 6
+arch work rcosc_25_50mhz def_arch 6
+module work rcosc_25_50mhz 6
+arch work rcosc_1mhz def_arch 6
+module work rcosc_1mhz 6
+arch work transmitter_sb_fabosc_0_osc def_arch 7
+module work transmitter_sb_fabosc_0_osc 7
+arch work mss_010 def_arch 8
+module work mss_010 8
+arch work transmitter_sb_mss rtl 9
+module work transmitter_sb_mss 9
+arch work transmitter_sb rtl 11
+module work transmitter_sb 11
+arch work transmitter rtl 12
+module work transmitter 12
+
+
+# Configuration files used

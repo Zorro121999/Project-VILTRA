@@ -1,0 +1,127 @@
+--------------------------------------------------------------------------------
+-- Company: <Name>
+--
+-- File: transmit_fabric_test.vhd
+-- File history:
+--      <Revision number>: <Date>: <Comments>
+--      <Revision number>: <Date>: <Comments>
+--      <Revision number>: <Date>: <Comments>
+--
+-- Description: 
+--
+-- <Description here>
+--
+-- Targeted device: <Family::SmartFusion2> <Die::M2S010> <Package::144 TQ>
+-- Author: <Name>
+--
+--------------------------------------------------------------------------------
+
+library IEEE;
+
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity transmit_fabric_test is
+
+    
+    
+    
+
+end transmit_fabric_test;
+
+architecture architecture_transmit_fabric_test of transmit_fabric_test is
+   -- signal, component etc. declarations
+	signal clk : std_logic :='1';
+    signal reset : std_logic :='0';
+    subtype message_t is std_logic_vector(8 downto 0);
+    type pulse_t is array(0 to 7) of message_t;
+    --subtype message_t is std_logic_vector(8 downto 0);
+    signal pulse_int : pulse_t :=(others=>(others=>'0'));
+    signal pulse : std_logic :='0';
+	signal LEDs : std_logic_vector(7 downto 0); 
+    signal i : integer range 0 to 8 :=0;
+    signal j : integer range 0 to 72 :=0;
+    signal pulse_int_v : std_logic_vector(35 downto 0) := (others=>'0');
+    
+    component led_counter
+    port (
+         clk : in std_logic;
+         reset : in std_logic;
+         pulse : in std_logic;
+         LEDs : out std_logic_vector(7 downto 0)
+         );
+    end component;
+         
+begin
+    pulse_int(0)<="100000001";
+    pulse_int(1)<="100000011";
+    pulse_int(2)<="110000101";
+    pulse_int(3)<="100000111";
+    pulse_int(4)<="101000001";
+    pulse_int(5)<="011000001";
+    pulse_int(6)<="111000001";
+    pulse_int(7)<="000100001";
+    pulse_int_v<=pulse_int(0) & pulse_int(1) & pulse_int(2) & pulse_int(3);
+   --i<=0;
+    --j<=0;
+
+    
+    
+    
+    uut : led_counter
+    port map (
+         clk=>clk,
+         reset=>reset,
+         pulse=>pulse,
+         LEDs=>LEDs
+         );
+    
+    
+    
+    clock_proc : process
+    begin
+      wait for 50 ns;
+      clk<='1';
+      wait for 50 ns;
+      clk<='0';
+    end process;
+    
+    reset_proc : process
+    begin  
+      
+      wait for 2000 ns;
+      reset<='1';
+      
+      wait;
+    end process;
+    
+    --init_proc : process
+    --begin
+    --variable i : integer;
+    --variable j : integer;
+    --variable pulse_int_v : std_logic_vector(62 downto 0);
+    --
+    --i<=0;
+    --j<=0;
+    
+--    for i in 0 to 7 loop
+      --pulse_int_v(i*9+8 downto i*9)<=pulse_int(i);
+      ----i<=i+1;
+    --end loop;
+    --end process;
+    
+    pulse_proc : process
+    begin
+      if(j<36) then
+        pulse<=pulse_int_v(j);
+        wait for 20000 ns;
+        j<=j+1;
+        wait for 2 ns;
+      else
+        j<=0;
+        --wait for 100000 ns;
+      end if;
+      
+    end process;
+   -- architecture body
+end architecture_transmit_fabric_test;

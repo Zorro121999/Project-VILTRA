@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>transmitter</design>
+	<target_verilog>C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker\synthesis\transmitter.vm</target_verilog>
+</SynplifyOutput>

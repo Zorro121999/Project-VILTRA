@@ -1,0 +1,77 @@
+--------------------------------------------------------------------------------
+-- Company: <Name>
+--
+-- File: led_counter.vhd
+-- File history:
+--      <Revision number>: <Date>: <Comments>
+--      <Revision number>: <Date>: <Comments>
+--      <Revision number>: <Date>: <Comments>
+--
+-- Description: 
+--
+-- <Description here>
+--
+-- Targeted device: <Family::SmartFusion2> <Die::M2S010> <Package::144 TQ>
+-- Author: <Name>
+--
+--------------------------------------------------------------------------------
+
+library IEEE;
+
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity led_counter is
+port (
+    --<port_name> : <direction> <type>;
+	clk : IN  std_logic; -- example
+    reset : IN std_logic;
+    pulse : IN std_logic;
+    LEDs : OUT std_logic_vector(7 downto 0)  -- example
+    --<other_ports>;
+);
+end led_counter;
+
+architecture architecture_led_counter of led_counter is
+   -- signal, component etc. declarations
+	signal clk_count : integer range 0 to 101;
+	signal signal_clk : std_logic;
+    signal pulse_count : unsigned(3 downto 0);
+    signal shift_reg : std_logic_vector(7 downto 0);
+    signal LED_int : std_logic_vector(7 downto 0);
+
+begin
+  clock_devider : process(clk,reset)
+  begin
+  if(reset='0' and rising_edge(clk)) then
+    clk_count<=0;
+    signal_clk<='0';
+  elsif(reset='1' and rising_edge(clk)) then
+    if(clk_count<99) then
+      clk_count<=clk_count+1;
+    elsif(clk_count>=99) then
+      signal_clk<=not signal_clk;
+      clk_count<=0;
+    end if;
+  end if;
+  end process;
+    
+  LED_count : process(clk,reset,signal_clk)
+  begin
+  if(reset='0' and rising_edge(clk)) then
+    pulse_count<=(others=>'0');
+    shift_reg<=(others=>'0');
+  elsif(reset='1' and rising_edge(signal_clk)) then
+    if(pulse_count<="111") then
+       shift_reg(7 downto 0)<=shift_reg(6 downto 0) & pulse;
+       pulse_count<=pulse_count+1;
+    elsif(pulse_count>"111") then
+       pulse_count<=(others=>'0');
+       LED_int<=shift_reg;
+       shift_reg<=(others=>'0');
+    end if;
+  end if;
+  end process;
+  LEDs<=LED_int;
+
+end architecture_led_counter;
