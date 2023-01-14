@@ -1,0 +1,43 @@
+# Microsemi Physical design constraints file
+
+# Version: 2022.2 2022.2.0.10
+
+# Design Name: tx_pin_check_sys 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Sat Jan 14 10:30:15 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io GPIO_0_M2F -DIRECTION OUTPUT -pinname 129 -fixed no
+set_io GPIO_1_M2F -DIRECTION OUTPUT -pinname 128 -fixed no
+set_io GPIO_2_M2F -DIRECTION OUTPUT -pinname 125 -fixed no
+set_io GPIO_3_M2F -DIRECTION OUTPUT -pinname 124 -fixed no
+set_io GPIO_4_M2F -DIRECTION OUTPUT -pinname 123 -fixed no
+set_io GPIO_5_M2F -DIRECTION OUTPUT -pinname 122 -fixed no
+set_io GPIO_6_M2F -DIRECTION OUTPUT -pinname 118 -fixed no
+set_io GPIO_7_M2F -DIRECTION OUTPUT -pinname 117 -fixed no
+set_io GPIO_8_M2F -DIRECTION OUTPUT -pinname 81 -fixed no
+set_io GPIO_9_M2F -DIRECTION OUTPUT -pinname 16 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location tx_pin_check_sys_sb_0/CORERESETP_0/sm1_areset_n_q1 -fixed no 401 46
+set_location tx_pin_check_sys_sb_0/CCC_0/GL0_INST/U0_RGB1 -fixed no 218 102
+set_location ip_interface_inst -fixed no 191 0
+set_location tx_pin_check_sys_sb_0/CCC_0/GL0_INST -fixed no 220 54
+set_location tx_pin_check_sys_sb_0/CORERESETP_0/RESET_N_F2M_int -fixed no 399 46
+set_location tx_pin_check_sys_sb_0/FABOSC_0/I_RCOSC_25_50MHZ -fixed no 396 92
+set_location tx_pin_check_sys_sb_0/CORERESETP_0/sm1_areset_n_clk_base -fixed no 403 46
+set_location tx_pin_check_sys_sb_0/CCC_0/CCC_INST -fixed no 390 92
+set_location tx_pin_check_sys_sb_0/tx_pin_check_sys_sb_MSS_0/MSS_ADLIB_INST -fixed no 300 104
+set_location tx_pin_check_sys_sb_0/SYSRESET_POR -fixed no 396 8
+set_location tx_pin_check_sys_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB0 -fixed no 218 45

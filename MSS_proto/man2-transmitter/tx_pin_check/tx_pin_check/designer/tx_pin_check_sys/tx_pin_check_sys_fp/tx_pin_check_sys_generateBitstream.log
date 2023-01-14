@@ -1,0 +1,13 @@
+Software Version: 2022.2.0.10
+Opened 'C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check\designer\tx_pin_check_sys\tx_pin_check_sys_fp\tx_pin_check_sys.pro'
+PDB file 'C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check\designer\tx_pin_check_sys\tx_pin_check_sys.pdb' has been loaded successfully.
+DESIGN : tx_pin_check_sys;  CHECKSUM : 14B1;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check\designer\tx_pin_check_sys\tx_pin_check_sys.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check\designer\tx_pin_check_sys\tx_pin_check_sys.ppd'; file programs Fabric.
+Fabric component bitstream digest: 68e6d6486615470be03c15fa7b5df9bb5877c769456b2896da884b8bf478679b
+Entire bitstream digest: a48f5741cf5e7d758ffe4befd3a6bf38667a4a6299d7a353b768b4253ae22fe7
+Finished: Sat Jan 14 10:35:48 2023 (Elapsed time 00:00:08)
+
+Project saved.
+Project closed.

@@ -1,0 +1,101 @@
+
+                               Synplify Pro (R) 
+
+                Version S-2021.09M-SP1 for win64 - Jun 14, 2022 
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+Hostname:    SURFACEPRO
+Date:        Sat Jan 14 10:24:18 2023
+Version:     S-2021.09M-SP1
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log tx_pin_check_sys_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+"automatic_compile_point" is unrecognized option for current device
+Implementation not found: synthesis
+log file: "C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check\synthesis\tx_pin_check_sys.srr"
+Running: synthesis in foreground
+
+Running tx_pin_check_sys_syn|synthesis
+
+Running Flow: compile (Compile) on tx_pin_check_sys_syn|synthesis
+# Sat Jan 14 10:24:19 2023
+
+Running Flow: compile_flow (Compile Process) on tx_pin_check_sys_syn|synthesis
+# Sat Jan 14 10:24:19 2023
+
+Running: compiler (Compile Input) on tx_pin_check_sys_syn|synthesis
+# Sat Jan 14 10:24:19 2023
+Copied C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check\synthesis\synwork\tx_pin_check_sys_comp.srs to C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check\synthesis\tx_pin_check_sys.srs
+
+compiler completed
+# Sat Jan 14 10:24:24 2023
+
+Return Code: 0
+Run Time:00h:00m:05s
+
+Running: multi_srs_gen (Multi-srs Generator) on tx_pin_check_sys_syn|synthesis
+# Sat Jan 14 10:24:24 2023
+
+multi_srs_gen completed
+# Sat Jan 14 10:24:24 2023
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check\synthesis\synwork\tx_pin_check_sys_mult.srs to C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check\synthesis\tx_pin_check_sys.srs
+Complete: Compile Process on tx_pin_check_sys_syn|synthesis
+
+Running: premap (Premap) on tx_pin_check_sys_syn|synthesis
+# Sat Jan 14 10:24:24 2023
+
+premap completed with warnings
+# Sat Jan 14 10:24:26 2023
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Compile on tx_pin_check_sys_syn|synthesis
+
+Running Flow: map (Map) on tx_pin_check_sys_syn|synthesis
+# Sat Jan 14 10:24:26 2023
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on tx_pin_check_sys_syn|synthesis
+# Sat Jan 14 10:24:26 2023
+Copied C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check\synthesis\synwork\tx_pin_check_sys_m.srm to C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check\synthesis\tx_pin_check_sys.srm
+
+fpga_mapper completed with warnings
+# Sat Jan 14 10:24:31 2023
+
+Return Code: 1
+Run Time:00h:00m:05s
+Complete: Map on tx_pin_check_sys_syn|synthesis
+Complete: Logic Synthesis on tx_pin_check_sys_syn|synthesis
+Copied C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check\synthesis\tx_pin_check_sys.srr to C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check\synthesis\backup\tx_pin_check_sys.srr
+TCL script complete: "tx_pin_check_sys_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel

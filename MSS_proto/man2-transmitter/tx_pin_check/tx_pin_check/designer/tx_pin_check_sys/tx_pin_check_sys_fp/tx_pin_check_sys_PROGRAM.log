@@ -1,0 +1,42 @@
+Software Version: 2022.2.0.10
+Programmer 'E2001Q8X86' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E2001Q8X86' : FlashPro5
+Opened 'C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check\designer\tx_pin_check_sys\tx_pin_check_sys_fp\tx_pin_check_sys.pro'
+The 'open_project' command succeeded.
+Info: Programming is already enabled for device 'M2S010'.
+The 'enable_device' command succeeded.
+PPD file 'C:/Projects/ISISA/Project-VILTRA/MSS_proto/man2-transmitter/tx_pin_check/tx_pin_check/designer/tx_pin_check_sys/tx_pin_check_sys.ppd' has been loaded successfully.
+DESIGN : tx_pin_check_sys;  CHECKSUM : 14B1;  PDB_VERSION : 1.0
+The 'set_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E2001Q8X86' : Scan Chain...
+Programmer 'E2001Q8X86' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E2001Q8X86' : Check Chain...
+programmer 'E2001Q8X86' : Scan and Check Chain PASSED.
+programmer 'E2001Q8X86' : device 'M2S010' : Executing action PROGRAM
+Programmer 'E2001Q8X86' : JTAG TCK / SPI SCK frequency = 4 MHz
+programmer 'E2001Q8X86' : device 'M2S010' : Family: Igloo2
+programmer 'E2001Q8X86' : device 'M2S010' : Product:      M2GL005
+programmer 'E2001Q8X86' : device 'M2S010' : Cortex-M3 Disabled (M3_ALLOWED = 0)
+programmer 'E2001Q8X86' : device 'M2S010' : Programming Interface Protocol: JTAG
+programmer 'E2001Q8X86' : device 'M2S010' : EXPORT ISC_ENABLE_RESULT[32] = 007d6b44
+programmer 'E2001Q8X86' : device 'M2S010' : EXPORT CRCERR[1] = 0
+programmer 'E2001Q8X86' : device 'M2S010' : EXPORT EDCERR[1] = 0
+programmer 'E2001Q8X86' : device 'M2S010' : Programming FPGA Array...
+programmer 'E2001Q8X86' : device 'M2S010' : EXPORT Fabric component digest[256] = 68e6d6486615470be03c15fa7b5df9bb5877c769456b2896da884b8bf478679b
+programmer 'E2001Q8X86' : device 'M2S010' : ===================================================================================
+programmer 'E2001Q8X86' : device 'M2S010' : EXPORT DSN[128] = 5d428e68b7f073efc33fa7b55a2266f2
+programmer 'E2001Q8X86' : device 'M2S010' : ===================================================================================
+programmer 'E2001Q8X86' : device 'M2S010' : Finished: Sat Jan 14 10:38:03 2023 (Elapsed time 00:00:23)
+programmer 'E2001Q8X86' : device 'M2S010' : Executing action PROGRAM PASSED.
+programmer 'E2001Q8X86' : Chain programming PASSED.
+Chain Programming Finished: Sat Jan 14 10:38:03 2023 (Elapsed time 00:00:23)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

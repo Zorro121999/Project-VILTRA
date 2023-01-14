@@ -1,0 +1,141 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SURFACEPRO
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			M2S010VF400STD (Microchip)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   tx_pin_check_sys   ########
+================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block tx_pin_check_sys:	3 (10.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     4                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block tx_pin_check_sys:	4 (13.33 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block tx_pin_check_sys:	1 (3.33 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       10                 100 %                
+=================================================
+Total IO PADS in the block tx_pin_check_sys:	10 (33.33 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   tx_pin_check_sys_sb   ########
+Instance path:   tx_pin_check_sys.tx_pin_check_sys_sb                    
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block tx_pin_check_sys.tx_pin_check_sys_sb:	3 (10.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     4                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block tx_pin_check_sys.tx_pin_check_sys_sb:	4 (13.33 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block tx_pin_check_sys.tx_pin_check_sys_sb:	1 (3.33 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   CoreResetP   ########
+Instance path:   tx_pin_check_sys_sb.CoreResetP                 
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block tx_pin_check_sys_sb.CoreResetP:	3 (10.00 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   tx_pin_check_sys_sb_CCC_0_FCCC   ########
+Instance path:   tx_pin_check_sys_sb.tx_pin_check_sys_sb_CCC_0_FCCC                 
+====================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  25 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block tx_pin_check_sys_sb.tx_pin_check_sys_sb_CCC_0_FCCC:	1 (3.33 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block tx_pin_check_sys_sb.tx_pin_check_sys_sb_CCC_0_FCCC:	1 (3.33 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   tx_pin_check_sys_sb_FABOSC_0_OSC   ########
+Instance path:   tx_pin_check_sys_sb.tx_pin_check_sys_sb_FABOSC_0_OSC                 
+======================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  25 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block tx_pin_check_sys_sb.tx_pin_check_sys_sb_FABOSC_0_OSC:	1 (3.33 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   tx_pin_check_sys_sb_MSS   ########
+Instance path:   tx_pin_check_sys_sb.tx_pin_check_sys_sb_MSS                 
+=============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  25 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block tx_pin_check_sys_sb.tx_pin_check_sys_sb_MSS:	1 (3.33 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

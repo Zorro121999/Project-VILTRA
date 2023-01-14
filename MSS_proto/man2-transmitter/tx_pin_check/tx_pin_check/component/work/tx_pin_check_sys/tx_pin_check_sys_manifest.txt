@@ -1,0 +1,14 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+
+Date      :  Sat Jan 14 10:24:07 2023
+Project   :  C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check
+Component :  tx_pin_check_sys
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/man2-transmitter/tx_pin_check/tx_pin_check/component/work/tx_pin_check_sys/tx_pin_check_sys.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/man2-transmitter/tx_pin_check/tx_pin_check/component/work/tx_pin_check_sys/subsystem.bfm
+

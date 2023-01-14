@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>tx_pin_check_sys</design>
+	<target_verilog>C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check\synthesis\tx_pin_check_sys.vm</target_verilog>
+</SynplifyOutput>

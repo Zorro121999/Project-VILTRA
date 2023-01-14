@@ -1,0 +1,10 @@
+DESIGN=tx_pin_check_sys
+DESDIR=C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check\designer\tx_pin_check_sys
+TARGET_DIR=C:\Projects\ISISA\Project-VILTRA\MSS_proto\man2-transmitter\tx_pin_check\tx_pin_check\designer\tx_pin_check_sys
+FAM=SmartFusion2
+DIE=PA4M1000_N
+PACKAGE=tq144
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1
