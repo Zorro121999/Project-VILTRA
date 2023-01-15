@@ -12,6 +12,7 @@
  * Author: Christopher Mandla
  */
 #include "drivers/mss_gpio/mss_gpio.h" //GPIO functions
+#include "drivers/mss_timer/mss_timer.h" //Timer function
 #include "CMSIS/system_m2sxxx.h" //Startup configuration + SystemCoreClock etc.
 /*==============================================================================
  Private functions.
@@ -21,6 +22,17 @@ static void delayCount(uint32_t delay_count);
 static uint16_t manchesterEncode(uint8_t data);
 static void outputPin81(uint8_t out);
 static void sendPulse(uint32_t baudrate, uint8_t pulse_level);
+
+
+volatile uint8_t timer_stopped = 0;
+
+void Timer1_IRQHandler( void )
+{
+    timer_stopped = 1;
+    MSS_TIM1_clear_irq();
+    MSS_TIM1_stop();
+}
+
 /*==============================================================================
  * main() function.
  */
@@ -97,6 +109,11 @@ int main()
      return 0;
      MSS_GPIO_set_outputs( 0x00000000 );
 }
+
+
+
+
+
 /*==============================================================================
  Delay
  */
@@ -115,6 +132,22 @@ static void delayCount(uint32_t delay_count)
      {
          --delay_count;
      }
+}
+
+static void delayMicroSec(uint32_t us)
+{
+    // Delay function that uses the integrated interrupt timer
+    MSS_TIM1_init(MSS_TIMER_ONE_SHOT_MODE);
+    uint32_t load = us * (SystemCoreClock / 1000000);
+    MSS_TIM1_load_immediate(load);
+    timer_stopped = 0;
+    MSS_TIM1_enable_irq();
+    MSS_TIM1_start();
+    // Wait for interrupt function to set global variable to 1
+    while(timer_stopped == 0)
+    {
+        //uint32_t time = MSS_TIM1_get_current_value();
+    }
 }
 
 static uint16_t manchesterEncode(uint8_t data)
@@ -173,8 +206,8 @@ static void outputPin81(uint8_t out)
 static void sendPulse(uint32_t baudrate, uint8_t pulse_level)
 {
     // Send 1 Pulse (high or low)
-    volatile uint32_t delay_count = (SystemCoreClock / baudrate) / 18u;  //1 is the adjustment factor to correct baudrate
+    volatile uint32_t delay_us = (1000000 / baudrate);
     outputPin81(pulse_level);
-    delayCount(delay_count);
+    delayMicroSec(delay_us);
     return;
 }
