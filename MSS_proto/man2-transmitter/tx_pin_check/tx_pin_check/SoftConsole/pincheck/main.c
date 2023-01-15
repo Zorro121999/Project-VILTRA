@@ -44,16 +44,18 @@ int main()
      // configure baudrate (pulses per second) because we use manchester encoding the bitrate~=baudrate/2
      uint32_t baudrate = 1000;
 
+     // Init variable that carries data to transmit
+     uint8_t data = 0;
+
      /* Infinite loop. */
      for(;;)
      {
-         /*uint32_t gpio_pattern;
+         uint32_t gpio_pattern;
          // Decrement delay counter.
          delay();
          // Count pattern bits with ones.
          // Invert number to get normal bit count with ~
-         gpio_pattern = (~MSS_GPIO_get_outputs());
-         gpio_pattern = gpio_pattern + 0x00000001;
+         gpio_pattern = (data);
          if(gpio_pattern == 0x00000100){
              // If GPIO count is maximum 256-1 ->set to 0
              gpio_pattern = 0x00000000;
@@ -62,35 +64,32 @@ int main()
          MSS_GPIO_set_outputs( ~gpio_pattern );
 
 
-         //Set GPIOs outputs 8 and 9 low without affecting other GPIO outputs.
-         uint32_t gpio_outputs;
-         gpio_outputs = MSS_GPIO_get_outputs();
-         gpio_outputs &= ~( MSS_GPIO_8_MASK | MSS_GPIO_9_MASK );
-         MSS_GPIO_set_outputs(  gpio_outputs );
-
-         delay();
-
-         //Set GPIOs outputs 8 and 9 high without affecting other GPIO outputs.
-         gpio_outputs = MSS_GPIO_get_outputs();
-         gpio_outputs |= ( MSS_GPIO_8_MASK | MSS_GPIO_9_MASK );
-         MSS_GPIO_set_outputs(  gpio_outputs );
-         */
-
-         // Data to transmit
-         uint8_t data;
-         data = 0x00;
-
-         // Manchester encoded data
+         // Manchester encode the data
          uint16_t data_enc;
          data_enc = manchesterEncode(data);
 
-        // send bitstream
-        for (uint32_t i=0; i<5000; i++)
+        /* send frame */
+
+        // Send sync pulses "1110"
+        for (uint8_t i=0; i<3; i++)
         {
-            sendPulse(baudrate, (i%3));
+            sendPulse(baudrate, 1);
+        }
+        sendPulse(baudrate, 0);
+
+        // Send manchester encoded data
+        for (uint8_t i=0; i<16; i++)
+        {
+            uint8_t bit = (data_enc & ( 1 << i )) >> i;  //get the i-th bit of data_enc
+            sendPulse(baudrate, bit);
         }
 
-        //delay();
+        //set Signal to low after one frame has been sent
+        outputPin81(0);
+        delay();
+
+        // Increment number that is sent out
+        data++;
 
 
 
@@ -120,7 +119,36 @@ static void delayCount(uint32_t delay_count)
 
 static uint16_t manchesterEncode(uint8_t data)
 {
-    return 0x00000000;
+    uint16_t data_enc = 0; //39593;
+    uint8_t pulse1_pos = 0;
+    uint8_t pulse2_pos = 0;
+
+    for (uint8_t i=0; i<8; i++)
+            {
+                uint8_t bit = (data & ( 1 << i )) >> i;  //get the i-th bit of data_enc
+                pulse1_pos = 2*i;
+                pulse2_pos = (2*i)+1;
+
+                if (bit == 0)
+                {
+                    //Clear first pulse to low and Set second pulse to high
+                    data_enc &= ~(1UL << pulse1_pos);                           //Clear bit at position pulse1_pos
+                    data_enc |= 1UL << pulse2_pos;                              // Set bit at position pulse2_pos
+                }
+                else if (bit == 1)
+                {
+                    //Set first pulse to high and clear second pulse to low
+                    data_enc |= 1UL << pulse1_pos;                              // Set bit at position pulse1_pos
+                    data_enc &= ~(1UL << pulse2_pos);                           //Clear bit at position pulse2_pos
+                }
+                else
+                {
+                    // If one bit in data has an error send an invalid bit sequence (signal always low)
+                    data_enc = 0;
+                    return data_enc;
+                }
+            }
+    return data_enc;
 }
 
 static void outputPin81(uint8_t out)

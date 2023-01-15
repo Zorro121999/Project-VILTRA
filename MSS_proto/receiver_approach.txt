@@ -1,0 +1,1 @@
+to decode manchester like streams use a timer interrupt at around 6 times the bitrate (in your case it would be 11.4kHz) and sample the input from the timer interrupt. When you detect a change in the signal you can check how many timer interrupts ago the previous edge occured. Between 2 and 3 ticks is a short pulse, between 4 and 7 ticks is a long pulse.
