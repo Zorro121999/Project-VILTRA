@@ -185,3 +185,8 @@ Implementation;Synthesis||CL159||@N: Input XTL is unused.||transmitter.srr(293);
 Implementation;Synthesis||CL159||@N: Input DEVRST_N is unused.||transmitter.srr(300);liberoaction://cross_probe/hdl/file/'<project>\synthesis\transmitter.srr'/linenumber/300||transmitter.vhd(21);liberoaction://cross_probe/hdl/file/'<project>\component\work\transmitter\transmitter.vhd'/linenumber/21
 Implementation;Synthesis||FX1184||@N: Applying syn_allowed_resources blockrams=21 on top level netlist transmitter ||transmitter.srr(433);liberoaction://cross_probe/hdl/file/'<project>\synthesis\transmitter.srr'/linenumber/433||null;null
 Implementation;Synthesis||FX1143||@N: Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.||transmitter.srr(457);liberoaction://cross_probe/hdl/file/'<project>\synthesis\transmitter.srr'/linenumber/457||null;null
+Implementation;Place and Route||OnlineHelp;liberoaction://open_online_help/98369538||Info: No automatic I/O Bank assignment is required.||(null);(null)||(null);(null)
+Implementation;Place and Route;RootName:transmitter
+Implementation;Place and Route||(null)||Please refer to the log file for details about 5 Info(s)||transmitter_layout_log.log;liberoaction://open_report/file/transmitter_layout_log.log||(null);(null)
+Implementation;Generate Bitstream;RootName:transmitter
+Implementation;Generate Bitstream||(null)||Please refer to the log file for details about 1 Info(s)||transmitter_generateBitstream.log;liberoaction://open_report/file/transmitter_generateBitstream.log||(null);(null)

@@ -1,0 +1,24 @@
+# Microsemi Physical design constraints file
+
+# Version: 2022.2 2022.2.0.10
+
+# Design Name: transmitter 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Mon Jan 16 18:03:33 2023 
+
+
+#
+# I/O constraints
+#
+
+
+#
+# Core cell constraints
+#
+
+set_location ip_interface_inst -fixed no 191 0
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8

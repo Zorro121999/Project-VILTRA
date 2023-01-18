@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="memorymap.xsl"?>
+<datasheet>
+  <header>transmitter</header>
+  <project-settings>
+    <fam>SmartFusion2</fam>
+    <die>M2S010</die>
+    <package>144 TQ</package>
+    <speed-grade>STD</speed-grade>
+    <voltage>1.2</voltage>
+    <hdl-type>VHDL</hdl-type>
+    <project-description>
+    </project-description>
+    <location>C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker/component/work/transmitter</location>
+    <state>GENERATED ( Mon Jan 16 18:09:55 2023 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <memorysystem>
+    <title>Memory Map for transmitter</title>
+    <description>The SmartDesign transmitterdoes not contain any Initiators under its hierarchy</description>
+  </memorysystem>
+</datasheet>

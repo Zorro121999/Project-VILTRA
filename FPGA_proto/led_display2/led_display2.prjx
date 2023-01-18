@@ -32,7 +32,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "C:\Users\user\Documents\ISISA\optical_transmission\led_display2"
+KEY ProjectLocation "C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\FPGA_proto\led_display2"
 KEY ProjectDescription ""
 KEY UseRootLocationForLinkedFiles "FALSE"
 KEY RootLocationENVForLinkedFiles ""
@@ -59,22 +59,22 @@ SIZE="2144"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1672405123"
+TIME="1673095423"
 SIZE="711"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1672405123"
+TIME="1673095423"
 SIZE="233"
 ENDFILE
 VALUE "<project>\simulation\transmit_fabric_test_presynth_simulation.log,log"
 STATE="utd"
-TIME="1673095432"
-SIZE="20"
+TIME="1673197226"
+SIZE="3177"
 ENDFILE
 VALUE "<project>\stimulus\transmit_fabric_test.vhd,tb_hdl"
 STATE="utd"
-TIME="1673094121"
+TIME="1673196900"
 SIZE="3067"
 ENDFILE
 ENDLIST
@@ -192,7 +192,7 @@ NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
 LOCATION="C:\Microchip\Libero_SoC_v2022.2\ModelSimPro\win32acoem\modelsim.exe"
-PARAM=" -l transmit_fabric_test_presynth_simulation.log "
+PARAM=""
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -241,10 +241,10 @@ ENDLIST
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-HDL;stimulus\transmit_fabric_test.vhd;0
 Reports;Reports;0
 ReportsCurrentItem;Project Summary:led_display2.log
 HDL;hdl\led_counter.vhd;0
+HDL;stimulus\transmit_fabric_test.vhd;0
 StartPage;StartPage;0
 ACTIVEVIEW;hdl\led_counter.vhd
 ENDLIST
