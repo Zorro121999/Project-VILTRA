@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Sat Jan  7 23:55:49 2023
+-- Created by SmartDesign Mon Jan 23 17:39:27 2023
 -- Version: 2022.2 2022.2.0.10
 ----------------------------------------------------------------------
 
@@ -21,23 +21,14 @@ entity transmitter_sb is
     -- Port list
     port(
         -- Inputs
-        AMBA_SLAVE_0_PRDATAS0  : in  std_logic_vector(31 downto 0);
-        AMBA_SLAVE_0_PREADYS0  : in  std_logic;
-        AMBA_SLAVE_0_PSLVERRS0 : in  std_logic;
-        DEVRST_N               : in  std_logic;
-        FAB_RESET_N            : in  std_logic;
+        DEVRST_N         : in  std_logic;
+        FAB_RESET_N      : in  std_logic;
         -- Outputs
-        AMBA_SLAVE_0_PADDRS    : out std_logic_vector(31 downto 0);
-        AMBA_SLAVE_0_PENABLES  : out std_logic;
-        AMBA_SLAVE_0_PSELS0    : out std_logic;
-        AMBA_SLAVE_0_PWDATAS   : out std_logic_vector(31 downto 0);
-        AMBA_SLAVE_0_PWRITES   : out std_logic;
-        FIC_0_CLK              : out std_logic;
-        FIC_0_LOCK             : out std_logic;
-        GPIO_0_M2F             : out std_logic;
-        INIT_DONE              : out std_logic;
-        MSS_READY              : out std_logic;
-        POWER_ON_RESET_N       : out std_logic
+        FIC_0_CLK        : out std_logic;
+        FIC_0_LOCK       : out std_logic;
+        GPIO_0_M2F       : out std_logic;
+        LEDs             : out std_logic_vector(7 downto 0);
+        POWER_ON_RESET_N : out std_logic
         );
 end transmitter_sb;
 ----------------------------------------------------------------------
@@ -183,6 +174,8 @@ component SYSRESET
         POWER_ON_RESET_N : out std_logic
         );
 end component;
+-- trans_slave_noham
+-- using entity instantiation for component trans_slave_noham
 -- transmitter_sb_MSS
 component transmitter_sb_MSS
     -- Port list
@@ -217,19 +210,22 @@ end component;
 ----------------------------------------------------------------------
 -- Signal declarations
 ----------------------------------------------------------------------
-signal AMBA_SLAVE_0_PADDR                                 : std_logic_vector(31 downto 0);
-signal AMBA_SLAVE_0_PENABLE                               : std_logic;
-signal AMBA_SLAVE_0_PSELx                                 : std_logic;
-signal AMBA_SLAVE_0_PWDATA                                : std_logic_vector(31 downto 0);
-signal AMBA_SLAVE_0_PWRITE                                : std_logic;
+signal CoreAPB3_0_APBmslave0_PADDR                        : std_logic_vector(31 downto 0);
+signal CoreAPB3_0_APBmslave0_PENABLE                      : std_logic;
+signal CoreAPB3_0_APBmslave0_PREADY                       : std_logic;
+signal CoreAPB3_0_APBmslave0_PSELx                        : std_logic;
+signal CoreAPB3_0_APBmslave0_PWDATA                       : std_logic_vector(31 downto 0);
+signal CoreAPB3_0_APBmslave0_PWRITE                       : std_logic;
+signal CoreAPB3_0_PADDRS7to0                              : std_logic_vector(7 downto 0);
+signal CoreAPB3_0_PWDATAS7to0                             : std_logic_vector(7 downto 0);
+signal CORERESETP_0_MSS_HPMS_READY                        : std_logic;
 signal CORERESETP_0_RESET_N_F2M                           : std_logic;
 signal FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC : std_logic;
 signal FABOSC_0_RCOSC_25_50MHZ_O2F                        : std_logic;
 signal FIC_0_CLK_net_0                                    : std_logic;
 signal FIC_0_LOCK_net_0                                   : std_logic;
 signal GPIO_0_M2F_net_0                                   : std_logic;
-signal INIT_DONE_net_0                                    : std_logic;
-signal MSS_READY_net_0                                    : std_logic;
+signal LEDs_net_0                                         : std_logic_vector(7 downto 0);
 signal POWER_ON_RESET_N_net_0                             : std_logic;
 signal transmitter_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR    : std_logic_vector(31 downto 0);
 signal transmitter_sb_MSS_TMP_0_FIC_0_APB_MASTER_PENABLE  : std_logic;
@@ -242,16 +238,16 @@ signal transmitter_sb_MSS_TMP_0_FIC_0_APB_MASTER_PWRITE   : std_logic;
 signal transmitter_sb_MSS_TMP_0_FIC_2_APB_M_PRESET_N      : std_logic;
 signal transmitter_sb_MSS_TMP_0_MSS_RESET_N_M2F           : std_logic;
 signal POWER_ON_RESET_N_net_1                             : std_logic;
-signal INIT_DONE_net_1                                    : std_logic;
-signal AMBA_SLAVE_0_PSELx_net_0                           : std_logic;
-signal AMBA_SLAVE_0_PENABLE_net_0                         : std_logic;
-signal AMBA_SLAVE_0_PWRITE_net_0                          : std_logic;
 signal FIC_0_CLK_net_1                                    : std_logic;
 signal FIC_0_LOCK_net_1                                   : std_logic;
-signal MSS_READY_net_1                                    : std_logic;
 signal GPIO_0_M2F_net_1                                   : std_logic;
-signal AMBA_SLAVE_0_PADDR_net_0                           : std_logic_vector(31 downto 0);
-signal AMBA_SLAVE_0_PWDATA_net_0                          : std_logic_vector(31 downto 0);
+signal LEDs_net_1                                         : std_logic_vector(7 downto 0);
+signal PADDRS_slice_0                                     : std_logic_vector(15 downto 8);
+signal PADDRS_slice_1                                     : std_logic_vector(23 downto 16);
+signal PADDRS_slice_2                                     : std_logic_vector(31 downto 24);
+signal PWDATAS_slice_0                                    : std_logic_vector(15 downto 8);
+signal PWDATAS_slice_1                                    : std_logic_vector(23 downto 16);
+signal PWDATAS_slice_2                                    : std_logic_vector(31 downto 24);
 ----------------------------------------------------------------------
 -- TiedOff Signals
 ----------------------------------------------------------------------
@@ -264,6 +260,7 @@ signal SDIF0_PRDATA_const_net_0                           : std_logic_vector(31 
 signal SDIF1_PRDATA_const_net_0                           : std_logic_vector(31 downto 0);
 signal SDIF2_PRDATA_const_net_0                           : std_logic_vector(31 downto 0);
 signal SDIF3_PRDATA_const_net_0                           : std_logic_vector(31 downto 0);
+signal PRDATAS0_const_net_0                               : std_logic_vector(31 downto 0);
 signal PRDATAS1_const_net_0                               : std_logic_vector(31 downto 0);
 signal PRDATAS2_const_net_0                               : std_logic_vector(31 downto 0);
 signal PRDATAS3_const_net_0                               : std_logic_vector(31 downto 0);
@@ -295,6 +292,7 @@ begin
  SDIF1_PRDATA_const_net_0       <= B"00000000000000000000000000000000";
  SDIF2_PRDATA_const_net_0       <= B"00000000000000000000000000000000";
  SDIF3_PRDATA_const_net_0       <= B"00000000000000000000000000000000";
+ PRDATAS0_const_net_0           <= B"00000000000000000000000000000000";
  PRDATAS1_const_net_0           <= B"00000000000000000000000000000000";
  PRDATAS2_const_net_0           <= B"00000000000000000000000000000000";
  PRDATAS3_const_net_0           <= B"00000000000000000000000000000000";
@@ -315,28 +313,27 @@ begin
 ----------------------------------------------------------------------
 -- Top level output port assignments
 ----------------------------------------------------------------------
- POWER_ON_RESET_N_net_1            <= POWER_ON_RESET_N_net_0;
- POWER_ON_RESET_N                  <= POWER_ON_RESET_N_net_1;
- INIT_DONE_net_1                   <= INIT_DONE_net_0;
- INIT_DONE                         <= INIT_DONE_net_1;
- AMBA_SLAVE_0_PSELx_net_0          <= AMBA_SLAVE_0_PSELx;
- AMBA_SLAVE_0_PSELS0               <= AMBA_SLAVE_0_PSELx_net_0;
- AMBA_SLAVE_0_PENABLE_net_0        <= AMBA_SLAVE_0_PENABLE;
- AMBA_SLAVE_0_PENABLES             <= AMBA_SLAVE_0_PENABLE_net_0;
- AMBA_SLAVE_0_PWRITE_net_0         <= AMBA_SLAVE_0_PWRITE;
- AMBA_SLAVE_0_PWRITES              <= AMBA_SLAVE_0_PWRITE_net_0;
- FIC_0_CLK_net_1                   <= FIC_0_CLK_net_0;
- FIC_0_CLK                         <= FIC_0_CLK_net_1;
- FIC_0_LOCK_net_1                  <= FIC_0_LOCK_net_0;
- FIC_0_LOCK                        <= FIC_0_LOCK_net_1;
- MSS_READY_net_1                   <= MSS_READY_net_0;
- MSS_READY                         <= MSS_READY_net_1;
- GPIO_0_M2F_net_1                  <= GPIO_0_M2F_net_0;
- GPIO_0_M2F                        <= GPIO_0_M2F_net_1;
- AMBA_SLAVE_0_PADDR_net_0          <= AMBA_SLAVE_0_PADDR;
- AMBA_SLAVE_0_PADDRS(31 downto 0)  <= AMBA_SLAVE_0_PADDR_net_0;
- AMBA_SLAVE_0_PWDATA_net_0         <= AMBA_SLAVE_0_PWDATA;
- AMBA_SLAVE_0_PWDATAS(31 downto 0) <= AMBA_SLAVE_0_PWDATA_net_0;
+ POWER_ON_RESET_N_net_1 <= POWER_ON_RESET_N_net_0;
+ POWER_ON_RESET_N       <= POWER_ON_RESET_N_net_1;
+ FIC_0_CLK_net_1        <= FIC_0_CLK_net_0;
+ FIC_0_CLK              <= FIC_0_CLK_net_1;
+ FIC_0_LOCK_net_1       <= FIC_0_LOCK_net_0;
+ FIC_0_LOCK             <= FIC_0_LOCK_net_1;
+ GPIO_0_M2F_net_1       <= GPIO_0_M2F_net_0;
+ GPIO_0_M2F             <= GPIO_0_M2F_net_1;
+ LEDs_net_1             <= LEDs_net_0;
+ LEDs(7 downto 0)       <= LEDs_net_1;
+----------------------------------------------------------------------
+-- Slices assignments
+----------------------------------------------------------------------
+ CoreAPB3_0_PADDRS7to0  <= CoreAPB3_0_APBmslave0_PADDR(7 downto 0);
+ CoreAPB3_0_PWDATAS7to0 <= CoreAPB3_0_APBmslave0_PWDATA(7 downto 0);
+ PADDRS_slice_0         <= CoreAPB3_0_APBmslave0_PADDR(15 downto 8);
+ PADDRS_slice_1         <= CoreAPB3_0_APBmslave0_PADDR(23 downto 16);
+ PADDRS_slice_2         <= CoreAPB3_0_APBmslave0_PADDR(31 downto 24);
+ PWDATAS_slice_0        <= CoreAPB3_0_APBmslave0_PWDATA(15 downto 8);
+ PWDATAS_slice_1        <= CoreAPB3_0_APBmslave0_PWDATA(23 downto 16);
+ PWDATAS_slice_2        <= CoreAPB3_0_APBmslave0_PWDATA(31 downto 24);
 ----------------------------------------------------------------------
 -- Component instances
 ----------------------------------------------------------------------
@@ -352,7 +349,7 @@ CCC_0 : transmitter_sb_CCC_0_FCCC
 -- CoreAPB3_0   -   Actel:DirectCore:CoreAPB3:4.1.100
 CoreAPB3_0 : entity COREAPB3_LIB.CoreAPB3
     generic map( 
-        APB_DWIDTH      => ( 32 ),
+        APB_DWIDTH      => ( 8 ),
         APBSLOT0ENABLE  => ( 1 ),
         APBSLOT1ENABLE  => ( 0 ),
         APBSLOT2ENABLE  => ( 0 ),
@@ -397,8 +394,8 @@ CoreAPB3_0 : entity COREAPB3_LIB.CoreAPB3
         PWRITE     => transmitter_sb_MSS_TMP_0_FIC_0_APB_MASTER_PWRITE,
         PENABLE    => transmitter_sb_MSS_TMP_0_FIC_0_APB_MASTER_PENABLE,
         PSEL       => transmitter_sb_MSS_TMP_0_FIC_0_APB_MASTER_PSELx,
-        PREADYS0   => AMBA_SLAVE_0_PREADYS0,
-        PSLVERRS0  => AMBA_SLAVE_0_PSLVERRS0,
+        PREADYS0   => CoreAPB3_0_APBmslave0_PREADY,
+        PSLVERRS0  => GND_net, -- tied to '0' from definition
         PREADYS1   => VCC_net, -- tied to '1' from definition
         PSLVERRS1  => GND_net, -- tied to '0' from definition
         PREADYS2   => VCC_net, -- tied to '1' from definition
@@ -433,7 +430,7 @@ CoreAPB3_0 : entity COREAPB3_LIB.CoreAPB3
         PSLVERRS16 => GND_net, -- tied to '0' from definition
         PADDR      => transmitter_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR,
         PWDATA     => transmitter_sb_MSS_TMP_0_FIC_0_APB_MASTER_PWDATA,
-        PRDATAS0   => AMBA_SLAVE_0_PRDATAS0,
+        PRDATAS0   => PRDATAS0_const_net_0, -- tied to X"0" from definition
         PRDATAS1   => PRDATAS1_const_net_0, -- tied to X"0" from definition
         PRDATAS2   => PRDATAS2_const_net_0, -- tied to X"0" from definition
         PRDATAS3   => PRDATAS3_const_net_0, -- tied to X"0" from definition
@@ -454,9 +451,9 @@ CoreAPB3_0 : entity COREAPB3_LIB.CoreAPB3
         -- Outputs
         PREADY     => transmitter_sb_MSS_TMP_0_FIC_0_APB_MASTER_PREADY,
         PSLVERR    => transmitter_sb_MSS_TMP_0_FIC_0_APB_MASTER_PSLVERR,
-        PWRITES    => AMBA_SLAVE_0_PWRITE,
-        PENABLES   => AMBA_SLAVE_0_PENABLE,
-        PSELS0     => AMBA_SLAVE_0_PSELx,
+        PWRITES    => CoreAPB3_0_APBmslave0_PWRITE,
+        PENABLES   => CoreAPB3_0_APBmslave0_PENABLE,
+        PSELS0     => CoreAPB3_0_APBmslave0_PSELx,
         PSELS1     => OPEN,
         PSELS2     => OPEN,
         PSELS3     => OPEN,
@@ -474,8 +471,8 @@ CoreAPB3_0 : entity COREAPB3_LIB.CoreAPB3
         PSELS15    => OPEN,
         PSELS16    => OPEN,
         PRDATA     => transmitter_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA,
-        PADDRS     => AMBA_SLAVE_0_PADDR,
-        PWDATAS    => AMBA_SLAVE_0_PWDATA 
+        PADDRS     => CoreAPB3_0_APBmslave0_PADDR,
+        PWDATAS    => CoreAPB3_0_APBmslave0_PWDATA 
         );
 -- CORERESETP_0   -   Actel:DirectCore:CoreResetP:7.1.100
 CORERESETP_0 : CoreResetP
@@ -552,7 +549,7 @@ CORERESETP_0 : CoreResetP
         SDIF2_PRDATA                   => SDIF2_PRDATA_const_net_0, -- tied to X"0" from definition
         SDIF3_PRDATA                   => SDIF3_PRDATA_const_net_0, -- tied to X"0" from definition
         -- Outputs
-        MSS_HPMS_READY                 => MSS_READY_net_0,
+        MSS_HPMS_READY                 => CORERESETP_0_MSS_HPMS_READY,
         DDR_READY                      => OPEN,
         SDIF_READY                     => OPEN,
         RESET_N_F2M                    => CORERESETP_0_RESET_N_F2M,
@@ -571,7 +568,7 @@ CORERESETP_0 : CoreResetP
         SDIF3_CORE_RESET_N             => OPEN,
         SDIF3_PHY_RESET_N              => OPEN,
         SDIF_RELEASED                  => OPEN,
-        INIT_DONE                      => INIT_DONE_net_0 
+        INIT_DONE                      => OPEN 
         );
 -- FABOSC_0   -   Actel:SgCore:OSC:2.0.101
 FABOSC_0 : transmitter_sb_FABOSC_0_OSC
@@ -593,6 +590,22 @@ SYSRESET_POR : SYSRESET
         DEVRST_N         => DEVRST_N,
         -- Outputs
         POWER_ON_RESET_N => POWER_ON_RESET_N_net_0 
+        );
+-- trans_slave_noham_2
+trans_slave_noham_2 : entity work.trans_slave_noham
+    port map( 
+        -- Inputs
+        PCLK    => FIC_0_CLK_net_0,
+        PENABLE => CoreAPB3_0_APBmslave0_PENABLE,
+        PSEL    => CoreAPB3_0_APBmslave0_PSELx,
+        PRESETN => CORERESETP_0_MSS_HPMS_READY,
+        PWRITE  => CoreAPB3_0_APBmslave0_PWRITE,
+        PWDATA  => CoreAPB3_0_APBmslave0_PWDATA,
+        PADDR   => CoreAPB3_0_APBmslave0_PADDR,
+        -- Outputs
+        PRDATA  => OPEN,
+        LEDs    => LEDs_net_0,
+        PREADY  => CoreAPB3_0_APBmslave0_PREADY 
         );
 -- transmitter_sb_MSS_0
 transmitter_sb_MSS_0 : transmitter_sb_MSS

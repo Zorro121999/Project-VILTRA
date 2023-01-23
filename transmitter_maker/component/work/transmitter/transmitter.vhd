@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Sat Jan  7 23:57:59 2023
+-- Created by SmartDesign Mon Jan 23 17:38:59 2023
 -- Version: 2022.2 2022.2.0.10
 ----------------------------------------------------------------------
 
@@ -18,7 +18,13 @@ entity transmitter is
     -- Port list
     port(
         -- Inputs
-        DEVRST_N : in std_logic
+        DEVRST_N    : in  std_logic;
+        FAB_RESET_N : in  std_logic;
+        -- Outputs
+        FIC_0_CLK   : out std_logic;
+        FIC_0_LOCK  : out std_logic;
+        GPIO_0_M2F  : out std_logic;
+        LEDs        : out std_logic_vector(7 downto 0)
         );
 end transmitter;
 ----------------------------------------------------------------------
@@ -33,39 +39,40 @@ component transmitter_sb
     -- Port list
     port(
         -- Inputs
-        AMBA_SLAVE_0_PRDATAS0  : in  std_logic_vector(31 downto 0);
-        AMBA_SLAVE_0_PREADYS0  : in  std_logic;
-        AMBA_SLAVE_0_PSLVERRS0 : in  std_logic;
-        DEVRST_N               : in  std_logic;
-        FAB_RESET_N            : in  std_logic;
+        DEVRST_N         : in  std_logic;
+        FAB_RESET_N      : in  std_logic;
         -- Outputs
-        AMBA_SLAVE_0_PADDRS    : out std_logic_vector(31 downto 0);
-        AMBA_SLAVE_0_PENABLES  : out std_logic;
-        AMBA_SLAVE_0_PSELS0    : out std_logic;
-        AMBA_SLAVE_0_PWDATAS   : out std_logic_vector(31 downto 0);
-        AMBA_SLAVE_0_PWRITES   : out std_logic;
-        FIC_0_CLK              : out std_logic;
-        FIC_0_LOCK             : out std_logic;
-        GPIO_0_M2F             : out std_logic;
-        INIT_DONE              : out std_logic;
-        MSS_READY              : out std_logic;
-        POWER_ON_RESET_N       : out std_logic
+        FIC_0_CLK        : out std_logic;
+        FIC_0_LOCK       : out std_logic;
+        GPIO_0_M2F       : out std_logic;
+        LEDs             : out std_logic_vector(7 downto 0);
+        POWER_ON_RESET_N : out std_logic
         );
 end component;
 ----------------------------------------------------------------------
--- TiedOff Signals
+-- Signal declarations
 ----------------------------------------------------------------------
-signal VCC_net: std_logic;
-signal GND_net: std_logic;
-signal AMBA_SLAVE_0_PRDATAS0_const_net_0: std_logic_vector(31 downto 0);
+signal FIC_0_CLK_net_0  : std_logic;
+signal FIC_0_LOCK_net_0 : std_logic;
+signal GPIO_0_M2F_net_0 : std_logic;
+signal LEDs_net_0       : std_logic_vector(7 downto 0);
+signal FIC_0_CLK_net_1  : std_logic;
+signal FIC_0_LOCK_net_1 : std_logic;
+signal GPIO_0_M2F_net_1 : std_logic;
+signal LEDs_net_1       : std_logic_vector(7 downto 0);
 
 begin
 ----------------------------------------------------------------------
--- Constant assignments
+-- Top level output port assignments
 ----------------------------------------------------------------------
- VCC_net                           <= '1';
- GND_net                           <= '0';
- AMBA_SLAVE_0_PRDATAS0_const_net_0 <= B"00000000000000000000000000000000";
+ FIC_0_CLK_net_1  <= FIC_0_CLK_net_0;
+ FIC_0_CLK        <= FIC_0_CLK_net_1;
+ FIC_0_LOCK_net_1 <= FIC_0_LOCK_net_0;
+ FIC_0_LOCK       <= FIC_0_LOCK_net_1;
+ GPIO_0_M2F_net_1 <= GPIO_0_M2F_net_0;
+ GPIO_0_M2F       <= GPIO_0_M2F_net_1;
+ LEDs_net_1       <= LEDs_net_0;
+ LEDs(7 downto 0) <= LEDs_net_1;
 ----------------------------------------------------------------------
 -- Component instances
 ----------------------------------------------------------------------
@@ -73,23 +80,14 @@ begin
 transmitter_sb_0 : transmitter_sb
     port map( 
         -- Inputs
-        FAB_RESET_N            => VCC_net, -- tied to '1' from definition
-        AMBA_SLAVE_0_PREADYS0  => VCC_net, -- tied to '1' from definition
-        AMBA_SLAVE_0_PSLVERRS0 => GND_net, -- tied to '0' from definition
-        DEVRST_N               => DEVRST_N,
-        AMBA_SLAVE_0_PRDATAS0  => AMBA_SLAVE_0_PRDATAS0_const_net_0, -- tied to X"0" from definition
+        FAB_RESET_N      => FAB_RESET_N,
+        DEVRST_N         => DEVRST_N,
         -- Outputs
-        POWER_ON_RESET_N       => OPEN,
-        INIT_DONE              => OPEN,
-        AMBA_SLAVE_0_PSELS0    => OPEN,
-        AMBA_SLAVE_0_PENABLES  => OPEN,
-        AMBA_SLAVE_0_PWRITES   => OPEN,
-        FIC_0_CLK              => OPEN,
-        FIC_0_LOCK             => OPEN,
-        MSS_READY              => OPEN,
-        GPIO_0_M2F             => OPEN,
-        AMBA_SLAVE_0_PADDRS    => OPEN,
-        AMBA_SLAVE_0_PWDATAS   => OPEN 
+        POWER_ON_RESET_N => OPEN,
+        FIC_0_CLK        => FIC_0_CLK_net_0,
+        FIC_0_LOCK       => FIC_0_LOCK_net_0,
+        GPIO_0_M2F       => GPIO_0_M2F_net_0,
+        LEDs             => LEDs_net_0 
         );
 
 end RTL;

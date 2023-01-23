@@ -170,8 +170,8 @@ NAME="Synplify Pro 2021-09M"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -220,10 +220,10 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-HDL;hdl\disp2_ham.vhd;0
-HDL;stimulus\disp2_ham_test.vhd;0
 Reports;Reports;0
 ReportsCurrentItem;Project Summary:led_display2_hamming.log
+HDL;hdl\disp2_ham.vhd;0
+HDL;stimulus\disp2_ham_test.vhd;0
 StartPage;StartPage;0
 ACTIVEVIEW;hdl\disp2_ham.vhd
 ENDLIST

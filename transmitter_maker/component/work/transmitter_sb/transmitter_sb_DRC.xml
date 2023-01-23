@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>transmitter_sb</header>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between CoreAPB3_0:APBmslave0:PWDATAS[0-31] and trans_slave_noham_2:BIF_1:PWDATA[0-7] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/transmitter_sb/pins/CoreAPB3_0:APBmslave0</crossprobe>
+  </drc>
+</drcreport>

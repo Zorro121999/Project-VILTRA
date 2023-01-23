@@ -13,10 +13,10 @@ Hostname: ACER
 
 Implementation : synthesis
 
-# Written on Sat Jan  7 23:58:29 2023
+# Written on Mon Jan 23 17:42:09 2023
 
 ##### FILES SYNTAX CHECKED ##############################################
-Constraint File(s):      "C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker\designer\transmitter\synthesis.fdc"
+Constraint File(s):      "C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\designer\transmitter\synthesis.fdc"
 
 #Run constraint checker to find more issues with constraints.
 #########################################################################
@@ -30,16 +30,22 @@ No issues found in constraint syntax.
 Clock Summary
 *************
 
-          Start     Requested     Requested     Clock     Clock     Clock
-Level     Clock     Frequency     Period        Type      Group     Load 
--------------------------------------------------------------------------
-=========================================================================
+          Start                                                Requested     Requested     Clock        Clock               Clock
+Level     Clock                                                Frequency     Period        Type         Group               Load 
+---------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                               100.0 MHz     10.000        system       system_clkgroup     0    
+                                                                                                                                 
+0 -       transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          72   
+=================================================================================================================================
 
 
 Clock Load Summary
 ******************
 
-          Clock     Source     Clock Pin       Non-clock Pin     Non-clock Pin
-Clock     Load      Pin        Seq Example     Seq Example       Comb Example 
-------------------------------------------------------------------------------
-==============================================================================
+                                                     Clock     Source                                       Clock Pin                                                         Non-clock Pin     Non-clock Pin                          
+Clock                                                Load      Pin                                          Seq Example                                                       Seq Example       Comb Example                           
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                               0         -                                            -                                                                 -                 -                                      
+                                                                                                                                                                                                                                       
+transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     72        transmitter_sb_0.CCC_0.CCC_INST.GL0(CCC)     transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 transmitter_sb_0.CCC_0.GL0_INST.I(BUFG)
+=======================================================================================================================================================================================================================================

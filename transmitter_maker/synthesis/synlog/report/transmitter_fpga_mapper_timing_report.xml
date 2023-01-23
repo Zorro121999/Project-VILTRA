@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker\synthesis\synlog\transmitter_fpga_mapper.srr</data>
+<data>C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\synthesis\synlog\transmitter_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -13,5 +13,17 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <data tcl_name="req_freq">Req Freq</data>
 <data tcl_name="est_freq">Est Freq</data>
 <data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>101.9 MHz</data>
+<data>0.187</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>895.2 MHz</data>
+<data>8.883</data>
 </row>
 </report_table>

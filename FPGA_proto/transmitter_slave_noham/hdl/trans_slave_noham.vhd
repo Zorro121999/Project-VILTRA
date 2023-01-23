@@ -33,7 +33,7 @@ port (
 		PREADY : out  STD_LOGIC
 		--PSLVERR : out  STD_LOGIC
 		);
-);
+
 end trans_slave_noham;
 architecture architecture_trans_slave_noham of trans_slave_noham is
    -- signal, component etc. declarations
@@ -49,8 +49,8 @@ architecture architecture_trans_slave_noham of trans_slave_noham is
             PWDATA : in  STD_LOGIC_VECTOR (7 downto 0);
             PADDR : in  STD_LOGIC_VECTOR (7 downto 0);
             LEDs : out  STD_LOGIC_VECTOR (7 downto 0);
-            PREADY : out  STD_LOGIC
-            --RD_EN  : out STD_LOGIC
+            PREADY : out  STD_LOGIC;
+            RD_EN  : out STD_LOGIC
             --PSLVERR : out  STD_LOGIC;
               );
     end component;
@@ -70,8 +70,8 @@ begin
   port map(
            clk => PCLK,
            reset => PRESETN,
-           rd => rd_int;
-           pulse => pulse,
+           rd => rd_int,
+           pulse => PWDATA,
            LEDs => LEDs);
   
   APB : APB_slave_vhdl
@@ -84,7 +84,8 @@ begin
             PWDATA => PWDATA,
             PADDR => PADDR,
             LEDs => LEDs,
-            PREADY = PREADY
+            PREADY => PREADY,
+            RD_EN => rd_int
             );
             
            

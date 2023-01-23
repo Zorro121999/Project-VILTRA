@@ -1,6 +1,7 @@
 KEY LIBERO "2022.2"
 KEY CAPTURE "2022.2.0.10"
 KEY DEFAULT_IMPORT_LOC "E:\Hotline_Cases\IP_cases\2012\493642-863181735\Mir_429\component\Actel\DirectCore\CORE429\3.1.103\rtl\vhdl\core"
+KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VHDL"
 KEY VERILOGMODE "SYSTEMVERILOG"
@@ -15,7 +16,9 @@ KEY VendorTechnology_DieVoltage "1.2"
 KEY VendorTechnology_PART_RANGE "COM"
 KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
 KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
 KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
@@ -29,7 +32,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "C:\Users\user\Documents\ISISA\optical_transmission\transmitter_slave_noham"
+KEY ProjectLocation "C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\FPGA_proto\transmitter_slave_noham"
 KEY ProjectDescription ""
 KEY UseRootLocationForLinkedFiles "FALSE"
 KEY RootLocationENVForLinkedFiles ""
@@ -50,18 +53,18 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\hdl\APB_slave_vhdl.vhd,hdl"
 STATE="utd"
-TIME="1673884380"
-SIZE="3010"
+TIME="1674221829"
+SIZE="3057"
 ENDFILE
 VALUE "<project>\hdl\display_noham.vhd,hdl"
 STATE="utd"
-TIME="1673886834"
-SIZE="1732"
+TIME="1674221412"
+SIZE="1968"
 ENDFILE
 VALUE "<project>\hdl\trans_slave_noham.vhd,hdl"
 STATE="utd"
-TIME="1673886831"
-SIZE="2499"
+TIME="1674212170"
+SIZE="2528"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -184,9 +187,17 @@ HDL;hdl\APB_slave_vhdl.vhd;0
 HDL;hdl\display_noham.vhd;0
 HDL;hdl\trans_slave_noham.vhd;0
 StartPage;StartPage;0
-ACTIVEVIEW;hdl\display_noham.vhd
+ACTIVEVIEW;hdl\APB_slave_vhdl.vhd
 ENDLIST
 LIST ModuleSubBlockList
+LIST "APB_slave_vhdl::work","hdl\APB_slave_vhdl.vhd","FALSE","FALSE"
+ENDLIST
+LIST "display_noham::work","hdl\display_noham.vhd","FALSE","FALSE"
+ENDLIST
+LIST "trans_slave_noham::work","hdl\trans_slave_noham.vhd","FALSE","FALSE"
+SUBBLOCK "APB_slave_vhdl::work","hdl\APB_slave_vhdl.vhd","FALSE","FALSE"
+SUBBLOCK "display_noham::work","hdl\display_noham.vhd","FALSE","FALSE"
+ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
 ENDLIST

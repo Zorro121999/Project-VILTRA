@@ -8,17 +8,99 @@
 
 # Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
 
-# Date generated: Mon Jan 16 18:03:33 2023 
+# Date generated: Sun Jan 22 21:39:43 2023 
 
 
 #
 # I/O constraints
 #
 
+set_io FAB_RESET_N -DIRECTION INPUT -pinname 144 -fixed no
+set_io FIC_0_CLK -DIRECTION OUTPUT -pinname 81 -fixed no
+set_io FIC_0_LOCK -DIRECTION OUTPUT -pinname 82 -fixed no
+set_io GPIO_0_M2F -DIRECTION OUTPUT -pinname 93 -fixed no
+set_io LEDs\[0\] -DIRECTION OUTPUT -pinname 129 -fixed no
+set_io LEDs\[1\] -DIRECTION OUTPUT -pinname 128 -fixed no
+set_io LEDs\[2\] -DIRECTION OUTPUT -pinname 125 -fixed no
+set_io LEDs\[3\] -DIRECTION OUTPUT -pinname 124 -fixed no
+set_io LEDs\[4\] -DIRECTION OUTPUT -pinname 123 -fixed no
+set_io LEDs\[5\] -DIRECTION OUTPUT -pinname 122 -fixed no
+set_io LEDs\[6\] -DIRECTION OUTPUT -pinname 118 -fixed no
+set_io LEDs\[7\] -DIRECTION OUTPUT -pinname 117 -fixed no
 
 #
 # Core cell constraints
 #
 
+set_location transmitter_sb_0/CORERESETP_0/MSS_HPMS_READY_int_3 -fixed no 387 36
+set_location transmitter_sb_0/CORERESETP_0/POWER_ON_RESET_N_clk_base -fixed no 387 40
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs_int\[4\] -fixed no 382 43
+set_location transmitter_sb_0/CCC_0/GL0_INST -fixed no 220 54
+set_location transmitter_sb_0/trans_slave_noham_2/APB/fsm_Z\[0\] -fixed no 390 43
+set_location transmitter_sb_0/CORERESETP_0/RESET_N_M2F_clk_base -fixed no 384 37
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs_int\[7\] -fixed no 385 37
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs_1\[1\] -fixed no 374 42
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs\[1\] -fixed no 374 43
+set_location transmitter_sb_0/CORERESETP_0/RESET_N_F2M_int -fixed no 259 97
+set_location transmitter_sb_0/trans_slave_noham_2/APB/PREADY_1 -fixed no 389 42
+set_location transmitter_sb_0/trans_slave_noham_2/dn/m5 -fixed no 384 42
+set_location transmitter_sb_0/trans_slave_noham_2/dn/dffr2_RNIOVDT -fixed no 392 42
+set_location transmitter_sb_0/trans_slave_noham_2/APB/PREADY -fixed no 389 43
+set_location transmitter_sb_0/trans_slave_noham_2/APB/fsmce\[1\] -fixed no 391 42
+set_location transmitter_sb_0/trans_slave_noham_2/APB/rd_enablece -fixed no 388 42
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs_1\[5\] -fixed no 373 42
+set_location transmitter_sb_0/trans_slave_noham_2/dn/dffr2 -fixed no 385 43
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs_int\[1\] -fixed no 381 43
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDsce\[0\] -fixed no 385 42
+set_location transmitter_sb_0/trans_slave_noham_2/APB/rd_enable_1 -fixed no 386 42
+set_location transmitter_sb_0/trans_slave_noham_2/dn/m13 -fixed no 390 42
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs\[3\] -fixed no 379 43
+set_location transmitter_sb_0/CORERESETP_0/sm1_areset_n_clk_base -fixed no 109 97
+set_location transmitter_sb_0/CoreAPB3_0/iPSELS_raw_1\[0\] -fixed no 384 36
+set_location transmitter_sb_0/trans_slave_noham_2/APB/fab_slave_copy.un1_paddr_5 -fixed no 386 36
+set_location transmitter_sb_0/trans_slave_noham_2/APB/PREADYce -fixed no 387 42
+set_location transmitter_sb_0/FABOSC_0/I_RCOSC_25_50MHZ -fixed no 396 92
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs_1\[4\] -fixed no 372 42
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs_int\[3\] -fixed no 375 43
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs\[6\] -fixed no 389 37
+set_location transmitter_sb_0/CORERESETP_0/mss_ready_select -fixed no 393 37
+set_location transmitter_sb_0/CoreAPB3_0/iPSELS_raw\[0\] -fixed no 394 36
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs_1\[2\] -fixed no 380 42
+set_location transmitter_sb_0/trans_slave_noham_2/APB/rd_enable -fixed no 386 43
+set_location transmitter_sb_0/CCC_0/GL0_INST/U0_RGB1 -fixed no 218 102
+set_location transmitter_sb_0/trans_slave_noham_2/APB/fsm_Z\[1\] -fixed no 384 43
+set_location transmitter_sb_0/trans_slave_noham_2/dn/m11_e -fixed no 393 36
+set_location transmitter_sb_0/trans_slave_noham_2/APB/fab_slave_copy.un1_paddr -fixed no 385 36
 set_location ip_interface_inst -fixed no 191 0
-set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location transmitter_sb_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_clk_base -fixed no 386 40
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs_int\[0\] -fixed no 376 43
+set_location transmitter_sb_0/CORERESETP_0/sm1_areset_n_q1 -fixed no 108 97
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs\[0\] -fixed no 378 43
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs_int\[6\] -fixed no 388 37
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs\[7\] -fixed no 392 37
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs_1\[6\] -fixed no 389 36
+set_location transmitter_sb_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_q1 -fixed no 385 40
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs\[4\] -fixed no 372 43
+set_location transmitter_sb_0/CORERESETP_0/un6_fic_2_apb_m_preset_n_clk_base -fixed no 390 36
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs\[5\] -fixed no 373 43
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs_1\[7\] -fixed no 392 36
+set_location transmitter_sb_0/CORERESETP_0/mss_ready_state -fixed no 390 37
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs_1\[3\] -fixed no 379 42
+set_location transmitter_sb_0/trans_slave_noham_2/dn/dffr1 -fixed no 392 43
+set_location transmitter_sb_0/transmitter_sb_MSS_0/MSS_ADLIB_INST_RNO -fixed no 391 36
+set_location transmitter_sb_0/CORERESETP_0/MSS_HPMS_READY_int -fixed no 387 37
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs_int\[2\] -fixed no 377 43
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs_int\[5\] -fixed no 383 43
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs\[2\] -fixed no 380 43
+set_location transmitter_sb_0/trans_slave_noham_2/APB/fab_slave_copy.un1_paddr_4 -fixed no 395 36
+set_location transmitter_sb_0/CORERESETP_0/POWER_ON_RESET_N_q1 -fixed no 384 40
+set_location transmitter_sb_0/CORERESETP_0/RESET_N_M2F_q1 -fixed no 391 37
+set_location transmitter_sb_0/trans_slave_noham_2/dn/LEDs_1\[0\] -fixed no 378 42
+set_location transmitter_sb_0/CCC_0/CCC_INST -fixed no 390 92
+set_location transmitter_sb_0/transmitter_sb_MSS_0/MSS_ADLIB_INST -fixed no 300 104
+set_location transmitter_sb_0/SYSRESET_POR -fixed no 396 8
+set_location transmitter_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB0 -fixed no 218 96
+set_location transmitter_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB1 -fixed no 218 42
+set_location transmitter_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB2 -fixed no 218 39
+set_location transmitter_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB3 -fixed no 218 36
+set_location transmitter_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB4 -fixed no 218 0

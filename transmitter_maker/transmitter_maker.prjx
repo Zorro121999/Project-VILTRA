@@ -62,14 +62,14 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1673132147"
+TIME="1674491965"
 SIZE="3259"
 PARENT="<project>\component\work\transmitter_sb\transmitter_sb.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
 STATE="utd"
-TIME="1673132147"
-SIZE="2013"
+TIME="1674491965"
+SIZE="2012"
 LIBRARY="COREAPB3_LIB"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
 IS_READONLY="TRUE"
@@ -189,7 +189,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreResetP\7.1.100\CoreResetP.cxf,actgen_cxf"
 STATE="utd"
-TIME="1673132147"
+TIME="1674491965"
 SIZE="582"
 PARENT="<project>\component\work\transmitter_sb\transmitter_sb.cxf"
 ENDFILE
@@ -209,13 +209,13 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\SgCore\FCCC\2.0.201\FCCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1673132147"
+TIME="1674491965"
 SIZE="241"
 PARENT="<project>\component\work\transmitter_sb\transmitter_sb.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1673132149"
+TIME="1674491967"
 SIZE="682"
 PARENT="<project>\component\work\transmitter_sb\transmitter_sb.cxf"
 ENDFILE
@@ -327,53 +327,58 @@ TIME="1673131390"
 SIZE="256"
 PARENT="<project>\component\work\transmitter_sb_MSS\transmitter_sb_MSS.cxf"
 ENDFILE
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1673888973"
+SIZE="1697"
+ENDFILE
 VALUE "<project>\component\work\transmitter\transmitter.cxf,actgen_cxf"
 STATE="utd"
-TIME="1673132280"
-SIZE="1604"
+TIME="1674491940"
+SIZE="2552"
 ENDFILE
 VALUE "<project>\component\work\transmitter\transmitter.vhd,hdl"
 STATE="utd"
-TIME="1673132279"
-SIZE="3925"
+TIME="1674491939"
+SIZE="3479"
 PARENT="<project>\component\work\transmitter\transmitter.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\transmitter_sb\CCC_0\transmitter_sb_CCC_0_FCCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1673132146"
+TIME="1674491965"
 SIZE="710"
 PARENT="<project>\component\work\transmitter_sb\transmitter_sb.cxf"
 ENDFILE
 VALUE "<project>\component\work\transmitter_sb\CCC_0\transmitter_sb_CCC_0_FCCC.vhd,hdl"
 STATE="utd"
-TIME="1673132146"
+TIME="1674491965"
 SIZE="5583"
 PARENT="<project>\component\work\transmitter_sb\CCC_0\transmitter_sb_CCC_0_FCCC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\transmitter_sb\FABOSC_0\transmitter_sb_FABOSC_0_OSC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1673132149"
+TIME="1674491967"
 SIZE="476"
 PARENT="<project>\component\work\transmitter_sb\transmitter_sb.cxf"
 ENDFILE
 VALUE "<project>\component\work\transmitter_sb\FABOSC_0\transmitter_sb_FABOSC_0_OSC.vhd,hdl"
 STATE="utd"
-TIME="1673132149"
+TIME="1674491967"
 SIZE="1591"
 PARENT="<project>\component\work\transmitter_sb\FABOSC_0\transmitter_sb_FABOSC_0_OSC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\transmitter_sb\transmitter_sb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1673132151"
-SIZE="8392"
+TIME="1674491969"
+SIZE="5561"
 ENDFILE
 VALUE "<project>\component\work\transmitter_sb\transmitter_sb.vhd,hdl"
 STATE="utd"
-TIME="1673132149"
-SIZE="33525"
+TIME="1674491968"
+SIZE="34186"
 PARENT="<project>\component\work\transmitter_sb\transmitter_sb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
@@ -413,6 +418,27 @@ END_USE_CONSTRAINT
 USE_FOR_ANY_TOOL="FALSE"
 IS_READONLY="TRUE"
 ENDFILE
+VALUE "<project>\constraint\io\user.pdc,io_pdc"
+STATE="utd"
+TIME="1674419898"
+SIZE="2042"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>\hdl\APB_slave_vhdl.vhd,hdl"
+STATE="utd"
+TIME="1674490594"
+SIZE="5330"
+ENDFILE
+VALUE "<project>\hdl\display_noham.vhd,hdl"
+STATE="utd"
+TIME="1674491847"
+SIZE="2353"
+ENDFILE
+VALUE "<project>\hdl\trans_slave_noham.vhd,hdl"
+STATE="utd"
+TIME="1674491268"
+SIZE="2739"
+ENDFILE
 VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
 STATE="utd"
 TIME="1671180472"
@@ -441,6 +467,7 @@ VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
 TIME="1673131404"
 SIZE="638"
+PARENT="<project>\component\work\transmitter\transmitter.cxf"
 PARENT="<project>\component\work\transmitter_sb\transmitter_sb.cxf"
 ENDFILE
 VALUE "<project>\simulation\test.bfm,sim"
@@ -481,6 +508,12 @@ ENDLIST
 LIST NewModulesInfo
 LIST "transmitter::work"
 FILE "<project>\component\work\transmitter\transmitter.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST PNRConstraints
+VALUE "<project>\constraint\io\user.pdc,io_pdc"
+ENDLIST
 LIST ProjectState5.1
 LIST Impl1
 ideSYNTHESIS(<project>\synthesis\transmitter.vm,syn_vm)=StateSuccess
@@ -492,9 +525,6 @@ ENDLIST
 Used_File_List
 ENDUsed_File_List
 ENDLIST
-ENDLIST
-LIST synthesis_implementations
-VALUE "synthesis"
 ENDLIST
 ENDLIST
 LIST "transmitter_sb::work"
@@ -529,11 +559,70 @@ VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\b
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\mti\scripts\wave_user.do,do"
 ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 ENDLIST
 LIST AssociatedStimulus
+LIST CoreAPB3
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+ENDLIST
 ENDLIST
 LIST Other_Association
+LIST transmitter
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
 LIST transmitter_sb
 VALUE "<project>\simulation\subsystem.bfm,sim"
 ENDLIST
@@ -627,8 +716,8 @@ NAME="Synplify Pro 2021-09M"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -664,6 +753,18 @@ Used_File_List
 ENDUsed_File_List
 ENDLIST
 ENDLIST
+LIST "CoreAPB3::coreapb3_lib"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -677,14 +778,35 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;synthesis:synplify.log
+SmartDesign;transmitter_sb;0
+HDL;C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\FPGA_proto\led_display2_hamming\hdl\disp2_ham.vhd;0
+HDL;hdl\APB_slave_vhdl.vhd;0
+HDL;hdl\display_noham.vhd;0
+HDL;hdl\trans_slave_noham.vhd;0
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+SmartDesign;transmitter;0
+Constraint Manager;Constraint Manager;0
+ACTIVEVIEW;transmitter_sb
 ENDLIST
 LIST ModuleSubBlockList
+LIST "APB_slave_vhdl::work","hdl\APB_slave_vhdl.vhd","FALSE","FALSE"
+ENDLIST
 LIST "CoreResetP::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd","FALSE","FALSE"
 SUBBLOCK "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd","FALSE","FALSE"
 ENDLIST
 LIST "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd","FALSE","FALSE"
+ENDLIST
+LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
+SUBBLOCK "SmartFusion2_CMSIS::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_GPIO_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "display_noham::work","hdl\display_noham.vhd","FALSE","FALSE"
 ENDLIST
 LIST "MSS_010::work","component\work\transmitter_sb_MSS\transmitter_sb_MSS_syn.vhd","FALSE","FALSE"
 ENDLIST
@@ -696,12 +818,29 @@ LIST "RCOSC_1MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","
 ENDLIST
 LIST "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
 ENDLIST
+LIST "SmartFusion2_CMSIS::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_GPIO_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "trans_slave_noham::work","hdl\trans_slave_noham.vhd","FALSE","FALSE"
+SUBBLOCK "APB_slave_vhdl::work","hdl\APB_slave_vhdl.vhd","FALSE","FALSE"
+SUBBLOCK "display_noham::work","hdl\display_noham.vhd","FALSE","FALSE"
+ENDLIST
 LIST "transmitter::work","component\work\transmitter\transmitter.vhd","TRUE","FALSE"
 SUBBLOCK "transmitter_sb::work","component\work\transmitter_sb\transmitter_sb.vhd","TRUE","FALSE"
 ENDLIST
 LIST "transmitter_sb::work","component\work\transmitter_sb\transmitter_sb.vhd","TRUE","FALSE"
 SUBBLOCK "CoreAPB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
 SUBBLOCK "CoreResetP::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd","FALSE","FALSE"
+SUBBLOCK "trans_slave_noham::work","hdl\trans_slave_noham.vhd","FALSE","FALSE"
 SUBBLOCK "transmitter_sb_CCC_0_FCCC::work","component\work\transmitter_sb\CCC_0\transmitter_sb_CCC_0_FCCC.vhd","FALSE","FALSE"
 SUBBLOCK "transmitter_sb_FABOSC_0_OSC::work","component\work\transmitter_sb\FABOSC_0\transmitter_sb_FABOSC_0_OSC.vhd","FALSE","FALSE"
 SUBBLOCK "transmitter_sb_MSS::work","component\work\transmitter_sb_MSS\transmitter_sb_MSS.vhd","TRUE","FALSE"
@@ -761,6 +900,7 @@ ENDLIST
 LIST ActiveTestBenchList
 ENDLIST
 LIST IOTabList
+VALUE "constraint\io\user.pdc"
 ENDLIST
 LIST FPTabList
 ENDLIST

@@ -1,11 +1,14 @@
 Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
 
-Date      :  Sat Jan  7 23:58:00 2023
-Project   :  C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker
+Date      :  Mon Jan 23 17:39:00 2023
+Project   :  C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker
 Component :  transmitter
 Family    :  SmartFusion2
 
 
 HDL source files for all Synthesis and Simulation tools:
-    C:/Users/user/Documents/ISISA/optical_transmission/transmitter_maker/component/work/transmitter/transmitter.vhd
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker/component/work/transmitter/transmitter.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker/component/work/transmitter/subsystem.bfm
 

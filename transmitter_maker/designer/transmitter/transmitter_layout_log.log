@@ -1,61 +1,0 @@
-Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
-INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
-***** Place and Route Configurations *****
-Timing-driven            : OFF
-Power-driven             : OFF
-I/O Register Combining   : OFF
-High-effort              : OFF
-Repair min-delay         : OFF
-Incremental              : OFF
-
-INFO: No User PDC file(s) was specified.
-
-Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 0 fixed I/O macros, 0 unfixed I/O macros
-Info:   No automatic I/O Bank assignment is required.
-
-Placer V5.0 - 2022.2.0 
-Design: transmitter                     Started: Mon Jan 16 18:03:15 2023
-
-Initializing Normal-Effort Standard Placement ...
-Clustering ...
-Placing ...
-Improving placement ...
-End of placement.
-
-Placer Runtime Summary   :
-Clustering (1 pass)      : 0 seconds
-Placement                : 0 seconds
-Improvement              : 0 seconds
-
-Placer completed successfully.
-
-Design: transmitter                     
-Finished: Mon Jan 16 18:03:20 2023
-Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:05
-Total Memory Usage: 108.1 Mbytes
-                        o - o - o - o - o - o
-
-
-Router 
-Design: C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\designer\transmitter\transmitterStarted: Mon Jan 16 18:03:24 2023
-
-
-Router completed successfully.
-
-Design: C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\designer\transmitter\transmitter
-Finished: Mon Jan 16 18:03:33 2023
-Total CPU Time:     00:00:08            Total Elapsed Time: 00:00:09
-Total Memory Usage: 446.5 Mbytes
-                        o - o - o - o - o - o
-
-Resource Usage
-+---------------+------+-------+------------+
-| Type          | Used | Total | Percentage |
-+---------------+------+-------+------------+
-| 4LUT          | 0    | 12084 | 0.00       |
-| DFF           | 0    | 12084 | 0.00       |
-| I/O Register  | 0    | 246   | 0.00       |
-| Logic Element | 0    | 12084 | 0.00       |
-+---------------+------+-------+------------+
-

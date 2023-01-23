@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version S-2021.09M-SP1
 #--  Project file C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\synthesis\transmitter_syn.prj
-#--  Written on Sat Jan  7 23:58:39 2023
+#--  Written on Mon Jan 23 17:42:26 2023
 
 
 #project files
@@ -10,6 +10,9 @@ add_file -vhdl -lib COREAPB3_LIB "C:/Users/user/Documents/ISISA/optical_transmis
 add_file -vhdl -lib COREAPB3_LIB "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd"
 add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd"
 add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd"
+add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker/hdl/APB_slave_vhdl.vhd"
+add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker/hdl/display_noham.vhd"
+add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker/hdl/trans_slave_noham.vhd"
 add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker/component/work/transmitter_sb/CCC_0/transmitter_sb_CCC_0_FCCC.vhd"
 add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd"
 add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker/component/work/transmitter_sb/FABOSC_0/transmitter_sb_FABOSC_0_OSC.vhd"

@@ -44,7 +44,7 @@ begin
 
    fab_slave_copy : process(pclk,presetn)
    begin
-   if(rising_edge(pclk) then
+   if(rising_edge(pclk)) then
      if(presetn='0') then
        pready<='1';
        rd_enable<='1';
@@ -83,28 +83,29 @@ begin
 					fsm <= "00";
                     rd_enable <= '0';
 				end case;
-		end if;
+        end if;
+		
 	end if;
 	end process;
 
 	RD_EN <= rd_enable;
     
-    fab_slave_own : process(pclk,presetn)
-    begin
-    if(rising_edge(pclk)) then
-      if(presetn='0') then
-        pready<='1';
-        rd_enable<='0';
-      else
-        if(PSEL<='0') then
-          rd_enable<='0';
-        else
-          if(PADDR=x"00000000" and PWRITE='1') then --slave will read data when it is selected,
-            rd_enable<='1';                         --, the bus address where the data is located is selected
-          else                                      -- and a write transfer is indicated
-            rd_enable<='0';
-          end if;
-        end if;
-       end if;
-    end if;
+    --fab_slave_own : process(pclk,presetn)
+    --begin
+    --if(rising_edge(pclk)) then
+      --if(presetn='0') then
+        --pready<='1';
+        --rd_enable<='0';
+      --else
+        --if(PSEL<='0') then
+          --rd_enable<='0';
+        --else
+          --if(PADDR=x"00000000" and PWRITE='1') then --slave will read data when it is selected,
+            --rd_enable<='1';                         --, the bus address where the data is located is selected
+          --else                                      -- and a write transfer is indicated
+            --rd_enable<='0';
+          --end if;
+        --end if;
+       --end if;
+    --end if;
 end architecture_APB_slave_vhdl;
