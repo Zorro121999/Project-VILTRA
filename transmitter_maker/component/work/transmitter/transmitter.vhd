@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Mon Jan 23 17:38:59 2023
+-- Created by SmartDesign Fri Jan 27 16:33:23 2023
 -- Version: 2022.2 2022.2.0.10
 ----------------------------------------------------------------------
 
@@ -18,13 +18,12 @@ entity transmitter is
     -- Port list
     port(
         -- Inputs
-        DEVRST_N    : in  std_logic;
-        FAB_RESET_N : in  std_logic;
+        DEVRST_N   : in  std_logic;
         -- Outputs
-        FIC_0_CLK   : out std_logic;
-        FIC_0_LOCK  : out std_logic;
-        GPIO_0_M2F  : out std_logic;
-        LEDs        : out std_logic_vector(7 downto 0)
+        FIC_0_CLK  : out std_logic;
+        FIC_0_LOCK : out std_logic;
+        GPIO_0_M2F : out std_logic;
+        LEDs       : out std_logic_vector(7 downto 0)
         );
 end transmitter;
 ----------------------------------------------------------------------
@@ -52,14 +51,15 @@ end component;
 ----------------------------------------------------------------------
 -- Signal declarations
 ----------------------------------------------------------------------
-signal FIC_0_CLK_net_0  : std_logic;
-signal FIC_0_LOCK_net_0 : std_logic;
-signal GPIO_0_M2F_net_0 : std_logic;
-signal LEDs_net_0       : std_logic_vector(7 downto 0);
-signal FIC_0_CLK_net_1  : std_logic;
-signal FIC_0_LOCK_net_1 : std_logic;
-signal GPIO_0_M2F_net_1 : std_logic;
-signal LEDs_net_1       : std_logic_vector(7 downto 0);
+signal FIC_0_CLK_net_0                   : std_logic;
+signal FIC_0_LOCK_net_0                  : std_logic;
+signal GPIO_0_M2F_net_0                  : std_logic;
+signal LEDs_net_0                        : std_logic_vector(7 downto 0);
+signal transmitter_sb_0_POWER_ON_RESET_N : std_logic;
+signal FIC_0_CLK_net_1                   : std_logic;
+signal FIC_0_LOCK_net_1                  : std_logic;
+signal GPIO_0_M2F_net_1                  : std_logic;
+signal LEDs_net_1                        : std_logic_vector(7 downto 0);
 
 begin
 ----------------------------------------------------------------------
@@ -80,10 +80,10 @@ begin
 transmitter_sb_0 : transmitter_sb
     port map( 
         -- Inputs
-        FAB_RESET_N      => FAB_RESET_N,
+        FAB_RESET_N      => transmitter_sb_0_POWER_ON_RESET_N,
         DEVRST_N         => DEVRST_N,
         -- Outputs
-        POWER_ON_RESET_N => OPEN,
+        POWER_ON_RESET_N => transmitter_sb_0_POWER_ON_RESET_N,
         FIC_0_CLK        => FIC_0_CLK_net_0,
         FIC_0_LOCK       => FIC_0_LOCK_net_0,
         GPIO_0_M2F       => GPIO_0_M2F_net_0,

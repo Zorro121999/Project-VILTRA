@@ -1,14 +1,7 @@
-open_project -project {C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\designer\transmitter\transmitter_fp\transmitter.pro}\
-         -connect_programmers {FALSE}
-load_programming_data \
-    -name {M2S010} \
-    -fpga {C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\designer\transmitter\transmitter.map} \
-    -header {C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\designer\transmitter\transmitter.hdr} \
-    -spm {C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\designer\transmitter\transmitter.spm} \
-    -dca {C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\designer\transmitter\transmitter.dca}
-export_single_ppd \
-    -name {M2S010} \
-    -file {C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\designer\transmitter\transmitter.ppd}
-
+open_project -project {C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\designer\transmitter\transmitter_fp\transmitter.pro}
+enable_device -name {M2S010} -enable 1
+set_programming_file -name {M2S010} -file {C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\designer\transmitter\transmitter.ppd}
+set_programming_action -action {PROGRAM} -name {M2S010} 
+run_selected_actions
 save_project
 close_project

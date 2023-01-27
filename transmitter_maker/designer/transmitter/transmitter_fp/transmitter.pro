@@ -1,6 +1,6 @@
 <project name="transmitter" version="1.2">
     <ProjectDirectory>
-        C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\designer\transmitter\transmitter_fp
+        C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\designer\transmitter\transmitter_fp
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,7 +9,7 @@
         M2S010
     </LiberoTargetDevice>
     <LogFile>
-        C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\designer\transmitter\transmitter_fp\transmitter.log
+        C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\designer\transmitter\transmitter_fp\transmitter.log
     </LogFile>
     <SerializationOption>
         Skip
@@ -17,6 +17,14 @@
     <ProgrammingInterface>
         JTAGMode
     </ProgrammingInterface>
+    <programmer status="enable" type="FlashPro5" revision="UndefRev" connection="usb1.1">
+        <name>
+            E2001Q8X86
+        </name>
+        <id>
+            E2001Q8X86
+        </id>
+    </programmer>
     <Servers>
     </Servers>
     <configuration>

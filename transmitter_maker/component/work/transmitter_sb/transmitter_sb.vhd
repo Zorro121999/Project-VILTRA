@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Mon Jan 23 17:39:27 2023
+-- Created by SmartDesign Fri Jan 27 16:29:41 2023
 -- Version: 2022.2 2022.2.0.10
 ----------------------------------------------------------------------
 
@@ -603,9 +603,9 @@ trans_slave_noham_2 : entity work.trans_slave_noham
         PWDATA  => CoreAPB3_0_APBmslave0_PWDATA,
         PADDR   => CoreAPB3_0_APBmslave0_PADDR,
         -- Outputs
+        PREADY  => CoreAPB3_0_APBmslave0_PREADY,
         PRDATA  => OPEN,
-        LEDs    => LEDs_net_0,
-        PREADY  => CoreAPB3_0_APBmslave0_PREADY 
+        LEDs    => LEDs_net_0 
         );
 -- transmitter_sb_MSS_0
 transmitter_sb_MSS_0 : transmitter_sb_MSS

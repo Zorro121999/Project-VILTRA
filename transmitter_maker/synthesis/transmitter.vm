@@ -2,38 +2,38 @@
 // Written by Synplify Pro 
 // Product Version "S-2021.09M-SP1"
 // Program "Synplify Pro", Mapper "map202109actsp1, Build 056R"
-// Mon Jan 23 17:42:23 2023
+// Fri Jan 27 16:35:35 2023
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
-// file 0 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd2008\std.vhd "
-// file 1 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd\snps_haps_pkg.vhd "
-// file 2 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd2008\std1164.vhd "
-// file 3 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd2008\std_textio.vhd "
-// file 4 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd2008\numeric.vhd "
-// file 5 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd\umr_capim.vhd "
-// file 6 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd2008\arith.vhd "
-// file 7 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd2008\unsigned.vhd "
-// file 8 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\vhd\hyperents.vhd "
-// file 9 "\c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd "
-// file 10 "\c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd "
-// file 11 "\c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd "
-// file 12 "\c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\hdl\apb_slave_vhdl.vhd "
-// file 13 "\c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\hdl\display_noham.vhd "
-// file 14 "\c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\work\transmitter_sb\ccc_0\transmitter_sb_ccc_0_fccc.vhd "
-// file 15 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\generic\smartfusion2.vhd "
-// file 16 "\c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\sgcore\osc\2.0.101\osc_comps.vhd "
-// file 17 "\c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\work\transmitter_sb_mss\transmitter_sb_mss_syn.vhd "
-// file 18 "\c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\components.vhd "
-// file 19 "\c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3.vhd "
-// file 20 "\c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd "
-// file 21 "\c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\hdl\trans_slave_noham.vhd "
-// file 22 "\c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\work\transmitter_sb\fabosc_0\transmitter_sb_fabosc_0_osc.vhd "
-// file 23 "\c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\work\transmitter_sb_mss\transmitter_sb_mss.vhd "
-// file 24 "\c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\work\transmitter_sb\transmitter_sb.vhd "
-// file 25 "\c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\work\transmitter\transmitter.vhd "
-// file 26 "\c:\microchip\libero_soc_v2022.2\fpga_s-2021.09m-sp1\lib\nlconst.dat "
-// file 27 "\c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\designer\transmitter\synthesis.fdc "
+// file 0 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\std.vhd "
+// file 1 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd\snps_haps_pkg.vhd "
+// file 2 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\std1164.vhd "
+// file 3 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\std_textio.vhd "
+// file 4 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\numeric.vhd "
+// file 5 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd\umr_capim.vhd "
+// file 6 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\arith.vhd "
+// file 7 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd2008\unsigned.vhd "
+// file 8 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vhd\hyperents.vhd "
+// file 9 "\c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd "
+// file 10 "\c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd "
+// file 11 "\c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd "
+// file 12 "\c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\hdl\apb_slave_vhdl.vhd "
+// file 13 "\c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\hdl\display_noham.vhd "
+// file 14 "\c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\work\transmitter_sb\ccc_0\transmitter_sb_ccc_0_fccc.vhd "
+// file 15 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\generic\smartfusion2.vhd "
+// file 16 "\c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\actel\sgcore\osc\2.0.101\osc_comps.vhd "
+// file 17 "\c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\work\transmitter_sb_mss\transmitter_sb_mss_syn.vhd "
+// file 18 "\c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\components.vhd "
+// file 19 "\c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3.vhd "
+// file 20 "\c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd "
+// file 21 "\c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\hdl\trans_slave_noham.vhd "
+// file 22 "\c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\work\transmitter_sb\fabosc_0\transmitter_sb_fabosc_0_osc.vhd "
+// file 23 "\c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\work\transmitter_sb_mss\transmitter_sb_mss.vhd "
+// file 24 "\c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\work\transmitter_sb\transmitter_sb.vhd "
+// file 25 "\c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\work\transmitter\transmitter.vhd "
+// file 26 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\nlconst.dat "
+// file 27 "\c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\designer\transmitter\synthesis.fdc "
 
 `timescale 100 ps/100 ps
 module transmitter_sb_CCC_0_FCCC (
@@ -167,7 +167,6 @@ endmodule /* CoreAPB3 */
 
 module CoreResetP (
   MSS_HPMS_READY_int_1z,
-  FAB_RESET_N_c,
   CORERESETP_0_RESET_N_F2M,
   POWER_ON_RESET_N,
   MSS_RESET_N_M2F,
@@ -177,7 +176,6 @@ module CoreResetP (
 )
 ;
 output MSS_HPMS_READY_int_1z ;
-input FAB_RESET_N_c ;
 output CORERESETP_0_RESET_N_F2M ;
 input POWER_ON_RESET_N ;
 input MSS_RESET_N_M2F ;
@@ -185,7 +183,6 @@ input FIC_2_APB_M_PRESET_N ;
 output MSS_HPMS_READY_int_arst ;
 input FIC_0_CLK_c ;
 wire MSS_HPMS_READY_int_1z ;
-wire FAB_RESET_N_c ;
 wire CORERESETP_0_RESET_N_F2M ;
 wire POWER_ON_RESET_N ;
 wire MSS_RESET_N_M2F ;
@@ -194,15 +191,13 @@ wire MSS_HPMS_READY_int_arst ;
 wire FIC_0_CLK_c ;
 wire MSS_HPMS_READY_int_rep_Z ;
 wire VCC ;
-wire POWER_ON_RESET_N_clk_base_Z ;
+wire sm1_areset_n_clk_base ;
 wire MSS_HPMS_READY_int_3_Z ;
 wire GND ;
 wire FIC_2_APB_M_PRESET_N_clk_base_Z ;
 wire FIC_2_APB_M_PRESET_N_q1_Z ;
 wire RESET_N_M2F_clk_base_Z ;
 wire RESET_N_M2F_q1_Z ;
-wire POWER_ON_RESET_N_q1_Z ;
-wire sm1_areset_n_clk_base_Z ;
 wire sm1_areset_n_q1_Z ;
 wire mss_ready_state_Z ;
 wire mss_ready_select_Z ;
@@ -300,7 +295,7 @@ wire N_7 ;
   SLE MSS_HPMS_READY_int_rep (
 	.Q(MSS_HPMS_READY_int_rep_Z),
 	.ADn(VCC),
-	.ALn(POWER_ON_RESET_N_clk_base_Z),
+	.ALn(sm1_areset_n_clk_base),
 	.CLK(FIC_0_CLK_c),
 	.D(MSS_HPMS_READY_int_3_Z),
 	.EN(VCC),
@@ -338,11 +333,11 @@ wire N_7 ;
 );
 // @20:553
   SLE POWER_ON_RESET_N_clk_base (
-	.Q(POWER_ON_RESET_N_clk_base_Z),
+	.Q(sm1_areset_n_clk_base),
 	.ADn(VCC),
 	.ALn(POWER_ON_RESET_N),
 	.CLK(FIC_0_CLK_c),
-	.D(POWER_ON_RESET_N_q1_Z),
+	.D(sm1_areset_n_q1_Z),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
@@ -352,7 +347,7 @@ wire N_7 ;
   SLE RESET_N_F2M_int (
 	.Q(CORERESETP_0_RESET_N_F2M),
 	.ADn(VCC),
-	.ALn(sm1_areset_n_clk_base_Z),
+	.ALn(sm1_areset_n_clk_base),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
 	.EN(VCC),
@@ -364,7 +359,7 @@ wire N_7 ;
   SLE sm1_areset_n_q1 (
 	.Q(sm1_areset_n_q1_Z),
 	.ADn(VCC),
-	.ALn(FAB_RESET_N_c),
+	.ALn(POWER_ON_RESET_N),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
 	.EN(VCC),
@@ -396,37 +391,13 @@ wire N_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @20:553
-  SLE POWER_ON_RESET_N_q1 (
-	.Q(POWER_ON_RESET_N_q1_Z),
-	.ADn(VCC),
-	.ALn(POWER_ON_RESET_N),
-	.CLK(FIC_0_CLK_c),
-	.D(VCC),
-	.EN(VCC),
-	.LAT(GND),
-	.SD(GND),
-	.SLn(VCC)
-);
 // @20:608
   SLE MSS_HPMS_READY_int (
 	.Q(MSS_HPMS_READY_int_1z),
 	.ADn(VCC),
-	.ALn(POWER_ON_RESET_N_clk_base_Z),
+	.ALn(sm1_areset_n_clk_base),
 	.CLK(FIC_0_CLK_c),
 	.D(MSS_HPMS_READY_int_3_Z),
-	.EN(VCC),
-	.LAT(GND),
-	.SD(GND),
-	.SLn(VCC)
-);
-// @20:781
-  SLE sm1_areset_n_clk_base (
-	.Q(sm1_areset_n_clk_base_Z),
-	.ADn(VCC),
-	.ALn(FAB_RESET_N_c),
-	.CLK(FIC_0_CLK_c),
-	.D(sm1_areset_n_q1_Z),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
@@ -436,7 +407,7 @@ wire N_7 ;
   SLE mss_ready_state (
 	.Q(mss_ready_state_Z),
 	.ADn(VCC),
-	.ALn(POWER_ON_RESET_N_clk_base_Z),
+	.ALn(sm1_areset_n_clk_base),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
 	.EN(RESET_N_M2F_clk_base_Z),
@@ -448,7 +419,7 @@ wire N_7 ;
   SLE mss_ready_select (
 	.Q(mss_ready_select_Z),
 	.ADn(VCC),
-	.ALn(POWER_ON_RESET_N_clk_base_Z),
+	.ALn(sm1_areset_n_clk_base),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
 	.EN(un6_fic_2_apb_m_preset_n_clk_base_Z),
@@ -892,6 +863,8 @@ wire [17:8] Memory_Mapped_Registers_Memory_Mapped_Registers_0_0_A_DOUT;
 wire VCC ;
 wire pready_v_4 ;
 wire GND ;
+wire Memory_Mapped_Registersro_4 ;
+wire Memory_Mapped_Registerswre_4 ;
 wire Memory_Mapped_Registersro_3 ;
 wire Memory_Mapped_Registerswre_3 ;
 wire Memory_Mapped_Registersro_2 ;
@@ -900,6 +873,8 @@ wire Memory_Mapped_Registersro_1 ;
 wire Memory_Mapped_Registerswre_1 ;
 wire Memory_Mapped_Registersro_0 ;
 wire Memory_Mapped_Registerswre_0 ;
+wire Memory_Mapped_Registersro_9 ;
+wire Memory_Mapped_Registerswre_9 ;
 wire Memory_Mapped_Registersro_8 ;
 wire Memory_Mapped_Registerswre_8 ;
 wire Memory_Mapped_Registersro_7 ;
@@ -908,8 +883,8 @@ wire Memory_Mapped_Registersro_6 ;
 wire Memory_Mapped_Registerswre_6 ;
 wire Memory_Mapped_Registersro_5 ;
 wire Memory_Mapped_Registerswre_5 ;
-wire Memory_Mapped_Registersro_4 ;
-wire Memory_Mapped_Registerswre_4 ;
+wire Memory_Mapped_Registersro_14 ;
+wire Memory_Mapped_Registerswre_14 ;
 wire Memory_Mapped_Registersro_13 ;
 wire Memory_Mapped_Registerswre_13 ;
 wire Memory_Mapped_Registersro_12 ;
@@ -918,8 +893,8 @@ wire Memory_Mapped_Registersro_11 ;
 wire Memory_Mapped_Registerswre_11 ;
 wire Memory_Mapped_Registersro_10 ;
 wire Memory_Mapped_Registerswre_10 ;
-wire Memory_Mapped_Registersro_9 ;
-wire Memory_Mapped_Registerswre_9 ;
+wire Memory_Mapped_Registersro_19 ;
+wire Memory_Mapped_Registerswre_19 ;
 wire Memory_Mapped_Registersro_18 ;
 wire Memory_Mapped_Registerswre_18 ;
 wire Memory_Mapped_Registersro_17 ;
@@ -928,8 +903,8 @@ wire Memory_Mapped_Registersro_16 ;
 wire Memory_Mapped_Registerswre_16 ;
 wire Memory_Mapped_Registersro_15 ;
 wire Memory_Mapped_Registerswre_15 ;
-wire Memory_Mapped_Registersro_14 ;
-wire Memory_Mapped_Registerswre_14 ;
+wire Memory_Mapped_Registersro_24 ;
+wire Memory_Mapped_Registerswre_24 ;
 wire Memory_Mapped_Registersro_23 ;
 wire Memory_Mapped_Registerswre_23 ;
 wire Memory_Mapped_Registersro_22 ;
@@ -938,8 +913,8 @@ wire Memory_Mapped_Registersro_21 ;
 wire Memory_Mapped_Registerswre_21 ;
 wire Memory_Mapped_Registersro_20 ;
 wire Memory_Mapped_Registerswre_20 ;
-wire Memory_Mapped_Registersro_19 ;
-wire Memory_Mapped_Registerswre_19 ;
+wire Memory_Mapped_Registersro_29 ;
+wire Memory_Mapped_Registerswre_29 ;
 wire Memory_Mapped_Registersro_28 ;
 wire Memory_Mapped_Registerswre_28 ;
 wire Memory_Mapped_Registersro_27 ;
@@ -948,8 +923,8 @@ wire Memory_Mapped_Registersro_26 ;
 wire Memory_Mapped_Registerswre_26 ;
 wire Memory_Mapped_Registersro_25 ;
 wire Memory_Mapped_Registerswre_25 ;
-wire Memory_Mapped_Registersro_24 ;
-wire Memory_Mapped_Registerswre_24 ;
+wire Memory_Mapped_Registersro_34 ;
+wire Memory_Mapped_Registerswre_34 ;
 wire Memory_Mapped_Registersro_33 ;
 wire Memory_Mapped_Registerswre_33 ;
 wire Memory_Mapped_Registersro_32 ;
@@ -958,8 +933,8 @@ wire Memory_Mapped_Registersro_31 ;
 wire Memory_Mapped_Registerswre_31 ;
 wire Memory_Mapped_Registersro_30 ;
 wire Memory_Mapped_Registerswre_30 ;
-wire Memory_Mapped_Registersro_29 ;
-wire Memory_Mapped_Registerswre_29 ;
+wire Memory_Mapped_Registersro_39 ;
+wire Memory_Mapped_Registerswre_39 ;
 wire Memory_Mapped_Registersro_38 ;
 wire Memory_Mapped_Registerswre_38 ;
 wire Memory_Mapped_Registersro_37 ;
@@ -968,8 +943,8 @@ wire Memory_Mapped_Registersro_36 ;
 wire Memory_Mapped_Registerswre_36 ;
 wire Memory_Mapped_Registersro_35 ;
 wire Memory_Mapped_Registerswre_35 ;
-wire Memory_Mapped_Registersro_34 ;
-wire Memory_Mapped_Registerswre_34 ;
+wire Memory_Mapped_Registersro_44 ;
+wire Memory_Mapped_Registerswre_44 ;
 wire Memory_Mapped_Registersro_43 ;
 wire Memory_Mapped_Registerswre_43 ;
 wire Memory_Mapped_Registersro_42 ;
@@ -978,8 +953,8 @@ wire Memory_Mapped_Registersro_41 ;
 wire Memory_Mapped_Registerswre_41 ;
 wire Memory_Mapped_Registersro_40 ;
 wire Memory_Mapped_Registerswre_40 ;
-wire Memory_Mapped_Registersro_39 ;
-wire Memory_Mapped_Registerswre_39 ;
+wire Memory_Mapped_Registersro_49 ;
+wire Memory_Mapped_Registerswre_49 ;
 wire Memory_Mapped_Registersro_48 ;
 wire Memory_Mapped_Registerswre_48 ;
 wire Memory_Mapped_Registersro_47 ;
@@ -988,8 +963,8 @@ wire Memory_Mapped_Registersro_46 ;
 wire Memory_Mapped_Registerswre_46 ;
 wire Memory_Mapped_Registersro_45 ;
 wire Memory_Mapped_Registerswre_45 ;
-wire Memory_Mapped_Registersro_44 ;
-wire Memory_Mapped_Registerswre_44 ;
+wire Memory_Mapped_Registersro_54 ;
+wire Memory_Mapped_Registerswre_54 ;
 wire Memory_Mapped_Registersro_53 ;
 wire Memory_Mapped_Registerswre_53 ;
 wire Memory_Mapped_Registersro_52 ;
@@ -998,8 +973,8 @@ wire Memory_Mapped_Registersro_51 ;
 wire Memory_Mapped_Registerswre_51 ;
 wire Memory_Mapped_Registersro_50 ;
 wire Memory_Mapped_Registerswre_50 ;
-wire Memory_Mapped_Registersro_49 ;
-wire Memory_Mapped_Registerswre_49 ;
+wire Memory_Mapped_Registersro_59 ;
+wire Memory_Mapped_Registerswre_59 ;
 wire Memory_Mapped_Registersro_58 ;
 wire Memory_Mapped_Registerswre_58 ;
 wire Memory_Mapped_Registersro_57 ;
@@ -1008,8 +983,6 @@ wire Memory_Mapped_Registersro_56 ;
 wire Memory_Mapped_Registerswre_56 ;
 wire Memory_Mapped_Registersro_55 ;
 wire Memory_Mapped_Registerswre_55 ;
-wire Memory_Mapped_Registersro_54 ;
-wire Memory_Mapped_Registerswre_54 ;
 wire Memory_Mapped_Registersro_63 ;
 wire Memory_Mapped_Registerswre_63 ;
 wire Memory_Mapped_Registersro_62 ;
@@ -1018,8 +991,6 @@ wire Memory_Mapped_Registersro_61 ;
 wire Memory_Mapped_Registerswre_61 ;
 wire Memory_Mapped_Registersro_60 ;
 wire Memory_Mapped_Registerswre_60 ;
-wire Memory_Mapped_Registersro_59 ;
-wire Memory_Mapped_Registerswre_59 ;
 wire un1_penable_Z ;
 wire Memory_Mapped_Registersa53_1_0_Z ;
 wire Memory_Mapped_Registersa53_Z ;
@@ -1237,6 +1208,18 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
+  SLE Memory_Mapped_Registersrff_4 (
+	.Q(Memory_Mapped_Registersro_4),
+	.ADn(VCC),
+	.ALn(MSS_HPMS_READY_int_arst),
+	.CLK(FIC_0_CLK_c),
+	.D(VCC),
+	.EN(Memory_Mapped_Registerswre_4),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @12:131
   SLE Memory_Mapped_Registersrff_3 (
 	.Q(Memory_Mapped_Registersro_3),
 	.ADn(VCC),
@@ -1280,6 +1263,18 @@ wire NC18 ;
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
 	.EN(Memory_Mapped_Registerswre_0),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @12:131
+  SLE Memory_Mapped_Registersrff_9 (
+	.Q(Memory_Mapped_Registersro_9),
+	.ADn(VCC),
+	.ALn(MSS_HPMS_READY_int_arst),
+	.CLK(FIC_0_CLK_c),
+	.D(VCC),
+	.EN(Memory_Mapped_Registerswre_9),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1333,13 +1328,13 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_4 (
-	.Q(Memory_Mapped_Registersro_4),
+  SLE Memory_Mapped_Registersrff_14 (
+	.Q(Memory_Mapped_Registersro_14),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_4),
+	.EN(Memory_Mapped_Registerswre_14),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1393,13 +1388,13 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_9 (
-	.Q(Memory_Mapped_Registersro_9),
+  SLE Memory_Mapped_Registersrff_19 (
+	.Q(Memory_Mapped_Registersro_19),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_9),
+	.EN(Memory_Mapped_Registerswre_19),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1453,13 +1448,13 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_14 (
-	.Q(Memory_Mapped_Registersro_14),
+  SLE Memory_Mapped_Registersrff_24 (
+	.Q(Memory_Mapped_Registersro_24),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_14),
+	.EN(Memory_Mapped_Registerswre_24),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1513,13 +1508,13 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_19 (
-	.Q(Memory_Mapped_Registersro_19),
+  SLE Memory_Mapped_Registersrff_29 (
+	.Q(Memory_Mapped_Registersro_29),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_19),
+	.EN(Memory_Mapped_Registerswre_29),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1573,13 +1568,13 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_24 (
-	.Q(Memory_Mapped_Registersro_24),
+  SLE Memory_Mapped_Registersrff_34 (
+	.Q(Memory_Mapped_Registersro_34),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_24),
+	.EN(Memory_Mapped_Registerswre_34),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1633,13 +1628,13 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_29 (
-	.Q(Memory_Mapped_Registersro_29),
+  SLE Memory_Mapped_Registersrff_39 (
+	.Q(Memory_Mapped_Registersro_39),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_29),
+	.EN(Memory_Mapped_Registerswre_39),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1693,13 +1688,13 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_34 (
-	.Q(Memory_Mapped_Registersro_34),
+  SLE Memory_Mapped_Registersrff_44 (
+	.Q(Memory_Mapped_Registersro_44),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_34),
+	.EN(Memory_Mapped_Registerswre_44),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1753,13 +1748,13 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_39 (
-	.Q(Memory_Mapped_Registersro_39),
+  SLE Memory_Mapped_Registersrff_49 (
+	.Q(Memory_Mapped_Registersro_49),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_39),
+	.EN(Memory_Mapped_Registerswre_49),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1813,13 +1808,13 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_44 (
-	.Q(Memory_Mapped_Registersro_44),
+  SLE Memory_Mapped_Registersrff_54 (
+	.Q(Memory_Mapped_Registersro_54),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_44),
+	.EN(Memory_Mapped_Registerswre_54),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1873,13 +1868,13 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_49 (
-	.Q(Memory_Mapped_Registersro_49),
+  SLE Memory_Mapped_Registersrff_59 (
+	.Q(Memory_Mapped_Registersro_59),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_49),
+	.EN(Memory_Mapped_Registerswre_59),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1933,18 +1928,6 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_54 (
-	.Q(Memory_Mapped_Registersro_54),
-	.ADn(VCC),
-	.ALn(MSS_HPMS_READY_int_arst),
-	.CLK(FIC_0_CLK_c),
-	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_54),
-	.LAT(GND),
-	.SD(GND),
-	.SLn(VCC)
-);
-// @12:131
   SLE Memory_Mapped_Registersrff_63 (
 	.Q(Memory_Mapped_Registersro_63),
 	.ADn(VCC),
@@ -1988,18 +1971,6 @@ wire NC18 ;
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
 	.EN(Memory_Mapped_Registerswre_60),
-	.LAT(GND),
-	.SD(GND),
-	.SLn(VCC)
-);
-// @12:131
-  SLE Memory_Mapped_Registersrff_59 (
-	.Q(Memory_Mapped_Registersro_59),
-	.ADn(VCC),
-	.ALn(MSS_HPMS_READY_int_arst),
-	.CLK(FIC_0_CLK_c),
-	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_59),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -4835,7 +4806,6 @@ endmodule /* transmitter_sb_MSS */
 module transmitter_sb (
   LEDs_c,
   GPIO_0_M2F_c,
-  FAB_RESET_N_c,
   FIC_0_CLK_c,
   FIC_0_LOCK_c,
   DEVRST_N
@@ -4843,12 +4813,10 @@ module transmitter_sb (
 ;
 output [7:0] LEDs_c ;
 output GPIO_0_M2F_c ;
-input FAB_RESET_N_c ;
 output FIC_0_CLK_c ;
 output FIC_0_LOCK_c ;
 input DEVRST_N ;
 wire GPIO_0_M2F_c ;
-wire FAB_RESET_N_c ;
 wire FIC_0_CLK_c ;
 wire FIC_0_LOCK_c ;
 wire DEVRST_N ;
@@ -4888,7 +4856,6 @@ wire VCC ;
 // @24:478
   CoreResetP CORERESETP_0 (
 	.MSS_HPMS_READY_int_1z(MSS_HPMS_READY_int),
-	.FAB_RESET_N_c(FAB_RESET_N_c),
 	.CORERESETP_0_RESET_N_F2M(CORERESETP_0_RESET_N_F2M),
 	.POWER_ON_RESET_N(POWER_ON_RESET_N),
 	.MSS_RESET_N_M2F(MSS_RESET_N_M2F),
@@ -4948,7 +4915,6 @@ endmodule /* transmitter_sb */
 
 module transmitter (
   DEVRST_N,
-  FAB_RESET_N,
   FIC_0_CLK,
   FIC_0_LOCK,
   GPIO_0_M2F,
@@ -4956,79 +4922,71 @@ module transmitter (
 )
 ;
 input DEVRST_N ;
-input FAB_RESET_N ;
 output FIC_0_CLK ;
 output FIC_0_LOCK ;
 output GPIO_0_M2F ;
 output [7:0] LEDs ;
 wire DEVRST_N ;
-wire FAB_RESET_N ;
 wire FIC_0_CLK ;
 wire FIC_0_LOCK ;
 wire GPIO_0_M2F ;
 wire [7:0] LEDs_c;
 wire GND ;
 wire VCC ;
-wire FAB_RESET_N_c ;
 wire FIC_0_CLK_c ;
 wire FIC_0_LOCK_c ;
 wire GPIO_0_M2F_c ;
-// @25:22
-  INBUF FAB_RESET_N_ibuf (
-	.Y(FAB_RESET_N_c),
-	.PAD(FAB_RESET_N)
-);
-// @25:24
+// @25:23
   OUTBUF FIC_0_CLK_obuf (
 	.PAD(FIC_0_CLK),
 	.D(FIC_0_CLK_c)
 );
-// @25:25
+// @25:24
   OUTBUF FIC_0_LOCK_obuf (
 	.PAD(FIC_0_LOCK),
 	.D(FIC_0_LOCK_c)
 );
-// @25:26
+// @25:25
   OUTBUF GPIO_0_M2F_obuf (
 	.PAD(GPIO_0_M2F),
 	.D(GPIO_0_M2F_c)
 );
-// @25:27
+// @25:26
   OUTBUF \LEDs_obuf[0]  (
 	.PAD(LEDs[0]),
 	.D(LEDs_c[0])
 );
-// @25:27
+// @25:26
   OUTBUF \LEDs_obuf[1]  (
 	.PAD(LEDs[1]),
 	.D(LEDs_c[1])
 );
-// @25:27
+// @25:26
   OUTBUF \LEDs_obuf[2]  (
 	.PAD(LEDs[2]),
 	.D(LEDs_c[2])
 );
-// @25:27
+// @25:26
   OUTBUF \LEDs_obuf[3]  (
 	.PAD(LEDs[3]),
 	.D(LEDs_c[3])
 );
-// @25:27
+// @25:26
   OUTBUF \LEDs_obuf[4]  (
 	.PAD(LEDs[4]),
 	.D(LEDs_c[4])
 );
-// @25:27
+// @25:26
   OUTBUF \LEDs_obuf[5]  (
 	.PAD(LEDs[5]),
 	.D(LEDs_c[5])
 );
-// @25:27
+// @25:26
   OUTBUF \LEDs_obuf[6]  (
 	.PAD(LEDs[6]),
 	.D(LEDs_c[6])
 );
-// @25:27
+// @25:26
   OUTBUF \LEDs_obuf[7]  (
 	.PAD(LEDs[7]),
 	.D(LEDs_c[7])
@@ -5037,7 +4995,6 @@ wire GPIO_0_M2F_c ;
   transmitter_sb transmitter_sb_0 (
 	.LEDs_c(LEDs_c[7:0]),
 	.GPIO_0_M2F_c(GPIO_0_M2F_c),
-	.FAB_RESET_N_c(FAB_RESET_N_c),
 	.FIC_0_CLK_c(FIC_0_CLK_c),
 	.FIC_0_LOCK_c(FIC_0_LOCK_c),
 	.DEVRST_N(DEVRST_N)

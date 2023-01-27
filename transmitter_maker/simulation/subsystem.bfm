@@ -1,5 +1,5 @@
 #===========================================================
-# Created by Microsemi SmartDesign Sat Jan  7 23:43:24 2023
+# Created by Microsemi SmartDesign Fri Jan 27 16:33:23 2023
 #
 # Syntax: 
 # ------- 
@@ -17,4 +17,8 @@
 # Define name and base address of each resource.
 #-----------------------------------------------------------
 
-memmap transmitter_sb 0x5000_0000;
+memmap transmitter_sb_0/trans_slave_noham_2 0x5000_0000;
+#-----------------------------------------------------------
+# Include resource scriptlets
+#-----------------------------------------------------------
+

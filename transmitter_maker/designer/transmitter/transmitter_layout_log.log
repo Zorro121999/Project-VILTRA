@@ -1,0 +1,71 @@
+Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : OFF
+Power-driven             : OFF
+I/O Register Combining   : OFF
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+
+INFO: Reading User PDC file C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 11 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 2022.2.0 
+Design: transmitter                     Started: Fri Jan 27 16:38:23 2023
+
+Initializing Normal-Effort Standard Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 0 seconds
+Improvement              : 0 seconds
+
+Placer completed successfully.
+
+Design: transmitter                     
+Finished: Fri Jan 27 16:38:29 2023
+Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:06
+Total Memory Usage: 111.4 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\designer\transmitter\transmitterStarted: Fri Jan 27 16:38:34 2023
+
+
+Router completed successfully.
+
+Design: C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\designer\transmitter\transmitter
+Finished: Fri Jan 27 16:38:40 2023
+Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:06
+Total Memory Usage: 446.0 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 269  | 12084 | 2.23       |
+| DFF           | 138  | 12084 | 1.14       |
+| I/O Register  | 0    | 246   | 0.00       |
+| Logic Element | 294  | 12084 | 2.43       |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  11   | 100.00%    |
+| Placed |  0    | 0.00%      |
++--------+-------+------------+
+

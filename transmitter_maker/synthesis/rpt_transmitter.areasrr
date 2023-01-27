@@ -6,10 +6,10 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: S-2021.09M-SP1
-Install: C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
 OS: Windows 6.2
 
-Hostname: ACER
+Hostname: SURFACEPRO
 
 Implementation : synthesis
 
@@ -24,9 +24,9 @@ Part:			M2S010VF400STD (Microchip)
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      104                100 %                
+SLE      102                100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block transmitter:	104 (27.66 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block transmitter:	102 (27.35 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -35,7 +35,7 @@ Name          Total elements     Utilization     Notes
 CFG           233                100 %                
 BLACK BOX     4                  100 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block transmitter:	237 (63.03 % Utilization)
+Total COMBINATIONAL LOGIC in the block transmitter:	237 (63.54 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -51,15 +51,15 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     2                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block transmitter:	2 (0.53 % Utilization)
+Total GLOBAL BUFFERS in the block transmitter:	2 (0.54 % Utilization)
 
 
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-IO       12                 100 %                
+IO       11                 100 %                
 =================================================
-Total IO PADS in the block transmitter:	12 (3.19 % Utilization)
+Total IO PADS in the block transmitter:	11 (2.95 % Utilization)
 
 --------------------------------------------------------------------
 ########   Utilization report for  cell:   transmitter_sb   ########
@@ -69,9 +69,9 @@ Instance path:   transmitter.transmitter_sb
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      104                100 %                
+SLE      102                100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block transmitter.transmitter_sb:	104 (27.66 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block transmitter.transmitter_sb:	102 (27.35 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -80,7 +80,7 @@ Name          Total elements     Utilization     Notes
 CFG           233                100 %                
 BLACK BOX     4                  100 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block transmitter.transmitter_sb:	237 (63.03 % Utilization)
+Total COMBINATIONAL LOGIC in the block transmitter.transmitter_sb:	237 (63.54 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -96,7 +96,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     2                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block transmitter.transmitter_sb:	2 (0.53 % Utilization)
+Total GLOBAL BUFFERS in the block transmitter.transmitter_sb:	2 (0.54 % Utilization)
 
 --------------------------------------------------------------
 ########   Utilization report for  cell:   CoreAPB3   ########
@@ -108,7 +108,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 CFG      2                  0.8580 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block transmitter_sb.CoreAPB3:	2 (0.53 % Utilization)
+Total COMBINATIONAL LOGIC in the block transmitter_sb.CoreAPB3:	2 (0.54 % Utilization)
 
 ----------------------------------------------------------------
 ########   Utilization report for  cell:   CoreResetP   ########
@@ -118,9 +118,9 @@ Instance path:   transmitter_sb.CoreResetP
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      13                 12.5 %               
+SLE      11                 10.8 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block transmitter_sb.CoreResetP:	13 (3.46 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block transmitter_sb.CoreResetP:	11 (2.95 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -128,7 +128,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 CFG      2                  0.8580 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block transmitter_sb.CoreResetP:	2 (0.53 % Utilization)
+Total COMBINATIONAL LOGIC in the block transmitter_sb.CoreResetP:	2 (0.54 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -146,9 +146,9 @@ Instance path:   transmitter_sb.trans_slave_noham
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      91                 87.5 %               
+SLE      91                 89.2 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block transmitter_sb.trans_slave_noham:	91 (24.20 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block transmitter_sb.trans_slave_noham:	91 (24.40 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -156,7 +156,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 CFG      228                97.9 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block transmitter_sb.trans_slave_noham:	228 (60.64 % Utilization)
+Total COMBINATIONAL LOGIC in the block transmitter_sb.trans_slave_noham:	228 (61.13 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -174,9 +174,9 @@ Instance path:   trans_slave_noham.APB_slave_vhdl
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      65                 62.5 %               
+SLE      65                 63.7 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block trans_slave_noham.APB_slave_vhdl:	65 (17.29 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block trans_slave_noham.APB_slave_vhdl:	65 (17.43 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -184,7 +184,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 CFG      226                97 %                 
 =================================================
-Total COMBINATIONAL LOGIC in the block trans_slave_noham.APB_slave_vhdl:	226 (60.11 % Utilization)
+Total COMBINATIONAL LOGIC in the block trans_slave_noham.APB_slave_vhdl:	226 (60.59 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -202,9 +202,9 @@ Instance path:   trans_slave_noham.display_noham
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      26                 25 %                 
+SLE      26                 25.5 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block trans_slave_noham.display_noham:	26 (6.91 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block trans_slave_noham.display_noham:	26 (6.97 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -212,7 +212,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 CFG      2                  0.8580 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block trans_slave_noham.display_noham:	2 (0.53 % Utilization)
+Total COMBINATIONAL LOGIC in the block trans_slave_noham.display_noham:	2 (0.54 % Utilization)
 
 -------------------------------------------------------------------------------
 ########   Utilization report for  cell:   transmitter_sb_CCC_0_FCCC   ########
@@ -257,7 +257,7 @@ Name          Total elements     Utilization     Notes
 CFG           1                  0.4290 %             
 BLACK BOX     1                  25 %                 
 ======================================================
-Total COMBINATIONAL LOGIC in the block transmitter_sb.transmitter_sb_MSS:	2 (0.53 % Utilization)
+Total COMBINATIONAL LOGIC in the block transmitter_sb.transmitter_sb_MSS:	2 (0.54 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

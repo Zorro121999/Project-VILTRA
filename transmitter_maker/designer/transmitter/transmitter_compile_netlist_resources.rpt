@@ -1,6 +1,6 @@
 Resource Report
 Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
-Date: Mon Jan 23 17:42:35 2023
+Date: Fri Jan 27 16:35:44 2023
 
 Device Selection
 +--------------------------------+----------------+
@@ -20,11 +20,11 @@ Device Selection
 +--------------------------------+----------------+
 
 Source Files
-+---------+--------------------------------------------------------------------------------------------------------------+
-| Topcell | transmitter                                                                                                  |
-| Format  | Verilog                                                                                                      |
-| Source  | C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\synthesis\transmitter.vm |
-+---------+--------------------------------------------------------------------------------------------------------------+
++---------+----------------------------------------------------------------------------------------+
+| Topcell | transmitter                                                                            |
+| Format  | Verilog                                                                                |
+| Source  | C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\synthesis\transmitter.vm |
++---------+----------------------------------------------------------------------------------------+
 
 Options
 +----------------------------------------------------+-------+
@@ -38,10 +38,10 @@ Resource Usage
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
 | 4LUT                      | 269  | 12084 | 2.23       |
-| DFF                       | 140  | 12084 | 1.16       |
+| DFF                       | 138  | 12084 | 1.14       |
 | I/O Register              | 0    | 252   | 0.00       |
-| User I/O                  | 12   | 84    | 14.29      |
-| -- Single-ended I/O       | 12   | 84    | 14.29      |
+| User I/O                  | 11   | 84    | 13.10      |
+| -- Single-ended I/O       | 11   | 84    | 13.10      |
 | -- Differential I/O Pairs | 0    | 37    | 0.00       |
 | RAM64x18                  | 1    | 22    | 4.55       |
 | RAM1K18                   | 0    | 21    | 0.00       |
@@ -58,11 +58,11 @@ Detailed Logic Resource Usage
 +--------------------------+------+-----+
 | Type                     | 4LUT | DFF |
 +--------------------------+------+-----+
-| Fabric Logic             | 233  | 104 |
+| Fabric Logic             | 233  | 102 |
 | RAM64x18 Interface Logic | 36   | 36  |
 | RAM1K18 Interface Logic  | 0    | 0   |
 | MACC Interface Logic     | 0    | 0   |
-| Total Used               | 269  | 140 |
+| Total Used               | 269  | 138 |
 +--------------------------+------+-----+
 
 MSS Resource Usage
@@ -90,7 +90,7 @@ I/O Function
 +-------------------------------+--------------+-------------+-----------------+
 | Type                          | w/o register | w/ register | w/ DDR register |
 +-------------------------------+--------------+-------------+-----------------+
-| Input I/O                     | 1            | 0           | 0               |
+| Input I/O                     | 0            | 0           | 0               |
 | Output I/O                    | 11           | 0           | 0               |
 | Bidirectional I/O             | 0            | 0           | 0               |
 | Differential Input I/O Pairs  | 0            | 0           | 0               |
@@ -101,14 +101,14 @@ I/O Technology
 +--------------+--------+------+-------+--------+---------------+
 | I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
 +--------------+--------+------+-------+--------+---------------+
-| LVCMOS25     |  2.50v |  N/A |  1    |  11    |  0            |
+| LVCMOS25     |  2.50v |  N/A |  0    |  11    |  0            |
 +--------------+--------+------+-------+--------+---------------+
 
 Nets assigned to chip global resources
 +--------+---------+------------------------------------------------------------------------------+
 | Fanout | Type    | Name                                                                         |
 +--------+---------+------------------------------------------------------------------------------+
-| 107    | INT_NET | Net   : FIC_0_CLK_c                                                          |
+| 105    | INT_NET | Net   : FIC_0_CLK_c                                                          |
 |        |         | Driver: transmitter_sb_0/CCC_0/GL0_INST/U0_RGB1                              |
 |        |         | Source: NETLIST                                                              |
 | 66     | INT_NET | Net   : transmitter_sb_0/MSS_HPMS_READY_int_arst                             |

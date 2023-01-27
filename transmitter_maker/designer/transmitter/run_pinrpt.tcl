@@ -1,6 +1,6 @@
 DESIGN=transmitter
-DESDIR=C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\designer\transmitter
-TARGET_DIR=C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\designer\transmitter
+DESDIR=C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\designer\transmitter
+TARGET_DIR=C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\designer\transmitter
 FAM=SmartFusion2
 DIE=PA4M1000_N
 PACKAGE=tq144

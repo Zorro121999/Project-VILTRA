@@ -1,5 +1,5 @@
 probe \
-    -desdir {C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\designer\transmitter} \
+    -desdir {C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\designer\transmitter} \
     -design transmitter \
     -fam SmartFusion2 \
     -die PA4M1000_N \
