@@ -132,11 +132,13 @@ begin
             Memory_Mapped_Registers <= (OTHERS => (OTHERS => '0'));
             PRDATA_V := (OTHERS => '0');
             PREADY_V := '0';
+            rd_en <= '0';
             --PSLVERR_V := '0';
         ELSE
             IF rising_edge(PCLK) THEN
                 PRDATA_V := (OTHERS => '0');
                 PREADY_V := '0';
+                rd_en<='0';
                 --PSLVERR_V := '0';
                 IF PSEL = '1' THEN
                     IF PENABLE = '1' THEN
