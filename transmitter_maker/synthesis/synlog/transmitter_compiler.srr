@@ -64,9 +64,7 @@ File C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\wor
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter_sb\transmitter_sb.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter\transmitter.vhd'.
 VHDL syntax check successful!
-File C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter_sb_MSS\transmitter_sb_MSS_syn.vhd changed - recompiling
-File C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter_sb_MSS\transmitter_sb_MSS.vhd changed - recompiling
-File C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter\transmitter.vhd changed - recompiling
+File C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\display_noham.vhd changed - recompiling
 @N: CD231 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter\transmitter.vhd":17:7:17:17|Synthesizing work.transmitter.rtl.
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter_sb\transmitter_sb.vhd":20:7:20:20|Synthesizing work.transmitter_sb.rtl.
@@ -75,13 +73,11 @@ File C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\wor
 Post processing for work.mss_010.def_arch
 Post processing for work.transmitter_sb_mss.rtl
 Running optimization stage 1 on transmitter_sb_MSS .......
-Finished optimization stage 1 on transmitter_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+Finished optimization stage 1 on transmitter_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 102MB)
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\trans_slave_noham.vhd":23:7:23:23|Synthesizing work.trans_slave_noham.architecture_trans_slave_noham.
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\APB_slave_vhdl.vhd":24:7:24:20|Synthesizing work.apb_slave_vhdl.architecture_apb_slave_vhdl.
 Post processing for work.apb_slave_vhdl.architecture_apb_slave_vhdl
 Running optimization stage 1 on APB_slave_vhdl .......
-@A: CL282 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\APB_slave_vhdl.vhd":131:8:131:9|Feedback mux created for signal RD_EN. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
-@N: CL189 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\APB_slave_vhdl.vhd":131:8:131:9|Register bit RD_EN is always 1.
 Finished optimization stage 1 on APB_slave_vhdl (CPU Time 0h:00m:00s, Memory Used current: 110MB peak: 119MB)
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\display_noham.vhd":24:7:24:19|Synthesizing work.display_noham.architecture_display_noham.
 Post processing for work.display_noham.architecture_display_noham
@@ -338,12 +334,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\synthesis\synwork\layer0.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 112MB peak: 119MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 112MB peak: 119MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:03s cputime
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
 
 Process completed successfully.
-# Fri Jan 27 16:35:24 2023
+# Thu Feb  2 15:29:29 2023
 
 ###########################################################]
 ###########################################################[
@@ -370,7 +366,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Jan 27 16:35:24 2023
+# Thu Feb  2 15:29:29 2023
 
 ###########################################################]
 
@@ -380,11 +376,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:03s; Memory used current: 23MB peak: 23MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 23MB peak: 23MB)
 
-Process took 0h:00m:06s realtime, 0h:00m:03s cputime
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
 
 Process completed successfully.
-# Fri Jan 27 16:35:24 2023
+# Thu Feb  2 15:29:29 2023
 
 ###########################################################]

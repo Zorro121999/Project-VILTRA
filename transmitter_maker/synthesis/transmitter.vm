@@ -2,7 +2,7 @@
 // Written by Synplify Pro 
 // Product Version "S-2021.09M-SP1"
 // Program "Synplify Pro", Mapper "map202109actsp1, Build 056R"
-// Fri Jan 27 16:35:35 2023
+// Thu Feb  2 15:29:39 2023
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -475,6 +475,7 @@ module display_noham (
   data_int,
   LEDs_c,
   MSS_HPMS_READY_int,
+  rd_int,
   FIC_0_CLK_c,
   MSS_HPMS_READY_int_arst
 )
@@ -482,12 +483,15 @@ module display_noham (
 input [7:0] data_int ;
 output [7:0] LEDs_c ;
 input MSS_HPMS_READY_int ;
+input rd_int ;
 input FIC_0_CLK_c ;
 input MSS_HPMS_READY_int_arst ;
 wire MSS_HPMS_READY_int ;
+wire rd_int ;
 wire FIC_0_CLK_c ;
 wire MSS_HPMS_READY_int_arst ;
 wire [7:0] LEDs_disp_Z;
+wire [7:0] LEDs_disp_i;
 wire [7:0] LEDs_int_Z;
 wire dffr1_Z ;
 wire VCC ;
@@ -495,13 +499,53 @@ wire GND ;
 wire dffr2_Z ;
 wire un2_rd_int_or ;
 wire rd_int_or ;
+  CFG1 \LEDs_RNO[0]  (
+	.A(LEDs_disp_Z[0]),
+	.Y(LEDs_disp_i[0])
+);
+defparam \LEDs_RNO[0] .INIT=2'h1;
+  CFG1 \LEDs_RNO[1]  (
+	.A(LEDs_disp_Z[1]),
+	.Y(LEDs_disp_i[1])
+);
+defparam \LEDs_RNO[1] .INIT=2'h1;
+  CFG1 \LEDs_RNO[2]  (
+	.A(LEDs_disp_Z[2]),
+	.Y(LEDs_disp_i[2])
+);
+defparam \LEDs_RNO[2] .INIT=2'h1;
+  CFG1 \LEDs_RNO[3]  (
+	.A(LEDs_disp_Z[3]),
+	.Y(LEDs_disp_i[3])
+);
+defparam \LEDs_RNO[3] .INIT=2'h1;
+  CFG1 \LEDs_RNO[4]  (
+	.A(LEDs_disp_Z[4]),
+	.Y(LEDs_disp_i[4])
+);
+defparam \LEDs_RNO[4] .INIT=2'h1;
+  CFG1 \LEDs_RNO[5]  (
+	.A(LEDs_disp_Z[5]),
+	.Y(LEDs_disp_i[5])
+);
+defparam \LEDs_RNO[5] .INIT=2'h1;
+  CFG1 \LEDs_RNO[6]  (
+	.A(LEDs_disp_Z[6]),
+	.Y(LEDs_disp_i[6])
+);
+defparam \LEDs_RNO[6] .INIT=2'h1;
+  CFG1 \LEDs_RNO[7]  (
+	.A(LEDs_disp_Z[7]),
+	.Y(LEDs_disp_i[7])
+);
+defparam \LEDs_RNO[7] .INIT=2'h1;
 // @13:49
   SLE dffr1 (
 	.Q(dffr1_Z),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
-	.D(VCC),
+	.D(rd_int),
 	.EN(VCC),
 	.LAT(GND),
 	.SD(GND),
@@ -525,7 +569,7 @@ wire rd_int_or ;
 	.ADn(VCC),
 	.ALn(VCC),
 	.CLK(FIC_0_CLK_c),
-	.D(LEDs_disp_Z[7]),
+	.D(LEDs_disp_i[7]),
 	.EN(un2_rd_int_or),
 	.LAT(GND),
 	.SD(GND),
@@ -537,7 +581,7 @@ wire rd_int_or ;
 	.ADn(VCC),
 	.ALn(VCC),
 	.CLK(FIC_0_CLK_c),
-	.D(LEDs_disp_Z[6]),
+	.D(LEDs_disp_i[6]),
 	.EN(un2_rd_int_or),
 	.LAT(GND),
 	.SD(GND),
@@ -549,7 +593,7 @@ wire rd_int_or ;
 	.ADn(VCC),
 	.ALn(VCC),
 	.CLK(FIC_0_CLK_c),
-	.D(LEDs_disp_Z[5]),
+	.D(LEDs_disp_i[5]),
 	.EN(un2_rd_int_or),
 	.LAT(GND),
 	.SD(GND),
@@ -561,7 +605,7 @@ wire rd_int_or ;
 	.ADn(VCC),
 	.ALn(VCC),
 	.CLK(FIC_0_CLK_c),
-	.D(LEDs_disp_Z[4]),
+	.D(LEDs_disp_i[4]),
 	.EN(un2_rd_int_or),
 	.LAT(GND),
 	.SD(GND),
@@ -573,7 +617,7 @@ wire rd_int_or ;
 	.ADn(VCC),
 	.ALn(VCC),
 	.CLK(FIC_0_CLK_c),
-	.D(LEDs_disp_Z[3]),
+	.D(LEDs_disp_i[3]),
 	.EN(un2_rd_int_or),
 	.LAT(GND),
 	.SD(GND),
@@ -585,7 +629,7 @@ wire rd_int_or ;
 	.ADn(VCC),
 	.ALn(VCC),
 	.CLK(FIC_0_CLK_c),
-	.D(LEDs_disp_Z[2]),
+	.D(LEDs_disp_i[2]),
 	.EN(un2_rd_int_or),
 	.LAT(GND),
 	.SD(GND),
@@ -597,7 +641,7 @@ wire rd_int_or ;
 	.ADn(VCC),
 	.ALn(VCC),
 	.CLK(FIC_0_CLK_c),
-	.D(LEDs_disp_Z[1]),
+	.D(LEDs_disp_i[1]),
 	.EN(un2_rd_int_or),
 	.LAT(GND),
 	.SD(GND),
@@ -609,7 +653,7 @@ wire rd_int_or ;
 	.ADn(VCC),
 	.ALn(VCC),
 	.CLK(FIC_0_CLK_c),
-	.D(LEDs_disp_Z[0]),
+	.D(LEDs_disp_i[0]),
 	.EN(un2_rd_int_or),
 	.LAT(GND),
 	.SD(GND),
@@ -838,6 +882,7 @@ module APB_slave_vhdl (
   CoreAPB3_0_APBmslave0_PWRITE,
   CoreAPB3_0_APBmslave0_PENABLE,
   CoreAPB3_0_APBmslave0_PSELx,
+  rd_int,
   FIC_0_CLK_c,
   MSS_HPMS_READY_int_arst,
   CoreAPB3_0_APBmslave0_PREADY
@@ -849,149 +894,151 @@ input [5:0] CoreAPB3_0_APBmslave0_PADDR ;
 input CoreAPB3_0_APBmslave0_PWRITE ;
 input CoreAPB3_0_APBmslave0_PENABLE ;
 input CoreAPB3_0_APBmslave0_PSELx ;
+output rd_int ;
 input FIC_0_CLK_c ;
 input MSS_HPMS_READY_int_arst ;
 output CoreAPB3_0_APBmslave0_PREADY ;
 wire CoreAPB3_0_APBmslave0_PWRITE ;
 wire CoreAPB3_0_APBmslave0_PENABLE ;
 wire CoreAPB3_0_APBmslave0_PSELx ;
+wire rd_int ;
 wire FIC_0_CLK_c ;
 wire MSS_HPMS_READY_int_arst ;
 wire CoreAPB3_0_APBmslave0_PREADY ;
 wire [7:0] Memory_Mapped_Registersrx;
 wire [17:8] Memory_Mapped_Registers_Memory_Mapped_Registers_0_0_A_DOUT;
 wire VCC ;
-wire pready_v_4 ;
+wire RD_EN_0_sqmuxa_Z ;
 wire GND ;
+wire RD_EN_3_Z ;
+wire Memory_Mapped_Registersro_1 ;
+wire Memory_Mapped_Registerswre_1 ;
+wire Memory_Mapped_Registersro_0 ;
+wire Memory_Mapped_Registerswre_0 ;
+wire Memory_Mapped_Registersro_6 ;
+wire Memory_Mapped_Registerswre_6 ;
+wire Memory_Mapped_Registersro_5 ;
+wire Memory_Mapped_Registerswre_5 ;
 wire Memory_Mapped_Registersro_4 ;
 wire Memory_Mapped_Registerswre_4 ;
 wire Memory_Mapped_Registersro_3 ;
 wire Memory_Mapped_Registerswre_3 ;
 wire Memory_Mapped_Registersro_2 ;
 wire Memory_Mapped_Registerswre_2 ;
-wire Memory_Mapped_Registersro_1 ;
-wire Memory_Mapped_Registerswre_1 ;
-wire Memory_Mapped_Registersro_0 ;
-wire Memory_Mapped_Registerswre_0 ;
+wire Memory_Mapped_Registersro_11 ;
+wire Memory_Mapped_Registerswre_11 ;
+wire Memory_Mapped_Registersro_10 ;
+wire Memory_Mapped_Registerswre_10 ;
 wire Memory_Mapped_Registersro_9 ;
 wire Memory_Mapped_Registerswre_9 ;
 wire Memory_Mapped_Registersro_8 ;
 wire Memory_Mapped_Registerswre_8 ;
 wire Memory_Mapped_Registersro_7 ;
 wire Memory_Mapped_Registerswre_7 ;
-wire Memory_Mapped_Registersro_6 ;
-wire Memory_Mapped_Registerswre_6 ;
-wire Memory_Mapped_Registersro_5 ;
-wire Memory_Mapped_Registerswre_5 ;
+wire Memory_Mapped_Registersro_16 ;
+wire Memory_Mapped_Registerswre_16 ;
+wire Memory_Mapped_Registersro_15 ;
+wire Memory_Mapped_Registerswre_15 ;
 wire Memory_Mapped_Registersro_14 ;
 wire Memory_Mapped_Registerswre_14 ;
 wire Memory_Mapped_Registersro_13 ;
 wire Memory_Mapped_Registerswre_13 ;
 wire Memory_Mapped_Registersro_12 ;
 wire Memory_Mapped_Registerswre_12 ;
-wire Memory_Mapped_Registersro_11 ;
-wire Memory_Mapped_Registerswre_11 ;
-wire Memory_Mapped_Registersro_10 ;
-wire Memory_Mapped_Registerswre_10 ;
+wire Memory_Mapped_Registersro_21 ;
+wire Memory_Mapped_Registerswre_21 ;
+wire Memory_Mapped_Registersro_20 ;
+wire Memory_Mapped_Registerswre_20 ;
 wire Memory_Mapped_Registersro_19 ;
 wire Memory_Mapped_Registerswre_19 ;
 wire Memory_Mapped_Registersro_18 ;
 wire Memory_Mapped_Registerswre_18 ;
 wire Memory_Mapped_Registersro_17 ;
 wire Memory_Mapped_Registerswre_17 ;
-wire Memory_Mapped_Registersro_16 ;
-wire Memory_Mapped_Registerswre_16 ;
-wire Memory_Mapped_Registersro_15 ;
-wire Memory_Mapped_Registerswre_15 ;
+wire Memory_Mapped_Registersro_26 ;
+wire Memory_Mapped_Registerswre_26 ;
+wire Memory_Mapped_Registersro_25 ;
+wire Memory_Mapped_Registerswre_25 ;
 wire Memory_Mapped_Registersro_24 ;
 wire Memory_Mapped_Registerswre_24 ;
 wire Memory_Mapped_Registersro_23 ;
 wire Memory_Mapped_Registerswre_23 ;
 wire Memory_Mapped_Registersro_22 ;
 wire Memory_Mapped_Registerswre_22 ;
-wire Memory_Mapped_Registersro_21 ;
-wire Memory_Mapped_Registerswre_21 ;
-wire Memory_Mapped_Registersro_20 ;
-wire Memory_Mapped_Registerswre_20 ;
+wire Memory_Mapped_Registersro_31 ;
+wire Memory_Mapped_Registerswre_31 ;
+wire Memory_Mapped_Registersro_30 ;
+wire Memory_Mapped_Registerswre_30 ;
 wire Memory_Mapped_Registersro_29 ;
 wire Memory_Mapped_Registerswre_29 ;
 wire Memory_Mapped_Registersro_28 ;
 wire Memory_Mapped_Registerswre_28 ;
 wire Memory_Mapped_Registersro_27 ;
 wire Memory_Mapped_Registerswre_27 ;
-wire Memory_Mapped_Registersro_26 ;
-wire Memory_Mapped_Registerswre_26 ;
-wire Memory_Mapped_Registersro_25 ;
-wire Memory_Mapped_Registerswre_25 ;
+wire Memory_Mapped_Registersro_36 ;
+wire Memory_Mapped_Registerswre_36 ;
+wire Memory_Mapped_Registersro_35 ;
+wire Memory_Mapped_Registerswre_35 ;
 wire Memory_Mapped_Registersro_34 ;
 wire Memory_Mapped_Registerswre_34 ;
 wire Memory_Mapped_Registersro_33 ;
 wire Memory_Mapped_Registerswre_33 ;
 wire Memory_Mapped_Registersro_32 ;
 wire Memory_Mapped_Registerswre_32 ;
-wire Memory_Mapped_Registersro_31 ;
-wire Memory_Mapped_Registerswre_31 ;
-wire Memory_Mapped_Registersro_30 ;
-wire Memory_Mapped_Registerswre_30 ;
+wire Memory_Mapped_Registersro_41 ;
+wire Memory_Mapped_Registerswre_41 ;
+wire Memory_Mapped_Registersro_40 ;
+wire Memory_Mapped_Registerswre_40 ;
 wire Memory_Mapped_Registersro_39 ;
 wire Memory_Mapped_Registerswre_39 ;
 wire Memory_Mapped_Registersro_38 ;
 wire Memory_Mapped_Registerswre_38 ;
 wire Memory_Mapped_Registersro_37 ;
 wire Memory_Mapped_Registerswre_37 ;
-wire Memory_Mapped_Registersro_36 ;
-wire Memory_Mapped_Registerswre_36 ;
-wire Memory_Mapped_Registersro_35 ;
-wire Memory_Mapped_Registerswre_35 ;
+wire Memory_Mapped_Registersro_46 ;
+wire Memory_Mapped_Registerswre_46 ;
+wire Memory_Mapped_Registersro_45 ;
+wire Memory_Mapped_Registerswre_45 ;
 wire Memory_Mapped_Registersro_44 ;
 wire Memory_Mapped_Registerswre_44 ;
 wire Memory_Mapped_Registersro_43 ;
 wire Memory_Mapped_Registerswre_43 ;
 wire Memory_Mapped_Registersro_42 ;
 wire Memory_Mapped_Registerswre_42 ;
-wire Memory_Mapped_Registersro_41 ;
-wire Memory_Mapped_Registerswre_41 ;
-wire Memory_Mapped_Registersro_40 ;
-wire Memory_Mapped_Registerswre_40 ;
+wire Memory_Mapped_Registersro_51 ;
+wire Memory_Mapped_Registerswre_51 ;
+wire Memory_Mapped_Registersro_50 ;
+wire Memory_Mapped_Registerswre_50 ;
 wire Memory_Mapped_Registersro_49 ;
 wire Memory_Mapped_Registerswre_49 ;
 wire Memory_Mapped_Registersro_48 ;
 wire Memory_Mapped_Registerswre_48 ;
 wire Memory_Mapped_Registersro_47 ;
 wire Memory_Mapped_Registerswre_47 ;
-wire Memory_Mapped_Registersro_46 ;
-wire Memory_Mapped_Registerswre_46 ;
-wire Memory_Mapped_Registersro_45 ;
-wire Memory_Mapped_Registerswre_45 ;
+wire Memory_Mapped_Registersro_56 ;
+wire Memory_Mapped_Registerswre_56 ;
+wire Memory_Mapped_Registersro_55 ;
+wire Memory_Mapped_Registerswre_55 ;
 wire Memory_Mapped_Registersro_54 ;
 wire Memory_Mapped_Registerswre_54 ;
 wire Memory_Mapped_Registersro_53 ;
 wire Memory_Mapped_Registerswre_53 ;
 wire Memory_Mapped_Registersro_52 ;
 wire Memory_Mapped_Registerswre_52 ;
-wire Memory_Mapped_Registersro_51 ;
-wire Memory_Mapped_Registerswre_51 ;
-wire Memory_Mapped_Registersro_50 ;
-wire Memory_Mapped_Registerswre_50 ;
+wire Memory_Mapped_Registersro_61 ;
+wire Memory_Mapped_Registerswre_61 ;
+wire Memory_Mapped_Registersro_60 ;
+wire Memory_Mapped_Registerswre_60 ;
 wire Memory_Mapped_Registersro_59 ;
 wire Memory_Mapped_Registerswre_59 ;
 wire Memory_Mapped_Registersro_58 ;
 wire Memory_Mapped_Registerswre_58 ;
 wire Memory_Mapped_Registersro_57 ;
 wire Memory_Mapped_Registerswre_57 ;
-wire Memory_Mapped_Registersro_56 ;
-wire Memory_Mapped_Registerswre_56 ;
-wire Memory_Mapped_Registersro_55 ;
-wire Memory_Mapped_Registerswre_55 ;
 wire Memory_Mapped_Registersro_63 ;
 wire Memory_Mapped_Registerswre_63 ;
 wire Memory_Mapped_Registersro_62 ;
 wire Memory_Mapped_Registerswre_62 ;
-wire Memory_Mapped_Registersro_61 ;
-wire Memory_Mapped_Registerswre_61 ;
-wire Memory_Mapped_Registersro_60 ;
-wire Memory_Mapped_Registerswre_60 ;
-wire un1_penable_Z ;
 wire Memory_Mapped_Registersa53_1_0_Z ;
 wire Memory_Mapped_Registersa53_Z ;
 wire Memory_Mapped_Registersa19_1_Z ;
@@ -1201,8 +1248,68 @@ wire NC18 ;
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @12:131
+  SLE RD_EN (
+	.Q(rd_int),
+	.ADn(VCC),
+	.ALn(MSS_HPMS_READY_int_arst),
+	.CLK(FIC_0_CLK_c),
+	.D(RD_EN_3_Z),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @12:131
+  SLE Memory_Mapped_Registersrff_1 (
+	.Q(Memory_Mapped_Registersro_1),
+	.ADn(VCC),
+	.ALn(MSS_HPMS_READY_int_arst),
+	.CLK(FIC_0_CLK_c),
+	.D(VCC),
+	.EN(Memory_Mapped_Registerswre_1),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @12:131
+  SLE Memory_Mapped_Registersrff_0 (
+	.Q(Memory_Mapped_Registersro_0),
+	.ADn(VCC),
+	.ALn(MSS_HPMS_READY_int_arst),
+	.CLK(FIC_0_CLK_c),
+	.D(VCC),
+	.EN(Memory_Mapped_Registerswre_0),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @12:131
+  SLE Memory_Mapped_Registersrff_6 (
+	.Q(Memory_Mapped_Registersro_6),
+	.ADn(VCC),
+	.ALn(MSS_HPMS_READY_int_arst),
+	.CLK(FIC_0_CLK_c),
+	.D(VCC),
+	.EN(Memory_Mapped_Registerswre_6),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @12:131
+  SLE Memory_Mapped_Registersrff_5 (
+	.Q(Memory_Mapped_Registersro_5),
+	.ADn(VCC),
+	.ALn(MSS_HPMS_READY_int_arst),
+	.CLK(FIC_0_CLK_c),
+	.D(VCC),
+	.EN(Memory_Mapped_Registerswre_5),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1244,25 +1351,25 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_1 (
-	.Q(Memory_Mapped_Registersro_1),
+  SLE Memory_Mapped_Registersrff_11 (
+	.Q(Memory_Mapped_Registersro_11),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_1),
+	.EN(Memory_Mapped_Registerswre_11),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_0 (
-	.Q(Memory_Mapped_Registersro_0),
+  SLE Memory_Mapped_Registersrff_10 (
+	.Q(Memory_Mapped_Registersro_10),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_0),
+	.EN(Memory_Mapped_Registerswre_10),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1304,25 +1411,25 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_6 (
-	.Q(Memory_Mapped_Registersro_6),
+  SLE Memory_Mapped_Registersrff_16 (
+	.Q(Memory_Mapped_Registersro_16),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_6),
+	.EN(Memory_Mapped_Registerswre_16),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_5 (
-	.Q(Memory_Mapped_Registersro_5),
+  SLE Memory_Mapped_Registersrff_15 (
+	.Q(Memory_Mapped_Registersro_15),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_5),
+	.EN(Memory_Mapped_Registerswre_15),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1364,25 +1471,25 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_11 (
-	.Q(Memory_Mapped_Registersro_11),
+  SLE Memory_Mapped_Registersrff_21 (
+	.Q(Memory_Mapped_Registersro_21),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_11),
+	.EN(Memory_Mapped_Registerswre_21),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_10 (
-	.Q(Memory_Mapped_Registersro_10),
+  SLE Memory_Mapped_Registersrff_20 (
+	.Q(Memory_Mapped_Registersro_20),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_10),
+	.EN(Memory_Mapped_Registerswre_20),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1424,25 +1531,25 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_16 (
-	.Q(Memory_Mapped_Registersro_16),
+  SLE Memory_Mapped_Registersrff_26 (
+	.Q(Memory_Mapped_Registersro_26),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_16),
+	.EN(Memory_Mapped_Registerswre_26),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_15 (
-	.Q(Memory_Mapped_Registersro_15),
+  SLE Memory_Mapped_Registersrff_25 (
+	.Q(Memory_Mapped_Registersro_25),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_15),
+	.EN(Memory_Mapped_Registerswre_25),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1484,25 +1591,25 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_21 (
-	.Q(Memory_Mapped_Registersro_21),
+  SLE Memory_Mapped_Registersrff_31 (
+	.Q(Memory_Mapped_Registersro_31),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_21),
+	.EN(Memory_Mapped_Registerswre_31),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_20 (
-	.Q(Memory_Mapped_Registersro_20),
+  SLE Memory_Mapped_Registersrff_30 (
+	.Q(Memory_Mapped_Registersro_30),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_20),
+	.EN(Memory_Mapped_Registerswre_30),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1544,25 +1651,25 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_26 (
-	.Q(Memory_Mapped_Registersro_26),
+  SLE Memory_Mapped_Registersrff_36 (
+	.Q(Memory_Mapped_Registersro_36),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_26),
+	.EN(Memory_Mapped_Registerswre_36),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_25 (
-	.Q(Memory_Mapped_Registersro_25),
+  SLE Memory_Mapped_Registersrff_35 (
+	.Q(Memory_Mapped_Registersro_35),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_25),
+	.EN(Memory_Mapped_Registerswre_35),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1604,25 +1711,25 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_31 (
-	.Q(Memory_Mapped_Registersro_31),
+  SLE Memory_Mapped_Registersrff_41 (
+	.Q(Memory_Mapped_Registersro_41),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_31),
+	.EN(Memory_Mapped_Registerswre_41),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_30 (
-	.Q(Memory_Mapped_Registersro_30),
+  SLE Memory_Mapped_Registersrff_40 (
+	.Q(Memory_Mapped_Registersro_40),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_30),
+	.EN(Memory_Mapped_Registerswre_40),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1664,25 +1771,25 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_36 (
-	.Q(Memory_Mapped_Registersro_36),
+  SLE Memory_Mapped_Registersrff_46 (
+	.Q(Memory_Mapped_Registersro_46),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_36),
+	.EN(Memory_Mapped_Registerswre_46),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_35 (
-	.Q(Memory_Mapped_Registersro_35),
+  SLE Memory_Mapped_Registersrff_45 (
+	.Q(Memory_Mapped_Registersro_45),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_35),
+	.EN(Memory_Mapped_Registerswre_45),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1724,25 +1831,25 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_41 (
-	.Q(Memory_Mapped_Registersro_41),
+  SLE Memory_Mapped_Registersrff_51 (
+	.Q(Memory_Mapped_Registersro_51),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_41),
+	.EN(Memory_Mapped_Registerswre_51),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_40 (
-	.Q(Memory_Mapped_Registersro_40),
+  SLE Memory_Mapped_Registersrff_50 (
+	.Q(Memory_Mapped_Registersro_50),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_40),
+	.EN(Memory_Mapped_Registerswre_50),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1784,25 +1891,25 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_46 (
-	.Q(Memory_Mapped_Registersro_46),
+  SLE Memory_Mapped_Registersrff_56 (
+	.Q(Memory_Mapped_Registersro_56),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_46),
+	.EN(Memory_Mapped_Registerswre_56),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_45 (
-	.Q(Memory_Mapped_Registersro_45),
+  SLE Memory_Mapped_Registersrff_55 (
+	.Q(Memory_Mapped_Registersro_55),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_45),
+	.EN(Memory_Mapped_Registerswre_55),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1844,25 +1951,25 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_51 (
-	.Q(Memory_Mapped_Registersro_51),
+  SLE Memory_Mapped_Registersrff_61 (
+	.Q(Memory_Mapped_Registersro_61),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_51),
+	.EN(Memory_Mapped_Registerswre_61),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_50 (
-	.Q(Memory_Mapped_Registersro_50),
+  SLE Memory_Mapped_Registersrff_60 (
+	.Q(Memory_Mapped_Registersro_60),
 	.ADn(VCC),
 	.ALn(MSS_HPMS_READY_int_arst),
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_50),
+	.EN(Memory_Mapped_Registerswre_60),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -1904,30 +2011,6 @@ wire NC18 ;
 	.SLn(VCC)
 );
 // @12:131
-  SLE Memory_Mapped_Registersrff_56 (
-	.Q(Memory_Mapped_Registersro_56),
-	.ADn(VCC),
-	.ALn(MSS_HPMS_READY_int_arst),
-	.CLK(FIC_0_CLK_c),
-	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_56),
-	.LAT(GND),
-	.SD(GND),
-	.SLn(VCC)
-);
-// @12:131
-  SLE Memory_Mapped_Registersrff_55 (
-	.Q(Memory_Mapped_Registersro_55),
-	.ADn(VCC),
-	.ALn(MSS_HPMS_READY_int_arst),
-	.CLK(FIC_0_CLK_c),
-	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_55),
-	.LAT(GND),
-	.SD(GND),
-	.SLn(VCC)
-);
-// @12:131
   SLE Memory_Mapped_Registersrff_63 (
 	.Q(Memory_Mapped_Registersro_63),
 	.ADn(VCC),
@@ -1947,30 +2030,6 @@ wire NC18 ;
 	.CLK(FIC_0_CLK_c),
 	.D(VCC),
 	.EN(Memory_Mapped_Registerswre_62),
-	.LAT(GND),
-	.SD(GND),
-	.SLn(VCC)
-);
-// @12:131
-  SLE Memory_Mapped_Registersrff_61 (
-	.Q(Memory_Mapped_Registersro_61),
-	.ADn(VCC),
-	.ALn(MSS_HPMS_READY_int_arst),
-	.CLK(FIC_0_CLK_c),
-	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_61),
-	.LAT(GND),
-	.SD(GND),
-	.SLn(VCC)
-);
-// @12:131
-  SLE Memory_Mapped_Registersrff_60 (
-	.Q(Memory_Mapped_Registersro_60),
-	.ADn(VCC),
-	.ALn(MSS_HPMS_READY_int_arst),
-	.CLK(FIC_0_CLK_c),
-	.D(VCC),
-	.EN(Memory_Mapped_Registerswre_60),
 	.LAT(GND),
 	.SD(GND),
 	.SLn(VCC)
@@ -2003,7 +2062,7 @@ wire NC18 ;
 	.C_CLK(FIC_0_CLK_c),
 	.C_ADDR({GND, CoreAPB3_0_APBmslave0_PADDR[5:0], GND, GND, GND}),
 	.C_DIN({GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, CoreAPB3_0_APBmslave0_PWDATA[7:0]}),
-	.C_WEN(un1_penable_Z),
+	.C_WEN(RD_EN_3_Z),
 	.C_BLK({VCC, VCC}),
 	.A_EN(VCC),
 	.A_ADDR_LAT(VCC),
@@ -2440,13 +2499,13 @@ defparam Memory_Mapped_Registersa2_1_0.INIT=4'h4;
 	.Y(Memory_Mapped_Registersa1_1_0_Z)
 );
 defparam Memory_Mapped_Registersa1_1_0.INIT=4'h2;
-// @12:141
-  CFG2 \Single_Process.pready_v_4  (
+// @12:144
+  CFG2 RD_EN_0_sqmuxa (
 	.A(CoreAPB3_0_APBmslave0_PSELx),
 	.B(CoreAPB3_0_APBmslave0_PENABLE),
-	.Y(pready_v_4)
+	.Y(RD_EN_0_sqmuxa_Z)
 );
-defparam \Single_Process.pready_v_4 .INIT=4'h8;
+defparam RD_EN_0_sqmuxa.INIT=4'h8;
   CFG2 Memory_Mapped_Registersa18_3 (
 	.A(CoreAPB3_0_APBmslave0_PADDR[5]),
 	.B(CoreAPB3_0_APBmslave0_PADDR[3]),
@@ -2923,14 +2982,14 @@ defparam Memory_Mapped_Registersa26_0.INIT=16'h0040;
 	.Y(Memory_Mapped_Registersa23_4_Z)
 );
 defparam Memory_Mapped_Registersa23_4.INIT=16'h8000;
-// @12:141
-  CFG3 un1_penable (
+// @12:143
+  CFG3 RD_EN_3 (
 	.A(CoreAPB3_0_APBmslave0_PSELx),
 	.B(CoreAPB3_0_APBmslave0_PENABLE),
 	.C(CoreAPB3_0_APBmslave0_PWRITE),
-	.Y(un1_penable_Z)
+	.Y(RD_EN_3_Z)
 );
-defparam un1_penable.INIT=8'h80;
+defparam RD_EN_3.INIT=8'h80;
   CFG4 Memory_Mapped_Registersa30_4 (
 	.A(CoreAPB3_0_APBmslave0_PADDR[4]),
 	.B(CoreAPB3_0_APBmslave0_PADDR[3]),
@@ -3186,7 +3245,7 @@ defparam Memory_Mapped_Registersrff_3_RNI05121.INIT=16'h135F;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa46_1_Z),
 	.C(Memory_Mapped_Registersa30_1_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_46)
 );
 defparam Memory_Mapped_Registersrff_46_RNO.INIT=16'h8000;
@@ -3194,7 +3253,7 @@ defparam Memory_Mapped_Registersrff_46_RNO.INIT=16'h8000;
   CFG3 Memory_Mapped_Registersrff_38_RNO (
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registerswre_38_0),
-	.C(pready_v_4),
+	.C(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_38)
 );
 defparam Memory_Mapped_Registersrff_38_RNO.INIT=8'h80;
@@ -3203,7 +3262,7 @@ defparam Memory_Mapped_Registersrff_38_RNO.INIT=8'h80;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa63_3_Z),
 	.C(Memory_Mapped_Registersa10_0_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_58)
 );
 defparam Memory_Mapped_Registersrff_58_RNO.INIT=16'h8000;
@@ -3212,7 +3271,7 @@ defparam Memory_Mapped_Registersrff_58_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa63_3_Z),
 	.C(Memory_Mapped_Registersa6_0),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_54)
 );
 defparam Memory_Mapped_Registersrff_54_RNO.INIT=16'h8000;
@@ -3220,7 +3279,7 @@ defparam Memory_Mapped_Registersrff_54_RNO.INIT=16'h8000;
   CFG3 Memory_Mapped_Registersrff_50_RNO (
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registerswre_50_0),
-	.C(pready_v_4),
+	.C(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_50)
 );
 defparam Memory_Mapped_Registersrff_50_RNO.INIT=8'h80;
@@ -3229,7 +3288,7 @@ defparam Memory_Mapped_Registersrff_50_RNO.INIT=8'h80;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa45_0_Z),
 	.C(Memory_Mapped_Registersa53_1_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_45)
 );
 defparam Memory_Mapped_Registersrff_45_RNO.INIT=16'h8000;
@@ -3237,7 +3296,7 @@ defparam Memory_Mapped_Registersrff_45_RNO.INIT=16'h8000;
   CFG4 Memory_Mapped_Registersrff_43_RNO (
 	.A(CoreAPB3_0_APBmslave0_PADDR[0]),
 	.B(CoreAPB3_0_APBmslave0_PADDR[1]),
-	.C(un1_penable_Z),
+	.C(RD_EN_3_Z),
 	.D(Memory_Mapped_Registersa40_0_Z),
 	.Y(Memory_Mapped_Registerswre_43)
 );
@@ -3247,7 +3306,7 @@ defparam Memory_Mapped_Registersrff_43_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa40_0_Z),
 	.C(Memory_m2_e_18_1),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_40)
 );
 defparam Memory_Mapped_Registersrff_40_RNO.INIT=16'h8000;
@@ -3255,7 +3314,7 @@ defparam Memory_Mapped_Registersrff_40_RNO.INIT=16'h8000;
   CFG4 Memory_Mapped_Registersrff_39_RNO (
 	.A(CoreAPB3_0_APBmslave0_PADDR[0]),
 	.B(CoreAPB3_0_APBmslave0_PADDR[1]),
-	.C(un1_penable_Z),
+	.C(RD_EN_3_Z),
 	.D(Memory_Mapped_Registersa36_0_Z),
 	.Y(Memory_Mapped_Registerswre_39)
 );
@@ -3265,7 +3324,7 @@ defparam Memory_Mapped_Registersrff_39_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa37_0_Z),
 	.C(Memory_Mapped_Registersa53_1_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_37)
 );
 defparam Memory_Mapped_Registersrff_37_RNO.INIT=16'h8000;
@@ -3274,7 +3333,7 @@ defparam Memory_Mapped_Registersrff_37_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa36_0_Z),
 	.C(Memory_m2_e_18_1),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_36)
 );
 defparam Memory_Mapped_Registersrff_36_RNO.INIT=16'h8000;
@@ -3282,7 +3341,7 @@ defparam Memory_Mapped_Registersrff_36_RNO.INIT=16'h8000;
   CFG4 Memory_Mapped_Registersrff_35_RNO (
 	.A(CoreAPB3_0_APBmslave0_PADDR[0]),
 	.B(CoreAPB3_0_APBmslave0_PADDR[1]),
-	.C(un1_penable_Z),
+	.C(RD_EN_3_Z),
 	.D(Memory_Mapped_Registersa35_0_Z),
 	.Y(Memory_Mapped_Registerswre_35)
 );
@@ -3291,7 +3350,7 @@ defparam Memory_Mapped_Registersrff_35_RNO.INIT=16'h8000;
   CFG4 Memory_Mapped_Registersrff_25_RNO (
 	.A(CoreAPB3_0_APBmslave0_PADDR[0]),
 	.B(CoreAPB3_0_APBmslave0_PADDR[3]),
-	.C(un1_penable_Z),
+	.C(RD_EN_3_Z),
 	.D(Memory_Mapped_Registersa25_0),
 	.Y(Memory_Mapped_Registerswre_25)
 );
@@ -3301,7 +3360,7 @@ defparam Memory_Mapped_Registersrff_25_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa18_0_Z),
 	.C(Memory_Mapped_Registersa18_3_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_18)
 );
 defparam Memory_Mapped_Registersrff_18_RNO.INIT=16'h8000;
@@ -3310,7 +3369,7 @@ defparam Memory_Mapped_Registersrff_18_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa17_0_Z),
 	.C(Memory_Mapped_Registersa18_3_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_17)
 );
 defparam Memory_Mapped_Registersrff_17_RNO.INIT=16'h8000;
@@ -3319,7 +3378,7 @@ defparam Memory_Mapped_Registersrff_17_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa14_0_Z),
 	.C(Memory_m2_e_11_1),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_14)
 );
 defparam Memory_Mapped_Registersrff_14_RNO.INIT=16'h8000;
@@ -3328,7 +3387,7 @@ defparam Memory_Mapped_Registersrff_14_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa10_0_Z),
 	.C(Memory_m2_e_11_1),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_10)
 );
 defparam Memory_Mapped_Registersrff_10_RNO.INIT=16'h8000;
@@ -3337,7 +3396,7 @@ defparam Memory_Mapped_Registersrff_10_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa6_0),
 	.C(Memory_m2_e_11_1),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_6)
 );
 defparam Memory_Mapped_Registersrff_6_RNO.INIT=16'h8000;
@@ -3345,7 +3404,7 @@ defparam Memory_Mapped_Registersrff_6_RNO.INIT=16'h8000;
   CFG3 Memory_Mapped_Registersrff_2_RNO (
 	.A(Memory_Mapped_Registerswre_2_0),
 	.B(CoreAPB3_0_APBmslave0_PWRITE),
-	.C(pready_v_4),
+	.C(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_2)
 );
 defparam Memory_Mapped_Registersrff_2_RNO.INIT=8'h80;
@@ -3353,7 +3412,7 @@ defparam Memory_Mapped_Registersrff_2_RNO.INIT=8'h80;
   CFG3 Memory_Mapped_Registersrff_1_RNO (
 	.A(Memory_Mapped_Registerswre_1_0),
 	.B(CoreAPB3_0_APBmslave0_PWRITE),
-	.C(pready_v_4),
+	.C(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_1)
 );
 defparam Memory_Mapped_Registersrff_1_RNO.INIT=8'h80;
@@ -3362,7 +3421,7 @@ defparam Memory_Mapped_Registersrff_1_RNO.INIT=8'h80;
 	.A(Memory_Mapped_Registersa51_3_Z),
 	.B(Memory_m2_e_18_1),
 	.C(Memory_m2_e_11_1),
-	.D(un1_penable_Z),
+	.D(RD_EN_3_Z),
 	.Y(Memory_Mapped_Registerswre_0)
 );
 defparam Memory_Mapped_Registersrff_0_RNO.INIT=16'h8000;
@@ -3371,7 +3430,7 @@ defparam Memory_Mapped_Registersrff_0_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa3_0_Z),
 	.C(Memory_m2_e_11_1),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_3)
 );
 defparam Memory_Mapped_Registersrff_3_RNO.INIT=16'h8000;
@@ -3380,7 +3439,7 @@ defparam Memory_Mapped_Registersrff_3_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa5_0),
 	.C(Memory_m2_e_11_1),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_5)
 );
 defparam Memory_Mapped_Registersrff_5_RNO.INIT=16'h8000;
@@ -3389,7 +3448,7 @@ defparam Memory_Mapped_Registersrff_5_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa7_1_Z),
 	.C(Memory_m2_e_11_1),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_7)
 );
 defparam Memory_Mapped_Registersrff_7_RNO.INIT=16'h8000;
@@ -3398,7 +3457,7 @@ defparam Memory_Mapped_Registersrff_7_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa8_0_Z),
 	.C(Memory_m2_e_11_1),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_8)
 );
 defparam Memory_Mapped_Registersrff_8_RNO.INIT=16'h8000;
@@ -3407,7 +3466,7 @@ defparam Memory_Mapped_Registersrff_8_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa9_0),
 	.C(Memory_m2_e_11_1),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_9)
 );
 defparam Memory_Mapped_Registersrff_9_RNO.INIT=16'h8000;
@@ -3416,7 +3475,7 @@ defparam Memory_Mapped_Registersrff_9_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa11_1_Z),
 	.C(Memory_m2_e_11_1),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_11)
 );
 defparam Memory_Mapped_Registersrff_11_RNO.INIT=16'h8000;
@@ -3425,7 +3484,7 @@ defparam Memory_Mapped_Registersrff_11_RNO.INIT=16'h8000;
 	.A(Memory_Mapped_Registersa63_2_Z),
 	.B(Memory_m2_e_18_1),
 	.C(Memory_m2_e_11_1),
-	.D(un1_penable_Z),
+	.D(RD_EN_3_Z),
 	.Y(Memory_Mapped_Registerswre_12)
 );
 defparam Memory_Mapped_Registersrff_12_RNO.INIT=16'h8000;
@@ -3434,7 +3493,7 @@ defparam Memory_Mapped_Registersrff_12_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa13_1_Z),
 	.C(Memory_m2_e_11_1),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_13)
 );
 defparam Memory_Mapped_Registersrff_13_RNO.INIT=16'h8000;
@@ -3443,7 +3502,7 @@ defparam Memory_Mapped_Registersrff_13_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa63_4_Z),
 	.C(Memory_m2_e_11_1),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_15)
 );
 defparam Memory_Mapped_Registersrff_15_RNO.INIT=16'h8000;
@@ -3452,7 +3511,7 @@ defparam Memory_Mapped_Registersrff_15_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa20_0_Z),
 	.C(Memory_m2_e_18_1),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_20)
 );
 defparam Memory_Mapped_Registersrff_20_RNO.INIT=16'h8000;
@@ -3461,7 +3520,7 @@ defparam Memory_Mapped_Registersrff_20_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa18_3_Z),
 	.C(Memory_Mapped_Registersa23_4_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_23)
 );
 defparam Memory_Mapped_Registersrff_23_RNO.INIT=16'h8000;
@@ -3470,7 +3529,7 @@ defparam Memory_Mapped_Registersrff_23_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa24_0_Z),
 	.C(Memory_m2_e_18_1),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_24)
 );
 defparam Memory_Mapped_Registersrff_24_RNO.INIT=16'h8000;
@@ -3479,7 +3538,7 @@ defparam Memory_Mapped_Registersrff_24_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_m2_e_17_1),
 	.C(Memory_Mapped_Registersa28_2_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_26)
 );
 defparam Memory_Mapped_Registersrff_26_RNO.INIT=16'h8000;
@@ -3488,7 +3547,7 @@ defparam Memory_Mapped_Registersrff_26_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PADDR[2]),
 	.B(CoreAPB3_0_APBmslave0_PADDR[5]),
 	.C(Memory_Mapped_Registersa59_4),
-	.D(un1_penable_Z),
+	.D(RD_EN_3_Z),
 	.Y(Memory_Mapped_Registerswre_27)
 );
 defparam Memory_Mapped_Registersrff_27_RNO.INIT=16'h1000;
@@ -3496,7 +3555,7 @@ defparam Memory_Mapped_Registersrff_27_RNO.INIT=16'h1000;
   CFG3 Memory_Mapped_Registersrff_29_RNO (
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registerswre_29_0),
-	.C(pready_v_4),
+	.C(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_29)
 );
 defparam Memory_Mapped_Registersrff_29_RNO.INIT=8'h80;
@@ -3505,7 +3564,7 @@ defparam Memory_Mapped_Registersrff_29_RNO.INIT=8'h80;
 	.A(CoreAPB3_0_APBmslave0_PADDR[4]),
 	.B(CoreAPB3_0_APBmslave0_PADDR[5]),
 	.C(Memory_Mapped_Registersa63_4_Z),
-	.D(un1_penable_Z),
+	.D(RD_EN_3_Z),
 	.Y(Memory_Mapped_Registerswre_31)
 );
 defparam Memory_Mapped_Registersrff_31_RNO.INIT=16'h2000;
@@ -3514,7 +3573,7 @@ defparam Memory_Mapped_Registersrff_31_RNO.INIT=16'h2000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa32_0_Z),
 	.C(Memory_Mapped_Registersa56_2_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_32)
 );
 defparam Memory_Mapped_Registersrff_32_RNO.INIT=16'h8000;
@@ -3522,7 +3581,7 @@ defparam Memory_Mapped_Registersrff_32_RNO.INIT=16'h8000;
   CFG4 Memory_Mapped_Registersrff_41_RNO (
 	.A(CoreAPB3_0_APBmslave0_PADDR[0]),
 	.B(CoreAPB3_0_APBmslave0_PADDR[3]),
-	.C(un1_penable_Z),
+	.C(RD_EN_3_Z),
 	.D(Memory_Mapped_Registersa41_0),
 	.Y(Memory_Mapped_Registerswre_41)
 );
@@ -3532,7 +3591,7 @@ defparam Memory_Mapped_Registersrff_41_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PADDR[4]),
 	.B(CoreAPB3_0_APBmslave0_PADDR[5]),
 	.C(Memory_Mapped_Registersa63_4_Z),
-	.D(un1_penable_Z),
+	.D(RD_EN_3_Z),
 	.Y(Memory_Mapped_Registerswre_47)
 );
 defparam Memory_Mapped_Registersrff_47_RNO.INIT=16'h4000;
@@ -3540,7 +3599,7 @@ defparam Memory_Mapped_Registersrff_47_RNO.INIT=16'h4000;
   CFG4 Memory_Mapped_Registersrff_48_RNO (
 	.A(Memory_Mapped_Registersa51_3_Z),
 	.B(Memory_Mapped_Registersa63_3_Z),
-	.C(un1_penable_Z),
+	.C(RD_EN_3_Z),
 	.D(Memory_m2_e_18_1),
 	.Y(Memory_Mapped_Registerswre_48)
 );
@@ -3550,7 +3609,7 @@ defparam Memory_Mapped_Registersrff_48_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa49_0_Z),
 	.C(Memory_Mapped_Registersa51_3_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_49)
 );
 defparam Memory_Mapped_Registersrff_49_RNO.INIT=16'h8000;
@@ -3559,7 +3618,7 @@ defparam Memory_Mapped_Registersrff_49_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PADDR[3]),
 	.B(CoreAPB3_0_APBmslave0_PADDR[5]),
 	.C(Memory_Mapped_Registersa23_4_Z),
-	.D(un1_penable_Z),
+	.D(RD_EN_3_Z),
 	.Y(Memory_Mapped_Registerswre_55)
 );
 defparam Memory_Mapped_Registersrff_55_RNO.INIT=16'h4000;
@@ -3568,7 +3627,7 @@ defparam Memory_Mapped_Registersrff_55_RNO.INIT=16'h4000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa56_0),
 	.C(Memory_Mapped_Registersa56_2_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_56)
 );
 defparam Memory_Mapped_Registersrff_56_RNO.INIT=16'h8000;
@@ -3577,7 +3636,7 @@ defparam Memory_Mapped_Registersrff_56_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PADDR[2]),
 	.B(CoreAPB3_0_APBmslave0_PADDR[5]),
 	.C(Memory_Mapped_Registersa59_4),
-	.D(un1_penable_Z),
+	.D(RD_EN_3_Z),
 	.Y(Memory_Mapped_Registerswre_59)
 );
 defparam Memory_Mapped_Registersrff_59_RNO.INIT=16'h4000;
@@ -3586,7 +3645,7 @@ defparam Memory_Mapped_Registersrff_59_RNO.INIT=16'h4000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa60_0_Z),
 	.C(Memory_m2_e_18_1),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_60)
 );
 defparam Memory_Mapped_Registersrff_60_RNO.INIT=16'h8000;
@@ -3594,7 +3653,7 @@ defparam Memory_Mapped_Registersrff_60_RNO.INIT=16'h8000;
   CFG3 Memory_Mapped_Registersrff_61_RNO (
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registerswre_61_0),
-	.C(pready_v_4),
+	.C(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_61)
 );
 defparam Memory_Mapped_Registersrff_61_RNO.INIT=8'h80;
@@ -3603,7 +3662,7 @@ defparam Memory_Mapped_Registersrff_61_RNO.INIT=8'h80;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa63_3_Z),
 	.C(Memory_Mapped_Registersa63_4_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_63)
 );
 defparam Memory_Mapped_Registersrff_63_RNO.INIT=16'h8000;
@@ -3612,7 +3671,7 @@ defparam Memory_Mapped_Registersrff_63_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa30_4_Z),
 	.C(Memory_Mapped_Registersa56_2_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_62)
 );
 defparam Memory_Mapped_Registersrff_62_RNO.INIT=16'h8000;
@@ -3620,7 +3679,7 @@ defparam Memory_Mapped_Registersrff_62_RNO.INIT=16'h8000;
   CFG4 Memory_Mapped_Registersrff_30_RNO (
 	.A(CoreAPB3_0_APBmslave0_PADDR[0]),
 	.B(CoreAPB3_0_APBmslave0_PADDR[5]),
-	.C(un1_penable_Z),
+	.C(RD_EN_3_Z),
 	.D(Memory_Mapped_Registersa30_4_Z),
 	.Y(Memory_Mapped_Registerswre_30)
 );
@@ -3630,7 +3689,7 @@ defparam Memory_Mapped_Registersrff_30_RNO.INIT=16'h1000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa28_0_Z),
 	.C(Memory_Mapped_Registersa28_2_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_28)
 );
 defparam Memory_Mapped_Registersrff_28_RNO.INIT=16'h8000;
@@ -3639,7 +3698,7 @@ defparam Memory_Mapped_Registersrff_28_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa42_0_Z),
 	.C(Memory_Mapped_Registersa56_2_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_42)
 );
 defparam Memory_Mapped_Registersrff_42_RNO.INIT=16'h8000;
@@ -3648,7 +3707,7 @@ defparam Memory_Mapped_Registersrff_42_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa44_0_Z),
 	.C(Memory_Mapped_Registersa56_2_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_44)
 );
 defparam Memory_Mapped_Registersrff_44_RNO.INIT=16'h8000;
@@ -3657,7 +3716,7 @@ defparam Memory_Mapped_Registersrff_44_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa52_0_Z),
 	.C(Memory_Mapped_Registersa56_2_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_52)
 );
 defparam Memory_Mapped_Registersrff_52_RNO.INIT=16'h8000;
@@ -3666,7 +3725,7 @@ defparam Memory_Mapped_Registersrff_52_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa39_3_Z),
 	.C(Memory_Mapped_Registersa34_1_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_34)
 );
 defparam Memory_Mapped_Registersrff_34_RNO.INIT=16'h8000;
@@ -3674,7 +3733,7 @@ defparam Memory_Mapped_Registersrff_34_RNO.INIT=16'h8000;
   CFG3 Memory_Mapped_Registersrff_4_RNO (
 	.A(Memory_Mapped_Registersa4),
 	.B(CoreAPB3_0_APBmslave0_PWRITE),
-	.C(pready_v_4),
+	.C(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_4)
 );
 defparam Memory_Mapped_Registersrff_4_RNO.INIT=8'h80;
@@ -3682,7 +3741,7 @@ defparam Memory_Mapped_Registersrff_4_RNO.INIT=8'h80;
   CFG3 Memory_Mapped_Registersrff_16_RNO (
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa16_Z),
-	.C(pready_v_4),
+	.C(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_16)
 );
 defparam Memory_Mapped_Registersrff_16_RNO.INIT=8'h80;
@@ -3690,7 +3749,7 @@ defparam Memory_Mapped_Registersrff_16_RNO.INIT=8'h80;
   CFG3 Memory_Mapped_Registersrff_19_RNO (
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa19_Z),
-	.C(pready_v_4),
+	.C(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_19)
 );
 defparam Memory_Mapped_Registersrff_19_RNO.INIT=8'h80;
@@ -3698,7 +3757,7 @@ defparam Memory_Mapped_Registersrff_19_RNO.INIT=8'h80;
   CFG3 Memory_Mapped_Registersrff_21_RNO (
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_m2_e_25_1),
-	.C(pready_v_4),
+	.C(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_21)
 );
 defparam Memory_Mapped_Registersrff_21_RNO.INIT=8'h80;
@@ -3706,7 +3765,7 @@ defparam Memory_Mapped_Registersrff_21_RNO.INIT=8'h80;
   CFG3 Memory_Mapped_Registersrff_22_RNO (
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_m2_e_27_1),
-	.C(pready_v_4),
+	.C(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_22)
 );
 defparam Memory_Mapped_Registersrff_22_RNO.INIT=8'h80;
@@ -3714,7 +3773,7 @@ defparam Memory_Mapped_Registersrff_22_RNO.INIT=8'h80;
   CFG3 Memory_Mapped_Registersrff_33_RNO (
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa33_Z),
-	.C(pready_v_4),
+	.C(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_33)
 );
 defparam Memory_Mapped_Registersrff_33_RNO.INIT=8'h80;
@@ -3722,7 +3781,7 @@ defparam Memory_Mapped_Registersrff_33_RNO.INIT=8'h80;
   CFG3 Memory_Mapped_Registersrff_51_RNO (
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa51),
-	.C(pready_v_4),
+	.C(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_51)
 );
 defparam Memory_Mapped_Registersrff_51_RNO.INIT=8'h80;
@@ -3731,7 +3790,7 @@ defparam Memory_Mapped_Registersrff_51_RNO.INIT=8'h80;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa5_0),
 	.C(Memory_Mapped_Registersa63_3_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_53)
 );
 defparam Memory_Mapped_Registersrff_53_RNO.INIT=16'h8000;
@@ -3740,7 +3799,7 @@ defparam Memory_Mapped_Registersrff_53_RNO.INIT=16'h8000;
 	.A(CoreAPB3_0_APBmslave0_PWRITE),
 	.B(Memory_Mapped_Registersa9_0),
 	.C(Memory_Mapped_Registersa63_3_Z),
-	.D(pready_v_4),
+	.D(RD_EN_0_sqmuxa_Z),
 	.Y(Memory_Mapped_Registerswre_57)
 );
 defparam Memory_Mapped_Registersrff_57_RNO.INIT=16'h8000;
@@ -3919,6 +3978,7 @@ wire MSS_HPMS_READY_int_arst ;
 wire FIC_0_CLK_c ;
 wire MSS_HPMS_READY_int ;
 wire [7:0] data_int;
+wire rd_int ;
 wire GND ;
 wire VCC ;
 // @21:72
@@ -3926,6 +3986,7 @@ wire VCC ;
 	.data_int(data_int[7:0]),
 	.LEDs_c(LEDs_c[7:0]),
 	.MSS_HPMS_READY_int(MSS_HPMS_READY_int),
+	.rd_int(rd_int),
 	.FIC_0_CLK_c(FIC_0_CLK_c),
 	.MSS_HPMS_READY_int_arst(MSS_HPMS_READY_int_arst)
 );
@@ -3937,6 +3998,7 @@ wire VCC ;
 	.CoreAPB3_0_APBmslave0_PWRITE(CoreAPB3_0_APBmslave0_PWRITE),
 	.CoreAPB3_0_APBmslave0_PENABLE(CoreAPB3_0_APBmslave0_PENABLE),
 	.CoreAPB3_0_APBmslave0_PSELx(CoreAPB3_0_APBmslave0_PSELx),
+	.rd_int(rd_int),
 	.FIC_0_CLK_c(FIC_0_CLK_c),
 	.MSS_HPMS_READY_int_arst(MSS_HPMS_READY_int_arst),
 	.CoreAPB3_0_APBmslave0_PREADY(CoreAPB3_0_APBmslave0_PREADY)

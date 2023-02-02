@@ -1,0 +1,23 @@
+----------------------------------------------------------------
+-Pin Report - Date: Thu Feb  2 18:04:27 2023 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: v2022.2
+-Version: 2022.2.0.10
+-Design Name: receiver
+-Family: SmartFusion2
+-Die: M2S010
+-Package: 144 TQ
+-----------------------------------------------------------------
+
+Port       |Pin |Fixed |Function             |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+-----------|----|------|---------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+DEVRST_N    72   Fixed  DEVRST_N              ---       
+GPIO_0_F2M  93   Yes    MSIO5NB2/USB_DATA5_B  Bank2     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+LEDs[0]     129  Yes    DDRIO47PB0            Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+LEDs[1]     128  Yes    DDRIO47NB0            Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+LEDs[2]     125  Yes    DDRIO44PB0            Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+LEDs[3]     124  Yes    DDRIO44NB0            Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+LEDs[4]     123  Yes    DDRIO43PB0            Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+LEDs[5]     122  Yes    DDRIO43NB0            Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+LEDs[6]     118  Yes    DDRIO37PB0            Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+LEDs[7]     117  Yes    DDRIO37NB0            Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 

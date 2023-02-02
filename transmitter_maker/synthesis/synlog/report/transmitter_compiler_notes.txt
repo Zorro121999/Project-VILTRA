@@ -24,7 +24,6 @@
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter_sb_MSS\transmitter_sb_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch.
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\trans_slave_noham.vhd":23:7:23:23|Synthesizing work.trans_slave_noham.architecture_trans_slave_noham.
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\APB_slave_vhdl.vhd":24:7:24:20|Synthesizing work.apb_slave_vhdl.architecture_apb_slave_vhdl.
-@N: CL189 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\APB_slave_vhdl.vhd":131:8:131:9|Register bit RD_EN is always 1.
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\display_noham.vhd":24:7:24:19|Synthesizing work.display_noham.architecture_display_noham.
 @N: CD630 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\smartfusion2.vhd":790:10:790:17|Synthesizing smartfusion2.sysreset.syn_black_box.
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter_sb\FABOSC_0\transmitter_sb_FABOSC_0_OSC.vhd":8:7:8:33|Synthesizing work.transmitter_sb_fabosc_0_osc.def_arch.

@@ -1,0 +1,14 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+
+Date      :  Tue Jan 31 19:06:11 2023
+Project   :  C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker
+Component :  receiver
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Projects/ISISA/viltra-neu/Project-VILTRA/receiver_maker/component/work/receiver/receiver.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Projects/ISISA/viltra-neu/Project-VILTRA/receiver_maker/component/work/receiver/subsystem.bfm
+

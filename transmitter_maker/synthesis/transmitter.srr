@@ -3,7 +3,7 @@
 #OS: Windows 10 or later
 #Hostname: SURFACEPRO
 
-# Fri Jan 27 16:35:18 2023
+# Thu Feb  2 15:29:23 2023
 
 #Implementation: synthesis
 
@@ -73,9 +73,7 @@ File C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\wor
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter_sb\transmitter_sb.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter\transmitter.vhd'.
 VHDL syntax check successful!
-File C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter_sb_MSS\transmitter_sb_MSS_syn.vhd changed - recompiling
-File C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter_sb_MSS\transmitter_sb_MSS.vhd changed - recompiling
-File C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter\transmitter.vhd changed - recompiling
+File C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\display_noham.vhd changed - recompiling
 @N: CD231 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter\transmitter.vhd":17:7:17:17|Synthesizing work.transmitter.rtl.
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter_sb\transmitter_sb.vhd":20:7:20:20|Synthesizing work.transmitter_sb.rtl.
@@ -84,13 +82,11 @@ File C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\wor
 Post processing for work.mss_010.def_arch
 Post processing for work.transmitter_sb_mss.rtl
 Running optimization stage 1 on transmitter_sb_MSS .......
-Finished optimization stage 1 on transmitter_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+Finished optimization stage 1 on transmitter_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 102MB)
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\trans_slave_noham.vhd":23:7:23:23|Synthesizing work.trans_slave_noham.architecture_trans_slave_noham.
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\APB_slave_vhdl.vhd":24:7:24:20|Synthesizing work.apb_slave_vhdl.architecture_apb_slave_vhdl.
 Post processing for work.apb_slave_vhdl.architecture_apb_slave_vhdl
 Running optimization stage 1 on APB_slave_vhdl .......
-@A: CL282 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\APB_slave_vhdl.vhd":131:8:131:9|Feedback mux created for signal RD_EN. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
-@N: CL189 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\APB_slave_vhdl.vhd":131:8:131:9|Register bit RD_EN is always 1.
 Finished optimization stage 1 on APB_slave_vhdl (CPU Time 0h:00m:00s, Memory Used current: 110MB peak: 119MB)
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\display_noham.vhd":24:7:24:19|Synthesizing work.display_noham.architecture_display_noham.
 Post processing for work.display_noham.architecture_display_noham
@@ -347,12 +343,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\synthesis\synwork\layer0.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 112MB peak: 119MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 112MB peak: 119MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:03s cputime
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
 
 Process completed successfully.
-# Fri Jan 27 16:35:24 2023
+# Thu Feb  2 15:29:29 2023
 
 ###########################################################]
 ###########################################################[
@@ -379,7 +375,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Jan 27 16:35:24 2023
+# Thu Feb  2 15:29:29 2023
 
 ###########################################################]
 
@@ -389,12 +385,12 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:03s; Memory used current: 23MB peak: 23MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 23MB peak: 23MB)
 
-Process took 0h:00m:06s realtime, 0h:00m:03s cputime
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
 
 Process completed successfully.
-# Fri Jan 27 16:35:24 2023
+# Thu Feb  2 15:29:29 2023
 
 ###########################################################]
 ###########################################################[
@@ -421,12 +417,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Jan 27 16:35:26 2023
+# Thu Feb  2 15:29:31 2023
 
 ###########################################################]
 Premap Report
 
-# Fri Jan 27 16:35:26 2023
+# Thu Feb  2 15:29:31 2023
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -448,7 +444,7 @@ Synopsys Microchip Technology Pre-mapping, Version map202109actsp1, Build 056R, 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
 
 
-Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 131MB)
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 131MB)
 
 Reading constraint file: C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\designer\transmitter\synthesis.fdc
 @L: C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\synthesis\transmitter_scck.rpt 
@@ -475,10 +471,10 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @N: FX1171 :"c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\hdl\display_noham.vhd":76:2:76:3|Found instance transmitter_sb_0.trans_slave_noham_2.dn.LEDs_int[7:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
 @N: FX1171 :"c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\hdl\display_noham.vhd":76:2:76:3|Found instance transmitter_sb_0.trans_slave_noham_2.dn.LEDs_disp[7:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
 
-Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 168MB)
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 168MB)
 
 
-Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 168MB)
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 168MB)
 
 @W: MO129 :"c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance transmitter_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
 @W: MO129 :"c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance transmitter_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
@@ -554,7 +550,7 @@ Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 @N: BN362 :"c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance sm0_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist transmitter 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 169MB peak: 169MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 169MB peak: 169MB)
 
 
 
@@ -566,7 +562,7 @@ Level     Clock                                                Frequency     Per
 ---------------------------------------------------------------------------------------------------------------------------------
 0 -       System                                               100.0 MHz     10.000        system       system_clkgroup     0    
                                                                                                                                  
-0 -       transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          72   
+0 -       transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          73   
 =================================================================================================================================
 
 
@@ -579,10 +575,10 @@ Clock                                                Load      Pin              
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 System                                               0         -                                            -                                                                 -                 -                                      
                                                                                                                                                                                                                                        
-transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     72        transmitter_sb_0.CCC_0.CCC_INST.GL0(CCC)     transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 transmitter_sb_0.CCC_0.GL0_INST.I(BUFG)
+transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     73        transmitter_sb_0.CCC_0.CCC_INST.GL0(CCC)     transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 transmitter_sb_0.CCC_0.GL0_INST.I(BUFG)
 =======================================================================================================================================================================================================================================
 
-@W: MT530 :"c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":608:8:608:9|Found inferred clock transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 72 sequential elements including transmitter_sb_0.CORERESETP_0.MSS_HPMS_READY_int. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":608:8:608:9|Found inferred clock transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 73 sequential elements including transmitter_sb_0.CORERESETP_0.MSS_HPMS_READY_int. This clock has no specified timing constraint which may adversely impact design performance. 
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
@@ -598,15 +594,15 @@ Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 85MB peak: 172MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 86MB peak: 172MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:01s cputime
-# Fri Jan 27 16:35:28 2023
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Feb  2 15:29:33 2023
 
 ###########################################################]
 Map & Optimize Report
 
-# Fri Jan 27 16:35:28 2023
+# Thu Feb  2 15:29:33 2023
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -654,21 +650,21 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 #### END OF SSF LOG MESSAGES ####
 @N: MF135 :"c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\hdl\apb_slave_vhdl.vhd":131:8:131:9|RAM transmitter_sb_0.trans_slave_noham_2.APB.Memory_Mapped_Registers[31:0] (in view: work.transmitter(rtl)) is 64 words by 32 bits.
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
 
 @W: FX107 :"c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\hdl\apb_slave_vhdl.vhd":131:8:131:9|RAM transmitter_sb_0.trans_slave_noham_2.APB.Memory_Mapped_Registers[7:0] (in view: work.transmitter(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
 
-Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 173MB peak: 173MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
 
 
 Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
@@ -677,29 +673,29 @@ Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elaps
 Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 174MB peak: 174MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 174MB peak: 174MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 190MB peak: 190MB)
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 190MB peak: 190MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:01s		    -1.87ns		 238 /       101
-   2		0h:00m:01s		    -1.83ns		 233 /       101
-   3		0h:00m:01s		    -1.58ns		 233 /       101
-   4		0h:00m:01s		    -1.58ns		 233 /       101
-   5		0h:00m:01s		    -1.39ns		 233 /       101
-   6		0h:00m:02s		    -1.11ns		 232 /       101
+   1		0h:00m:02s		    -1.87ns		 246 /       102
+   2		0h:00m:02s		    -1.83ns		 241 /       102
+   3		0h:00m:02s		    -1.58ns		 241 /       102
+   4		0h:00m:02s		    -1.58ns		 241 /       102
+   5		0h:00m:02s		    -1.39ns		 241 /       102
+   6		0h:00m:03s		    -1.11ns		 240 /       102
 
-   7		0h:00m:02s		    -1.11ns		 233 /       101
-   8		0h:00m:02s		    -0.96ns		 234 /       101
-   9		0h:00m:02s		    -0.98ns		 237 /       101
+   7		0h:00m:04s		    -1.11ns		 241 /       102
+   8		0h:00m:04s		    -0.96ns		 242 /       102
+   9		0h:00m:04s		    -0.98ns		 245 /       102
 
 
-  10		0h:00m:03s		    -0.97ns		 240 /       101
+  10		0h:00m:04s		    -0.97ns		 248 /       102
 @N: FP130 |Promoting Net transmitter_sb_0.MSS_HPMS_READY_int_arst on CLKINT  I_279 
 
 Added 0 Buffers
@@ -707,10 +703,10 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 191MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 181MB peak: 191MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 191MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 181MB peak: 191MB)
 
 
 
@@ -721,44 +717,44 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:
 
 Clock optimization not enabled
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 104 clock pin(s) of sequential element(s)
-0 instances converted, 104 sequential instances remain driven by gated/generated clocks
+1 gated/generated clock tree(s) driving 105 clock pin(s) of sequential element(s)
+0 instances converted, 105 sequential instances remain driven by gated/generated clocks
 
 ========================================================================================== Gated/Generated Clocks ==========================================================================================
 Clock Tree ID     Driving Element                     Drive Element Type     Fanout     Sample Instance                                          Explanation                                                
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       transmitter_sb_0.CCC_0.CCC_INST     CCC                    104        transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_010
+@K:CKID0001       transmitter_sb_0.CCC_0.CCC_INST     CCC                    105        transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_010
 ============================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 149MB peak: 191MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 149MB peak: 191MB)
 
 Writing Analyst data base C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\synthesis\synwork\transmitter_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 191MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 181MB peak: 191MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 182MB peak: 191MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 181MB peak: 191MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 182MB peak: 191MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 181MB peak: 191MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 180MB peak: 191MB)
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 180MB peak: 191MB)
 
 @W: MT246 :"c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\work\transmitter_sb\ccc_0\transmitter_sb_ccc_0_fccc.vhd":106:4:106:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT420 |Found inferred clock transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net transmitter_sb_0.CCC_0.GL0_net.
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Fri Jan 27 16:35:35 2023
+# Timing report written on Thu Feb  2 15:29:40 2023
 #
 
 
@@ -978,10 +974,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 181MB peak: 191MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 181MB peak: 191MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 181MB peak: 191MB)
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 181MB peak: 191MB)
 
 ---------------------------------------
 Resource Usage Report for transmitter 
@@ -993,13 +989,14 @@ CLKINT          2 uses
 MSS_010         1 use
 RCOSC_25_50MHZ  1 use
 SYSRESET        1 use
+CFG1           8 uses
 CFG2           32 uses
 CFG3           48 uses
 CFG4           153 uses
 
 
 Sequential Cells: 
-SLE            102 uses
+SLE            103 uses
 
 DSP Blocks:    0 of 22 (0%)
 
@@ -1013,7 +1010,7 @@ Global Clock Buffers: 2
 RAM/ROM usage summary
 Total Block RAMs (RAM64x18) : 1 of 22 (4%)
 
-Total LUTs:    233
+Total LUTs:    241
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -1021,14 +1018,14 @@ RAM64x18 Interface Logic : SLEs = 36; LUTs = 36;
 RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  102 + 36 + 0 + 0 = 138;
-Total number of LUTs after P&R:  233 + 36 + 0 + 0 = 269;
+Total number of SLEs after P&R:  103 + 36 + 0 + 0 = 139;
+Total number of LUTs after P&R:  241 + 36 + 0 + 0 = 277;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:04s; Memory used current: 64MB peak: 191MB)
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 63MB peak: 191MB)
 
-Process took 0h:00m:07s realtime, 0h:00m:04s cputime
-# Fri Jan 27 16:35:36 2023
+Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+# Thu Feb  2 15:29:40 2023
 
 ###########################################################]

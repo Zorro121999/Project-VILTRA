@@ -1,0 +1,14 @@
+Software Version: 2022.2.0.10
+Opened 'C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\designer\receiver\receiver_fp\receiver.pro'
+PDB file 'C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\designer\receiver\receiver.pdb' has been loaded successfully.
+DESIGN : receiver;  CHECKSUM : E033;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\designer\receiver\receiver.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\designer\receiver\receiver.ppd'; file programs Fabric and eNVM.
+Fabric component bitstream digest: f1dd298693de29f188f67c51fd558912c501e713a7002168cca43397d65abc4a
+eNVM component bitstream digest: 40278a444f1bb094a41a7ec87136cfe78ba627294f521a9c1783c8024e0964c9
+Entire bitstream digest: d04c831d6885909d874bcb83d7c9a7439722a27cf92e033c614f12878d2fbdb5
+Finished: Thu Feb 02 18:05:04 2023 (Elapsed time 00:00:09)
+
+Project saved.
+Project closed.

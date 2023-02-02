@@ -21,6 +21,8 @@ static void delayCount(uint32_t delay_count);
 static uint16_t manchesterEncode(uint8_t data);
 static void outputPin(uint8_t out);
 static void sendPulse(uint32_t baudrate, uint8_t pulse_level);
+static void delayMicroSec(uint32_t us);
+
 
 
 volatile uint8_t timer_stopped = 0;
@@ -44,15 +46,24 @@ int main()
      MSS_GPIO_config( MSS_GPIO_0 , MSS_GPIO_OUTPUT_MODE );
 
      // configure baudrate (pulses per second) because we use manchester encoding the bitrate~=baudrate/2
-     uint32_t baudrate = 1000;
+     uint32_t baudrate = 2000;
 
      // Init variable that carries data to transmit
      uint8_t data = 0;
      int_fast8_t shift = 0;
      uint32_t mask = 0;
-     uint32_t value = 4294967295;
+     uint32_t value = 0;
+     uint32_t read_value = 0;
 
-     HW_set_32bit_reg(TRANS_SLAVE_NOHAM_2, value);
+     HW_set_32bit_reg(TRANS_SLAVE_NOHAM_2, 200);
+     HW_set_32bit_reg(TRANS_SLAVE_NOHAM_2 + 4, 200);
+
+     for (int i = 0; i < 64; i++)
+         {
+             HW_set_32bit_reg(TRANS_SLAVE_NOHAM_2 + i * 4, 200);
+             read_value = HW_get_32bit_reg(TRANS_SLAVE_NOHAM_2 + i * 4);
+             value = value + 1;
+         }
 
      /* Infinite loop. */
      for(;;)
@@ -60,6 +71,10 @@ int main()
          // Manchester encode the data
          uint16_t data_enc;
          data_enc = manchesterEncode(data);
+
+         // Send data to FPGA that displays it on its LEDs
+         HW_set_32bit_reg(TRANS_SLAVE_NOHAM_2, data);
+         HW_set_32bit_reg(TRANS_SLAVE_NOHAM_2 + 4, data); // It has to be sent twice because the Bus only reads the data when the adress is changed
 
         /* send frame */
 
@@ -79,12 +94,12 @@ int main()
 
         //set Signal to low after one frame has been sent
         outputPin(0);
-        delay();
+
+        uint32_t t = 750*(1000000 / baudrate);
+        delayMicroSec(t); //wait for 10000 pulses until next byte is sent
 
         // Increment number that is sent out
         data++;
-
-
 
      }
      return 0;

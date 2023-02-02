@@ -17,7 +17,7 @@ I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 2022.2.0 
-Design: transmitter                     Started: Fri Jan 27 16:38:23 2023
+Design: transmitter                     Started: Thu Feb  2 15:29:53 2023
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -33,32 +33,32 @@ Improvement              : 0 seconds
 Placer completed successfully.
 
 Design: transmitter                     
-Finished: Fri Jan 27 16:38:29 2023
-Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:06
+Finished: Thu Feb  2 15:29:59 2023
+Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
 Total Memory Usage: 111.4 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\designer\transmitter\transmitterStarted: Fri Jan 27 16:38:34 2023
+Design: C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\designer\transmitter\transmitterStarted: Thu Feb  2 15:30:03 2023
 
 
 Router completed successfully.
 
 Design: C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\designer\transmitter\transmitter
-Finished: Fri Jan 27 16:38:40 2023
-Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:06
-Total Memory Usage: 446.0 Mbytes
+Finished: Thu Feb  2 15:30:09 2023
+Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
+Total Memory Usage: 446.1 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 269  | 12084 | 2.23       |
-| DFF           | 138  | 12084 | 1.14       |
+| 4LUT          | 277  | 12084 | 2.29       |
+| DFF           | 139  | 12084 | 1.15       |
 | I/O Register  | 0    | 246   | 0.00       |
-| Logic Element | 294  | 12084 | 2.43       |
+| Logic Element | 290  | 12084 | 2.40       |
 +---------------+------+-------+------------+
 
 I/O Placement

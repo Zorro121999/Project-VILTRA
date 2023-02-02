@@ -13,7 +13,7 @@ Hostname: SURFACEPRO
 
 Implementation : synthesis
 
-# Written on Fri Jan 27 16:35:26 2023
+# Written on Thu Feb  2 15:29:31 2023
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      "C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\designer\transmitter\synthesis.fdc"
@@ -35,7 +35,7 @@ Level     Clock                                                Frequency     Per
 ---------------------------------------------------------------------------------------------------------------------------------
 0 -       System                                               100.0 MHz     10.000        system       system_clkgroup     0    
                                                                                                                                  
-0 -       transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          72   
+0 -       transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          73   
 =================================================================================================================================
 
 
@@ -47,5 +47,5 @@ Clock                                                Load      Pin              
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 System                                               0         -                                            -                                                                 -                 -                                      
                                                                                                                                                                                                                                        
-transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     72        transmitter_sb_0.CCC_0.CCC_INST.GL0(CCC)     transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 transmitter_sb_0.CCC_0.GL0_INST.I(BUFG)
+transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     73        transmitter_sb_0.CCC_0.CCC_INST.GL0(CCC)     transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 transmitter_sb_0.CCC_0.GL0_INST.I(BUFG)
 =======================================================================================================================================================================================================================================

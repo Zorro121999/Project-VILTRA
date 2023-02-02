@@ -18,8 +18,8 @@ The file contains the information about resource utilization per module to be di
 </column_headers>
 <module>
 <data>transmitter</data>
-<data>102</data>
-<data>233</data>
+<data>103</data>
+<data>241</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -29,8 +29,8 @@ The file contains the information about resource utilization per module to be di
 <data>11</data>
 <module>
 <data>transmitter_sb</data>
-<data>102</data>
-<data>233</data>
+<data>103</data>
+<data>241</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -64,8 +64,8 @@ The file contains the information about resource utilization per module to be di
 </module>
 <module>
 <data>trans_slave_noham</data>
-<data>91</data>
-<data>228</data>
+<data>92</data>
+<data>236</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -75,7 +75,7 @@ The file contains the information about resource utilization per module to be di
 <data>0</data>
 <module>
 <data>APB_slave_vhdl</data>
-<data>65</data>
+<data>66</data>
 <data>226</data>
 <data>0</data>
 <data>0</data>
@@ -88,7 +88,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>display_noham</data>
 <data>26</data>
-<data>2</data>
+<data>10</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>

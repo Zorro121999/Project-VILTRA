@@ -335,7 +335,7 @@ SIZE="1697"
 ENDFILE
 VALUE "<project>\component\work\transmitter\transmitter.cxf,actgen_cxf"
 STATE="utd"
-TIME="1674833604"
+TIME="1675176349"
 SIZE="2394"
 ENDFILE
 VALUE "<project>\component\work\transmitter\transmitter.vhd,hdl"
@@ -427,13 +427,13 @@ IS_TARGET="TRUE"
 ENDFILE
 VALUE "<project>\hdl\APB_slave_vhdl.vhd,hdl"
 STATE="utd"
-TIME="1674820307"
-SIZE="5330"
+TIME="1675176088"
+SIZE="5388"
 ENDFILE
 VALUE "<project>\hdl\display_noham.vhd,hdl"
 STATE="utd"
-TIME="1674820307"
-SIZE="2353"
+TIME="1675348149"
+SIZE="2405"
 ENDFILE
 VALUE "<project>\hdl\trans_slave_noham.vhd,hdl"
 STATE="utd"
@@ -466,8 +466,8 @@ PARENT="<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1674820307"
-SIZE="638"
+TIME="1674833603"
+SIZE="817"
 PARENT="<project>\component\work\transmitter\transmitter.cxf"
 PARENT="<project>\component\work\transmitter_sb\transmitter_sb.cxf"
 ENDFILE
@@ -485,22 +485,22 @@ PARENT="<project>\component\work\transmitter_sb_MSS\transmitter_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\synthesis\transmitter.so,so"
 STATE="utd"
-TIME="1674831326"
-SIZE="280"
+TIME="1675348180"
+SIZE="258"
 ENDFILE
 VALUE "<project>\synthesis\transmitter.vm,syn_vm"
 STATE="utd"
-TIME="1674831326"
-SIZE="149669"
+TIME="1675348179"
+SIZE="149756"
 ENDFILE
 VALUE "<project>\synthesis\transmitter_syn.prj,prj"
 STATE="utd"
-TIME="1674831326"
-SIZE="5136"
+TIME="1675348181"
+SIZE="4740"
 ENDFILE
 VALUE "<project>\synthesis\transmitter_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1674831326"
+TIME="1675348179"
 SIZE="1071"
 ENDFILE
 ENDLIST
@@ -731,17 +731,8 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Run Programming Action:transmitter_PROGRAM.log
-SmartDesign;transmitter_sb_MSS;0
-SmartDesign;transmitter_sb;0
-Constraint Manager;Constraint Manager;0
-SmartDesign;transmitter;0
-HDL;hdl\APB_slave_vhdl.vhd;0
-HDL;hdl\display_noham.vhd;0
-HDL;hdl\trans_slave_noham.vhd;0
 StartPage;StartPage;0
-ACTIVEVIEW;transmitter
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "APB_slave_vhdl::work","hdl\APB_slave_vhdl.vhd","FALSE","FALSE"
@@ -750,14 +741,6 @@ LIST "CoreResetP::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\
 SUBBLOCK "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd","FALSE","FALSE"
 ENDLIST
 LIST "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd","FALSE","FALSE"
-ENDLIST
-LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
-SUBBLOCK "SmartFusion2_CMSIS::work","","FALSE","FALSE"
-SUBBLOCK "SmartFusion2_MSS_GPIO_Driver::work","","FALSE","FALSE"
-SUBBLOCK "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
-SUBBLOCK "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
-SUBBLOCK "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
-SUBBLOCK "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
 ENDLIST
 LIST "display_noham::work","hdl\display_noham.vhd","FALSE","FALSE"
 ENDLIST
@@ -770,18 +753,6 @@ ENDLIST
 LIST "RCOSC_1MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
 ENDLIST
 LIST "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
-ENDLIST
-LIST "SmartFusion2_CMSIS::work","","FALSE","FALSE"
-ENDLIST
-LIST "SmartFusion2_MSS_GPIO_Driver::work","","FALSE","FALSE"
-ENDLIST
-LIST "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
-ENDLIST
-LIST "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
-ENDLIST
-LIST "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
-ENDLIST
-LIST "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
 ENDLIST
 LIST "trans_slave_noham::work","hdl\trans_slave_noham.vhd","FALSE","FALSE"
 SUBBLOCK "APB_slave_vhdl::work","hdl\APB_slave_vhdl.vhd","FALSE","FALSE"

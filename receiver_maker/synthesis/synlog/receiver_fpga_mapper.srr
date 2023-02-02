@@ -1,0 +1,603 @@
+# Thu Feb  2 18:03:35 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SURFACEPRO
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 131MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 131MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 131MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 131MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
+
+@W: BN132 :"c:\projects\isisa\viltra-neu\project-viltra\receiver_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":553:8:553:9|Removing sequential instance receiver_sb_0.CORERESETP_0.POWER_ON_RESET_N_q1 because it is equivalent to instance receiver_sb_0.CORERESETP_0.sm1_areset_n_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\projects\isisa\viltra-neu\project-viltra\receiver_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Removing sequential instance receiver_sb_0.CORERESETP_0.sm1_areset_n_clk_base because it is equivalent to instance receiver_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@N: MF135 :"c:\projects\isisa\viltra-neu\project-viltra\receiver_maker\hdl\apb_slave_vhdl.vhd":131:8:131:9|RAM trans_slave_noham_0.APB.Memory_Mapped_Registers[31:0] (in view: work.receiver_sb(rtl)) is 64 words by 32 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 169MB peak: 169MB)
+
+@W: FX107 :"c:\projects\isisa\viltra-neu\project-viltra\receiver_maker\hdl\apb_slave_vhdl.vhd":131:8:131:9|RAM trans_slave_noham_0.APB.Memory_Mapped_Registers[31:0] (in view: work.receiver_sb(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 177MB peak: 177MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 177MB peak: 177MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 177MB peak: 177MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 193MB peak: 193MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:04s		    -1.60ns		 336 /       134
+   2		0h:00m:04s		    -1.60ns		 334 /       134
+   3		0h:00m:04s		    -1.60ns		 333 /       134
+   4		0h:00m:04s		    -0.88ns		 333 /       134
+   5		0h:00m:04s		    -0.88ns		 333 /       134
+@N: FX271 :"c:\projects\isisa\viltra-neu\project-viltra\receiver_maker\hdl\apb_slave_vhdl.vhd":131:8:131:9|Replicating instance receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersror_52 (in view: work.receiver(rtl)) with 40 loads 3 times to improve timing.
+@N: FX271 :"c:\projects\isisa\viltra-neu\project-viltra\receiver_maker\hdl\apb_slave_vhdl.vhd":131:8:131:9|Replicating instance receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersror_53 (in view: work.receiver(rtl)) with 40 loads 3 times to improve timing.
+@N: FX271 :"c:\projects\isisa\viltra-neu\project-viltra\receiver_maker\hdl\apb_slave_vhdl.vhd":131:8:131:9|Replicating instance receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersror_51 (in view: work.receiver(rtl)) with 40 loads 3 times to improve timing.
+Timing driven replication report
+Added 0 Registers via timing driven replication
+Added 9 LUTs via timing driven replication
+
+   6		0h:00m:05s		    -1.13ns		 342 /       134
+   7		0h:00m:05s		    -1.14ns		 343 /       134
+
+@N: FX271 :"c:\projects\isisa\viltra-neu\project-viltra\receiver_maker\hdl\apb_slave_vhdl.vhd":143:16:143:17|Replicating instance receiver_sb_0.trans_slave_noham_0.APB.RD_EN_3_1 (in view: work.receiver(rtl)) with 45 loads 2 times to improve timing.
+Timing driven replication report
+Added 0 Registers via timing driven replication
+Added 2 LUTs via timing driven replication
+
+   8		0h:00m:05s		    -1.02ns		 361 /       134
+   9		0h:00m:06s		    -1.05ns		 361 /       134
+  10		0h:00m:06s		    -1.05ns		 361 /       134
+@N: FP130 |Promoting Net receiver_sb_0.MSS_HPMS_READY_int_arst on CLKINT  I_296 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:07s; Memory used current: 198MB peak: 198MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 198MB peak: 198MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 138 clock pin(s) of sequential element(s)
+0 instances converted, 138 sequential instances remain driven by gated/generated clocks
+
+===================================================================================== Gated/Generated Clocks ======================================================================================
+Clock Tree ID     Driving Element                  Drive Element Type     Fanout     Sample Instance                                    Explanation                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       receiver_sb_0.CCC_0.CCC_INST     CCC                    138        receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_010
+===================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 165MB peak: 198MB)
+
+Writing Analyst data base C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\synthesis\synwork\receiver_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 197MB peak: 198MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 197MB peak: 198MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 197MB peak: 198MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 196MB peak: 198MB)
+
+@W: MT246 :"c:\projects\isisa\viltra-neu\project-viltra\receiver_maker\component\work\receiver_sb\ccc_0\receiver_sb_ccc_0_fccc.vhd":106:4:106:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net receiver_sb_0.CCC_0.GL0_net.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Thu Feb  2 18:03:44 2023
+#
+
+
+Top view:               receiver
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\designer\receiver\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.237
+
+                                                  Requested     Estimated     Requested     Estimated                Clock        Clock          
+Starting Clock                                    Frequency     Frequency     Period        Period        Slack      Type         Group          
+-------------------------------------------------------------------------------------------------------------------------------------------------
+receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     97.7 MHz      10.000        10.237        -0.237     inferred     (multiple)     
+System                                            100.0 MHz     895.2 MHz     10.000        1.117         8.883      system       system_clkgroup
+=================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                        |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                       Ending                                         |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                         System                                         |  10.000      8.883   |  No paths    -      |  No paths    -      |  No paths    -    
+receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock  receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock  |  10.000      -0.237  |  No paths    -      |  No paths    -      |  No paths    -    
+=====================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                   Starting                                                                                                             Arrival           
+Instance                                           Reference                                         Type        Pin                Net                                 Time        Slack 
+                                                   Clock                                                                                                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST     receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[5]      CoreAPB3_0_APBmslave0_PADDR[5]      3.657       -0.237
+receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST     receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[4]      CoreAPB3_0_APBmslave0_PADDR[4]      3.560       -0.095
+receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST     receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[1]      CoreAPB3_0_APBmslave0_PADDR[1]      3.597       0.024 
+receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST     receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[0]      CoreAPB3_0_APBmslave0_PADDR[0]      3.660       0.118 
+receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST     receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[3]      CoreAPB3_0_APBmslave0_PADDR[3]      3.576       0.146 
+receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST     receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[2]      CoreAPB3_0_APBmslave0_PADDR[2]      3.576       0.148 
+receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST     receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[13]     CoreAPB3_0_APBmslave0_PADDR[13]     3.647       1.325 
+receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST     receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[14]     CoreAPB3_0_APBmslave0_PADDR[14]     3.652       1.363 
+receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST     receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[12]     CoreAPB3_0_APBmslave0_PADDR[12]     3.677       1.748 
+receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST     receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[15]     CoreAPB3_0_APBmslave0_PADDR[15]     3.580       1.922 
+==========================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                      Starting                                                                             Required           
+Instance                                              Reference                                         Type     Pin     Net               Time         Slack 
+                                                      Clock                                                                                                   
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+receiver_sb_0.trans_slave_noham_0.dn.LEDs_int[0]      receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       data_int[0]       9.745        -0.237
+receiver_sb_0.trans_slave_noham_0.dn.LEDs_int[1]      receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       data_int[1]       9.745        -0.237
+receiver_sb_0.trans_slave_noham_0.dn.LEDs_int[2]      receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       data_int[2]       9.745        -0.237
+receiver_sb_0.trans_slave_noham_0.dn.LEDs_int[3]      receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       data_int[3]       9.745        -0.237
+receiver_sb_0.trans_slave_noham_0.dn.LEDs_int[4]      receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       data_int[4]       9.745        -0.237
+receiver_sb_0.trans_slave_noham_0.dn.LEDs_int[5]      receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       data_int[5]       9.745        -0.237
+receiver_sb_0.trans_slave_noham_0.dn.LEDs_int[6]      receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       data_int[6]       9.745        -0.237
+receiver_sb_0.trans_slave_noham_0.dn.LEDs_int[7]      receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       data_int[7]       9.745        -0.237
+receiver_sb_0.trans_slave_noham_0.APB.prdata_v[0]     receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       prdata_v_4[0]     9.745        -0.237
+receiver_sb_0.trans_slave_noham_0.APB.prdata_v[1]     receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       prdata_v_4[1]     9.745        -0.237
+==============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      9.982
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.237
+
+    Number of logic level(s):                5
+    Starting point:                          receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[5]
+    Ending point:                            receiver_sb_0.trans_slave_noham_0.APB.prdata_v[26] / D
+    The start point is clocked by            receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+    The end   point is clocked by            receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                               Pin               Pin               Arrival     No. of    
+Name                                                                             Type        Name              Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST                                   MSS_010     F_HM0_ADDR[5]     Out     3.657     3.657 f     -         
+CoreAPB3_0_APBmslave0_PADDR[5]                                                   Net         -                 -       1.615     -           68        
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersa15_3               CFG2        A                 In      -         5.272 f     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersa15_3               CFG2        Y                 Out     0.100     5.372 r     -         
+Memory_Mapped_Registersa3_1                                                      Net         -                 -       1.161     -           18        
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNITQQA3      CFG4        D                 In      -         6.533 r     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNITQQA3      CFG4        Y                 Out     0.271     6.804 r     -         
+Memory_Mapped_Registersror_11                                                    Net         -                 -       0.248     -           1         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNI70V4N      CFG4        D                 In      -         7.053 r     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNI70V4N      CFG4        Y                 Out     0.326     7.379 f     -         
+Memory_Mapped_Registersror_53_1                                                  Net         -                 -       0.815     -           4         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_4_RNILVIET1     CFG4        D                 In      -         8.194 f     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_4_RNILVIET1     CFG4        Y                 Out     0.317     8.511 r     -         
+Memory_Mapped_Registersror_53                                                    Net         -                 -       1.058     -           10        
+receiver_sb_0.trans_slave_noham_0.APB.Single_Process\.prdata_v_4[26]             CFG4        B                 In      -         9.569 r     -         
+receiver_sb_0.trans_slave_noham_0.APB.Single_Process\.prdata_v_4[26]             CFG4        Y                 Out     0.165     9.733 r     -         
+prdata_v_4[26]                                                                   Net         -                 -       0.248     -           1         
+receiver_sb_0.trans_slave_noham_0.APB.prdata_v[26]                               SLE         D                 In      -         9.982 r     -         
+=======================================================================================================================================================
+Total path delay (propagation time + setup) of 10.237 is 5.092(49.7%) logic and 5.145(50.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      9.982
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.237
+
+    Number of logic level(s):                5
+    Starting point:                          receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[5]
+    Ending point:                            receiver_sb_0.trans_slave_noham_0.dn.LEDs_int[0] / D
+    The start point is clocked by            receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+    The end   point is clocked by            receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                                                      Pin               Pin               Arrival     No. of    
+Name                                                                                                    Type        Name              Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST                                                          MSS_010     F_HM0_ADDR[5]     Out     3.657     3.657 f     -         
+CoreAPB3_0_APBmslave0_PADDR[5]                                                                          Net         -                 -       1.615     -           68        
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersa15_3                                      CFG2        A                 In      -         5.272 f     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersa15_3                                      CFG2        Y                 Out     0.100     5.372 r     -         
+Memory_Mapped_Registersa3_1                                                                             Net         -                 -       1.161     -           18        
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNITQQA3                             CFG4        D                 In      -         6.533 r     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNITQQA3                             CFG4        Y                 Out     0.271     6.804 r     -         
+Memory_Mapped_Registersror_11                                                                           Net         -                 -       0.248     -           1         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNI70V4N                             CFG4        D                 In      -         7.053 r     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNI70V4N                             CFG4        Y                 Out     0.326     7.379 f     -         
+Memory_Mapped_Registersror_53_1                                                                         Net         -                 -       0.815     -           4         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_4_RNILVIET1_2                          CFG4        D                 In      -         8.194 f     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_4_RNILVIET1_2                          CFG4        Y                 Out     0.317     8.511 r     -         
+Memory_Mapped_Registersror_53_fast                                                                      Net         -                 -       1.058     -           10        
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registers_Memory_Mapped_Registers_0_0_RNIH13744     CFG4        B                 In      -         9.569 r     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registers_Memory_Mapped_Registers_0_0_RNIH13744     CFG4        Y                 Out     0.165     9.733 r     -         
+data_int[0]                                                                                             Net         -                 -       0.248     -           1         
+receiver_sb_0.trans_slave_noham_0.dn.LEDs_int[0]                                                        SLE         D                 In      -         9.982 r     -         
+==============================================================================================================================================================================
+Total path delay (propagation time + setup) of 10.237 is 5.092(49.7%) logic and 5.145(50.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      9.982
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.237
+
+    Number of logic level(s):                5
+    Starting point:                          receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[5]
+    Ending point:                            receiver_sb_0.trans_slave_noham_0.APB.prdata_v[2] / D
+    The start point is clocked by            receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+    The end   point is clocked by            receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                                 Pin               Pin               Arrival     No. of    
+Name                                                                               Type        Name              Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST                                     MSS_010     F_HM0_ADDR[5]     Out     3.657     3.657 f     -         
+CoreAPB3_0_APBmslave0_PADDR[5]                                                     Net         -                 -       1.615     -           68        
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersa15_3                 CFG2        A                 In      -         5.272 f     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersa15_3                 CFG2        Y                 Out     0.100     5.372 r     -         
+Memory_Mapped_Registersa3_1                                                        Net         -                 -       1.161     -           18        
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNITQQA3        CFG4        D                 In      -         6.533 r     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNITQQA3        CFG4        Y                 Out     0.271     6.804 r     -         
+Memory_Mapped_Registersror_11                                                      Net         -                 -       0.248     -           1         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNI70V4N        CFG4        D                 In      -         7.053 r     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNI70V4N        CFG4        Y                 Out     0.326     7.379 f     -         
+Memory_Mapped_Registersror_53_1                                                    Net         -                 -       0.815     -           4         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_4_RNILVIET1_0     CFG4        D                 In      -         8.194 f     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_4_RNILVIET1_0     CFG4        Y                 Out     0.317     8.511 r     -         
+Memory_Mapped_Registersror_53_rep1                                                 Net         -                 -       1.058     -           10        
+receiver_sb_0.trans_slave_noham_0.APB.Single_Process\.prdata_v_4[2]                CFG4        B                 In      -         9.569 r     -         
+receiver_sb_0.trans_slave_noham_0.APB.Single_Process\.prdata_v_4[2]                CFG4        Y                 Out     0.165     9.733 r     -         
+prdata_v_4[2]                                                                      Net         -                 -       0.248     -           1         
+receiver_sb_0.trans_slave_noham_0.APB.prdata_v[2]                                  SLE         D                 In      -         9.982 r     -         
+=========================================================================================================================================================
+Total path delay (propagation time + setup) of 10.237 is 5.092(49.7%) logic and 5.145(50.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      9.982
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.237
+
+    Number of logic level(s):                5
+    Starting point:                          receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[5]
+    Ending point:                            receiver_sb_0.trans_slave_noham_0.APB.prdata_v[12] / D
+    The start point is clocked by            receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+    The end   point is clocked by            receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                                 Pin               Pin               Arrival     No. of    
+Name                                                                               Type        Name              Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST                                     MSS_010     F_HM0_ADDR[5]     Out     3.657     3.657 f     -         
+CoreAPB3_0_APBmslave0_PADDR[5]                                                     Net         -                 -       1.615     -           68        
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersa15_3                 CFG2        A                 In      -         5.272 f     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersa15_3                 CFG2        Y                 Out     0.100     5.372 r     -         
+Memory_Mapped_Registersa3_1                                                        Net         -                 -       1.161     -           18        
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNITQQA3        CFG4        D                 In      -         6.533 r     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNITQQA3        CFG4        Y                 Out     0.271     6.804 r     -         
+Memory_Mapped_Registersror_11                                                      Net         -                 -       0.248     -           1         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNI70V4N        CFG4        D                 In      -         7.053 r     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNI70V4N        CFG4        Y                 Out     0.326     7.379 f     -         
+Memory_Mapped_Registersror_53_1                                                    Net         -                 -       0.815     -           4         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_4_RNILVIET1_1     CFG4        D                 In      -         8.194 f     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_4_RNILVIET1_1     CFG4        Y                 Out     0.317     8.511 r     -         
+Memory_Mapped_Registersror_53_rep2                                                 Net         -                 -       1.058     -           10        
+receiver_sb_0.trans_slave_noham_0.APB.Single_Process\.prdata_v_4[12]               CFG4        B                 In      -         9.569 r     -         
+receiver_sb_0.trans_slave_noham_0.APB.Single_Process\.prdata_v_4[12]               CFG4        Y                 Out     0.165     9.733 r     -         
+prdata_v_4[12]                                                                     Net         -                 -       0.248     -           1         
+receiver_sb_0.trans_slave_noham_0.APB.prdata_v[12]                                 SLE         D                 In      -         9.982 r     -         
+=========================================================================================================================================================
+Total path delay (propagation time + setup) of 10.237 is 5.092(49.7%) logic and 5.145(50.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      9.982
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.237
+
+    Number of logic level(s):                5
+    Starting point:                          receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[5]
+    Ending point:                            receiver_sb_0.trans_slave_noham_0.APB.prdata_v[27] / D
+    The start point is clocked by            receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+    The end   point is clocked by            receiver_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                               Pin               Pin               Arrival     No. of    
+Name                                                                             Type        Name              Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+receiver_sb_0.receiver_sb_MSS_0.MSS_ADLIB_INST                                   MSS_010     F_HM0_ADDR[5]     Out     3.657     3.657 f     -         
+CoreAPB3_0_APBmslave0_PADDR[5]                                                   Net         -                 -       1.615     -           68        
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersa15_3               CFG2        A                 In      -         5.272 f     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersa15_3               CFG2        Y                 Out     0.100     5.372 r     -         
+Memory_Mapped_Registersa3_1                                                      Net         -                 -       1.161     -           18        
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNITQQA3      CFG4        D                 In      -         6.533 r     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNITQQA3      CFG4        Y                 Out     0.271     6.804 r     -         
+Memory_Mapped_Registersror_11                                                    Net         -                 -       0.248     -           1         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNI70V4N      CFG4        D                 In      -         7.053 r     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_6_RNI70V4N      CFG4        Y                 Out     0.326     7.379 f     -         
+Memory_Mapped_Registersror_53_1                                                  Net         -                 -       0.815     -           4         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_4_RNILVIET1     CFG4        D                 In      -         8.194 f     -         
+receiver_sb_0.trans_slave_noham_0.APB.Memory_Mapped_Registersrff_4_RNILVIET1     CFG4        Y                 Out     0.317     8.511 r     -         
+Memory_Mapped_Registersror_53                                                    Net         -                 -       1.058     -           10        
+receiver_sb_0.trans_slave_noham_0.APB.Single_Process\.prdata_v_4[27]             CFG4        B                 In      -         9.569 r     -         
+receiver_sb_0.trans_slave_noham_0.APB.Single_Process\.prdata_v_4[27]             CFG4        Y                 Out     0.165     9.733 r     -         
+prdata_v_4[27]                                                                   Net         -                 -       0.248     -           1         
+receiver_sb_0.trans_slave_noham_0.APB.prdata_v[27]                               SLE         D                 In      -         9.982 r     -         
+=======================================================================================================================================================
+Total path delay (propagation time + setup) of 10.237 is 5.092(49.7%) logic and 5.145(50.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                            Starting                                                                                  Arrival          
+Instance                                    Reference     Type               Pin        Net                                           Time        Slack
+                                            Clock                                                                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+receiver_sb_0.FABOSC_0.I_RCOSC_25_50MHZ     System        RCOSC_25_50MHZ     CLKOUT     RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC     0.000       8.883
+=======================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                 Starting                                                                                Required          
+Instance                         Reference     Type     Pin                Net                                           Time         Slack
+                                 Clock                                                                                                     
+-------------------------------------------------------------------------------------------------------------------------------------------
+receiver_sb_0.CCC_0.CCC_INST     System        CCC      RCOSC_25_50MHZ     RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC     10.000       8.883
+===========================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      1.117
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 8.883
+
+    Number of logic level(s):                0
+    Starting point:                          receiver_sb_0.FABOSC_0.I_RCOSC_25_50MHZ / CLKOUT
+    Ending point:                            receiver_sb_0.CCC_0.CCC_INST / RCOSC_25_50MHZ
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                   Pin                Pin               Arrival     No. of    
+Name                                          Type               Name               Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------
+receiver_sb_0.FABOSC_0.I_RCOSC_25_50MHZ       RCOSC_25_50MHZ     CLKOUT             Out     0.000     0.000 r     -         
+RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC     Net                -                  -       1.117     -           1         
+receiver_sb_0.CCC_0.CCC_INST                  CCC                RCOSC_25_50MHZ     In      -         1.117 r     -         
+============================================================================================================================
+Total path delay (propagation time + setup) of 1.117 is 0.000(0.0%) logic and 1.117(100.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 197MB peak: 198MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 197MB peak: 198MB)
+
+---------------------------------------
+Resource Usage Report for receiver 
+
+Mapping to part: m2s010vf400std
+Cell usage:
+CCC             1 use
+CLKINT          2 uses
+MSS_010         1 use
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG1           8 uses
+CFG2           81 uses
+CFG3           49 uses
+CFG4           215 uses
+
+
+Sequential Cells: 
+SLE            135 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 10
+I/O primitives: 9
+INBUF          1 use
+OUTBUF         8 uses
+
+
+Global Clock Buffers: 2
+
+RAM/ROM usage summary
+Total Block RAMs (RAM64x18) : 2 of 22 (9%)
+
+Total LUTs:    353
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 72; LUTs = 72;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  135 + 72 + 0 + 0 = 207;
+Total number of LUTs after P&R:  353 + 72 + 0 + 0 = 425;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 65MB peak: 198MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:09s cputime
+# Thu Feb  2 18:03:45 2023
+
+###########################################################]

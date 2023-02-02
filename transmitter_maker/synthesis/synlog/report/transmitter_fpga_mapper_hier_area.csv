@@ -1,12 +1,12 @@
 
 . Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
-. transmitter, 102, 233, 0, 0, 0, 0, 1, 2, 11
-.	. transmitter_sb, 102, 233, 0, 0, 0, 0, 1, 2, 0
+. transmitter, 103, 241, 0, 0, 0, 0, 1, 2, 11
+.	. transmitter_sb, 103, 241, 0, 0, 0, 0, 1, 2, 0
 .	.	. CoreAPB3, 0, 2, 0, 0, 0, 0, 0, 0, 0
 .	.	. CoreResetP, 11, 2, 0, 0, 0, 0, 0, 1, 0
-.	.	. trans_slave_noham, 91, 228, 0, 0, 0, 0, 1, 0, 0
-.	.	.	. APB_slave_vhdl, 65, 226, 0, 0, 0, 0, 1, 0, 0
-.	.	.	. display_noham, 26, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	. trans_slave_noham, 92, 236, 0, 0, 0, 0, 1, 0, 0
+.	.	.	. APB_slave_vhdl, 66, 226, 0, 0, 0, 0, 1, 0, 0
+.	.	.	. display_noham, 26, 10, 0, 0, 0, 0, 0, 0, 0
 .	.	. transmitter_sb_CCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 1, 0
 .	.	. transmitter_sb_FABOSC_0_OSC, 0, 0, 0, 0, 0, 0, 0, 0, 0
 .	.	. transmitter_sb_MSS, 0, 1, 0, 0, 0, 0, 0, 0, 0

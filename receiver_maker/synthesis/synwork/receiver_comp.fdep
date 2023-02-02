@@ -1,0 +1,120 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Projects\\ISISA\\viltra-neu\\Project-VILTRA\\receiver_maker\\synthesis\\synwork\\receiver_comp.srs|-top|work.receiver|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\bin64\\c_vhdl.exe":1655988517
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\location.map":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\std.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1655988528
+#CUR:"C:\\Projects\\ISISA\\viltra-neu\\Project-VILTRA\\receiver_maker\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_muxptob3.vhd":1673536360
+#CUR:"C:\\Projects\\ISISA\\viltra-neu\\Project-VILTRA\\receiver_maker\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_iaddr_reg.vhd":1673536360
+#CUR:"C:\\Projects\\ISISA\\viltra-neu\\Project-VILTRA\\receiver_maker\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vhdl\\core\\coreresetp_pcie_hotreset.vhd":1668430866
+#CUR:"C:\\Projects\\ISISA\\viltra-neu\\Project-VILTRA\\receiver_maker\\component\\work\\receiver_sb\\CCC_0\\receiver_sb_CCC_0_FCCC.vhd":1675188339
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\generic\\smartfusion2.vhd":1655988526
+#CUR:"C:\\Projects\\ISISA\\viltra-neu\\Project-VILTRA\\receiver_maker\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.vhd":1667567441
+#CUR:"C:\\Projects\\ISISA\\viltra-neu\\Project-VILTRA\\receiver_maker\\component\\work\\receiver_sb_MSS\\receiver_sb_MSS_syn.vhd":1675357369
+#CUR:"C:\\Projects\\ISISA\\viltra-neu\\Project-VILTRA\\receiver_maker\\hdl\\APB_slave_vhdl.vhd":1675187680
+#CUR:"C:\\Projects\\ISISA\\viltra-neu\\Project-VILTRA\\receiver_maker\\hdl\\display_noham.vhd":1675343697
+#CUR:"C:\\Projects\\ISISA\\viltra-neu\\Project-VILTRA\\receiver_maker\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\components.vhd":1673536360
+#CUR:"C:\\Projects\\ISISA\\viltra-neu\\Project-VILTRA\\receiver_maker\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3.vhd":1673536360
+#CUR:"C:\\Projects\\ISISA\\viltra-neu\\Project-VILTRA\\receiver_maker\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vhdl\\core\\coreresetp.vhd":1668430866
+#CUR:"C:\\Projects\\ISISA\\viltra-neu\\Project-VILTRA\\receiver_maker\\component\\work\\receiver_sb\\FABOSC_0\\receiver_sb_FABOSC_0_OSC.vhd":1675188342
+#CUR:"C:\\Projects\\ISISA\\viltra-neu\\Project-VILTRA\\receiver_maker\\component\\work\\receiver_sb_MSS\\receiver_sb_MSS.vhd":1675357369
+#CUR:"C:\\Projects\\ISISA\\viltra-neu\\Project-VILTRA\\receiver_maker\\hdl\\trans_slave_noham.vhd":1675187680
+#CUR:"C:\\Projects\\ISISA\\viltra-neu\\Project-VILTRA\\receiver_maker\\component\\work\\receiver_sb\\receiver_sb.vhd":1675188342
+#CUR:"C:\\Projects\\ISISA\\viltra-neu\\Project-VILTRA\\receiver_maker\\component\\work\\receiver\\receiver.vhd":1675188369
+0			"C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd" vhdl
+1			"C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd" vhdl
+2			"C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd" vhdl
+3			"C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd" vhdl
+4			"C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd" vhdl
+5			"C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\component\work\receiver_sb\CCC_0\receiver_sb_CCC_0_FCCC.vhd" vhdl
+6			"C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd" vhdl
+7			"C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\component\work\receiver_sb\FABOSC_0\receiver_sb_FABOSC_0_OSC.vhd" vhdl
+8			"C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\component\work\receiver_sb_MSS\receiver_sb_MSS_syn.vhd" vhdl
+9			"C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\component\work\receiver_sb_MSS\receiver_sb_MSS.vhd" vhdl
+10			"C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\hdl\APB_slave_vhdl.vhd" vhdl
+11			"C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\hdl\display_noham.vhd" vhdl
+12			"C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\hdl\trans_slave_noham.vhd" vhdl
+13			"C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd" vhdl
+14			"C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\component\work\receiver_sb\receiver_sb.vhd" vhdl
+15			"C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\component\work\receiver\receiver.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1 0
+3 -1
+4 3
+5 -1
+6 -1
+7 6
+8 -1
+9 8
+10 -1
+11 -1
+12 10 11
+13 -1
+14 13 12 9 7 4 2 5
+15 14
+#Dependency Lists(Users Of)
+0 2
+1 2
+2 14
+3 4
+4 14
+5 14
+6 7
+7 14
+8 9
+9 14
+10 12
+11 12
+12 14
+13 14
+14 15
+15 -1
+#Design Unit to File Association
+module work receiver 15
+arch work receiver rtl 15
+module work receiver_sb 14
+arch work receiver_sb rtl 14
+module work trans_slave_noham 12
+arch work trans_slave_noham architecture_trans_slave_noham 12
+module work display_noham 11
+arch work display_noham architecture_display_noham 11
+module work apb_slave_vhdl 10
+arch work apb_slave_vhdl architecture_apb_slave_vhdl 10
+module work receiver_sb_mss 9
+arch work receiver_sb_mss rtl 9
+module work mss_010 8
+arch work mss_010 def_arch 8
+module work receiver_sb_fabosc_0_osc 7
+arch work receiver_sb_fabosc_0_osc def_arch 7
+module work rcosc_1mhz 6
+arch work rcosc_1mhz def_arch 6
+module work rcosc_25_50mhz 6
+arch work rcosc_25_50mhz def_arch 6
+module work xtlosc 6
+arch work xtlosc def_arch 6
+module work rcosc_1mhz_fab 6
+arch work rcosc_1mhz_fab def_arch 6
+module work rcosc_25_50mhz_fab 6
+arch work rcosc_25_50mhz_fab def_arch 6
+module work xtlosc_fab 6
+arch work xtlosc_fab def_arch 6
+module work receiver_sb_ccc_0_fccc 5
+arch work receiver_sb_ccc_0_fccc def_arch 5
+module work coreresetp 4
+arch work coreresetp rtl 4
+module work coreresetp_pcie_hotreset 3
+arch work coreresetp_pcie_hotreset rtl 3
+module coreapb3_lib coreapb3 2
+arch coreapb3_lib coreapb3 coreapb3_arch 2
+module coreapb3_lib coreapb3_iaddr_reg 1
+arch coreapb3_lib coreapb3_iaddr_reg rtl 1
+module coreapb3_lib coreapb3_muxptob3 0
+arch coreapb3_lib coreapb3_muxptob3 coreapb3_muxptob3_arch 0

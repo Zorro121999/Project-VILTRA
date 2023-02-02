@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>receiver</design>
+	<target_verilog>C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\synthesis\receiver.vm</target_verilog>
+</SynplifyOutput>

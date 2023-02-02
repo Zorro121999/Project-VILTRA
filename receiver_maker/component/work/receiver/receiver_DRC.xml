@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>receiver</header>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin receiver_sb_0:POWER_ON_RESET_N</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/receiver/pins/receiver_sb_0:POWER_ON_RESET_N</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin receiver_sb_0:FAB_RESET_N</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/receiver/pins/receiver_sb_0:FAB_RESET_N</crossprobe>
+  </drc>
+</drcreport>

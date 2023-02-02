@@ -1,0 +1,10 @@
+DESIGN=receiver
+DESDIR=C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\designer\receiver
+TARGET_DIR=C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\designer\receiver
+FAM=SmartFusion2
+DIE=PA4M1000_N
+PACKAGE=tq144
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

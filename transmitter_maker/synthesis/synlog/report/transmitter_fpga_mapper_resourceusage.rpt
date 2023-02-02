@@ -7,13 +7,14 @@ CLKINT          2 uses
 MSS_010         1 use
 RCOSC_25_50MHZ  1 use
 SYSRESET        1 use
+CFG1           8 uses
 CFG2           32 uses
 CFG3           48 uses
 CFG4           153 uses
 
 
 Sequential Cells: 
-SLE            102 uses
+SLE            103 uses
 
 DSP Blocks:    0 of 22 (0%)
 
@@ -24,7 +25,7 @@ OUTBUF         11 uses
 
 Global Clock Buffers: 2
 
-Total LUTs:    233
+Total LUTs:    241
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -32,6 +33,6 @@ RAM64x18 Interface Logic : SLEs = 36; LUTs = 36;
 RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  102 + 36 + 0 + 0 = 138;
-Total number of LUTs after P&R:  233 + 36 + 0 + 0 = 269;
+Total number of SLEs after P&R:  103 + 36 + 0 + 0 = 139;
+Total number of LUTs after P&R:  241 + 36 + 0 + 0 = 277;
 

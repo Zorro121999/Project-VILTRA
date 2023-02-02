@@ -1,6 +1,6 @@
 Resource Report
 Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
-Date: Fri Jan 27 16:35:44 2023
+Date: Thu Feb  2 15:29:47 2023
 
 Device Selection
 +--------------------------------+----------------+
@@ -37,8 +37,8 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 269  | 12084 | 2.23       |
-| DFF                       | 138  | 12084 | 1.14       |
+| 4LUT                      | 277  | 12084 | 2.29       |
+| DFF                       | 139  | 12084 | 1.15       |
 | I/O Register              | 0    | 252   | 0.00       |
 | User I/O                  | 11   | 84    | 13.10      |
 | -- Single-ended I/O       | 11   | 84    | 13.10      |
@@ -58,11 +58,11 @@ Detailed Logic Resource Usage
 +--------------------------+------+-----+
 | Type                     | 4LUT | DFF |
 +--------------------------+------+-----+
-| Fabric Logic             | 233  | 102 |
+| Fabric Logic             | 241  | 103 |
 | RAM64x18 Interface Logic | 36   | 36  |
 | RAM1K18 Interface Logic  | 0    | 0   |
 | MACC Interface Logic     | 0    | 0   |
-| Total Used               | 269  | 138 |
+| Total Used               | 277  | 139 |
 +--------------------------+------+-----+
 
 MSS Resource Usage
@@ -108,10 +108,10 @@ Nets assigned to chip global resources
 +--------+---------+------------------------------------------------------------------------------+
 | Fanout | Type    | Name                                                                         |
 +--------+---------+------------------------------------------------------------------------------+
-| 105    | INT_NET | Net   : FIC_0_CLK_c                                                          |
+| 106    | INT_NET | Net   : FIC_0_CLK_c                                                          |
 |        |         | Driver: transmitter_sb_0/CCC_0/GL0_INST/U0_RGB1                              |
 |        |         | Source: NETLIST                                                              |
-| 66     | INT_NET | Net   : transmitter_sb_0/MSS_HPMS_READY_int_arst                             |
+| 67     | INT_NET | Net   : transmitter_sb_0/MSS_HPMS_READY_int_arst                             |
 |        |         | Driver: transmitter_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep_RNILFF5/U0_RGB1 |
 |        |         | Source: NETLIST                                                              |
 +--------+---------+------------------------------------------------------------------------------+
@@ -140,8 +140,8 @@ High fanout nets
 |        |         | Driver: transmitter_sb_0/transmitter_sb_MSS_0/MSS_ADLIB_INST                 |
 | 51     | INT_NET | Net   : transmitter_sb_0/CoreAPB3_0_APBmslave0_PWRITE                        |
 |        |         | Driver: transmitter_sb_0/transmitter_sb_MSS_0/MSS_ADLIB_INST                 |
-| 51     | INT_NET | Net   : transmitter_sb_0/trans_slave_noham_2/APB/pready_v_4                  |
-|        |         | Driver: transmitter_sb_0/trans_slave_noham_2/APB/Single_Process.pready_v_4   |
+| 51     | INT_NET | Net   : transmitter_sb_0/trans_slave_noham_2/APB/RD_EN_0_sqmuxa_Z            |
+|        |         | Driver: transmitter_sb_0/trans_slave_noham_2/APB/RD_EN_0_sqmuxa              |
 | 27     | INT_NET | Net   : transmitter_sb_0/MSS_HPMS_READY_int                                  |
 |        |         | Driver: transmitter_sb_0/CORERESETP_0/MSS_HPMS_READY_int                     |
 | 24     | INT_NET | Net   : transmitter_sb_0/trans_slave_noham_2/APB/Memory_m2_e_11_1            |
@@ -166,8 +166,8 @@ High fanout nets (through buffer trees)
 |        |         | Driver: transmitter_sb_0/transmitter_sb_MSS_0/MSS_ADLIB_INST                 |
 | 51     | INT_NET | Net   : transmitter_sb_0/CoreAPB3_0_APBmslave0_PWRITE                        |
 |        |         | Driver: transmitter_sb_0/transmitter_sb_MSS_0/MSS_ADLIB_INST                 |
-| 51     | INT_NET | Net   : transmitter_sb_0/trans_slave_noham_2/APB/pready_v_4                  |
-|        |         | Driver: transmitter_sb_0/trans_slave_noham_2/APB/Single_Process.pready_v_4   |
+| 51     | INT_NET | Net   : transmitter_sb_0/trans_slave_noham_2/APB/RD_EN_0_sqmuxa_Z            |
+|        |         | Driver: transmitter_sb_0/trans_slave_noham_2/APB/RD_EN_0_sqmuxa              |
 | 27     | INT_NET | Net   : transmitter_sb_0/MSS_HPMS_READY_int                                  |
 |        |         | Driver: transmitter_sb_0/CORERESETP_0/MSS_HPMS_READY_int                     |
 | 24     | INT_NET | Net   : transmitter_sb_0/trans_slave_noham_2/APB/Memory_m2_e_11_1            |

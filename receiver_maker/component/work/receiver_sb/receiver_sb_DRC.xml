@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>receiver_sb</header>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Missing Core Definition</message>
+    <detail>Core '::: ' is missing from the vault.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/receiver_sb/instances/trans_slave_noham_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Unused Instance</message>
+    <detail>trans_slave_noham_0 output pins are not being used.  Connect or mark them unused</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/receiver_sb/instances/trans_slave_noham_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin trans_slave_noham_0:PCLK</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/receiver_sb/pins/trans_slave_noham_0:PCLK</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin trans_slave_noham_0:PENABLE</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/receiver_sb/pins/trans_slave_noham_0:PENABLE</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin trans_slave_noham_0:PSEL</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/receiver_sb/pins/trans_slave_noham_0:PSEL</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin trans_slave_noham_0:PRESETN</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/receiver_sb/pins/trans_slave_noham_0:PRESETN</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin trans_slave_noham_0:PWRITE</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/receiver_sb/pins/trans_slave_noham_0:PWRITE</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin trans_slave_noham_0:PWDATA[31:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/receiver_sb/pins/trans_slave_noham_0:PWDATA</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin trans_slave_noham_0:PADDR[31:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/receiver_sb/pins/trans_slave_noham_0:PADDR</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin trans_slave_noham_0:PRDATA[31:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/receiver_sb/pins/trans_slave_noham_0:PRDATA</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin trans_slave_noham_0:LEDs[7:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/receiver_sb/pins/trans_slave_noham_0:LEDs</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin trans_slave_noham_0:PREADY</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/receiver_sb/pins/trans_slave_noham_0:PREADY</crossprobe>
+  </drc>
+</drcreport>

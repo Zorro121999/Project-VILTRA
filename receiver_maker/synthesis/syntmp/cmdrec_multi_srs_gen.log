@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.receiver  -multisrs  C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\synthesis\synwork\receiver_comp.srs  -osyn  C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\synthesis\synwork\receiver_mult.srs  -log  C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\synthesis\synlog\receiver_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\syn_nfilter.exe -link -top work.receiver -multisrs ..\synwork\receiver_comp.srs -osyn ..\synwork\receiver_mult.srs -log ..\synlog\receiver_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\receiver_comp.srs|io:i|time:1675357412|size:70743|exec:0|csum:6DA8A72BDACC7FEFBE8E40400E29BE0F
+file:..\synwork\receiver_mult.srs|io:o|time:1675357413|size:2610|exec:0|csum:
+file:..\synlog\receiver_multi_srs_gen.srr|io:o|time:1675357413|size:1183|exec:0|csum:
+file:..\..\..\..\..\..\..\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1655988517|size:8737280|exec:1|csum:90AAFAB6F06AE2C85D8574E6DB8CBB07

@@ -1,0 +1,43 @@
+Software Version: 2022.2.0.10
+Programmer 'E20026IM57' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E20026IM57' : FlashPro5
+Opened 'C:\Projects\ISISA\viltra-neu\Project-VILTRA\receiver_maker\designer\receiver\receiver_fp\receiver.pro'
+The 'open_project' command succeeded.
+Info: Programming is already enabled for device 'M2S010'.
+The 'enable_device' command succeeded.
+PPD file 'C:/Projects/ISISA/viltra-neu/Project-VILTRA/receiver_maker/designer/receiver/receiver.ppd' has been loaded successfully.
+DESIGN : receiver;  CHECKSUM : E033;  PDB_VERSION : 1.0
+The 'set_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E20026IM57' : Scan Chain...
+Programmer 'E20026IM57' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E20026IM57' : Check Chain...
+programmer 'E20026IM57' : Scan and Check Chain PASSED.
+programmer 'E20026IM57' : device 'M2S010' : Executing action PROGRAM
+Programmer 'E20026IM57' : JTAG TCK / SPI SCK frequency = 4 MHz
+programmer 'E20026IM57' : device 'M2S010' : Family: Igloo2
+programmer 'E20026IM57' : device 'M2S010' : Product:      M2GL005
+programmer 'E20026IM57' : device 'M2S010' : Cortex-M3 Disabled (M3_ALLOWED = 0)
+programmer 'E20026IM57' : device 'M2S010' : Programming Interface Protocol: JTAG
+programmer 'E20026IM57' : device 'M2S010' : EXPORT ISC_ENABLE_RESULT[32] = 007d6944
+programmer 'E20026IM57' : device 'M2S010' : EXPORT CRCERR[1] = 0
+programmer 'E20026IM57' : device 'M2S010' : EXPORT EDCERR[1] = 0
+programmer 'E20026IM57' : device 'M2S010' : Programming FPGA Array and eNVM...
+programmer 'E20026IM57' : device 'M2S010' : EXPORT Fabric component digest[256] = f1dd298693de29f188f67c51fd558912c501e713a7002168cca43397d65abc4a
+programmer 'E20026IM57' : device 'M2S010' : EXPORT eNVM component digest[256] = 40278a444f1bb094a41a7ec87136cfe78ba627294f521a9c1783c8024e0964c9
+programmer 'E20026IM57' : device 'M2S010' : ===================================================================================
+programmer 'E20026IM57' : device 'M2S010' : EXPORT DSN[128] = dbc3a8f58ba0ee9eb138311fcf46431f
+programmer 'E20026IM57' : device 'M2S010' : ===================================================================================
+programmer 'E20026IM57' : device 'M2S010' : Finished: Thu Feb  2 18:05:43 2023 (Elapsed time 00:00:25)
+programmer 'E20026IM57' : device 'M2S010' : Executing action PROGRAM PASSED.
+programmer 'E20026IM57' : Chain programming PASSED.
+Chain Programming Finished: Thu Feb  2 18:05:43 2023 (Elapsed time 00:00:25)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

@@ -7,6 +7,6 @@ GLOBAL THRESHOLD - 5000
 
 NET NAME                                     CLOCK LOADS     ASYNC RST LOADS     DATA LOADS     TOTAL FANOUT     GLOBAL BUFFER PRESENT
 --------------------------------------------------------------------------------------------------------------------------------------
-FIC_0_CLK_c                                  104             0                   1              105              YES                  
-transmitter_sb_0.MSS_HPMS_READY_int_arst     0               66                  0              66               YES                  
+FIC_0_CLK_c                                  105             0                   1              106              YES                  
+transmitter_sb_0.MSS_HPMS_READY_int_arst     0               67                  0              67               YES                  
 ======================================================================================================================================

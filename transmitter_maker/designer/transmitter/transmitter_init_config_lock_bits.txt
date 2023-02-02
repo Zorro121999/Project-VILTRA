@@ -1,6 +1,6 @@
 # Register Lock Bits Configuration File for MSS, SERDES(s) and Fabric DDR
 # Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
-# Date: Fri Jan 27 16:38:55 2023
+# Date: Thu Feb  2 17:41:26 2023
 
 # Lock Value = 0, disables modification of the Register field.
 

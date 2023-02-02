@@ -6,13 +6,11 @@
 Post processing for work.mss_010.def_arch
 Post processing for work.transmitter_sb_mss.rtl
 Running optimization stage 1 on transmitter_sb_MSS .......
-Finished optimization stage 1 on transmitter_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+Finished optimization stage 1 on transmitter_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 102MB)
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\trans_slave_noham.vhd":23:7:23:23|Synthesizing work.trans_slave_noham.architecture_trans_slave_noham.
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\APB_slave_vhdl.vhd":24:7:24:20|Synthesizing work.apb_slave_vhdl.architecture_apb_slave_vhdl.
 Post processing for work.apb_slave_vhdl.architecture_apb_slave_vhdl
 Running optimization stage 1 on APB_slave_vhdl .......
-@A: CL282 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\APB_slave_vhdl.vhd":131:8:131:9|Feedback mux created for signal RD_EN. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
-@N: CL189 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\APB_slave_vhdl.vhd":131:8:131:9|Register bit RD_EN is always 1.
 Finished optimization stage 1 on APB_slave_vhdl (CPU Time 0h:00m:00s, Memory Used current: 110MB peak: 119MB)
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\hdl\display_noham.vhd":24:7:24:19|Synthesizing work.display_noham.architecture_display_noham.
 Post processing for work.display_noham.architecture_display_noham

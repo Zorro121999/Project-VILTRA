@@ -2,7 +2,7 @@
 <device>
   <name>transmitter</name>
   <version>1.0</version>
-  <description>CMSIS description for transmitter.  Created by Microsemi SmartDesign on Fri Jan 27 16:02:12 2023</description>
+  <description>CMSIS description for transmitter.  Created by Microsemi SmartDesign on Tue Jan 31 15:45:46 2023</description>
   <addressUnitBits>8</addressUnitBits>
   <width>32</width>
   <peripherals>
