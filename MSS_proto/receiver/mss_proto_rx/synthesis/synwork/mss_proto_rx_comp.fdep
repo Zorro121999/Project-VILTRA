@@ -1,0 +1,80 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Projects\\ISISA\\Project-VILTRA\\MSS_proto\\receiver\\mss_proto_rx\\synthesis\\synwork\\mss_proto_rx_comp.srs|-top|work.mss_proto_rx|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\bin64\\c_vhdl.exe":1655988517
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\location.map":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\std.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1655988528
+#CUR:"C:\\Projects\\ISISA\\Project-VILTRA\\MSS_proto\\receiver\\mss_proto_rx\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vhdl\\core\\coreresetp_pcie_hotreset.vhd":1668430866
+#CUR:"C:\\Projects\\ISISA\\Project-VILTRA\\MSS_proto\\receiver\\mss_proto_rx\\component\\work\\mss_proto_rx_sb\\CCC_0\\mss_proto_rx_sb_CCC_0_FCCC.vhd":1673797140
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\generic\\smartfusion2.vhd":1655988526
+#CUR:"C:\\Projects\\ISISA\\Project-VILTRA\\MSS_proto\\receiver\\mss_proto_rx\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.vhd":1667567441
+#CUR:"C:\\Projects\\ISISA\\Project-VILTRA\\MSS_proto\\receiver\\mss_proto_rx\\component\\work\\mss_proto_rx_sb_MSS\\mss_proto_rx_sb_MSS_syn.vhd":1673797134
+#CUR:"C:\\Projects\\ISISA\\Project-VILTRA\\MSS_proto\\receiver\\mss_proto_rx\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vhdl\\core\\coreresetp.vhd":1668430866
+#CUR:"C:\\Projects\\ISISA\\Project-VILTRA\\MSS_proto\\receiver\\mss_proto_rx\\component\\work\\mss_proto_rx_sb\\FABOSC_0\\mss_proto_rx_sb_FABOSC_0_OSC.vhd":1673797142
+#CUR:"C:\\Projects\\ISISA\\Project-VILTRA\\MSS_proto\\receiver\\mss_proto_rx\\component\\work\\mss_proto_rx_sb_MSS\\mss_proto_rx_sb_MSS.vhd":1673797135
+#CUR:"C:\\Projects\\ISISA\\Project-VILTRA\\MSS_proto\\receiver\\mss_proto_rx\\component\\work\\mss_proto_rx_sb\\mss_proto_rx_sb.vhd":1673797142
+#CUR:"C:\\Projects\\ISISA\\Project-VILTRA\\MSS_proto\\receiver\\mss_proto_rx\\component\\work\\mss_proto_rx\\mss_proto_rx.vhd":1673797214
+0			"C:\Projects\ISISA\Project-VILTRA\MSS_proto\receiver\mss_proto_rx\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd" vhdl
+1			"C:\Projects\ISISA\Project-VILTRA\MSS_proto\receiver\mss_proto_rx\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd" vhdl
+2			"C:\Projects\ISISA\Project-VILTRA\MSS_proto\receiver\mss_proto_rx\component\work\mss_proto_rx_sb\CCC_0\mss_proto_rx_sb_CCC_0_FCCC.vhd" vhdl
+3			"C:\Projects\ISISA\Project-VILTRA\MSS_proto\receiver\mss_proto_rx\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd" vhdl
+4			"C:\Projects\ISISA\Project-VILTRA\MSS_proto\receiver\mss_proto_rx\component\work\mss_proto_rx_sb\FABOSC_0\mss_proto_rx_sb_FABOSC_0_OSC.vhd" vhdl
+5			"C:\Projects\ISISA\Project-VILTRA\MSS_proto\receiver\mss_proto_rx\component\work\mss_proto_rx_sb_MSS\mss_proto_rx_sb_MSS_syn.vhd" vhdl
+6			"C:\Projects\ISISA\Project-VILTRA\MSS_proto\receiver\mss_proto_rx\component\work\mss_proto_rx_sb_MSS\mss_proto_rx_sb_MSS.vhd" vhdl
+7			"C:\Projects\ISISA\Project-VILTRA\MSS_proto\receiver\mss_proto_rx\component\work\mss_proto_rx_sb\mss_proto_rx_sb.vhd" vhdl
+8			"C:\Projects\ISISA\Project-VILTRA\MSS_proto\receiver\mss_proto_rx\component\work\mss_proto_rx\mss_proto_rx.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 0
+2 -1
+3 -1
+4 3
+5 -1
+6 5
+7 6 4 1 2
+8 7
+#Dependency Lists(Users Of)
+0 1
+1 7
+2 7
+3 4
+4 7
+5 6
+6 7
+7 8
+8 -1
+#Design Unit to File Association
+module work mss_proto_rx 8
+arch work mss_proto_rx rtl 8
+module work mss_proto_rx_sb 7
+arch work mss_proto_rx_sb rtl 7
+module work mss_proto_rx_sb_mss 6
+arch work mss_proto_rx_sb_mss rtl 6
+module work mss_010 5
+arch work mss_010 def_arch 5
+module work mss_proto_rx_sb_fabosc_0_osc 4
+arch work mss_proto_rx_sb_fabosc_0_osc def_arch 4
+module work rcosc_1mhz 3
+arch work rcosc_1mhz def_arch 3
+module work rcosc_25_50mhz 3
+arch work rcosc_25_50mhz def_arch 3
+module work xtlosc 3
+arch work xtlosc def_arch 3
+module work rcosc_1mhz_fab 3
+arch work rcosc_1mhz_fab def_arch 3
+module work rcosc_25_50mhz_fab 3
+arch work rcosc_25_50mhz_fab def_arch 3
+module work xtlosc_fab 3
+arch work xtlosc_fab def_arch 3
+module work mss_proto_rx_sb_ccc_0_fccc 2
+arch work mss_proto_rx_sb_ccc_0_fccc def_arch 2
+module work coreresetp 1
+arch work coreresetp rtl 1
+module work coreresetp_pcie_hotreset 0
+arch work coreresetp_pcie_hotreset rtl 0

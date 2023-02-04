@@ -1,0 +1,37 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+
+Date      :  Sun Jan 15 16:39:03 2023
+Project   :  C:\Projects\ISISA\Project-VILTRA\MSS_proto\receiver\mss_proto_rx
+Component :  mss_proto_rx_sb
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/work/mss_proto_rx_sb/CCC_0/mss_proto_rx_sb_CCC_0_FCCC.vhd
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/work/mss_proto_rx_sb/FABOSC_0/mss_proto_rx_sb_FABOSC_0_OSC.vhd
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/work/mss_proto_rx_sb/mss_proto_rx_sb.vhd
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/work/mss_proto_rx_sb_MSS/mss_proto_rx_sb_MSS.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/work/mss_proto_rx_sb_MSS/mss_proto_rx_sb_MSS_syn.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.vhd
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/work/mss_proto_rx_sb_MSS/mss_proto_rx_sb_MSS_pre.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/work/mss_proto_rx_sb/subsystem.bfm
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/work/mss_proto_rx_sb_MSS/CM3_compile_bfm.tcl
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/work/mss_proto_rx_sb_MSS/user.bfm
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/work/mss_proto_rx_sb_MSS/test.bfm
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+
+Firmware files for all Software IDE tools:
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/work/mss_proto_rx_sb_MSS/sys_config_mss_clocks.h
+
+Constraint files:
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/work/mss_proto_rx_sb\CCC_0\mss_proto_rx_sb_CCC_0_FCCC.sdc
+    C:/Projects/ISISA/Project-VILTRA/MSS_proto/receiver/mss_proto_rx/component/work/mss_proto_rx_sb\FABOSC_0\mss_proto_rx_sb_FABOSC_0_OSC.sdc

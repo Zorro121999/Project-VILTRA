@@ -1,0 +1,16 @@
+Project Name: mss_proto_rx
+Location: C:\Projects\ISISA\Project-VILTRA\MSS_proto\receiver\mss_proto_rx
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S010-TQ144
+Family         : SmartFusion2
+Die            : M2S010
+Package        : 144 TQ
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

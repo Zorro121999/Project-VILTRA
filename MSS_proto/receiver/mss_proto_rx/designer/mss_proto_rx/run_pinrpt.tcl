@@ -1,0 +1,10 @@
+DESIGN=mss_proto_rx
+DESDIR=C:\Projects\ISISA\Project-VILTRA\MSS_proto\receiver\mss_proto_rx\designer\mss_proto_rx
+TARGET_DIR=C:\Projects\ISISA\Project-VILTRA\MSS_proto\receiver\mss_proto_rx\designer\mss_proto_rx
+FAM=SmartFusion2
+DIE=PA4M1000_N
+PACKAGE=tq144
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

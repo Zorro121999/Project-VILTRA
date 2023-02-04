@@ -95,8 +95,8 @@ int main()
         //set Signal to low after one frame has been sent
         outputPin(0);
 
-        uint32_t t = 750*(1000000 / baudrate);
-        delayMicroSec(t); //wait for 10000 pulses until next byte is sent
+        uint32_t t = 500 * 1000;
+        //delayMicroSec(t); //wait for 10000 pulses until next byte is sent
 
         // Increment number that is sent out
         data++;

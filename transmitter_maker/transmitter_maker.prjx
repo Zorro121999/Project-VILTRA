@@ -731,8 +731,15 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Run Programming Action:transmitter_PROGRAM.log
+SmartDesign;transmitter_sb_MSS;0
+SmartDesign;transmitter_sb;0
+HDL;hdl\display_noham.vhd;0
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+SmartDesign;transmitter;0
+HDL;hdl\trans_slave_noham.vhd;0
+ACTIVEVIEW;hdl\display_noham.vhd
 ENDLIST
 LIST ModuleSubBlockList
 LIST "APB_slave_vhdl::work","hdl\APB_slave_vhdl.vhd","FALSE","FALSE"

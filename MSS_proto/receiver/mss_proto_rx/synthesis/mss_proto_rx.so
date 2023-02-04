@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>mss_proto_rx</design>
+	<target_verilog>C:\Projects\ISISA\Project-VILTRA\MSS_proto\receiver\mss_proto_rx\synthesis\mss_proto_rx.vm</target_verilog>
+</SynplifyOutput>
