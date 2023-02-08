@@ -1,0 +1,13 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF135 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\apb_slave_vhdl.vhd":131:8:131:9|RAM receiver_slave_vhdl_0.APB.Memory_Mapped_Registers[31:0] (in view: work.receiver_with_ham_sb(rtl)) is 64 words by 32 bits.
+@N: FX271 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\apb_slave_vhdl.vhd":131:8:131:9|Replicating instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.APB.Memory_Mapped_Registersror_53 (in view: work.receiver_with_ham(rtl)) with 40 loads 3 times to improve timing.
+@N: FX271 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\apb_slave_vhdl.vhd":131:8:131:9|Replicating instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.APB.Memory_Mapped_Registersror_52 (in view: work.receiver_with_ham(rtl)) with 40 loads 3 times to improve timing.
+@N: FX271 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\apb_slave_vhdl.vhd":131:8:131:9|Replicating instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.APB.Memory_Mapped_Registersror_51 (in view: work.receiver_with_ham(rtl)) with 40 loads 3 times to improve timing.
+@N: FX271 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\apb_slave_vhdl.vhd":144:23:144:35|Replicating instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.APB.RD_EN_0_sqmuxa (in view: work.receiver_with_ham(rtl)) with 40 loads 3 times to improve timing.
+@N: FP130 |Promoting Net receiver_with_ham_sb_0.MSS_HPMS_READY_int_arst on CLKINT  I_357 
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

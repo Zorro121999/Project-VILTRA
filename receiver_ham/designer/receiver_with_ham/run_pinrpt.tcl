@@ -1,0 +1,10 @@
+DESIGN=receiver_with_ham
+DESDIR=C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\designer\receiver_with_ham
+TARGET_DIR=C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\designer\receiver_with_ham
+FAM=SmartFusion2
+DIE=PA4M1000_N
+PACKAGE=tq144
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

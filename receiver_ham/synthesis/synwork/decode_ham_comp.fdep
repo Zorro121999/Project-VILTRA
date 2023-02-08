@@ -1,0 +1,21 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\synthesis\\synwork\\decode_ham_comp.srs|-autotop|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\bin64\\c_vhdl.exe":1655232168
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\location.map":1655230200
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\std.vhd":1655230258
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd\\snps_haps_pkg.vhd":1655230198
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\std1164.vhd":1655230200
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\std_textio.vhd":1655230200
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\numeric.vhd":1655232432
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd\\umr_capim.vhd":1655230198
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\arith.vhd":1655230200
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\unsigned.vhd":1655230200
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd\\hyperents.vhd":1655230198
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\hdl\\decode_ham.vhd":1675384001
+0			"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work decode_ham 0
+arch work decode_ham architecture_decode_ham 0

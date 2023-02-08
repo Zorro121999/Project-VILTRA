@@ -1,0 +1,101 @@
+#Build: Synplify Pro (R) S-2021.09M-SP1, Build 150R, Jun 14 2022
+#install: C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1
+#OS: Windows 10 or later
+#Hostname: ACER
+
+# Fri Feb  3 00:00:34 2023
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1
+OS: Windows 10 or later
+Hostname: ACER
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1
+OS: Windows 10 or later
+Hostname: ACER
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd":24:7:24:16|Top entity is set to decode_ham.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd'.
+VHDL syntax check successful!
+@N: CD231 :"C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd":24:7:24:16|Synthesizing work.decode_ham.architecture_decode_ham.
+Post processing for work.decode_ham.architecture_decode_ham
+Running optimization stage 1 on decode_ham .......
+@A: CL282 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd":41:32:41:34|Feedback mux created for signal dffr2. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd":80:2:80:3|Sharing sequential element LEDs and merging LEDs. Add a syn_preserve attribute to the element to prevent sharing.
+Finished optimization stage 1 on decode_ham (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+Running optimization stage 2 on decode_ham .......
+@E: CL219 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd":38:8:38:15|Multiple non-tristate drivers for net LEDs_int(7 downto 0) in decode_ham
+@E: CL219 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd":33:4:33:7|Multiple non-tristate drivers for net LEDs(7 downto 0) in decode_ham
+Finished optimization stage 2 on decode_ham (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\synwork\layer0.rt.csv
+
+@E: CL229 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd":33:4:33:7|Unresolved tristate drivers for net LEDs(7 downto 0) in decode_ham
+@E: CL229 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd":38:8:38:15|Unresolved tristate drivers for net LEDs_int(7 downto 0) in decode_ham
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Feb  3 00:00:35 2023
+
+###########################################################]
+###########################################################[
+@N: BN693 |File C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\synwork\layer0.srs contained no valid netlist.
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1
+OS: Windows 10 or later
+Hostname: ACER
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+@E: Could not find specified top level decode_ham (library: work, cell: decode_ham)
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Feb  3 00:00:36 2023
+
+###########################################################]
+@E::Error while linking, aborting.
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Feb  3 00:00:36 2023
+
+###########################################################]

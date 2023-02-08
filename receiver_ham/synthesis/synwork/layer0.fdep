@@ -1,0 +1,127 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\synthesis\\synwork\\receiver_with_ham_comp.srs|-top|work.receiver_with_ham|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\bin64\\c_vhdl.exe":1655232168
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\location.map":1655230200
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\std.vhd":1655230258
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd\\snps_haps_pkg.vhd":1655230198
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\std1164.vhd":1655230200
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\std_textio.vhd":1655230200
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\numeric.vhd":1655232432
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd\\umr_capim.vhd":1655230198
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\arith.vhd":1655230200
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd2008\\unsigned.vhd":1655230200
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\vhd\\hyperents.vhd":1655230198
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_muxptob3.vhd":1671180472
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_iaddr_reg.vhd":1671180472
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vhdl\\core\\coreresetp_pcie_hotreset.vhd":1669383889
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\hdl\\APB_slave_vhdl.vhd":1675759873
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\hdl\\decode_ham.vhd":1675858682
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\component\\work\\receiver_with_ham_sb\\CCC_0\\receiver_with_ham_sb_CCC_0_FCCC.vhd":1675858710
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\fpga_S-2021.09M-SP1\\lib\\generic\\smartfusion2.vhd":1655238056
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.vhd":1668164907
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\component\\work\\receiver_with_ham_sb_MSS\\receiver_with_ham_sb_MSS_syn.vhd":1675807105
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\components.vhd":1671180472
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3.vhd":1671180472
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vhdl\\core\\coreresetp.vhd":1669383889
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\hdl\\receiver_slave_vhdl.vhd":1675760175
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\component\\work\\receiver_with_ham_sb\\FABOSC_0\\receiver_with_ham_sb_FABOSC_0_OSC.vhd":1675858712
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\component\\work\\receiver_with_ham_sb_MSS\\receiver_with_ham_sb_MSS.vhd":1675807105
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\component\\work\\receiver_with_ham_sb\\receiver_with_ham_sb.vhd":1675858712
+#CUR:"C:\\Users\\user\\Documents\\ISISA\\optical_transmission\\receiver_ham\\component\\work\\receiver_with_ham\\receiver_with_ham.vhd":1675858717
+0 "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd" vhdl
+1 "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd" vhdl
+2 "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd" vhdl
+3 "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd" vhdl
+4 "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd" vhdl
+5 "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\APB_slave_vhdl.vhd" vhdl
+6 "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd" vhdl
+7 "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\receiver_slave_vhdl.vhd" vhdl
+8 "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb\CCC_0\receiver_with_ham_sb_CCC_0_FCCC.vhd" vhdl
+9 "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd" vhdl
+10 "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb\FABOSC_0\receiver_with_ham_sb_FABOSC_0_OSC.vhd" vhdl
+11 "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb_MSS\receiver_with_ham_sb_MSS_syn.vhd" vhdl
+12 "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb_MSS\receiver_with_ham_sb_MSS.vhd" vhdl
+13 "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd" vhdl
+14 "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb\receiver_with_ham_sb.vhd" vhdl
+15 "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham\receiver_with_ham.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 0 1 
+3 -1
+4 3 
+5 -1
+6 -1
+7 6 5 
+8 -1
+9 -1
+10 9 
+11 -1
+12 11 
+13 -1
+14 8 2 4 10 7 12 13 
+15 14 
+
+# Dependency Lists (Users Of)
+0 2 
+1 2 
+2 14 
+3 4 
+4 14 
+5 7 
+6 7 
+7 14 
+8 14 
+9 10 
+10 14 
+11 12 
+12 14 
+13 14 
+14 15 
+15 -1
+
+# Design Unit to File Association
+arch coreapb3_lib coreapb3_muxptob3 coreapb3_muxptob3_arch 0
+module coreapb3_lib coreapb3_muxptob3 0
+arch coreapb3_lib coreapb3_iaddr_reg rtl 1
+module coreapb3_lib coreapb3_iaddr_reg 1
+arch coreapb3_lib coreapb3 coreapb3_arch 2
+module coreapb3_lib coreapb3 2
+arch work coreresetp_pcie_hotreset rtl 3
+module work coreresetp_pcie_hotreset 3
+arch work coreresetp rtl 4
+module work coreresetp 4
+arch work apb_slave_vhdl architecture_apb_slave_vhdl 5
+module work apb_slave_vhdl 5
+arch work decode_ham architecture_decode_ham 6
+module work decode_ham 6
+arch work receiver_slave_vhdl architecture_receiver_slave_vhdl 7
+module work receiver_slave_vhdl 7
+arch work receiver_with_ham_sb_ccc_0_fccc def_arch 8
+module work receiver_with_ham_sb_ccc_0_fccc 8
+arch work xtlosc_fab def_arch 9
+module work xtlosc_fab 9
+arch work rcosc_25_50mhz_fab def_arch 9
+module work rcosc_25_50mhz_fab 9
+arch work rcosc_1mhz_fab def_arch 9
+module work rcosc_1mhz_fab 9
+arch work xtlosc def_arch 9
+module work xtlosc 9
+arch work rcosc_25_50mhz def_arch 9
+module work rcosc_25_50mhz 9
+arch work rcosc_1mhz def_arch 9
+module work rcosc_1mhz 9
+arch work receiver_with_ham_sb_fabosc_0_osc def_arch 10
+module work receiver_with_ham_sb_fabosc_0_osc 10
+arch work mss_010 def_arch 11
+module work mss_010 11
+arch work receiver_with_ham_sb_mss rtl 12
+module work receiver_with_ham_sb_mss 12
+arch work receiver_with_ham_sb rtl 14
+module work receiver_with_ham_sb 14
+arch work receiver_with_ham rtl 15
+module work receiver_with_ham 15
+
+
+# Configuration files used

@@ -1,0 +1,334 @@
+# Fri Feb  3 11:14:05 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1
+OS: Windows 6.2
+
+Hostname: ACER
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 123MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 125MB peak: 132MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 163MB peak: 163MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 166MB peak: 166MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 167MB peak: 167MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 168MB peak: 168MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 169MB peak: 169MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 169MB peak: 170MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 169MB peak: 170MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 169MB peak: 170MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 170MB peak: 170MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 170MB peak: 171MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:05s		     3.35ns		  91 /        32
+@N: FP130 |Promoting Net clk_c on CLKINT  I_69 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 170MB peak: 171MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 170MB peak: 171MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 32 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk                 port                   32         LEDs_int[0]    
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 141MB peak: 171MB)
+
+Writing Analyst data base C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\synwork\decode_ham_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 171MB peak: 171MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 172MB peak: 172MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 172MB peak: 173MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 171MB peak: 173MB)
+
+@W: MT420 |Found inferred clock decode_ham|clk with period 10.00ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Fri Feb  3 11:14:14 2023
+#
+
+
+Top view:               decode_ham
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\designer\decode_ham\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 4.095
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group     
+------------------------------------------------------------------------------------------------------------
+decode_ham|clk     100.0 MHz     169.3 MHz     10.000        5.905         4.095     inferred     (multiple)
+============================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------
+Starting        Ending          |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------
+decode_ham|clk  decode_ham|clk  |  10.000      4.095  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: decode_ham|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                Starting                                            Arrival          
+Instance        Reference          Type     Pin     Net             Time        Slack
+                Clock                                                                
+-------------------------------------------------------------------------------------
+decoded[0]      decode_ham|clk     SLE      Q       decoded[0]      0.087       4.095
+decoded[3]      decode_ham|clk     SLE      Q       decoded[3]      0.108       4.159
+decoded[2]      decode_ham|clk     SLE      Q       decoded[2]      0.087       4.464
+decoded[1]      decode_ham|clk     SLE      Q       decoded[1]      0.087       4.856
+LEDs_int[6]     decode_ham|clk     SLE      Q       LEDs_int[6]     0.108       5.029
+LEDs_int[7]     decode_ham|clk     SLE      Q       LEDs_int[7]     0.108       5.119
+LEDs_int[2]     decode_ham|clk     SLE      Q       LEDs_int[2]     0.108       5.404
+LEDs_int[3]     decode_ham|clk     SLE      Q       LEDs_int[3]     0.108       5.472
+LEDs_int[5]     decode_ham|clk     SLE      Q       LEDs_int[5]     0.108       5.472
+LEDs_int[4]     decode_ham|clk     SLE      Q       LEDs_int[4]     0.108       5.511
+=====================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                                        Required          
+Instance           Reference          Type     Pin     Net                         Time         Slack
+                   Clock                                                                             
+-----------------------------------------------------------------------------------------------------
+LEDs[0]            decode_ham|clk     SLE      D       disp\.LEDs_13_iv_i[0]       9.745        4.095
+LEDs[1]            decode_ham|clk     SLE      D       disp\.LEDs_13_iv_i[1]       9.745        4.095
+LEDs[2]            decode_ham|clk     SLE      D       disp\.LEDs_13_iv_i[2]       9.745        4.095
+LEDs[3]            decode_ham|clk     SLE      D       disp\.LEDs_13_iv_i[3]       9.745        4.095
+LEDs[4]            decode_ham|clk     SLE      D       disp\.LEDs_13_iv_i[4]       9.745        4.095
+LEDs[5]            decode_ham|clk     SLE      D       disp\.LEDs_13_iv_i[5]       9.745        4.095
+LEDs[6]            decode_ham|clk     SLE      D       disp\.LEDs_13_iv_i[6]       9.745        4.095
+LEDs[7]            decode_ham|clk     SLE      D       disp\.LEDs_13_iv_i[7]       9.745        4.095
+bit_correct[0]     decode_ham|clk     SLE      D       disp\.bit_correct_27[0]     9.745        5.982
+bit_correct[1]     decode_ham|clk     SLE      D       disp\.bit_correct_27[1]     9.745        5.982
+=====================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      5.650
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     4.095
+
+    Number of logic level(s):                5
+    Starting point:                          decoded[0] / Q
+    Ending point:                            LEDs[0] / D
+    The start point is clocked by            decode_ham|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            decode_ham|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                      Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+decoded[0]                SLE      Q        Out     0.087     0.087 r     -         
+decoded[0]                Net      -        -       1.144     -           16        
+LEDs_0_sqmuxa_6_1         CFG2     B        In      -         1.232 r     -         
+LEDs_0_sqmuxa_6_1         CFG2     Y        Out     0.165     1.396 r     -         
+m14_0                     Net      -        -       0.745     -           3         
+LEDs_0_sqmuxa_6           CFG4     D        In      -         2.141 r     -         
+LEDs_0_sqmuxa_6           CFG4     Y        Out     0.271     2.413 r     -         
+LEDs_0_sqmuxa_6           Net      -        -       0.248     -           1         
+un1_LEDs_0_sqmuxa_4       CFG4     D        In      -         2.661 r     -         
+un1_LEDs_0_sqmuxa_4       CFG4     Y        Out     0.271     2.933 r     -         
+un1_LEDs_0_sqmuxa_4       Net      -        -       1.017     -           9         
+un1_leds77_1              CFG4     D        In      -         3.950 r     -         
+un1_leds77_1              CFG4     Y        Out     0.271     4.221 r     -         
+un1_leds77_1              Net      -        -       0.977     -           8         
+disp\.LEDs_13_iv_i[0]     CFG4     C        In      -         5.198 r     -         
+disp\.LEDs_13_iv_i[0]     CFG4     Y        Out     0.203     5.401 r     -         
+disp\.LEDs_13_iv_i[0]     Net      -        -       0.248     -           1         
+LEDs[0]                   SLE      D        In      -         5.650 r     -         
+====================================================================================
+Total path delay (propagation time + setup) of 5.905 is 1.525(25.8%) logic and 4.380(74.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 172MB peak: 173MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 172MB peak: 173MB)
+
+---------------------------------------
+Resource Usage Report for decode_ham 
+
+Mapping to part: m2s010vf400std
+Cell usage:
+CLKINT          1 use
+CFG2           9 uses
+CFG3           19 uses
+CFG4           45 uses
+
+
+Sequential Cells: 
+SLE            32 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 21
+I/O primitives: 21
+INBUF          11 uses
+OUTBUF         10 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    73
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  32 + 0 + 0 + 0 = 32;
+Total number of LUTs after P&R:  73 + 0 + 0 + 0 = 73;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 63MB peak: 173MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:09s cputime
+# Fri Feb  3 11:14:15 2023
+
+###########################################################]

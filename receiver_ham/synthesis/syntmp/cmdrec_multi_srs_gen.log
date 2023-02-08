@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\bin64\syn_nfilter.exe  -link  -top  work.receiver_with_ham  -multisrs  C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\synwork\receiver_with_ham_comp.srs  -osyn  C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\synwork\receiver_with_ham_mult.srs  -log  C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\synlog\receiver_with_ham_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\bin64\syn_nfilter.exe -link -top work.receiver_with_ham -multisrs ..\synwork\receiver_with_ham_comp.srs -osyn ..\synwork\receiver_with_ham_mult.srs -log ..\synlog\receiver_with_ham_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\receiver_with_ham_comp.srs|io:i|time:1675858745|size:73430|exec:0|csum:A489E998AADACC7DE30A0235097A7465
+file:..\synwork\receiver_with_ham_mult.srs|io:o|time:1675858747|size:2819|exec:0|csum:
+file:..\synlog\receiver_with_ham_multi_srs_gen.srr|io:o|time:1675858747|size:1062|exec:0|csum:
+file:..\..\..\..\..\..\..\..\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\bin64\syn_nfilter.exe|io:i|time:1655232346|size:8737280|exec:1|csum:90AAFAB6F06AE2C85D8574E6DB8CBB07

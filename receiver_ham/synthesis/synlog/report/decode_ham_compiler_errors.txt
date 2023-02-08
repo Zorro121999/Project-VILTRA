@@ -1,0 +1,7 @@
+@E: CL219 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd":38:8:38:15|Multiple non-tristate drivers for net LEDs_int(7 downto 0) in decode_ham
+@E: CL219 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd":33:4:33:7|Multiple non-tristate drivers for net LEDs(7 downto 0) in decode_ham
+@E: CL229 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd":33:4:33:7|Unresolved tristate drivers for net LEDs(7 downto 0) in decode_ham
+@E: CL229 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd":38:8:38:15|Unresolved tristate drivers for net LEDs_int(7 downto 0) in decode_ham
+@E: Could not find specified top level decode_ham (library: work, cell: decode_ham)
+@E::Error while linking, aborting.
+

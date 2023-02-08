@@ -1,0 +1,10 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,uSRAM 1K,PLLs and CCCs,Chip Globals,MSS,10/100/1000 Ethernet,HS USB,Multi-Mode UART,RCOSC_50MHZ
+Primitives/Primitives,0,0,0,0,11,0,0,0,0,0,0,0,0
+receiver_with_ham_sb_0/CCC_0/Primitives,0,0,0,0,0,0,1,1,0,0,0,0,0
+receiver_with_ham_sb_0/CORERESETP_0/Primitives,2,11,0,0,0,0,0,1,0,0,0,0,0
+receiver_with_ham_sb_0/CoreAPB3_0/Primitives,2,0,0,0,0,0,0,0,0,0,0,0,0
+receiver_with_ham_sb_0/FABOSC_0/Primitives,0,0,0,0,0,0,0,0,0,0,0,0,1
+receiver_with_ham_sb_0/receiver_slave_vhdl_0/APB/Primitives,311,98,72,72,0,2,0,0,0,0,0,0,0
+receiver_with_ham_sb_0/receiver_slave_vhdl_0/dc/Primitives,72,32,0,0,0,0,0,0,0,0,0,0,0
+receiver_with_ham_sb_0/receiver_with_ham_sb_MSS_0/Primitives,33,0,0,0,0,0,0,0,1,0,0,0,0

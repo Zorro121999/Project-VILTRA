@@ -1,0 +1,11 @@
+@P:  Worst Slack : 4.095
+@P:  decode_ham|clk - Estimated Frequency : 169.3 MHz
+@P:  decode_ham|clk - Requested Frequency : 100.0 MHz
+@P:  decode_ham|clk - Estimated Period : 5.905
+@P:  decode_ham|clk - Requested Period : 10.000
+@P:  decode_ham|clk - Slack : 4.095
+@P: decode_ham Part : m2s010vf400std
+@P: decode_ham Register bits  : 32 
+@P: decode_ham DSP Blocks  : 0
+@P: decode_ham I/O primitives : 21
+@P:  CPU Time : 0h:00m:09s

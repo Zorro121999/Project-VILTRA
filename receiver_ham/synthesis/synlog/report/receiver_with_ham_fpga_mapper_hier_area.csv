@@ -1,0 +1,12 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. receiver_with_ham, 141, 420, 0, 0, 0, 0, 2, 2, 11
+.	. receiver_with_ham_sb, 141, 420, 0, 0, 0, 0, 2, 2, 0
+.	.	. CoreAPB3, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	. CoreResetP, 11, 2, 0, 0, 0, 0, 0, 1, 0
+.	.	. receiver_slave_vhdl, 130, 383, 0, 0, 0, 0, 2, 0, 0
+.	.	.	. APB_slave_vhdl, 98, 311, 0, 0, 0, 0, 2, 0, 0
+.	.	.	. decode_ham, 32, 72, 0, 0, 0, 0, 0, 0, 0
+.	.	. receiver_with_ham_sb_CCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. receiver_with_ham_sb_FABOSC_0_OSC, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. receiver_with_ham_sb_MSS, 0, 33, 0, 0, 0, 0, 0, 0, 0

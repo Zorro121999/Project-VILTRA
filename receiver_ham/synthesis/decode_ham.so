@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>decode_ham</design>
+	<target_verilog>C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\decode_ham.vm</target_verilog>
+</SynplifyOutput>

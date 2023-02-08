@@ -1,0 +1,24 @@
+#===========================================================
+# Created by Microsemi SmartDesign Wed Feb  8 13:18:38 2023
+#
+# Syntax: 
+# ------- 
+#
+# memmap    resource_name base_address;
+#
+# write     width resource_name byte_offset data;
+# read      width resource_name byte_offset;
+# readcheck width resource_name byte_offset data;
+#
+#===========================================================
+
+#-----------------------------------------------------------
+# Memory Map
+# Define name and base address of each resource.
+#-----------------------------------------------------------
+
+memmap receiver_with_ham_sb_0/receiver_slave_vhdl_0 0x0000_0000;
+#-----------------------------------------------------------
+# Include resource scriptlets
+#-----------------------------------------------------------
+

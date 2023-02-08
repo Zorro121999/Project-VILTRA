@@ -1,0 +1,17 @@
+@P:  Worst Slack : -0.177
+@P:  receiver_with_ham_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 98.3 MHz
+@P:  receiver_with_ham_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  receiver_with_ham_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 10.177
+@P:  receiver_with_ham_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
+@P:  receiver_with_ham_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack : -0.177
+@P:  System - Estimated Frequency : 895.2 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 1.117
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 8.883
+@P: receiver_with_ham Part : m2s010vf400std
+@P: receiver_with_ham Register bits  : 141 
+@P: receiver_with_ham DSP Blocks  : 0
+@P: receiver_with_ham I/O primitives : 11
+@P: receiver_with_ham RAM64x18 :  2
+@P:  CPU Time : 0h:00m:07s

@@ -1,0 +1,12 @@
+
+########			REPORT FOR HIGH FANOUT NETS			########
+
+CLOCK GLOBAL THRESHOLD - 2
+ASYNC GLOBAL THRESHOLD - 12
+GLOBAL THRESHOLD - 5000
+
+NET NAME                                           CLOCK LOADS     ASYNC RST LOADS     DATA LOADS     TOTAL FANOUT     GLOBAL BUFFER PRESENT
+--------------------------------------------------------------------------------------------------------------------------------------------
+receiver_with_ham_sb_0.FIC_0_CLK                   144             0                   0              144              YES                  
+receiver_with_ham_sb_0.MSS_HPMS_READY_int_arst     0               99                  0              99               YES                  
+============================================================================================================================================

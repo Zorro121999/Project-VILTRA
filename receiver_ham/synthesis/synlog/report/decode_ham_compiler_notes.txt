@@ -1,0 +1,10 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd":24:7:24:16|Top entity is set to decode_ham.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd'.
+@N: CD231 :"C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd":24:7:24:16|Synthesizing work.decode_ham.architecture_decode_ham.
+@N|Running in 64-bit mode
+@N: NF107 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\decode_ham.vhd":24:7:24:16|Selected library: work cell: decode_ham view architecture_decode_ham as top level
+@N: NF107 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\decode_ham.vhd":24:7:24:16|Selected library: work cell: decode_ham view architecture_decode_ham as top level
+

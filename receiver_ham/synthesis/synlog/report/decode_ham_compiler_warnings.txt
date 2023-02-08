@@ -1,0 +1,2 @@
+@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd":80:2:80:3|Sharing sequential element LEDs and merging LEDs. Add a syn_preserve attribute to the element to prevent sharing.
+
