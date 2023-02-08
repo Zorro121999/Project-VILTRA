@@ -143,8 +143,8 @@ NAME="Synplify Pro 2021-09M"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -181,11 +181,11 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Project Summary:transmitter_slave_noham.log
 HDL;hdl\APB_slave_vhdl.vhd;0
 HDL;hdl\display_noham.vhd;0
 HDL;hdl\trans_slave_noham.vhd;0
+Reports;Reports;0
+ReportsCurrentItem;Project Summary:transmitter_slave_noham.log
 StartPage;StartPage;0
 ACTIVEVIEW;hdl\APB_slave_vhdl.vhd
 ENDLIST

@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 # Written by Synplify Pro version map202109actsp1, Build 056R. Synopsys Run ID: sid1674833728 
+=======
+# Written by Synplify Pro version map202109actsp1, Build 056R. Synopsys Run ID: sid1674832083 
+>>>>>>> Stashed changes
 # Top Level Design Parameters 
 
 # Clocks 

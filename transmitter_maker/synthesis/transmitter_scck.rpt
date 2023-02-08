@@ -13,7 +13,11 @@ Hostname: SURFACEPRO
 
 Implementation : synthesis
 
+<<<<<<< Updated upstream
 # Written on Fri Jan 27 16:35:26 2023
+=======
+# Written on Fri Jan 27 16:07:59 2023
+>>>>>>> Stashed changes
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      "C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\designer\transmitter\synthesis.fdc"

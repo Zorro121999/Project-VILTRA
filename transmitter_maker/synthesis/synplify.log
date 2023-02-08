@@ -19,10 +19,10 @@
             Inclusivity and Diversity" (Refer to article 000036315 at
                         https://solvnetplus.synopsys.com)
 
-Starting:    C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\mbin\synbatch.exe
-Install:     C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
-Hostname:    SURFACEPRO
-Date:        Fri Jan 27 16:35:17 2023
+Starting:    C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\bin64\mbin\synbatch.exe
+Install:     C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1
+Hostname:    ACER
+Date:        Sat Jan 28 13:37:57 2023
 Version:     S-2021.09M-SP1
 
 Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log transmitter_syn.tcl
@@ -35,65 +35,12 @@ License Option: actel_oem
 
 Running in Vendor Mode
 
-auto_infer_blackbox is not supported in current product.
-log file: "C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\synthesis\transmitter.srr"
-Running: synthesis in foreground
-
-Running transmitter_syn|synthesis
-
-Running Flow: compile (Compile) on transmitter_syn|synthesis
-# Fri Jan 27 16:35:18 2023
-
-Running Flow: compile_flow (Compile Process) on transmitter_syn|synthesis
-# Fri Jan 27 16:35:18 2023
-
-Running: compiler (Compile Input) on transmitter_syn|synthesis
-# Fri Jan 27 16:35:18 2023
-Copied C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\synthesis\synwork\transmitter_comp.srs to C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\synthesis\transmitter.srs
-
-compiler completed
-# Fri Jan 27 16:35:25 2023
-
-Return Code: 0
-Run Time:00h:00m:07s
-
-Running: multi_srs_gen (Multi-srs Generator) on transmitter_syn|synthesis
-# Fri Jan 27 16:35:25 2023
-
-multi_srs_gen completed
-# Fri Jan 27 16:35:26 2023
-
-Return Code: 0
-Run Time:00h:00m:01s
-Copied C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\synthesis\synwork\transmitter_mult.srs to C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\synthesis\transmitter.srs
-Complete: Compile Process on transmitter_syn|synthesis
-
-Running: premap (Premap) on transmitter_syn|synthesis
-# Fri Jan 27 16:35:26 2023
-
-premap completed with warnings
-# Fri Jan 27 16:35:28 2023
-
-Return Code: 1
-Run Time:00h:00m:02s
-Complete: Compile on transmitter_syn|synthesis
-
-Running Flow: map (Map) on transmitter_syn|synthesis
-# Fri Jan 27 16:35:28 2023
-License granted for 4 parallel jobs
-
-Running: fpga_mapper (Map & Optimize) on transmitter_syn|synthesis
-# Fri Jan 27 16:35:28 2023
-Copied C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\synthesis\synwork\transmitter_m.srm to C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\synthesis\transmitter.srm
-
-fpga_mapper completed with warnings
-# Fri Jan 27 16:35:36 2023
-
-Return Code: 1
-Run Time:00h:00m:08s
-Complete: Map on transmitter_syn|synthesis
-Complete: Logic Synthesis on transmitter_syn|synthesis
+Error: At line 5 while processing "C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\synthesis\transmitter_syn.prj"
+invalid command name "<<<<<<<"
+Error: At line 1 while processing "transmitter_syn.tcl"
+Project load failed.
 TCL script complete: "transmitter_syn.tcl"
-exit status=0
-exit status=0
+TCL script had errors: "transmitter_syn.tcl"
+exit status=9
+exit status=9
 License checkin: synplifypro_actel

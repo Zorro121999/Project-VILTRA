@@ -1,6 +1,10 @@
 set_component transmitter_sb_CCC_0_FCCC
 # Microsemi Corp.
+<<<<<<< Updated upstream
 # Date: 2023-Jan-27 16:29:39
+=======
+# Date: 2023-Jan-27 16:07:28
+>>>>>>> Stashed changes
 #
 
 create_clock -period 20 [ get_pins { CCC_INST/RCOSC_25_50MHZ } ]

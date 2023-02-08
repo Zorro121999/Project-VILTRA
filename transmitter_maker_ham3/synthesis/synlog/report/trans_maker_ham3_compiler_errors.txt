@@ -1,0 +1,5 @@
+@E: CL219 :"C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\hdl\display_ham.vhd":33:4:33:7|Multiple non-tristate drivers for net LEDs(7 downto 0) in display_ham
+@E: CL229 :"C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\hdl\display_ham.vhd":33:4:33:7|Unresolved tristate drivers for net LEDs(7 downto 0) in display_ham
+@E: Could not find specified top level trans_maker_ham3 (library: work, cell: trans_maker_ham3)
+@E::Error while linking, aborting.
+

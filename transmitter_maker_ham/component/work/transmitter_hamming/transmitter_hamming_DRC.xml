@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>transmitter_hamming</header>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin transmitter_hamming_sb_0:FAB_RESET_N</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/transmitter_hamming/pins/transmitter_hamming_sb_0:FAB_RESET_N</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin transmitter_hamming_sb_0:FIC_0_CLK</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/transmitter_hamming/pins/transmitter_hamming_sb_0:FIC_0_CLK</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin transmitter_hamming_sb_0:GPIO_0_M2F</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/transmitter_hamming/pins/transmitter_hamming_sb_0:GPIO_0_M2F</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin transmitter_hamming_sb_0:PB1</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/transmitter_hamming/pins/transmitter_hamming_sb_0:PB1</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin transmitter_hamming_sb_0:LEDs[7:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/transmitter_hamming/pins/transmitter_hamming_sb_0:LEDs</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Required Bus Interface Connection</message>
+    <detail>Unconnected bus interface pin transmitter_hamming_sb_0:RCOSC_25_50MHZ_CCC_OUT</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/transmitter_hamming/pins/transmitter_hamming_sb_0:RCOSC_25_50MHZ_CCC_OUT</crossprobe>
+  </drc>
+</drcreport>

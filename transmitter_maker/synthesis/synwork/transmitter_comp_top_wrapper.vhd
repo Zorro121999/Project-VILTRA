@@ -1,6 +1,10 @@
 --
 -- Synopsys
+<<<<<<< Updated upstream
 -- Vhdl wrapper for top level design, written on Fri Jan 27 16:35:23 2023
+=======
+-- Vhdl wrapper for top level design, written on Fri Jan 27 16:07:56 2023
+>>>>>>> Stashed changes
 --
 library ieee;
 use ieee.std_logic_1164.all;

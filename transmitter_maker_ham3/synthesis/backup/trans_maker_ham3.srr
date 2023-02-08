@@ -1,0 +1,75 @@
+#Build: Synplify Pro (R) S-2021.09M-SP1, Build 150R, Jun 14 2022
+#install: C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1
+#OS: Windows 10 or later
+#Hostname: ACER
+
+# Fri Feb  3 14:41:14 2023
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1
+OS: Windows 10 or later
+Hostname: ACER
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1
+OS: Windows 10 or later
+Hostname: ACER
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\component\work\trans_maker_ham3\trans_maker_ham3.vhd":17:7:17:22|Top entity is set to trans_maker_ham3.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\component\work\trans_maker_ham3_sb\CCC_0\trans_maker_ham3_sb_CCC_0_FCCC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\component\work\trans_maker_ham3_sb_MSS\trans_maker_ham3_sb_MSS_syn.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\hdl\APB_slave_vhdl_ham.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\hdl\display_ham.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\component\work\trans_maker_ham3_sb\FABOSC_0\trans_maker_ham3_sb_FABOSC_0_OSC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\component\work\trans_maker_ham3_sb_MSS\trans_maker_ham3_sb_MSS.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\hdl\trans_slave_ham.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\component\work\trans_maker_ham3_sb\trans_maker_ham3_sb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\component\work\trans_maker_ham3\trans_maker_ham3.vhd'.
+VHDL syntax check successful!
+@N: CD231 :"C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\component\work\trans_maker_ham3\trans_maker_ham3.vhd":17:7:17:22|Synthesizing work.trans_maker_ham3.rtl.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\component\work\trans_maker_ham3_sb\trans_maker_ham3_sb.vhd":20:7:20:25|Synthesizing work.trans_maker_ham3_sb.rtl.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\hdl\trans_slave_ham.vhd":23:7:23:21|Synthesizing work.trans_slave_ham.architecture_trans_slave_ham.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\hdl\APB_slave_vhdl_ham.vhd":24:7:24:24|Synthesizing work.apb_slave_vhdl_ham.architecture_apb_slave_vhdl_ham.
+@E: CD297 :"C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\hdl\APB_slave_vhdl_ham.vhd":101:8:101:108|Width mismatch, location has width 8, value 32
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Feb  3 14:41:15 2023
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Feb  3 14:41:15 2023
+
+###########################################################]

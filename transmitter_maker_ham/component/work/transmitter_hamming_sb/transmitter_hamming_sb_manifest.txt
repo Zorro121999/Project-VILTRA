@@ -1,0 +1,28 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+
+Date      :  Tue Feb  7 08:46:03 2023
+Project   :  C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker_ham
+Component :  transmitter_hamming_sb
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/work/transmitter_hamming_sb/CCC_0/transmitter_hamming_sb_CCC_0_FCCC.vhd
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/components.vhd
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_muxptob3.vhd
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/work/transmitter_hamming_sb/FABOSC_0/transmitter_hamming_sb_FABOSC_0_OSC.vhd
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/work/transmitter_hamming_sb/transmitter_hamming_sb.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.vhd
+
+Constraint files:
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/work/transmitter_hamming_sb\CCC_0\transmitter_hamming_sb_CCC_0_FCCC.sdc
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/work/transmitter_hamming_sb\FABOSC_0\transmitter_hamming_sb_FABOSC_0_OSC.sdc

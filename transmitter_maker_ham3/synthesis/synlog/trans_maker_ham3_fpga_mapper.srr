@@ -1,0 +1,624 @@
+# Wed Feb  8 12:41:18 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1
+OS: Windows 6.2
+
+Hostname: ACER
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 120MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 132MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 132MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
+
+@W: BN132 :"c:\users\user\documents\isisa\optical_transmission\transmitter_maker_ham3\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":553:8:553:9|Removing sequential instance trans_maker_ham3_sb_0.CORERESETP_0.POWER_ON_RESET_N_q1 because it is equivalent to instance trans_maker_ham3_sb_0.CORERESETP_0.sm1_areset_n_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\user\documents\isisa\optical_transmission\transmitter_maker_ham3\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Removing sequential instance trans_maker_ham3_sb_0.CORERESETP_0.sm1_areset_n_clk_base because it is equivalent to instance trans_maker_ham3_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@N: MF135 :"c:\users\user\documents\isisa\optical_transmission\transmitter_maker_ham3\hdl\apb_slave_vhdl_ham.vhd":64:8:64:9|RAM Memory_Mapped_Registers[7:0] (in view: work.APB_slave_vhdl_ham(architecture_apb_slave_vhdl_ham)) is 64 words by 8 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+@W: FX107 :"c:\users\user\documents\isisa\optical_transmission\transmitter_maker_ham3\hdl\apb_slave_vhdl_ham.vhd":64:8:64:9|RAM Memory_Mapped_Registers[7:0] (in view: work.APB_slave_vhdl_ham(architecture_apb_slave_vhdl_ham)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 182MB peak: 182MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 182MB peak: 182MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 182MB peak: 183MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 182MB peak: 183MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 196MB peak: 196MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:04s		    -3.43ns		 704 /       651
+   2		0h:00m:04s		    -3.43ns		 702 /       651
+
+   3		0h:00m:06s		    -2.97ns		 723 /       651
+   4		0h:00m:06s		    -2.80ns		 724 /       651
+   5		0h:00m:06s		    -2.63ns		 728 /       651
+   6		0h:00m:07s		    -3.18ns		 736 /       651
+
+
+   7		0h:00m:07s		    -2.63ns		 734 /       651
+   8		0h:00m:07s		    -2.63ns		 738 /       651
+   9		0h:00m:07s		    -2.40ns		 742 /       651
+  10		0h:00m:07s		    -2.28ns		 745 /       651
+  11		0h:00m:08s		    -2.34ns		 746 /       651
+  12		0h:00m:08s		    -2.28ns		 746 /       651
+  13		0h:00m:08s		    -2.28ns		 750 /       651
+@N: FP130 |Promoting Net trans_maker_ham3_sb_0.MSS_HPMS_READY_int_arst on CLKINT  I_95 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 205MB peak: 205MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 205MB peak: 205MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 654 clock pin(s) of sequential element(s)
+0 instances converted, 654 sequential instances remain driven by gated/generated clocks
+
+================================================================================================= Gated/Generated Clocks ==================================================================================================
+Clock Tree ID     Driving Element                          Drive Element Type     Fanout     Sample Instance                                                    Explanation                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       trans_maker_ham3_sb_0.CCC_0.CCC_INST     CCC                    654        trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_010
+===========================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 170MB peak: 205MB)
+
+Writing Analyst data base C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\synthesis\synwork\trans_maker_ham3_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 203MB peak: 205MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 204MB peak: 205MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:11s; Memory used current: 204MB peak: 205MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 202MB peak: 205MB)
+
+@W: MT246 :"c:\users\user\documents\isisa\optical_transmission\transmitter_maker_ham3\component\work\trans_maker_ham3_sb\ccc_0\trans_maker_ham3_sb_ccc_0_fccc.vhd":106:4:106:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net trans_maker_ham3_sb_0.CCC_0.GL0_net.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Feb  8 12:41:29 2023
+#
+
+
+Top view:               trans_maker_ham3
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\designer\trans_maker_ham3\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.261
+
+                                                          Requested     Estimated     Requested     Estimated                Clock        Clock          
+Starting Clock                                            Frequency     Frequency     Period        Period        Slack      Type         Group          
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     88.8 MHz      10.000        11.261        -1.261     inferred     (multiple)     
+System                                                    100.0 MHz     895.2 MHz     10.000        1.117         8.883      system       system_clkgroup
+=========================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                        |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                               Ending                                                 |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                 System                                                 |  10.000      8.883   |  No paths    -      |  No paths    -      |  No paths    -    
+trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock  trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock  |  10.000      -1.261  |  No paths    -      |  No paths    -      |  No paths    -    
+=====================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                   Starting                                                                                                                     Arrival           
+Instance                                                           Reference                                                 Type        Pin                Net                                 Time        Slack 
+                                                                   Clock                                                                                                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST     trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[2]      CoreAPB3_0_APBmslave0_PADDR[2]      3.576       -1.261
+trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST     trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[4]      CoreAPB3_0_APBmslave0_PADDR[4]      3.560       -1.194
+trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST     trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[5]      CoreAPB3_0_APBmslave0_PADDR[5]      3.657       -1.183
+trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST     trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[3]      CoreAPB3_0_APBmslave0_PADDR[3]      3.576       -1.040
+trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST     trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[1]      CoreAPB3_0_APBmslave0_PADDR[1]      3.597       -0.999
+trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST     trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[0]      CoreAPB3_0_APBmslave0_PADDR[0]      3.660       -0.918
+trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST     trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[31]     CoreAPB3_0_APBmslave0_PADDR[31]     3.889       0.702 
+trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST     trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[28]     CoreAPB3_0_APBmslave0_PADDR[28]     4.096       0.906 
+trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST     trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[29]     CoreAPB3_0_APBmslave0_PADDR[29]     3.532       1.016 
+trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST     trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[30]     CoreAPB3_0_APBmslave0_PADDR[30]     3.519       1.559 
+==================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                   Starting                                                                                                                Required           
+Instance                                                                           Reference                                                 Type     Pin     Net                                          Time         Slack 
+                                                                                   Clock                                                                                                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[7]                             trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       LEDs_int_8[7]                                9.745        -1.261
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[4]                             trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       LEDs_int_8[4]                                9.745        -1.167
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[5]                             trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       LEDs_int_8[5]                                9.745        -1.167
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[6]                             trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       LEDs_int_8[6]                                9.745        -1.167
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[0]                             trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       data_int_i[0]                                9.745        -0.950
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[1]                             trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       data_int_i[1]                                9.745        -0.950
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[2]                             trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       data_int_i[2]                                9.745        -0.950
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[3]                             trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       data_int_i[3]                                9.745        -0.950
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registers_read_10[0]     trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      Memory_Mapped_Registers_read_10_1_sqmuxa     9.662        0.220 
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registers_read_10[1]     trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      Memory_Mapped_Registers_read_10_1_sqmuxa     9.662        0.220 
+==============================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      11.005
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.261
+
+    Number of logic level(s):                7
+    Starting point:                          trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[2]
+    Ending point:                            trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[7] / D
+    The start point is clocked by            trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+    The end   point is clocked by            trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                                        Pin               Pin               Arrival      No. of    
+Name                                                                                      Type        Name              Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST                            MSS_010     F_HM0_ADDR[2]     Out     3.576     3.576 f      -         
+CoreAPB3_0_APBmslave0_PADDR[2]                                                            Net         -                 -       2.175     -            111       
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersa5_1                   CFG2        A                 In      -         5.751 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersa5_1                   CFG2        Y                 Out     0.087     5.838 f      -         
+Memory_Mapped_Registersa5_1                                                               Net         -                 -       1.144     -            16        
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersa13                    CFG4        D                 In      -         6.982 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersa13                    CFG4        Y                 Out     0.288     7.269 f      -         
+Memory_Mapped_Registersa13                                                                Net         -                 -       0.497     -            2         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_13_RNIN5M25        CFG4        D                 In      -         7.766 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_13_RNIN5M25        CFG4        Y                 Out     0.288     8.054 f      -         
+Memory_Mapped_Registersror_6                                                              Net         -                 -       0.248     -            1         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_55_RNIQLNMC        CFG4        B                 In      -         8.303 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_55_RNIQLNMC        CFG4        Y                 Out     0.148     8.451 r      -         
+Memory_Mapped_Registersror_49_1                                                           Net         -                 -       0.497     -            2         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_11_RNIFFQ021_0     CFG4        C                 In      -         8.948 r      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_11_RNIFFQ021_0     CFG4        Y                 Out     0.203     9.151 r      -         
+g0_2_1                                                                                    Net         -                 -       0.248     -            1         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_11_RNIS3F604       CFG4        C                 In      -         9.399 r      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_11_RNIS3F604       CFG4        Y                 Out     0.226     9.625 f      -         
+Memory_Mapped_Registersror                                                                Net         -                 -       0.815     -            4         
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.disp\.LEDs_int_8[7]                            CFG4        D                 In      -         10.440 f     -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.disp\.LEDs_int_8[7]                            CFG4        Y                 Out     0.317     10.757 r     -         
+LEDs_int_8[7]                                                                             Net         -                 -       0.248     -            1         
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[7]                                    SLE         D                 In      -         11.005 r     -         
+=================================================================================================================================================================
+Total path delay (propagation time + setup) of 11.261 is 5.388(47.9%) logic and 5.872(52.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      10.939
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.194
+
+    Number of logic level(s):                6
+    Starting point:                          trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[4]
+    Ending point:                            trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[7] / D
+    The start point is clocked by            trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+    The end   point is clocked by            trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                                      Pin               Pin               Arrival      No. of    
+Name                                                                                    Type        Name              Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST                          MSS_010     F_HM0_ADDR[4]     Out     3.560     3.560 r      -         
+CoreAPB3_0_APBmslave0_PADDR[4]                                                          Net         -                 -       2.433     -            312       
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersa15_3                CFG2        A                 In      -         5.994 r      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersa15_3                CFG2        Y                 Out     0.100     6.094 f      -         
+Memory_Mapped_Registersa15_3                                                            Net         -                 -       1.252     -            28        
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_6_RNI57142       CFG4        D                 In      -         7.346 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_6_RNI57142       CFG4        Y                 Out     0.317     7.663 r      -         
+Memory_Mapped_Registersror_15_1                                                         Net         -                 -       0.248     -            1         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_6_RNIPQUG3       CFG4        D                 In      -         7.911 r      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_6_RNIPQUG3       CFG4        Y                 Out     0.326     8.238 f      -         
+Memory_Mapped_Registersror_15                                                           Net         -                 -       0.497     -            2         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_57_RNI5K1CG      CFG4        D                 In      -         8.735 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_57_RNI5K1CG      CFG4        Y                 Out     0.288     9.022 f      -         
+Memory_Mapped_Registersror_45                                                           Net         -                 -       0.248     -            1         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_11_RNIS3F604     CFG4        D                 In      -         9.271 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_11_RNIS3F604     CFG4        Y                 Out     0.288     9.558 f      -         
+Memory_Mapped_Registersror                                                              Net         -                 -       0.815     -            4         
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.disp\.LEDs_int_8[7]                          CFG4        D                 In      -         10.373 f     -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.disp\.LEDs_int_8[7]                          CFG4        Y                 Out     0.317     10.690 r     -         
+LEDs_int_8[7]                                                                           Net         -                 -       0.248     -            1         
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[7]                                  SLE         D                 In      -         10.939 r     -         
+===============================================================================================================================================================
+Total path delay (propagation time + setup) of 11.194 is 5.452(48.7%) logic and 5.742(51.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      10.928
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.183
+
+    Number of logic level(s):                6
+    Starting point:                          trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[5]
+    Ending point:                            trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[7] / D
+    The start point is clocked by            trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+    The end   point is clocked by            trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                                      Pin               Pin               Arrival      No. of    
+Name                                                                                    Type        Name              Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST                          MSS_010     F_HM0_ADDR[5]     Out     3.657     3.657 r      -         
+CoreAPB3_0_APBmslave0_PADDR[5]                                                          Net         -                 -       2.283     -            195       
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersa15_3                CFG2        B                 In      -         5.940 r      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersa15_3                CFG2        Y                 Out     0.143     6.083 f      -         
+Memory_Mapped_Registersa15_3                                                            Net         -                 -       1.252     -            28        
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_6_RNI57142       CFG4        D                 In      -         7.335 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_6_RNI57142       CFG4        Y                 Out     0.317     7.652 r      -         
+Memory_Mapped_Registersror_15_1                                                         Net         -                 -       0.248     -            1         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_6_RNIPQUG3       CFG4        D                 In      -         7.901 r      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_6_RNIPQUG3       CFG4        Y                 Out     0.326     8.227 f      -         
+Memory_Mapped_Registersror_15                                                           Net         -                 -       0.497     -            2         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_57_RNI5K1CG      CFG4        D                 In      -         8.724 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_57_RNI5K1CG      CFG4        Y                 Out     0.288     9.011 f      -         
+Memory_Mapped_Registersror_45                                                           Net         -                 -       0.248     -            1         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_11_RNIS3F604     CFG4        D                 In      -         9.260 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_11_RNIS3F604     CFG4        Y                 Out     0.288     9.548 f      -         
+Memory_Mapped_Registersror                                                              Net         -                 -       0.815     -            4         
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.disp\.LEDs_int_8[7]                          CFG4        D                 In      -         10.362 f     -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.disp\.LEDs_int_8[7]                          CFG4        Y                 Out     0.317     10.679 r     -         
+LEDs_int_8[7]                                                                           Net         -                 -       0.248     -            1         
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[7]                                  SLE         D                 In      -         10.928 r     -         
+===============================================================================================================================================================
+Total path delay (propagation time + setup) of 11.183 is 5.592(50.0%) logic and 5.591(50.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      10.911
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.166
+
+    Number of logic level(s):                7
+    Starting point:                          trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[2]
+    Ending point:                            trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[5] / D
+    The start point is clocked by            trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+    The end   point is clocked by            trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                                        Pin               Pin               Arrival      No. of    
+Name                                                                                      Type        Name              Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST                            MSS_010     F_HM0_ADDR[2]     Out     3.576     3.576 f      -         
+CoreAPB3_0_APBmslave0_PADDR[2]                                                            Net         -                 -       2.175     -            111       
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersa5_1                   CFG2        A                 In      -         5.751 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersa5_1                   CFG2        Y                 Out     0.087     5.838 f      -         
+Memory_Mapped_Registersa5_1                                                               Net         -                 -       1.144     -            16        
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersa13                    CFG4        D                 In      -         6.982 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersa13                    CFG4        Y                 Out     0.288     7.269 f      -         
+Memory_Mapped_Registersa13                                                                Net         -                 -       0.497     -            2         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_13_RNIN5M25        CFG4        D                 In      -         7.766 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_13_RNIN5M25        CFG4        Y                 Out     0.288     8.054 f      -         
+Memory_Mapped_Registersror_6                                                              Net         -                 -       0.248     -            1         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_55_RNIQLNMC        CFG4        B                 In      -         8.303 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_55_RNIQLNMC        CFG4        Y                 Out     0.148     8.451 r      -         
+Memory_Mapped_Registersror_49_1                                                           Net         -                 -       0.497     -            2         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_11_RNIFFQ021_0     CFG4        C                 In      -         8.948 r      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_11_RNIFFQ021_0     CFG4        Y                 Out     0.203     9.151 r      -         
+g0_2_1                                                                                    Net         -                 -       0.248     -            1         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_11_RNIS3F604       CFG4        C                 In      -         9.399 r      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_11_RNIS3F604       CFG4        Y                 Out     0.226     9.625 f      -         
+Memory_Mapped_Registersror                                                                Net         -                 -       0.815     -            4         
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.disp\.LEDs_int_8[5]                            CFG4        C                 In      -         10.440 f     -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.disp\.LEDs_int_8[5]                            CFG4        Y                 Out     0.223     10.663 r     -         
+LEDs_int_8[5]                                                                             Net         -                 -       0.248     -            1         
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[5]                                    SLE         D                 In      -         10.911 r     -         
+=================================================================================================================================================================
+Total path delay (propagation time + setup) of 11.166 is 5.294(47.4%) logic and 5.872(52.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      10.911
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.166
+
+    Number of logic level(s):                7
+    Starting point:                          trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[2]
+    Ending point:                            trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[4] / D
+    The start point is clocked by            trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+    The end   point is clocked by            trans_maker_ham3_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                                        Pin               Pin               Arrival      No. of    
+Name                                                                                      Type        Name              Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+trans_maker_ham3_sb_0.trans_maker_ham3_sb_MSS_0.MSS_ADLIB_INST                            MSS_010     F_HM0_ADDR[2]     Out     3.576     3.576 f      -         
+CoreAPB3_0_APBmslave0_PADDR[2]                                                            Net         -                 -       2.175     -            111       
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersa5_1                   CFG2        A                 In      -         5.751 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersa5_1                   CFG2        Y                 Out     0.087     5.838 f      -         
+Memory_Mapped_Registersa5_1                                                               Net         -                 -       1.144     -            16        
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersa13                    CFG4        D                 In      -         6.982 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersa13                    CFG4        Y                 Out     0.288     7.269 f      -         
+Memory_Mapped_Registersa13                                                                Net         -                 -       0.497     -            2         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_13_RNIN5M25        CFG4        D                 In      -         7.766 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_13_RNIN5M25        CFG4        Y                 Out     0.288     8.054 f      -         
+Memory_Mapped_Registersror_6                                                              Net         -                 -       0.248     -            1         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_55_RNIQLNMC        CFG4        B                 In      -         8.303 f      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_55_RNIQLNMC        CFG4        Y                 Out     0.148     8.451 r      -         
+Memory_Mapped_Registersror_49_1                                                           Net         -                 -       0.497     -            2         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_11_RNIFFQ021_0     CFG4        C                 In      -         8.948 r      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_11_RNIFFQ021_0     CFG4        Y                 Out     0.203     9.151 r      -         
+g0_2_1                                                                                    Net         -                 -       0.248     -            1         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_11_RNIS3F604       CFG4        C                 In      -         9.399 r      -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.APB.Memory_Mapped_Registersrff_11_RNIS3F604       CFG4        Y                 Out     0.226     9.625 f      -         
+Memory_Mapped_Registersror                                                                Net         -                 -       0.815     -            4         
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.disp\.LEDs_int_8[4]                            CFG4        C                 In      -         10.440 f     -         
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.disp\.LEDs_int_8[4]                            CFG4        Y                 Out     0.223     10.663 r     -         
+LEDs_int_8[4]                                                                             Net         -                 -       0.248     -            1         
+trans_maker_ham3_sb_0.trans_slave_ham_1.dn.LEDs_int[4]                                    SLE         D                 In      -         10.911 r     -         
+=================================================================================================================================================================
+Total path delay (propagation time + setup) of 11.166 is 5.294(47.4%) logic and 5.872(52.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                    Starting                                                                                  Arrival          
+Instance                                            Reference     Type               Pin        Net                                           Time        Slack
+                                                    Clock                                                                                                      
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+trans_maker_ham3_sb_0.FABOSC_0.I_RCOSC_25_50MHZ     System        RCOSC_25_50MHZ     CLKOUT     RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC     0.000       8.883
+===============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                         Starting                                                                                Required          
+Instance                                 Reference     Type     Pin                Net                                           Time         Slack
+                                         Clock                                                                                                     
+---------------------------------------------------------------------------------------------------------------------------------------------------
+trans_maker_ham3_sb_0.CCC_0.CCC_INST     System        CCC      RCOSC_25_50MHZ     RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC     10.000       8.883
+===================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      1.117
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 8.883
+
+    Number of logic level(s):                0
+    Starting point:                          trans_maker_ham3_sb_0.FABOSC_0.I_RCOSC_25_50MHZ / CLKOUT
+    Ending point:                            trans_maker_ham3_sb_0.CCC_0.CCC_INST / RCOSC_25_50MHZ
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                         Pin                Pin               Arrival     No. of    
+Name                                                Type               Name               Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------
+trans_maker_ham3_sb_0.FABOSC_0.I_RCOSC_25_50MHZ     RCOSC_25_50MHZ     CLKOUT             Out     0.000     0.000 r     -         
+RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC           Net                -                  -       1.117     -           1         
+trans_maker_ham3_sb_0.CCC_0.CCC_INST                CCC                RCOSC_25_50MHZ     In      -         1.117 r     -         
+==================================================================================================================================
+Total path delay (propagation time + setup) of 1.117 is 0.000(0.0%) logic and 1.117(100.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 203MB peak: 205MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 203MB peak: 205MB)
+
+---------------------------------------
+Resource Usage Report for trans_maker_ham3 
+
+Mapping to part: m2s010vf400std
+Cell usage:
+CCC             1 use
+CLKINT          2 uses
+MSS_010         1 use
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG2           79 uses
+CFG3           86 uses
+CFG4           219 uses
+
+Carry cells:
+ARI1            0 uses - used for arithmetic functions
+ARI1            384 uses - used for Wide-Mux implementation
+Total ARI1      384 uses
+
+
+Sequential Cells: 
+SLE            652 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 11
+I/O primitives: 10
+INBUF          1 use
+OUTBUF         9 uses
+
+
+Global Clock Buffers: 2
+
+RAM/ROM usage summary
+Total Block RAMs (RAM64x18) : 1 of 22 (4%)
+
+Total LUTs:    768
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 36; LUTs = 36;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  652 + 36 + 0 + 0 = 688;
+Total number of LUTs after P&R:  768 + 36 + 0 + 0 = 804;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 69MB peak: 205MB)
+
+Process took 0h:00m:12s realtime, 0h:00m:12s cputime
+# Wed Feb  8 12:41:30 2023
+
+###########################################################]

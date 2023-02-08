@@ -1,42 +1,23 @@
-#--  Synopsys, Inc.
-#--  Version S-2021.09M-SP1
-#--  Project file C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\synthesis\transmitter_syn.prj
-#--  Written on Fri Jan 27 16:35:36 2023
-
-
+#add_file options
+add_file -vhdl "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker/component/work/transmitter_sb/transmitter_sb.vhd"
+add_file -vhdl "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker/component/work/transmitter/transmitter.vhd"
+add_file -fpga_constraint "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker/designer/transmitter/synthesis.fdc"
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 #project files
-add_file -vhdl -lib COREAPB3_LIB "C:/Projects/ISISA/viltra-neu/Project-VILTRA/transmitter_maker/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_muxptob3.vhd"
-add_file -vhdl -lib COREAPB3_LIB "C:/Projects/ISISA/viltra-neu/Project-VILTRA/transmitter_maker/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd"
-add_file -vhdl -lib COREAPB3_LIB "C:/Projects/ISISA/viltra-neu/Project-VILTRA/transmitter_maker/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd"
-add_file -vhdl -lib work "C:/Projects/ISISA/viltra-neu/Project-VILTRA/transmitter_maker/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd"
-add_file -vhdl -lib work "C:/Projects/ISISA/viltra-neu/Project-VILTRA/transmitter_maker/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd"
-add_file -vhdl -lib work "C:/Projects/ISISA/viltra-neu/Project-VILTRA/transmitter_maker/hdl/APB_slave_vhdl.vhd"
-add_file -vhdl -lib work "C:/Projects/ISISA/viltra-neu/Project-VILTRA/transmitter_maker/hdl/display_noham.vhd"
-add_file -vhdl -lib work "C:/Projects/ISISA/viltra-neu/Project-VILTRA/transmitter_maker/hdl/trans_slave_noham.vhd"
-add_file -vhdl -lib work "C:/Projects/ISISA/viltra-neu/Project-VILTRA/transmitter_maker/component/work/transmitter_sb/CCC_0/transmitter_sb_CCC_0_FCCC.vhd"
-add_file -vhdl -lib work "C:/Projects/ISISA/viltra-neu/Project-VILTRA/transmitter_maker/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd"
-add_file -vhdl -lib work "C:/Projects/ISISA/viltra-neu/Project-VILTRA/transmitter_maker/component/work/transmitter_sb/FABOSC_0/transmitter_sb_FABOSC_0_OSC.vhd"
-add_file -vhdl -lib work "C:/Projects/ISISA/viltra-neu/Project-VILTRA/transmitter_maker/component/work/transmitter_sb_MSS/transmitter_sb_MSS_syn.vhd"
-add_file -vhdl -lib work "C:/Projects/ISISA/viltra-neu/Project-VILTRA/transmitter_maker/component/work/transmitter_sb_MSS/transmitter_sb_MSS.vhd"
-add_file -vhdl -lib COREAPB3_LIB "C:/Projects/ISISA/viltra-neu/Project-VILTRA/transmitter_maker/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/components.vhd"
-add_file -vhdl -lib work "C:/Projects/ISISA/viltra-neu/Project-VILTRA/transmitter_maker/component/work/transmitter_sb/transmitter_sb.vhd"
-add_file -vhdl -lib work "C:/Projects/ISISA/viltra-neu/Project-VILTRA/transmitter_maker/component/work/transmitter/transmitter.vhd"
-add_file -fpga_constraint "C:/Projects/ISISA/viltra-neu/Project-VILTRA/transmitter_maker/designer/transmitter/synthesis.fdc"
-
 
 #implementation: "synthesis"
 impl -add synthesis -type fpga
 
+set_option -vhdl2008 1
+
 #device options
 set_option -technology SmartFusion2
 set_option -part M2S010
-set_option -package VF400
 set_option -speed_grade STD
-set_option -part_companion ""
-
 #compilation/mapping options
 set_option -use_fsm_explorer 0
-set_option -top_module "work.transmitter"
 
 # hdl_compiler_options
 set_option -distributed_compile 0
@@ -46,6 +27,10 @@ set_option -hdl_strict_syntax 0
 set_option -frequency 100.000
 set_option -resolve_multiple_driver 1
 set_option -srs_instrumentation 1
+
+
+
+set_option -top_module work.transmitter
 
 # mapper_options
 set_option -write_verilog 0
@@ -63,7 +48,6 @@ set_option -async_globalthreshold 12
 set_option -globalthreshold 5000
 set_option -low_power_ram_decomp 0
 set_option -seqshift_to_uram 0
-set_option -disable_io_insertion 0
 set_option -opcond COMTC
 set_option -retiming 0
 set_option -report_path 4000
@@ -73,7 +57,6 @@ set_option -disable_ramindex 0
 set_option -rep_clkint_driver 1
 set_option -microsemi_enhanced_flow 1
 set_option -ternary_adder_decomp 66
-
 # Microchip SmartFusion2
 set_option -report_preserve_cdc 1
 set_option -min_cdc_sync_flops 2
@@ -94,8 +77,6 @@ set_option -resource_sharing 1
 set_option -auto_infer_blackbox 0
 
 # Compiler Options
-set_option -vhdl2008 1
-
 #automatic place and route (vendor) options
 set_option -write_apr_constraint 1
 

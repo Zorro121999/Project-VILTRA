@@ -1,0 +1,15 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+
+Date      :  Wed Feb  8 12:08:45 2023
+Project   :  C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3
+Component :  trans_maker_ham3
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/user/Documents/ISISA/optical_transmission/transmitter_maker_ham3/component/work/trans_maker_ham3/trans_maker_ham3.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Users/user/Documents/ISISA/optical_transmission/transmitter_maker_ham3/component/work/trans_maker_ham3/subsystem.bfm
+    C:/Users/user/Documents/ISISA/optical_transmission/transmitter_maker_ham3/component/work/trans_maker_ham3/subsystem.bfm
+

@@ -1,5 +1,9 @@
 ----------------------------------------------------------------------
+<<<<<<< Updated upstream
 -- Created by Microsemi SmartDesign Fri Jan 27 16:29:39 2023
+=======
+-- Created by Microsemi SmartDesign Fri Jan 27 16:07:29 2023
+>>>>>>> Stashed changes
 -- Parameters for CoreAPB3
 ----------------------------------------------------------------------
 
@@ -10,7 +14,7 @@ LIBRARY ieee;
    USE ieee.numeric_std.all;
 
 package coreparameters is
-    constant APB_DWIDTH : integer := 8;
+    constant APB_DWIDTH : integer := 32;
     constant APBSLOT0ENABLE : integer := 1;
     constant APBSLOT1ENABLE : integer := 0;
     constant APBSLOT2ENABLE : integer := 0;
@@ -30,7 +34,7 @@ package coreparameters is
     constant FAMILY : integer := 19;
     constant HDL_license : string( 1 to 1 ) := "U";
     constant IADDR_OPTION : integer := 0;
-    constant MADDR_BITS : integer := 16;
+    constant MADDR_BITS : integer := 32;
     constant SC_0 : integer := 0;
     constant SC_1 : integer := 0;
     constant SC_2 : integer := 0;

@@ -2,7 +2,11 @@
 // Written by Synplify Pro 
 // Product Version "S-2021.09M-SP1"
 // Program "Synplify Pro", Mapper "map202109actsp1, Build 056R"
+<<<<<<< Updated upstream
 // Fri Jan 27 16:35:35 2023
+=======
+// Fri Jan 27 16:08:14 2023
+>>>>>>> Stashed changes
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -133,7 +137,7 @@ module CoreAPB3 (
   transmitter_sb_MSS_TMP_0_FIC_0_APB_MASTER_PSELx
 )
 ;
-input [15:12] CoreAPB3_0_APBmslave0_PADDR ;
+input [31:28] CoreAPB3_0_APBmslave0_PADDR ;
 output CoreAPB3_0_APBmslave0_PSELx ;
 input transmitter_sb_MSS_TMP_0_FIC_0_APB_MASTER_PSELx ;
 wire CoreAPB3_0_APBmslave0_PSELx ;
@@ -143,16 +147,16 @@ wire GND ;
 wire VCC ;
 // @19:647
   CFG2 \iPSELS_raw_1[0]  (
-	.A(CoreAPB3_0_APBmslave0_PADDR[14]),
-	.B(CoreAPB3_0_APBmslave0_PADDR[13]),
+	.A(CoreAPB3_0_APBmslave0_PADDR[31]),
+	.B(CoreAPB3_0_APBmslave0_PADDR[29]),
 	.Y(iPSELS_raw_1_Z[0])
 );
 defparam \iPSELS_raw_1[0] .INIT=4'h1;
 // @19:647
   CFG4 \iPSELS_raw[0]  (
 	.A(transmitter_sb_MSS_TMP_0_FIC_0_APB_MASTER_PSELx),
-	.B(CoreAPB3_0_APBmslave0_PADDR[15]),
-	.C(CoreAPB3_0_APBmslave0_PADDR[12]),
+	.B(CoreAPB3_0_APBmslave0_PADDR[30]),
+	.C(CoreAPB3_0_APBmslave0_PADDR[28]),
 	.D(iPSELS_raw_1_Z[0]),
 	.Y(CoreAPB3_0_APBmslave0_PSELx)
 );
@@ -3343,16 +3347,16 @@ defparam Memory_Mapped_Registersrff_10_RNO.INIT=16'h8000;
 defparam Memory_Mapped_Registersrff_6_RNO.INIT=16'h8000;
 // @12:131
   CFG3 Memory_Mapped_Registersrff_2_RNO (
-	.A(Memory_Mapped_Registerswre_2_0),
-	.B(CoreAPB3_0_APBmslave0_PWRITE),
+	.A(CoreAPB3_0_APBmslave0_PWRITE),
+	.B(Memory_Mapped_Registerswre_2_0),
 	.C(pready_v_4),
 	.Y(Memory_Mapped_Registerswre_2)
 );
 defparam Memory_Mapped_Registersrff_2_RNO.INIT=8'h80;
 // @12:131
   CFG3 Memory_Mapped_Registersrff_1_RNO (
-	.A(Memory_Mapped_Registerswre_1_0),
-	.B(CoreAPB3_0_APBmslave0_PWRITE),
+	.A(CoreAPB3_0_APBmslave0_PWRITE),
+	.B(Memory_Mapped_Registerswre_1_0),
 	.C(pready_v_4),
 	.Y(Memory_Mapped_Registerswre_1)
 );
@@ -3672,8 +3676,8 @@ defparam Memory_Mapped_Registersrff_52_RNO.INIT=16'h8000;
 defparam Memory_Mapped_Registersrff_34_RNO.INIT=16'h8000;
 // @12:131
   CFG3 Memory_Mapped_Registersrff_4_RNO (
-	.A(Memory_Mapped_Registersa4),
-	.B(CoreAPB3_0_APBmslave0_PWRITE),
+	.A(CoreAPB3_0_APBmslave0_PWRITE),
+	.B(Memory_Mapped_Registersa4),
 	.C(pready_v_4),
 	.Y(Memory_Mapped_Registerswre_4)
 );
@@ -3957,10 +3961,10 @@ module transmitter_sb_MSS (
   CoreAPB3_0_APBmslave0_PADDR_3,
   CoreAPB3_0_APBmslave0_PADDR_4,
   CoreAPB3_0_APBmslave0_PADDR_5,
-  CoreAPB3_0_APBmslave0_PADDR_12,
-  CoreAPB3_0_APBmslave0_PADDR_13,
-  CoreAPB3_0_APBmslave0_PADDR_14,
-  CoreAPB3_0_APBmslave0_PADDR_15,
+  CoreAPB3_0_APBmslave0_PADDR_28,
+  CoreAPB3_0_APBmslave0_PADDR_29,
+  CoreAPB3_0_APBmslave0_PADDR_30,
+  CoreAPB3_0_APBmslave0_PADDR_31,
   FIC_0_CLK_c,
   CORERESETP_0_RESET_N_F2M,
   FIC_0_LOCK_c,
@@ -3981,10 +3985,10 @@ output CoreAPB3_0_APBmslave0_PADDR_2 ;
 output CoreAPB3_0_APBmslave0_PADDR_3 ;
 output CoreAPB3_0_APBmslave0_PADDR_4 ;
 output CoreAPB3_0_APBmslave0_PADDR_5 ;
-output CoreAPB3_0_APBmslave0_PADDR_12 ;
-output CoreAPB3_0_APBmslave0_PADDR_13 ;
-output CoreAPB3_0_APBmslave0_PADDR_14 ;
-output CoreAPB3_0_APBmslave0_PADDR_15 ;
+output CoreAPB3_0_APBmslave0_PADDR_28 ;
+output CoreAPB3_0_APBmslave0_PADDR_29 ;
+output CoreAPB3_0_APBmslave0_PADDR_30 ;
+output CoreAPB3_0_APBmslave0_PADDR_31 ;
 input FIC_0_CLK_c ;
 input CORERESETP_0_RESET_N_F2M ;
 input FIC_0_LOCK_c ;
@@ -4002,10 +4006,10 @@ wire CoreAPB3_0_APBmslave0_PADDR_2 ;
 wire CoreAPB3_0_APBmslave0_PADDR_3 ;
 wire CoreAPB3_0_APBmslave0_PADDR_4 ;
 wire CoreAPB3_0_APBmslave0_PADDR_5 ;
-wire CoreAPB3_0_APBmslave0_PADDR_12 ;
-wire CoreAPB3_0_APBmslave0_PADDR_13 ;
-wire CoreAPB3_0_APBmslave0_PADDR_14 ;
-wire CoreAPB3_0_APBmslave0_PADDR_15 ;
+wire CoreAPB3_0_APBmslave0_PADDR_28 ;
+wire CoreAPB3_0_APBmslave0_PADDR_29 ;
+wire CoreAPB3_0_APBmslave0_PADDR_30 ;
+wire CoreAPB3_0_APBmslave0_PADDR_31 ;
 wire FIC_0_CLK_c ;
 wire CORERESETP_0_RESET_N_F2M ;
 wire FIC_0_LOCK_c ;
@@ -4019,7 +4023,7 @@ wire CoreAPB3_0_APBmslave0_PREADY ;
 wire CoreAPB3_0_APBmslave0_PSELx ;
 wire [7:0] EDAC_ERROR;
 wire [31:0] F_FM0_RDATA;
-wire [31:6] FIC_0_APB_M_PADDR;
+wire [27:6] FIC_0_APB_M_PADDR;
 wire [1:0] F_HM0_SIZE;
 wire [31:8] CoreAPB3_0_APBmslave0_PWDATA_Z;
 wire [1:0] FAB_OPMODE;
@@ -4312,7 +4316,7 @@ defparam MSS_ADLIB_INST_RNO.INIT=4'hD;
 	.F_FM0_RDATA(F_FM0_RDATA[31:0]),
 	.F_FM0_READYOUT(F_FM0_READYOUT),
 	.F_FM0_RESP(F_FM0_RESP),
-	.F_HM0_ADDR({FIC_0_APB_M_PADDR[31:16], CoreAPB3_0_APBmslave0_PADDR_15, CoreAPB3_0_APBmslave0_PADDR_14, CoreAPB3_0_APBmslave0_PADDR_13, CoreAPB3_0_APBmslave0_PADDR_12, FIC_0_APB_M_PADDR[11:6], CoreAPB3_0_APBmslave0_PADDR_5, CoreAPB3_0_APBmslave0_PADDR_4, CoreAPB3_0_APBmslave0_PADDR_3, CoreAPB3_0_APBmslave0_PADDR_2, CoreAPB3_0_APBmslave0_PADDR_1, CoreAPB3_0_APBmslave0_PADDR_0}),
+	.F_HM0_ADDR({CoreAPB3_0_APBmslave0_PADDR_31, CoreAPB3_0_APBmslave0_PADDR_30, CoreAPB3_0_APBmslave0_PADDR_29, CoreAPB3_0_APBmslave0_PADDR_28, FIC_0_APB_M_PADDR[27:6], CoreAPB3_0_APBmslave0_PADDR_5, CoreAPB3_0_APBmslave0_PADDR_4, CoreAPB3_0_APBmslave0_PADDR_3, CoreAPB3_0_APBmslave0_PADDR_2, CoreAPB3_0_APBmslave0_PADDR_1, CoreAPB3_0_APBmslave0_PADDR_0}),
 	.F_HM0_ENABLE(CoreAPB3_0_APBmslave0_PENABLE),
 	.F_HM0_SEL(transmitter_sb_MSS_TMP_0_FIC_0_APB_MASTER_PSELx),
 	.F_HM0_SIZE(F_HM0_SIZE[1:0]),
@@ -4820,7 +4824,7 @@ wire GPIO_0_M2F_c ;
 wire FIC_0_CLK_c ;
 wire FIC_0_LOCK_c ;
 wire DEVRST_N ;
-wire [15:0] CoreAPB3_0_APBmslave0_PADDR;
+wire [31:0] CoreAPB3_0_APBmslave0_PADDR;
 wire [7:0] CoreAPB3_0_APBmslave0_PWDATA;
 wire POWER_ON_RESET_N ;
 wire FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC ;
@@ -4849,7 +4853,7 @@ wire VCC ;
 );
 // @24:350
   CoreAPB3 CoreAPB3_0 (
-	.CoreAPB3_0_APBmslave0_PADDR(CoreAPB3_0_APBmslave0_PADDR[15:12]),
+	.CoreAPB3_0_APBmslave0_PADDR(CoreAPB3_0_APBmslave0_PADDR[31:28]),
 	.CoreAPB3_0_APBmslave0_PSELx(CoreAPB3_0_APBmslave0_PSELx),
 	.transmitter_sb_MSS_TMP_0_FIC_0_APB_MASTER_PSELx(transmitter_sb_MSS_TMP_0_FIC_0_APB_MASTER_PSELx)
 );
@@ -4889,10 +4893,10 @@ wire VCC ;
 	.CoreAPB3_0_APBmslave0_PADDR_3(CoreAPB3_0_APBmslave0_PADDR[3]),
 	.CoreAPB3_0_APBmslave0_PADDR_4(CoreAPB3_0_APBmslave0_PADDR[4]),
 	.CoreAPB3_0_APBmslave0_PADDR_5(CoreAPB3_0_APBmslave0_PADDR[5]),
-	.CoreAPB3_0_APBmslave0_PADDR_12(CoreAPB3_0_APBmslave0_PADDR[12]),
-	.CoreAPB3_0_APBmslave0_PADDR_13(CoreAPB3_0_APBmslave0_PADDR[13]),
-	.CoreAPB3_0_APBmslave0_PADDR_14(CoreAPB3_0_APBmslave0_PADDR[14]),
-	.CoreAPB3_0_APBmslave0_PADDR_15(CoreAPB3_0_APBmslave0_PADDR[15]),
+	.CoreAPB3_0_APBmslave0_PADDR_28(CoreAPB3_0_APBmslave0_PADDR[28]),
+	.CoreAPB3_0_APBmslave0_PADDR_29(CoreAPB3_0_APBmslave0_PADDR[29]),
+	.CoreAPB3_0_APBmslave0_PADDR_30(CoreAPB3_0_APBmslave0_PADDR[30]),
+	.CoreAPB3_0_APBmslave0_PADDR_31(CoreAPB3_0_APBmslave0_PADDR[31]),
 	.FIC_0_CLK_c(FIC_0_CLK_c),
 	.CORERESETP_0_RESET_N_F2M(CORERESETP_0_RESET_N_F2M),
 	.FIC_0_LOCK_c(FIC_0_LOCK_c),

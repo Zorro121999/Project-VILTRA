@@ -1,5 +1,9 @@
 ----------------------------------------------------------------------
+<<<<<<< Updated upstream
 -- Created by SmartDesign Fri Jan 27 16:29:41 2023
+=======
+-- Created by SmartDesign Fri Jan 27 16:07:31 2023
+>>>>>>> Stashed changes
 -- Version: 2022.2 2022.2.0.10
 ----------------------------------------------------------------------
 
@@ -349,7 +353,7 @@ CCC_0 : transmitter_sb_CCC_0_FCCC
 -- CoreAPB3_0   -   Actel:DirectCore:CoreAPB3:4.1.100
 CoreAPB3_0 : entity COREAPB3_LIB.CoreAPB3
     generic map( 
-        APB_DWIDTH      => ( 8 ),
+        APB_DWIDTH      => ( 32 ),
         APBSLOT0ENABLE  => ( 1 ),
         APBSLOT1ENABLE  => ( 0 ),
         APBSLOT2ENABLE  => ( 0 ),
@@ -368,7 +372,7 @@ CoreAPB3_0 : entity COREAPB3_LIB.CoreAPB3
         APBSLOT15ENABLE => ( 0 ),
         FAMILY          => ( 19 ),
         IADDR_OPTION    => ( 0 ),
-        MADDR_BITS      => ( 16 ),
+        MADDR_BITS      => ( 32 ),
         SC_0            => ( 0 ),
         SC_1            => ( 0 ),
         SC_2            => ( 0 ),

@@ -18,8 +18,13 @@ The file contains the job information from compiler to be displayed as part of t
   <report_link name="more"><data>C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\synthesis\synlog\report\transmitter_compiler_notes.txt</data></report_link>
   </info>
 			<info name="Warnings">
+<<<<<<< Updated upstream
   <data>57</data>
   <report_link name="more"><data>C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\synthesis\synlog\report\transmitter_compiler_warnings.txt</data></report_link>
+=======
+  <data>56</data>
+  <report_link name="more"><data>C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\synthesis\synlog\report\transmitter_compiler_warnings.txt</data></report_link>
+>>>>>>> Stashed changes
   </info>
 			<info name="Errors">
   <data>0</data>
@@ -35,7 +40,11 @@ The file contains the job information from compiler to be displayed as part of t
   <data>-</data>
   </info>
 			<info name="Date &amp;Time">
+<<<<<<< Updated upstream
   <data type="timestamp">1674833724</data>
+=======
+  <data type="timestamp">1674832076</data>
+>>>>>>> Stashed changes
   </info>
 			</job_info>
 </job_run_status>

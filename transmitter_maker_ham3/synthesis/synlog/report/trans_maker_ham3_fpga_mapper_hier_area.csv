@@ -1,0 +1,13 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. trans_maker_ham3, 652, 384, 384, 0, 0, 0, 1, 2, 10
+.	. trans_maker_ham3_sb, 652, 384, 384, 0, 0, 0, 1, 2, 0
+.	.	. CoreAPB3, 0, 10, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. COREAPB3_MUXPTOB3, 0, 8, 0, 0, 0, 0, 0, 0, 0
+.	.	. CoreResetP, 11, 2, 0, 0, 0, 0, 0, 1, 0
+.	.	. trans_maker_ham3_sb_CCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. trans_maker_ham3_sb_FABOSC_0_OSC, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. trans_maker_ham3_sb_MSS, 0, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	. trans_slave_ham, 641, 371, 384, 0, 0, 0, 1, 0, 0
+.	.	.	. APB_slave_vhdl_ham, 586, 328, 384, 0, 0, 0, 1, 0, 0
+.	.	.	. display_ham, 55, 43, 0, 0, 0, 0, 0, 0, 0

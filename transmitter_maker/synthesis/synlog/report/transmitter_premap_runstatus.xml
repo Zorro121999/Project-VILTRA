@@ -31,16 +31,27 @@ The file contains the job information from mapper to be displayed as part of the
 </report_link>
 </info>
 <info name="CPU Time">
+<<<<<<< Updated upstream
 <data>0h:00m:01s</data>
 </info>
 <info name="Real Time">
 <data>0h:00m:02s</data>
+=======
+<data>0h:00m:04s</data>
+</info>
+<info name="Real Time">
+<data>0h:00m:04s</data>
+>>>>>>> Stashed changes
 </info>
 <info name="Peak Memory">
 <data>172MB</data>
 </info>
 <info name="Date &amp; Time">
+<<<<<<< Updated upstream
 <data type="timestamp">1674833728</data>
+=======
+<data type="timestamp">1674832083</data>
+>>>>>>> Stashed changes
 </info>
 </job_info>
 </job_run_status>

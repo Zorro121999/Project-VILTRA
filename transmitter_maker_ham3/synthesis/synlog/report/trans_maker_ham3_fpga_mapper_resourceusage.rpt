@@ -1,0 +1,43 @@
+Resource Usage Report for trans_maker_ham3 
+
+Mapping to part: m2s010vf400std
+Cell usage:
+CCC             1 use
+CLKINT          2 uses
+MSS_010         1 use
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG2           79 uses
+CFG3           86 uses
+CFG4           219 uses
+
+Carry cells:
+ARI1            0 uses - used for arithmetic functions
+ARI1            384 uses - used for Wide-Mux implementation
+Total ARI1      384 uses
+
+
+Sequential Cells: 
+SLE            652 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 11
+I/O primitives: 10
+INBUF          1 use
+OUTBUF         9 uses
+
+
+Global Clock Buffers: 2
+
+Total LUTs:    768
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 36; LUTs = 36;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  652 + 36 + 0 + 0 = 688;
+Total number of LUTs after P&R:  768 + 36 + 0 + 0 = 804;
+

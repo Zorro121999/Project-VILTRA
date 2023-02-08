@@ -3,7 +3,11 @@
 #OS: Windows 10 or later
 #Hostname: SURFACEPRO
 
+<<<<<<< Updated upstream
 # Fri Jan 27 16:35:18 2023
+=======
+# Fri Jan 27 16:07:44 2023
+>>>>>>> Stashed changes
 
 #Implementation: synthesis
 
@@ -73,6 +77,7 @@ File C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\wor
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter_sb\transmitter_sb.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter\transmitter.vhd'.
 VHDL syntax check successful!
+<<<<<<< Updated upstream
 File C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter_sb_MSS\transmitter_sb_MSS_syn.vhd changed - recompiling
 File C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter_sb_MSS\transmitter_sb_MSS.vhd changed - recompiling
 File C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter\transmitter.vhd changed - recompiling
@@ -81,6 +86,17 @@ File C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\wor
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter_sb\transmitter_sb.vhd":20:7:20:20|Synthesizing work.transmitter_sb.rtl.
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter_sb_MSS\transmitter_sb_MSS.vhd":17:7:17:24|Synthesizing work.transmitter_sb_mss.rtl.
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\work\transmitter_sb_MSS\transmitter_sb_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch.
+=======
+File C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\hdl\display_noham.vhd changed - recompiling
+File C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\work\transmitter_sb\CCC_0\transmitter_sb_CCC_0_FCCC.vhd changed - recompiling
+File C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\work\transmitter_sb\FABOSC_0\transmitter_sb_FABOSC_0_OSC.vhd changed - recompiling
+File C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\work\transmitter_sb\transmitter_sb.vhd changed - recompiling
+@N: CD231 :"C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\work\transmitter\transmitter.vhd":17:7:17:17|Synthesizing work.transmitter.rtl.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\work\transmitter_sb\transmitter_sb.vhd":20:7:20:20|Synthesizing work.transmitter_sb.rtl.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\work\transmitter_sb_MSS\transmitter_sb_MSS.vhd":17:7:17:24|Synthesizing work.transmitter_sb_mss.rtl.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\work\transmitter_sb_MSS\transmitter_sb_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch.
+>>>>>>> Stashed changes
 Post processing for work.mss_010.def_arch
 Post processing for work.transmitter_sb_mss.rtl
 Running optimization stage 1 on transmitter_sb_MSS .......
@@ -134,6 +150,7 @@ Finished optimization stage 1 on transmitter_sb_FABOSC_0_OSC (CPU Time 0h:00m:00
 @W: CD434 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":491:8:491:30|Signal soft_sdif0_1_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
 Post processing for work.coreresetp.rtl
 Running optimization stage 1 on CoreResetP .......
+<<<<<<< Updated upstream
 @W: CL169 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Pruning unused register count_ddr_2(13 downto 0). Make sure that there are no unused intermediate registers.
 @W: CL169 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1495:8:1495:9|Pruning unused register count_sdif3_1(12 downto 0). Make sure that there are no unused intermediate registers.
 @W: CL169 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1471:8:1471:9|Pruning unused register count_sdif2_1(12 downto 0). Make sure that there are no unused intermediate registers.
@@ -171,6 +188,44 @@ Finished optimization stage 1 on CoreResetP (CPU Time 0h:00m:00s, Memory Used cu
 @W: CD434 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":1453:41:1453:46|Signal infill in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
 @W: CD638 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":616:7:616:15|Signal ia_prdata is undriven. Either assign the signal a value or remove the signal declaration.
 @N: CD630 :"C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
+=======
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Pruning unused register count_ddr_2(13 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1495:8:1495:9|Pruning unused register count_sdif3_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1471:8:1471:9|Pruning unused register count_sdif2_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1447:8:1447:9|Pruning unused register count_sdif1_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1423:8:1423:9|Pruning unused register count_sdif0_2(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_ddr_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_ddr_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif3_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif2_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif1_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif0_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif3_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif2_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif1_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif0_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Pruning unused register count_sdif3_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Pruning unused register count_sdif2_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Pruning unused register count_sdif1_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Pruning unused register count_sdif0_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Pruning unused register count_ddr_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1331:8:1331:9|Sharing sequential element M3_RESET_N_int and merging RESET_N_F2M_int. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Pruning unused register release_ext_reset. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Pruning unused register EXT_RESET_OUT_int. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Pruning unused register sm2_state(2 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Pruning unused register sm2_areset_n_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Pruning unused register sm2_areset_n_clk_base. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on CoreResetP (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 120MB)
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch.
+@N: CD604 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized.
+@W: CD638 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":616:7:616:15|Signal ia_prdata is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
+>>>>>>> Stashed changes
 Post processing for coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch
 Running optimization stage 1 on COREAPB3_MUXPTOB3 .......
 Finished optimization stage 1 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 119MB)
@@ -352,7 +407,11 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memor
 Process took 0h:00m:05s realtime, 0h:00m:03s cputime
 
 Process completed successfully.
+<<<<<<< Updated upstream
 # Fri Jan 27 16:35:24 2023
+=======
+# Fri Jan 27 16:07:56 2023
+>>>>>>> Stashed changes
 
 ###########################################################]
 ###########################################################[
@@ -379,7 +438,11 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
+<<<<<<< Updated upstream
 # Fri Jan 27 16:35:24 2023
+=======
+# Fri Jan 27 16:07:56 2023
+>>>>>>> Stashed changes
 
 ###########################################################]
 
@@ -394,7 +457,11 @@ At c_hdl Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:03s; Memory
 Process took 0h:00m:06s realtime, 0h:00m:03s cputime
 
 Process completed successfully.
+<<<<<<< Updated upstream
 # Fri Jan 27 16:35:24 2023
+=======
+# Fri Jan 27 16:07:56 2023
+>>>>>>> Stashed changes
 
 ###########################################################]
 ###########################################################[
@@ -421,12 +488,20 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
+<<<<<<< Updated upstream
 # Fri Jan 27 16:35:26 2023
+=======
+# Fri Jan 27 16:07:58 2023
+>>>>>>> Stashed changes
 
 ###########################################################]
 Premap Report
 
+<<<<<<< Updated upstream
 # Fri Jan 27 16:35:26 2023
+=======
+# Fri Jan 27 16:07:58 2023
+>>>>>>> Stashed changes
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -457,6 +532,7 @@ See clock summary report "C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitte
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
+<<<<<<< Updated upstream
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 131MB)
 
 
@@ -552,6 +628,103 @@ Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 @N: BN362 :"c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance sdif2_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance sdif3_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance sm0_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+=======
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 133MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 133MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 133MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 135MB)
+
+@W: BN132 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance transmitter_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance transmitter_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: FX1172 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\hdl\display_noham.vhd":49:1:49:2|User-specified initial value defined for instance transmitter_sb_0.trans_slave_noham_2.dn.dffr1 is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\hdl\display_noham.vhd":37:31:37:33|User-specified initial value defined for instance transmitter_sb_0.trans_slave_noham_2.dn.dffr2 is being ignored due to limitations in architecture. 
+@N: FX1171 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\hdl\display_noham.vhd":76:2:76:3|Found instance transmitter_sb_0.trans_slave_noham_2.dn.LEDs[7:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\hdl\display_noham.vhd":76:2:76:3|Found instance transmitter_sb_0.trans_slave_noham_2.dn.LEDs_int[7:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\hdl\display_noham.vhd":76:2:76:3|Found instance transmitter_sb_0.trans_slave_noham_2.dn.LEDs_disp[7:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 169MB peak: 169MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 169MB peak: 169MB)
+
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance transmitter_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance transmitter_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance transmitter_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance transmitter_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance transmitter_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance transmitter_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance transmitter_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance transmitter_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance transmitter_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance transmitter_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance transmitter_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance transmitter_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance INIT_DONE_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance sm0_state[0:6] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\hdl\apb_slave_vhdl.vhd":131:8:131:9|Removing sequential instance prdata_v[31:0] (in view: work.APB_slave_vhdl(architecture_apb_slave_vhdl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":922:8:922:9|Removing sequential instance CONFIG2_DONE_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance sdif0_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance sdif1_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance sdif2_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance sdif3_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":922:8:922:9|Removing sequential instance CONFIG2_DONE_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif0_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif1_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif2_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Removing sequential instance sdif3_spll_lock_q2 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":908:8:908:9|Removing sequential instance CONFIG1_DONE_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif3_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance ddr_settled_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif0_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif1_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif2_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Removing sequential instance sdif3_spll_lock_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":908:8:908:9|Removing sequential instance CONFIG1_DONE_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif3_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance ddr_settled_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1423:8:1423:9|Removing sequential instance release_sdif0_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1447:8:1447:9|Removing sequential instance release_sdif1_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1471:8:1471:9|Removing sequential instance release_sdif2_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1495:8:1495:9|Removing sequential instance release_sdif3_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Removing sequential instance ddr_settled (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":770:8:770:9|Removing sequential instance sm0_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":861:8:861:9|Removing sequential instance sdif0_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance sdif1_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance sdif2_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance sdif3_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":770:8:770:9|Removing sequential instance sm0_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance sm0_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":861:8:861:9|Removing sequential instance sdif0_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance sdif1_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance sdif2_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance sdif3_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\transmitter_maker\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance sm0_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+>>>>>>> Stashed changes
 @N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist transmitter 
 
 Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 169MB peak: 169MB)
@@ -598,15 +771,26 @@ Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 Pre-mapping successful!
 
+<<<<<<< Updated upstream
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 85MB peak: 172MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:01s cputime
 # Fri Jan 27 16:35:28 2023
+=======
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 91MB peak: 174MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+# Fri Jan 27 16:08:03 2023
+>>>>>>> Stashed changes
 
 ###########################################################]
 Map & Optimize Report
 
+<<<<<<< Updated upstream
 # Fri Jan 27 16:35:28 2023
+=======
+# Fri Jan 27 16:08:03 2023
+>>>>>>> Stashed changes
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -654,21 +838,33 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 #### END OF SSF LOG MESSAGES ####
 @N: MF135 :"c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\hdl\apb_slave_vhdl.vhd":131:8:131:9|RAM transmitter_sb_0.trans_slave_noham_2.APB.Memory_Mapped_Registers[31:0] (in view: work.transmitter(rtl)) is 64 words by 32 bits.
 
+<<<<<<< Updated upstream
 Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+=======
+Finished RTL optimizations (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 171MB peak: 171MB)
+>>>>>>> Stashed changes
 
 @W: FX107 :"c:\projects\isisa\viltra-neu\project-viltra\transmitter_maker\hdl\apb_slave_vhdl.vhd":131:8:131:9|RAM transmitter_sb_0.trans_slave_noham_2.APB.Memory_Mapped_Registers[7:0] (in view: work.transmitter(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
 
 Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
 
 
+<<<<<<< Updated upstream
 Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
+=======
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 173MB)
+>>>>>>> Stashed changes
 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 
+<<<<<<< Updated upstream
 Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 173MB peak: 173MB)
+=======
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 174MB peak: 174MB)
+>>>>>>> Stashed changes
 
 
 Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
@@ -677,7 +873,11 @@ Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elaps
 Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
 
 
+<<<<<<< Updated upstream
 Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
+=======
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 175MB peak: 176MB)
+>>>>>>> Stashed changes
 
 
 Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
@@ -710,7 +910,11 @@ Added 0 Cells via replication
 Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 191MB)
 
 
+<<<<<<< Updated upstream
 Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 191MB)
+=======
+Finished restoring hierarchy (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 183MB peak: 193MB)
+>>>>>>> Stashed changes
 
 
 
@@ -738,7 +942,11 @@ Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03
 
 Writing Analyst data base C:\Projects\ISISA\viltra-neu\Project-VILTRA\transmitter_maker\synthesis\synwork\transmitter_m.srm
 
+<<<<<<< Updated upstream
 Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 191MB)
+=======
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 182MB peak: 193MB)
+>>>>>>> Stashed changes
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
@@ -758,7 +966,11 @@ Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
+<<<<<<< Updated upstream
 # Timing report written on Fri Jan 27 16:35:35 2023
+=======
+# Timing report written on Fri Jan 27 16:08:15 2023
+>>>>>>> Stashed changes
 #
 
 
@@ -832,10 +1044,10 @@ transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST     transmitter_sb_CCC_0_FC
 transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST     transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[1]      CoreAPB3_0_APBmslave0_PADDR[1]      3.597       0.271
 transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST     transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[0]      CoreAPB3_0_APBmslave0_PADDR[0]      3.660       0.303
 transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST     transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[2]      CoreAPB3_0_APBmslave0_PADDR[2]      3.576       0.396
-transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST     transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[13]     CoreAPB3_0_APBmslave0_PADDR[13]     3.647       1.949
-transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST     transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[14]     CoreAPB3_0_APBmslave0_PADDR[14]     3.652       1.986
-transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST     transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[12]     CoreAPB3_0_APBmslave0_PADDR[12]     3.677       2.372
-transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST     transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[15]     CoreAPB3_0_APBmslave0_PADDR[15]     3.580       2.546
+transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST     transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[31]     CoreAPB3_0_APBmslave0_PADDR[31]     3.889       1.750
+transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST     transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[28]     CoreAPB3_0_APBmslave0_PADDR[28]     4.096       1.953
+transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST     transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[29]     CoreAPB3_0_APBmslave0_PADDR[29]     3.532       2.064
+transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST     transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[30]     CoreAPB3_0_APBmslave0_PADDR[30]     3.519       2.607
 ==================================================================================================================================================================================================
 
 
@@ -854,8 +1066,8 @@ transmitter_sb_0.trans_slave_noham_2.dn.LEDs_int[4]                       transm
 transmitter_sb_0.trans_slave_noham_2.dn.LEDs_int[5]                       transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         D               data_int[5]                            9.745        0.187
 transmitter_sb_0.trans_slave_noham_2.dn.LEDs_int[6]                       transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         D               data_int[6]                            9.745        0.187
 transmitter_sb_0.trans_slave_noham_2.dn.LEDs_int[7]                       transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         D               data_int[7]                            9.745        0.187
-transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST                      transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_READY     CoreAPB3_0_APBmslave0_PREADY_i_m_i     8.486        1.949
-transmitter_sb_0.trans_slave_noham_2.APB.Memory_Mapped_Registersrff_3     transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              Memory_Mapped_Registerswre_3           9.662        2.226
+transmitter_sb_0.transmitter_sb_MSS_0.MSS_ADLIB_INST                      transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_READY     CoreAPB3_0_APBmslave0_PREADY_i_m_i     8.486        1.750
+transmitter_sb_0.trans_slave_noham_2.APB.Memory_Mapped_Registersrff_3     transmitter_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              Memory_Mapped_Registerswre_3           9.662        2.027
 ====================================================================================================================================================================================================================
 
 
@@ -978,7 +1190,11 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
+<<<<<<< Updated upstream
 Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 181MB peak: 191MB)
+=======
+Finished final timing analysis (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 183MB peak: 193MB)
+>>>>>>> Stashed changes
 
 
 Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 181MB peak: 191MB)
@@ -1028,7 +1244,12 @@ Mapper successful!
 
 At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:04s; Memory used current: 64MB peak: 191MB)
 
+<<<<<<< Updated upstream
 Process took 0h:00m:07s realtime, 0h:00m:04s cputime
 # Fri Jan 27 16:35:36 2023
+=======
+Process took 0h:00m:12s realtime, 0h:00m:12s cputime
+# Fri Jan 27 16:08:16 2023
+>>>>>>> Stashed changes
 
 ###########################################################]

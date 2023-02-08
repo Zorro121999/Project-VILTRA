@@ -1,5 +1,9 @@
 ----------------------------------------------------------------------
+<<<<<<< Updated upstream
 -- Created by Microsemi SmartDesign Fri Jan 27 16:29:39 2023
+=======
+-- Created by Microsemi SmartDesign Fri Jan 27 16:07:29 2023
+>>>>>>> Stashed changes
 -- Parameters for CoreResetP
 ----------------------------------------------------------------------
 

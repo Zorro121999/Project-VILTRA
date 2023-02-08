@@ -1,0 +1,12 @@
+
+########			REPORT FOR HIGH FANOUT NETS			########
+
+CLOCK GLOBAL THRESHOLD - 2
+ASYNC GLOBAL THRESHOLD - 12
+GLOBAL THRESHOLD - 5000
+
+NET NAME                                          CLOCK LOADS     ASYNC RST LOADS     DATA LOADS     TOTAL FANOUT     GLOBAL BUFFER PRESENT
+-------------------------------------------------------------------------------------------------------------------------------------------
+trans_maker_ham3_sb_0.CCC_0_GL0                   654             0                   0              654              YES                  
+trans_maker_ham3_sb_0.MSS_HPMS_READY_int_arst     0               588                 0              588              YES                  
+===========================================================================================================================================

@@ -1,0 +1,28 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+
+Date      :  Fri Feb  3 13:43:21 2023
+Project   :  C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker_ham
+Component :  transmitter_hamming_sb_MSS
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/work/transmitter_hamming_sb_MSS/transmitter_hamming_sb_MSS.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/work/transmitter_hamming_sb_MSS/transmitter_hamming_sb_MSS_syn.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/work/transmitter_hamming_sb_MSS/transmitter_hamming_sb_MSS_pre.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/work/transmitter_hamming_sb_MSS/CM3_compile_bfm.tcl
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/work/transmitter_hamming_sb_MSS/user.bfm
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/work/transmitter_hamming_sb_MSS/test.bfm
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+
+Firmware files for all Software IDE tools:
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/work/transmitter_hamming_sb_MSS/sys_config_mss_clocks.h
+
+Constraint files:
+    C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/transmitter_maker_ham/component/work/transmitter_hamming_sb_MSS\transmitter_hamming_sb_MSS.sdc
