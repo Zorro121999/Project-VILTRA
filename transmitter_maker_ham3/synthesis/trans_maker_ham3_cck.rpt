@@ -13,12 +13,12 @@ Hostname: ACER
 
 Implementation : synthesis
 
-# Written on Wed Feb  8 12:41:17 2023
+# Written on Tue Feb 14 18:53:52 2023
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "trans_maker_ham3"
-Constraint File(s):      "C:\Users\user\Documents\ISISA\optical_transmission\transmitter_maker_ham3\designer\trans_maker_ham3\synthesis.fdc"
+Constraint File(s):      "C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\transmitter_maker_ham3\designer\trans_maker_ham3\synthesis.fdc"
 
 
 

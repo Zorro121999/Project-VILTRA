@@ -22,7 +22,7 @@
 Starting:    C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\bin64\mbin\synbatch.exe
 Install:     C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1
 Hostname:    ACER
-Date:        Wed Feb  8 13:18:57 2023
+Date:        Tue Feb 14 19:02:25 2023
 Version:     S-2021.09M-SP1
 
 Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log receiver_with_ham_syn.tcl
@@ -35,66 +35,64 @@ License Option: actel_oem
 
 Running in Vendor Mode
 
-"automatic_compile_point" is unrecognized option for current device
-Implementation not found: synthesis
-log file: "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\receiver_with_ham.srr"
+auto_infer_blackbox is not supported in current product.
+log file: "C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\synthesis\receiver_with_ham.srr"
 Running: synthesis in foreground
 
 Running receiver_with_ham_syn|synthesis
 
 Running Flow: compile (Compile) on receiver_with_ham_syn|synthesis
-# Wed Feb  8 13:18:58 2023
+# Tue Feb 14 19:02:25 2023
 
 Running Flow: compile_flow (Compile Process) on receiver_with_ham_syn|synthesis
-# Wed Feb  8 13:18:58 2023
+# Tue Feb 14 19:02:25 2023
 
 Running: compiler (Compile Input) on receiver_with_ham_syn|synthesis
-# Wed Feb  8 13:18:58 2023
-Copied C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\synwork\receiver_with_ham_comp.srs to C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\receiver_with_ham.srs
+# Tue Feb 14 19:02:25 2023
+Copied C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\synthesis\synwork\receiver_with_ham_comp.srs to C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\synthesis\receiver_with_ham.srs
 
 compiler completed
-# Wed Feb  8 13:19:07 2023
+# Tue Feb 14 19:02:35 2023
 
 Return Code: 0
-Run Time:00h:00m:09s
+Run Time:00h:00m:10s
 
 Running: multi_srs_gen (Multi-srs Generator) on receiver_with_ham_syn|synthesis
-# Wed Feb  8 13:19:07 2023
+# Tue Feb 14 19:02:35 2023
 
 multi_srs_gen completed
-# Wed Feb  8 13:19:07 2023
+# Tue Feb 14 19:02:35 2023
 
 Return Code: 0
 Run Time:00h:00m:00s
-Copied C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\synwork\receiver_with_ham_mult.srs to C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\receiver_with_ham.srs
+Copied C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\synthesis\synwork\receiver_with_ham_mult.srs to C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\synthesis\receiver_with_ham.srs
 Complete: Compile Process on receiver_with_ham_syn|synthesis
 
 Running: premap (Premap) on receiver_with_ham_syn|synthesis
-# Wed Feb  8 13:19:07 2023
+# Tue Feb 14 19:02:35 2023
 
 premap completed with warnings
-# Wed Feb  8 13:19:10 2023
+# Tue Feb 14 19:02:37 2023
 
 Return Code: 1
-Run Time:00h:00m:03s
+Run Time:00h:00m:02s
 Complete: Compile on receiver_with_ham_syn|synthesis
 
 Running Flow: map (Map) on receiver_with_ham_syn|synthesis
-# Wed Feb  8 13:19:10 2023
+# Tue Feb 14 19:02:37 2023
 License granted for 4 parallel jobs
 
 Running: fpga_mapper (Map & Optimize) on receiver_with_ham_syn|synthesis
-# Wed Feb  8 13:19:10 2023
-Copied C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\synwork\receiver_with_ham_m.srm to C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\receiver_with_ham.srm
+# Tue Feb 14 19:02:37 2023
+Copied C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\synthesis\synwork\receiver_with_ham_m.srm to C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\synthesis\receiver_with_ham.srm
 
 fpga_mapper completed with warnings
-# Wed Feb  8 13:19:18 2023
+# Tue Feb 14 19:02:45 2023
 
 Return Code: 1
 Run Time:00h:00m:08s
 Complete: Map on receiver_with_ham_syn|synthesis
 Complete: Logic Synthesis on receiver_with_ham_syn|synthesis
-Copied C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\receiver_with_ham.srr to C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\backup\receiver_with_ham.srr
 TCL script complete: "receiver_with_ham_syn.tcl"
 exit status=0
 exit status=0

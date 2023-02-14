@@ -32,7 +32,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham"
+KEY ProjectLocation "C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham"
 KEY ProjectDescription ""
 KEY UseRootLocationForLinkedFiles "FALSE"
 KEY RootLocationENVForLinkedFiles ""
@@ -327,6 +327,11 @@ TIME="1675807099"
 SIZE="256"
 PARENT="<project>\component\work\receiver_with_ham_sb_MSS\receiver_with_ham_sb_MSS.cxf"
 ENDFILE
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1675864283"
+SIZE="1697"
+ENDFILE
 VALUE "<project>\component\work\receiver_with_ham\receiver_with_ham.cxf,actgen_cxf"
 STATE="utd"
 TIME="1675864288"
@@ -426,8 +431,8 @@ SIZE="5386"
 ENDFILE
 VALUE "<project>\hdl\decode_ham.vhd,hdl"
 STATE="utd"
-TIME="1675858682"
-SIZE="6172"
+TIME="1676397731"
+SIZE="6304"
 ENDFILE
 VALUE "<project>\hdl\receiver_slave_vhdl.vhd,hdl"
 STATE="utd"
@@ -465,8 +470,8 @@ SIZE="695"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1675806356"
-SIZE="233"
+TIME="1675858718"
+SIZE="825"
 PARENT="<project>\component\work\receiver_with_ham\receiver_with_ham.cxf"
 ENDFILE
 VALUE "<project>\simulation\test.bfm,sim"
@@ -498,7 +503,7 @@ SIZE="23633"
 ENDFILE
 VALUE "<project>\synthesis\decode_ham_syn.prj,prj"
 STATE="utd"
-TIME="1675419255"
+TIME="1676396283"
 SIZE="2401"
 ENDFILE
 VALUE "<project>\synthesis\decode_ham_vm.sdc,syn_sdc"
@@ -518,7 +523,7 @@ SIZE="206795"
 ENDFILE
 VALUE "<project>\synthesis\receiver_with_ham_syn.prj,prj"
 STATE="utd"
-TIME="1675858758"
+TIME="1676396283"
 SIZE="4871"
 ENDFILE
 VALUE "<project>\synthesis\receiver_with_ham_vm.sdc,syn_sdc"
@@ -567,9 +572,6 @@ ENDLIST
 Used_File_List
 ENDUsed_File_List
 ENDLIST
-ENDLIST
-LIST synthesis_implementations
-VALUE "synthesis"
 ENDLIST
 ENDLIST
 LIST "receiver_with_ham_sb_MSS::work"
@@ -761,18 +763,17 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-SmartDesign;DESIGN_FIRMWARE;0
+HDL;stimulus\test_decode_ham.vhd;0
 Reports;Reports;0
-ReportsCurrentItem;Generate Memory Map:receiver_with_ham_DataSheet.xml
-Constraint Manager;Constraint Manager;0
+ReportsCurrentItem;synthesis:synplify.log
 SmartDesign;receiver_with_ham_sb;0
+HDL;hdl\APB_slave_vhdl.vhd;0
+SmartDesign;receiver_with_ham;0
+Constraint Manager;Constraint Manager;0
 HDL;hdl\decode_ham.vhd;0
 HDL;hdl\receiver_slave_vhdl.vhd;0
-HDL;stimulus\test_decode_ham.vhd;0
 StartPage;StartPage;0
-SmartDesign;receiver_with_ham;0
-HDL;hdl\APB_slave_vhdl.vhd;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;stimulus\test_decode_ham.vhd
 ENDLIST
 LIST ModuleSubBlockList
 LIST "APB_slave_vhdl::work","hdl\APB_slave_vhdl.vhd","FALSE","FALSE"
@@ -783,6 +784,14 @@ ENDLIST
 LIST "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd","FALSE","FALSE"
 ENDLIST
 LIST "decode_ham::work","hdl\decode_ham.vhd","FALSE","FALSE"
+ENDLIST
+LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
+SUBBLOCK "SmartFusion2_CMSIS::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_GPIO_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
 ENDLIST
 LIST "MSS_010::work","component\work\receiver_with_ham_sb_MSS\receiver_with_ham_sb_MSS_syn.vhd","FALSE","FALSE"
 ENDLIST
@@ -817,6 +826,18 @@ SUBBLOCK "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vh
 ENDLIST
 LIST "receiver_with_ham_sb_MSS::work","component\work\receiver_with_ham_sb_MSS\receiver_with_ham_sb_MSS.vhd","TRUE","FALSE"
 SUBBLOCK "MSS_010::work","component\work\receiver_with_ham_sb_MSS\receiver_with_ham_sb_MSS_syn.vhd","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_CMSIS::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_GPIO_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
 ENDLIST
 LIST "XTLOSC::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
 ENDLIST

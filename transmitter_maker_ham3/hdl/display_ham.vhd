@@ -54,7 +54,7 @@ architecture architecture_display_ham of display_ham is
 
 begin
    
-   EP : process(clk, reset)
+   EP : process(clk, reset)               --detect moment when pulse is supposed to be read in
 	begin
 	if (reset = '0') then
 		dffr1 <= '0';
@@ -64,9 +64,9 @@ begin
 	end if;
   end process;
 
-  rd_int <= dffr2 and (not dffr1); 
+  rd_int <= dffr2 and (not dffr1);     -- rd_int is high when rd is falling
   
-   button_proc : process(clk, reset)
+   button_proc : process(clk, reset)   --detect moment when button starts to be pressed
 	begin
 	if (reset = '0') then
 		button1 <= '0';
@@ -88,7 +88,7 @@ begin
          LEDs_int<= not pulse;     --LEDs_int helps to delay display of LED until next data package is available
          LEDs_disp<=LEDs_int;
        else
-          LEDs_int(4)<=LEDs_int(0) xor LEDs_int(1) xor LEDs_int(3);  
+          LEDs_int(4)<=LEDs_int(0) xor LEDs_int(1) xor LEDs_int(3);    --apply hamming code
           LEDs_int(5)<=LEDs_int(0) xor LEDs_int(2) xor LEDs_int(3);
           LEDs_int(6)<=LEDs_int(1) xor LEDs_int(2) xor LEDs_int(3);
           LEDs_int(7)<=LEDs_int(0) xor LEDs_int(1) xor LEDs_int(2) xor LEDs_int(3) xor LEDs_int(4) xor LEDs_int(5) xor LEDs_int(6);
@@ -108,9 +108,9 @@ begin
        button_count<=0;
        LEDs_temp<=(others=>'0');
      else
-       if(button_int='1') then
-         case button_count is
-           when 0 =>
+       if(button_int='1') then              --inject error on word that is being processed at the moment when button is pressed
+         case button_count is               --bit that is flipped depends on button_count
+           when 0 =>                       
              if (LEDs_int(0)='1') then
                LEDs_err<= not LEDs_int or "00000001";
                button_count<=button_count+1;
@@ -175,12 +175,12 @@ begin
                button_count<=0;
              end if;
            end case;
-           LEDs_temp<=LEDs_int;
+           LEDs_temp<=LEDs_int; 
           elsif(button='1') then
-            ham_out<=LEDs_err;
-            LEDs<=LEDs_temp;
-          else
-            ham_out<=not LEDs_int;
+            ham_out<=LEDs_err;      --send the error injected word back to the MSS as long as button is pressed
+            LEDs<=LEDs_temp;        --display correct hamming encoded word as long as button is pressed
+          else                      --if button is not pressed display and send the hamming encoded word
+            ham_out<=not LEDs_int;  
             LEDs<=LEDs_disp;
           end if;
         end if;

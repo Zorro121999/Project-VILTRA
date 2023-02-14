@@ -3,7 +3,7 @@
 #OS: Windows 10 or later
 #Hostname: ACER
 
-# Wed Feb  8 13:18:58 2023
+# Tue Feb 14 19:02:25 2023
 
 #Implementation: synthesis
 
@@ -40,125 +40,125 @@ Implementation : synthesis
 Synopsys VHDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
 
 @N|Running in 64-bit mode
-@N:"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham\receiver_with_ham.vhd":17:7:17:23|Top entity is set to receiver_with_ham.
+@N:"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham\receiver_with_ham.vhd":17:7:17:23|Top entity is set to receiver_with_ham.
 Options changed - recompiling
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\APB_slave_vhdl.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb\CCC_0\receiver_with_ham_sb_CCC_0_FCCC.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb_MSS\receiver_with_ham_sb_MSS_syn.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\receiver_slave_vhdl.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb\FABOSC_0\receiver_with_ham_sb_FABOSC_0_OSC.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb_MSS\receiver_with_ham_sb_MSS.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb\receiver_with_ham_sb.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham\receiver_with_ham.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\hdl\APB_slave_vhdl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\hdl\decode_ham.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham_sb\CCC_0\receiver_with_ham_sb_CCC_0_FCCC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham_sb_MSS\receiver_with_ham_sb_MSS_syn.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\hdl\receiver_slave_vhdl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham_sb\FABOSC_0\receiver_with_ham_sb_FABOSC_0_OSC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham_sb_MSS\receiver_with_ham_sb_MSS.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham_sb\receiver_with_ham_sb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham\receiver_with_ham.vhd'.
 VHDL syntax check successful!
 Options changed - recompiling
 @N: CD231 :"C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
-@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham\receiver_with_ham.vhd":17:7:17:23|Synthesizing work.receiver_with_ham.rtl.
-@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb\receiver_with_ham_sb.vhd":20:7:20:26|Synthesizing work.receiver_with_ham_sb.rtl.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham\receiver_with_ham.vhd":17:7:17:23|Synthesizing work.receiver_with_ham.rtl.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham_sb\receiver_with_ham_sb.vhd":20:7:20:26|Synthesizing work.receiver_with_ham_sb.rtl.
 @N: CD630 :"C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\lib\generic\smartfusion2.vhd":790:10:790:17|Synthesizing smartfusion2.sysreset.syn_black_box.
 Post processing for smartfusion2.sysreset.syn_black_box
-@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb_MSS\receiver_with_ham_sb_MSS.vhd":17:7:17:30|Synthesizing work.receiver_with_ham_sb_mss.rtl.
-@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb_MSS\receiver_with_ham_sb_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham_sb_MSS\receiver_with_ham_sb_MSS.vhd":17:7:17:30|Synthesizing work.receiver_with_ham_sb_mss.rtl.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham_sb_MSS\receiver_with_ham_sb_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch.
 Post processing for work.mss_010.def_arch
 Post processing for work.receiver_with_ham_sb_mss.rtl
 Running optimization stage 1 on receiver_with_ham_sb_MSS .......
 Finished optimization stage 1 on receiver_with_ham_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 103MB)
-@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\receiver_slave_vhdl.vhd":23:7:23:25|Synthesizing work.receiver_slave_vhdl.architecture_receiver_slave_vhdl.
-@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\APB_slave_vhdl.vhd":24:7:24:20|Synthesizing work.apb_slave_vhdl.architecture_apb_slave_vhdl.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\hdl\receiver_slave_vhdl.vhd":23:7:23:25|Synthesizing work.receiver_slave_vhdl.architecture_receiver_slave_vhdl.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\hdl\APB_slave_vhdl.vhd":24:7:24:20|Synthesizing work.apb_slave_vhdl.architecture_apb_slave_vhdl.
 Post processing for work.apb_slave_vhdl.architecture_apb_slave_vhdl
 Running optimization stage 1 on APB_slave_vhdl .......
 Finished optimization stage 1 on APB_slave_vhdl (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 120MB)
-@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd":24:7:24:16|Synthesizing work.decode_ham.architecture_decode_ham.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\hdl\decode_ham.vhd":24:7:24:16|Synthesizing work.decode_ham.architecture_decode_ham.
 Post processing for work.decode_ham.architecture_decode_ham
 Running optimization stage 1 on decode_ham .......
-@A: CL282 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\decode_ham.vhd":41:32:41:34|Feedback mux created for signal dffr2. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\hdl\decode_ham.vhd":41:32:41:34|Feedback mux created for signal dffr2. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
 Finished optimization stage 1 on decode_ham (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 120MB)
 Post processing for work.receiver_slave_vhdl.architecture_receiver_slave_vhdl
 Running optimization stage 1 on receiver_slave_vhdl .......
 Finished optimization stage 1 on receiver_slave_vhdl (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 120MB)
-@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb\FABOSC_0\receiver_with_ham_sb_FABOSC_0_OSC.vhd":8:7:8:39|Synthesizing work.receiver_with_ham_sb_fabosc_0_osc.def_arch.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham_sb\FABOSC_0\receiver_with_ham_sb_FABOSC_0_OSC.vhd":8:7:8:39|Synthesizing work.receiver_with_ham_sb_fabosc_0_osc.def_arch.
 @N: CD630 :"C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
 Post processing for smartfusion2.clkint.syn_black_box
-@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
 Post processing for work.rcosc_25_50mhz.def_arch
-@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch.
 Post processing for work.rcosc_25_50mhz_fab.def_arch
 Post processing for work.receiver_with_ham_sb_fabosc_0_osc.def_arch
 Running optimization stage 1 on receiver_with_ham_sb_FABOSC_0_OSC .......
-@W: CL240 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb\FABOSC_0\receiver_with_ham_sb_FABOSC_0_OSC.vhd":16:10:16:19|Signal XTLOSC_O2F is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb\FABOSC_0\receiver_with_ham_sb_FABOSC_0_OSC.vhd":15:10:15:19|Signal XTLOSC_CCC is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb\FABOSC_0\receiver_with_ham_sb_FABOSC_0_OSC.vhd":14:10:14:23|Signal RCOSC_1MHZ_O2F is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb\FABOSC_0\receiver_with_ham_sb_FABOSC_0_OSC.vhd":13:10:13:23|Signal RCOSC_1MHZ_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham_sb\FABOSC_0\receiver_with_ham_sb_FABOSC_0_OSC.vhd":16:10:16:19|Signal XTLOSC_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham_sb\FABOSC_0\receiver_with_ham_sb_FABOSC_0_OSC.vhd":15:10:15:19|Signal XTLOSC_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham_sb\FABOSC_0\receiver_with_ham_sb_FABOSC_0_OSC.vhd":14:10:14:23|Signal RCOSC_1MHZ_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham_sb\FABOSC_0\receiver_with_ham_sb_FABOSC_0_OSC.vhd":13:10:13:23|Signal RCOSC_1MHZ_CCC is floating; a simulation mismatch is possible.
 Finished optimization stage 1 on receiver_with_ham_sb_FABOSC_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 120MB)
-@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl.
-@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":477:8:477:25|Signal soft_ext_reset_out in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":478:8:478:21|Signal soft_reset_f2m in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":479:8:479:20|Signal soft_m3_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":480:8:480:37|Signal soft_mddr_ddr_axi_s_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":481:8:481:27|Signal soft_fddr_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":482:8:482:27|Signal soft_sdif0_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":483:8:483:28|Signal soft_sdif0_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":484:8:484:27|Signal soft_sdif1_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":485:8:485:28|Signal soft_sdif1_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":486:8:486:27|Signal soft_sdif2_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":487:8:487:28|Signal soft_sdif2_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":488:8:488:27|Signal soft_sdif3_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":489:8:489:28|Signal soft_sdif3_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":490:8:490:30|Signal soft_sdif0_0_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":491:8:491:30|Signal soft_sdif0_1_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl.
+@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":477:8:477:25|Signal soft_ext_reset_out in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":478:8:478:21|Signal soft_reset_f2m in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":479:8:479:20|Signal soft_m3_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":480:8:480:37|Signal soft_mddr_ddr_axi_s_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":481:8:481:27|Signal soft_fddr_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":482:8:482:27|Signal soft_sdif0_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":483:8:483:28|Signal soft_sdif0_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":484:8:484:27|Signal soft_sdif1_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":485:8:485:28|Signal soft_sdif1_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":486:8:486:27|Signal soft_sdif2_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":487:8:487:28|Signal soft_sdif2_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":488:8:488:27|Signal soft_sdif3_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":489:8:489:28|Signal soft_sdif3_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":490:8:490:30|Signal soft_sdif0_0_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":491:8:491:30|Signal soft_sdif0_1_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
 Post processing for work.coreresetp.rtl
 Running optimization stage 1 on CoreResetP .......
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Pruning unused register count_ddr_2(13 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1495:8:1495:9|Pruning unused register count_sdif3_1(12 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1471:8:1471:9|Pruning unused register count_sdif2_1(12 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1447:8:1447:9|Pruning unused register count_sdif1_1(12 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1423:8:1423:9|Pruning unused register count_sdif0_2(12 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_ddr_enable_rcosc_2. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_ddr_enable_q1_2. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif3_enable_rcosc_2. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif2_enable_rcosc_2. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif1_enable_rcosc_2. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif0_enable_rcosc_2. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif3_enable_q1_2. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif2_enable_q1_2. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif1_enable_q1_2. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif0_enable_q1_2. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Pruning unused register count_sdif3_enable_3. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Pruning unused register count_sdif2_enable_3. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Pruning unused register count_sdif1_enable_3. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Pruning unused register count_sdif0_enable_3. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Pruning unused register count_ddr_enable_3. Make sure that there are no unused intermediate registers.
-@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1331:8:1331:9|Sharing sequential element M3_RESET_N_int and merging RESET_N_F2M_int. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL190 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Pruning unused register release_ext_reset. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Pruning unused register EXT_RESET_OUT_int. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Pruning unused register sm2_state(2 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Pruning unused register sm2_areset_n_q1. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Pruning unused register sm2_areset_n_clk_base. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Pruning unused register count_ddr_2(13 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1495:8:1495:9|Pruning unused register count_sdif3_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1471:8:1471:9|Pruning unused register count_sdif2_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1447:8:1447:9|Pruning unused register count_sdif1_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1423:8:1423:9|Pruning unused register count_sdif0_2(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_ddr_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_ddr_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif3_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif2_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif1_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif0_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif3_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif2_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif1_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif0_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Pruning unused register count_sdif3_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Pruning unused register count_sdif2_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Pruning unused register count_sdif1_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Pruning unused register count_sdif0_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Pruning unused register count_ddr_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1331:8:1331:9|Sharing sequential element M3_RESET_N_int and merging RESET_N_F2M_int. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Pruning unused register release_ext_reset. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Pruning unused register EXT_RESET_OUT_int. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Pruning unused register sm2_state(2 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Pruning unused register sm2_areset_n_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Pruning unused register sm2_areset_n_clk_base. Make sure that there are no unused intermediate registers.
 Finished optimization stage 1 on CoreResetP (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 120MB)
-@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch.
-@N: CD604 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized.
-@W: CD638 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":616:7:616:15|Signal ia_prdata is undriven. Either assign the signal a value or remove the signal declaration.
-@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch.
+@N: CD604 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized.
+@W: CD638 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":616:7:616:15|Signal ia_prdata is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
 Post processing for coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch
 Running optimization stage 1 on COREAPB3_MUXPTOB3 .......
 Finished optimization stage 1 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 120MB)
 Post processing for coreapb3_lib.coreapb3.coreapb3_arch
 Running optimization stage 1 on CoreAPB3 .......
 Finished optimization stage 1 on CoreAPB3 (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 120MB)
-@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb\CCC_0\receiver_with_ham_sb_CCC_0_FCCC.vhd":8:7:8:37|Synthesizing work.receiver_with_ham_sb_ccc_0_fccc.def_arch.
+@N: CD630 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham_sb\CCC_0\receiver_with_ham_sb_CCC_0_FCCC.vhd":8:7:8:37|Synthesizing work.receiver_with_ham_sb_ccc_0_fccc.def_arch.
 @N: CD630 :"C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\lib\generic\smartfusion2.vhd":798:10:798:12|Synthesizing smartfusion2.ccc.syn_black_box.
 Post processing for smartfusion2.ccc.syn_black_box
 @N: CD630 :"C:\Microchip\Libero_SoC_v2022.2\fpga_S-2021.09M-SP1\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
@@ -179,89 +179,89 @@ Finished optimization stage 2 on receiver_with_ham_sb_CCC_0_FCCC (CPU Time 0h:00
 Running optimization stage 2 on COREAPB3_MUXPTOB3 .......
 Finished optimization stage 2 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 120MB)
 Running optimization stage 2 on CoreAPB3 .......
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":75:0:75:4|Input IADDR is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":76:0:76:6|Input PRESETN is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":77:0:77:3|Input PCLK is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":108:0:108:7|Input PRDATAS1 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":109:0:109:7|Input PRDATAS2 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":110:0:110:7|Input PRDATAS3 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":111:0:111:7|Input PRDATAS4 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":112:0:112:7|Input PRDATAS5 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":113:0:113:7|Input PRDATAS6 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":114:0:114:7|Input PRDATAS7 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":115:0:115:7|Input PRDATAS8 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":116:0:116:7|Input PRDATAS9 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":117:0:117:8|Input PRDATAS10 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":118:0:118:8|Input PRDATAS11 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":119:0:119:8|Input PRDATAS12 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":120:0:120:8|Input PRDATAS13 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":121:0:121:8|Input PRDATAS14 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":122:0:122:8|Input PRDATAS15 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":125:0:125:7|Input PREADYS1 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":126:0:126:7|Input PREADYS2 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":127:0:127:7|Input PREADYS3 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":128:0:128:7|Input PREADYS4 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":129:0:129:7|Input PREADYS5 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":130:0:130:7|Input PREADYS6 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":131:0:131:7|Input PREADYS7 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":132:0:132:7|Input PREADYS8 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":133:0:133:7|Input PREADYS9 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":134:0:134:8|Input PREADYS10 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":135:0:135:8|Input PREADYS11 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":136:0:136:8|Input PREADYS12 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":137:0:137:8|Input PREADYS13 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":138:0:138:8|Input PREADYS14 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":139:0:139:8|Input PREADYS15 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":142:0:142:8|Input PSLVERRS1 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":143:0:143:8|Input PSLVERRS2 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":144:0:144:8|Input PSLVERRS3 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":145:0:145:8|Input PSLVERRS4 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":146:0:146:8|Input PSLVERRS5 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":147:0:147:8|Input PSLVERRS6 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":148:0:148:8|Input PSLVERRS7 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":149:0:149:8|Input PSLVERRS8 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":150:0:150:8|Input PSLVERRS9 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":151:0:151:9|Input PSLVERRS10 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":152:0:152:9|Input PSLVERRS11 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":153:0:153:9|Input PSLVERRS12 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":154:0:154:9|Input PSLVERRS13 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":155:0:155:9|Input PSLVERRS14 is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":156:0:156:9|Input PSLVERRS15 is unused.
-Finished optimization stage 2 on CoreAPB3 (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 120MB)
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":75:0:75:4|Input IADDR is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":76:0:76:6|Input PRESETN is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":77:0:77:3|Input PCLK is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":108:0:108:7|Input PRDATAS1 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":109:0:109:7|Input PRDATAS2 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":110:0:110:7|Input PRDATAS3 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":111:0:111:7|Input PRDATAS4 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":112:0:112:7|Input PRDATAS5 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":113:0:113:7|Input PRDATAS6 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":114:0:114:7|Input PRDATAS7 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":115:0:115:7|Input PRDATAS8 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":116:0:116:7|Input PRDATAS9 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":117:0:117:8|Input PRDATAS10 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":118:0:118:8|Input PRDATAS11 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":119:0:119:8|Input PRDATAS12 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":120:0:120:8|Input PRDATAS13 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":121:0:121:8|Input PRDATAS14 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":122:0:122:8|Input PRDATAS15 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":125:0:125:7|Input PREADYS1 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":126:0:126:7|Input PREADYS2 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":127:0:127:7|Input PREADYS3 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":128:0:128:7|Input PREADYS4 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":129:0:129:7|Input PREADYS5 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":130:0:130:7|Input PREADYS6 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":131:0:131:7|Input PREADYS7 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":132:0:132:7|Input PREADYS8 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":133:0:133:7|Input PREADYS9 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":134:0:134:8|Input PREADYS10 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":135:0:135:8|Input PREADYS11 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":136:0:136:8|Input PREADYS12 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":137:0:137:8|Input PREADYS13 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":138:0:138:8|Input PREADYS14 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":139:0:139:8|Input PREADYS15 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":142:0:142:8|Input PSLVERRS1 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":143:0:143:8|Input PSLVERRS2 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":144:0:144:8|Input PSLVERRS3 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":145:0:145:8|Input PSLVERRS4 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":146:0:146:8|Input PSLVERRS5 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":147:0:147:8|Input PSLVERRS6 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":148:0:148:8|Input PSLVERRS7 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":149:0:149:8|Input PSLVERRS8 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":150:0:150:8|Input PSLVERRS9 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":151:0:151:9|Input PSLVERRS10 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":152:0:152:9|Input PSLVERRS11 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":153:0:153:9|Input PSLVERRS12 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":154:0:154:9|Input PSLVERRS13 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":155:0:155:9|Input PSLVERRS14 is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":156:0:156:9|Input PSLVERRS15 is unused.
+Finished optimization stage 2 on CoreAPB3 (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 120MB)
 Running optimization stage 2 on CoreResetP .......
-@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q2 and merging sdif3_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q2 and merging sdif3_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q2 and merging sdif3_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q2 and merging sdif3_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
-@N: CL201 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Trying to extract state machine for register sdif3_state.
+@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q2 and merging sdif3_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q2 and merging sdif3_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q2 and merging sdif3_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q2 and merging sdif3_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Trying to extract state machine for register sdif3_state.
 Extracted state machine for register sdif3_state
 State machine has 4 reachable states with original encodings of:
    000
    001
    010
    011
-@N: CL201 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Trying to extract state machine for register sdif2_state.
+@N: CL201 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Trying to extract state machine for register sdif2_state.
 Extracted state machine for register sdif2_state
 State machine has 4 reachable states with original encodings of:
    000
    001
    010
    011
-@N: CL201 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Trying to extract state machine for register sdif1_state.
+@N: CL201 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Trying to extract state machine for register sdif1_state.
 Extracted state machine for register sdif1_state
 State machine has 4 reachable states with original encodings of:
    000
    001
    010
    011
-@N: CL201 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Trying to extract state machine for register sdif0_state.
+@N: CL201 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Trying to extract state machine for register sdif0_state.
 Extracted state machine for register sdif0_state
 State machine has 4 reachable states with original encodings of:
    000
    001
    010
    011
-@N: CL201 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Trying to extract state machine for register sm0_state.
+@N: CL201 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Trying to extract state machine for register sm0_state.
 Extracted state machine for register sm0_state
 State machine has 7 reachable states with original encodings of:
    000
@@ -271,69 +271,69 @@ State machine has 7 reachable states with original encodings of:
    100
    101
    110
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":96:4:96:12|Input CLK_LTSSM is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":123:4:123:12|Input FPLL_LOCK is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":126:4:126:18|Input SDIF0_SPLL_LOCK is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":135:4:135:18|Input SDIF1_SPLL_LOCK is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":139:4:139:18|Input SDIF2_SPLL_LOCK is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":143:4:143:18|Input SDIF3_SPLL_LOCK is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":157:4:157:13|Input SDIF0_PSEL is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":158:4:158:15|Input SDIF0_PWRITE is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":159:4:159:15|Input SDIF0_PRDATA is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":160:4:160:13|Input SDIF1_PSEL is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":161:4:161:15|Input SDIF1_PWRITE is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":162:4:162:15|Input SDIF1_PRDATA is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":163:4:163:13|Input SDIF2_PSEL is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":164:4:164:15|Input SDIF2_PWRITE is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":165:4:165:15|Input SDIF2_PRDATA is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":166:4:166:13|Input SDIF3_PSEL is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":167:4:167:15|Input SDIF3_PWRITE is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":168:4:168:15|Input SDIF3_PRDATA is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":174:4:174:21|Input SOFT_EXT_RESET_OUT is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":175:4:175:17|Input SOFT_RESET_F2M is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":176:4:176:16|Input SOFT_M3_RESET is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":177:4:177:33|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":178:4:178:23|Input SOFT_FDDR_CORE_RESET is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":179:4:179:23|Input SOFT_SDIF0_PHY_RESET is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":180:4:180:24|Input SOFT_SDIF0_CORE_RESET is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":181:4:181:23|Input SOFT_SDIF1_PHY_RESET is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":182:4:182:24|Input SOFT_SDIF1_CORE_RESET is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":183:4:183:23|Input SOFT_SDIF2_PHY_RESET is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":184:4:184:24|Input SOFT_SDIF2_CORE_RESET is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":185:4:185:23|Input SOFT_SDIF3_PHY_RESET is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":186:4:186:24|Input SOFT_SDIF3_CORE_RESET is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":190:4:190:26|Input SOFT_SDIF0_0_CORE_RESET is unused.
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":191:4:191:26|Input SOFT_SDIF0_1_CORE_RESET is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":96:4:96:12|Input CLK_LTSSM is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":123:4:123:12|Input FPLL_LOCK is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":126:4:126:18|Input SDIF0_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":135:4:135:18|Input SDIF1_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":139:4:139:18|Input SDIF2_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":143:4:143:18|Input SDIF3_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":157:4:157:13|Input SDIF0_PSEL is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":158:4:158:15|Input SDIF0_PWRITE is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":159:4:159:15|Input SDIF0_PRDATA is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":160:4:160:13|Input SDIF1_PSEL is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":161:4:161:15|Input SDIF1_PWRITE is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":162:4:162:15|Input SDIF1_PRDATA is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":163:4:163:13|Input SDIF2_PSEL is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":164:4:164:15|Input SDIF2_PWRITE is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":165:4:165:15|Input SDIF2_PRDATA is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":166:4:166:13|Input SDIF3_PSEL is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":167:4:167:15|Input SDIF3_PWRITE is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":168:4:168:15|Input SDIF3_PRDATA is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":174:4:174:21|Input SOFT_EXT_RESET_OUT is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":175:4:175:17|Input SOFT_RESET_F2M is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":176:4:176:16|Input SOFT_M3_RESET is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":177:4:177:33|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":178:4:178:23|Input SOFT_FDDR_CORE_RESET is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":179:4:179:23|Input SOFT_SDIF0_PHY_RESET is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":180:4:180:24|Input SOFT_SDIF0_CORE_RESET is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":181:4:181:23|Input SOFT_SDIF1_PHY_RESET is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":182:4:182:24|Input SOFT_SDIF1_CORE_RESET is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":183:4:183:23|Input SOFT_SDIF2_PHY_RESET is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":184:4:184:24|Input SOFT_SDIF2_CORE_RESET is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":185:4:185:23|Input SOFT_SDIF3_PHY_RESET is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":186:4:186:24|Input SOFT_SDIF3_CORE_RESET is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":190:4:190:26|Input SOFT_SDIF0_0_CORE_RESET is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":191:4:191:26|Input SOFT_SDIF0_1_CORE_RESET is unused.
 Finished optimization stage 2 on CoreResetP (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 120MB)
 Running optimization stage 2 on receiver_with_ham_sb_FABOSC_0_OSC .......
-@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb\FABOSC_0\receiver_with_ham_sb_FABOSC_0_OSC.vhd":10:10:10:12|Input XTL is unused.
+@N: CL159 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\component\work\receiver_with_ham_sb\FABOSC_0\receiver_with_ham_sb_FABOSC_0_OSC.vhd":10:10:10:12|Input XTL is unused.
 Finished optimization stage 2 on receiver_with_ham_sb_FABOSC_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 120MB)
 Running optimization stage 2 on decode_ham .......
 Finished optimization stage 2 on decode_ham (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 120MB)
 Running optimization stage 2 on APB_slave_vhdl .......
-@N: CL134 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\APB_slave_vhdl.vhd":131:8:131:9|Found RAM Memory_Mapped_Registers, depth=64, width=32
-@W: CL246 :"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\hdl\APB_slave_vhdl.vhd":33:8:33:12|Input port bits 31 to 6 of paddr(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL134 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\hdl\APB_slave_vhdl.vhd":131:8:131:9|Found RAM Memory_Mapped_Registers, depth=64, width=32
+@W: CL246 :"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\hdl\APB_slave_vhdl.vhd":33:8:33:12|Input port bits 31 to 6 of paddr(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
 Finished optimization stage 2 on APB_slave_vhdl (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 120MB)
 Running optimization stage 2 on receiver_slave_vhdl .......
 Finished optimization stage 2 on receiver_slave_vhdl (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 120MB)
 Running optimization stage 2 on receiver_with_ham_sb_MSS .......
-Finished optimization stage 2 on receiver_with_ham_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 120MB)
+Finished optimization stage 2 on receiver_with_ham_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 120MB)
 Running optimization stage 2 on receiver_with_ham_sb .......
-Finished optimization stage 2 on receiver_with_ham_sb (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 120MB)
+Finished optimization stage 2 on receiver_with_ham_sb (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 120MB)
 Running optimization stage 2 on receiver_with_ham .......
-Finished optimization stage 2 on receiver_with_ham (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 120MB)
+Finished optimization stage 2 on receiver_with_ham (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 120MB)
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
-@L: C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\synwork\layer0.rt.csv
+@L: C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\synthesis\synwork\layer0.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 114MB peak: 120MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 114MB peak: 120MB)
 
-Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+Process took 0h:00m:08s realtime, 0h:00m:08s cputime
 
 Process completed successfully.
-# Wed Feb  8 13:19:05 2023
+# Tue Feb 14 19:02:33 2023
 
 ###########################################################]
 ###########################################################[
@@ -353,28 +353,29 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
 
 @N|Running in 64-bit mode
+File C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\synwork\layer0.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 94MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Feb  8 13:19:06 2023
+# Tue Feb 14 19:02:33 2023
 
 ###########################################################]
 
 For a summary of runtime and memory usage for all design units, please see file:
 ==========================================================
-@L: C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\synwork\receiver_with_ham_comp.rt.csv
+@L: C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\synthesis\synwork\receiver_with_ham_comp.rt.csv
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 23MB peak: 24MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 23MB peak: 24MB)
 
-Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+Process took 0h:00m:08s realtime, 0h:00m:08s cputime
 
 Process completed successfully.
-# Wed Feb  8 13:19:06 2023
+# Tue Feb 14 19:02:33 2023
 
 ###########################################################]
 ###########################################################[
@@ -394,18 +395,19 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
 
 @N|Running in 64-bit mode
+File C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\synwork\receiver_with_ham_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 95MB peak: 96MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Feb  8 13:19:07 2023
+# Tue Feb 14 19:02:35 2023
 
 ###########################################################]
 Premap Report
 
-# Wed Feb  8 13:19:07 2023
+# Tue Feb 14 19:02:35 2023
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -424,116 +426,116 @@ Implementation : synthesis
 Synopsys Microchip Technology Pre-mapping, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 120MB)
 
 
-Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 132MB)
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 132MB)
 
-Reading constraint file: C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\designer\receiver_with_ham\synthesis.fdc
-@L: C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\receiver_with_ham_scck.rpt 
-See clock summary report "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\receiver_with_ham_scck.rpt"
+Reading constraint file: C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\designer\receiver_with_ham\synthesis.fdc
+@L: C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\synthesis\receiver_with_ham_scck.rpt 
+See clock summary report "C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\synthesis\receiver_with_ham_scck.rpt"
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
 
-@W: BN132 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance receiver_with_ham_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance receiver_with_ham_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: FX1172 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\decode_ham.vhd":80:2:80:3|User-specified initial value defined for instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.dc.bit_correct[7:0] is being ignored due to limitations in architecture. 
-@W: FX1172 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\decode_ham.vhd":62:2:62:3|User-specified initial value defined for instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.dc.LEDs_int[7:0] is being ignored due to limitations in architecture. 
-@W: FX1172 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\decode_ham.vhd":50:1:50:2|User-specified initial value defined for instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.dc.dffr1 is being ignored due to limitations in architecture. 
-@W: FX1172 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\decode_ham.vhd":41:32:41:34|User-specified initial value defined for instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.dc.dffr2 is being ignored due to limitations in architecture. 
-@N: FX1171 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\decode_ham.vhd":62:2:62:3|Found instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.dc.decoded[3:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
-@N: FX1171 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\decode_ham.vhd":62:2:62:3|Found instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.dc.LEDs_int[7:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@W: BN132 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance receiver_with_ham_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance receiver_with_ham_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: FX1172 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\hdl\decode_ham.vhd":80:2:80:3|User-specified initial value defined for instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.dc.bit_correct[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\hdl\decode_ham.vhd":62:2:62:3|User-specified initial value defined for instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.dc.LEDs_int[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\hdl\decode_ham.vhd":50:1:50:2|User-specified initial value defined for instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.dc.dffr1 is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\hdl\decode_ham.vhd":41:32:41:34|User-specified initial value defined for instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.dc.dffr2 is being ignored due to limitations in architecture. 
+@N: FX1171 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\hdl\decode_ham.vhd":62:2:62:3|Found instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.dc.decoded[3:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\hdl\decode_ham.vhd":62:2:62:3|Found instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.dc.LEDs_int[7:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
 
-Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 169MB)
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 169MB peak: 170MB)
 
 
-Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 169MB)
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 169MB peak: 170MB)
 
-@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance INIT_DONE_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance sm0_state[0:6] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":922:8:922:9|Removing sequential instance CONFIG2_DONE_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance sdif0_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance sdif1_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance sdif2_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance sdif3_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":922:8:922:9|Removing sequential instance CONFIG2_DONE_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif0_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif1_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif2_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Removing sequential instance sdif3_spll_lock_q2 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":908:8:908:9|Removing sequential instance CONFIG1_DONE_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif3_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance ddr_settled_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif0_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif1_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif2_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Removing sequential instance sdif3_spll_lock_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":908:8:908:9|Removing sequential instance CONFIG1_DONE_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif3_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance ddr_settled_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1423:8:1423:9|Removing sequential instance release_sdif0_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1447:8:1447:9|Removing sequential instance release_sdif1_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1471:8:1471:9|Removing sequential instance release_sdif2_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1495:8:1495:9|Removing sequential instance release_sdif3_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Removing sequential instance ddr_settled (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":770:8:770:9|Removing sequential instance sm0_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":861:8:861:9|Removing sequential instance sdif0_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance sdif1_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance sdif2_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance sdif3_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":770:8:770:9|Removing sequential instance sm0_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance sm0_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":861:8:861:9|Removing sequential instance sdif0_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance sdif1_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance sdif2_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance sdif3_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance sm0_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance receiver_with_ham_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance INIT_DONE_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance sm0_state[0:6] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":922:8:922:9|Removing sequential instance CONFIG2_DONE_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance sdif0_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance sdif1_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance sdif2_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance sdif3_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":922:8:922:9|Removing sequential instance CONFIG2_DONE_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif0_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif1_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif2_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Removing sequential instance sdif3_spll_lock_q2 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":908:8:908:9|Removing sequential instance CONFIG1_DONE_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif3_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance ddr_settled_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif0_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif1_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif2_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Removing sequential instance sdif3_spll_lock_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":908:8:908:9|Removing sequential instance CONFIG1_DONE_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif3_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance ddr_settled_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1423:8:1423:9|Removing sequential instance release_sdif0_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1447:8:1447:9|Removing sequential instance release_sdif1_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1471:8:1471:9|Removing sequential instance release_sdif2_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1495:8:1495:9|Removing sequential instance release_sdif3_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Removing sequential instance ddr_settled (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":770:8:770:9|Removing sequential instance sm0_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":861:8:861:9|Removing sequential instance sdif0_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance sdif1_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance sdif2_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance sdif3_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":770:8:770:9|Removing sequential instance sm0_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance sm0_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":861:8:861:9|Removing sequential instance sdif0_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance sdif1_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance sdif2_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance sdif3_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance sm0_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist receiver_with_ham 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
 
 
 
@@ -561,31 +563,31 @@ System                                                     0         -          
 receiver_with_ham_sb_CCC_0_FCCC|GL0_net_inferred_clock     111       receiver_with_ham_sb_0.CCC_0.CCC_INST.GL0(CCC)     receiver_with_ham_sb_0.receiver_with_ham_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 receiver_with_ham_sb_0.CCC_0.GL0_INST.I(BUFG)
 =====================================================================================================================================================================================================================================================================
 
-@W: MT530 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":608:8:608:9|Found inferred clock receiver_with_ham_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 111 sequential elements including receiver_with_ham_sb_0.CORERESETP_0.MSS_HPMS_READY_int. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":608:8:608:9|Found inferred clock receiver_with_ham_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 111 sequential elements including receiver_with_ham_sb_0.CORERESETP_0.MSS_HPMS_READY_int. This clock has no specified timing constraint which may adversely impact design performance. 
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
-@N: BN225 |Writing default property annotation file C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\receiver_with_ham.sap.
+@N: BN225 |Writing default property annotation file C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\synthesis\receiver_with_ham.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 171MB peak: 171MB)
-
-
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 171MB peak: 172MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 172MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 88MB peak: 173MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 88MB peak: 174MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Wed Feb  8 13:19:10 2023
+# Tue Feb 14 19:02:37 2023
 
 ###########################################################]
 Map & Optimize Report
 
-# Wed Feb  8 13:19:10 2023
+# Tue Feb 14 19:02:37 2023
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -604,7 +606,7 @@ Implementation : synthesis
 Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 120MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
 
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
@@ -619,23 +621,23 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 132MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 132MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 132MB)
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 166MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
 
-@W: BN132 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":553:8:553:9|Removing sequential instance receiver_with_ham_sb_0.CORERESETP_0.POWER_ON_RESET_N_q1 because it is equivalent to instance receiver_with_ham_sb_0.CORERESETP_0.sm1_areset_n_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Removing sequential instance receiver_with_ham_sb_0.CORERESETP_0.sm1_areset_n_clk_base because it is equivalent to instance receiver_with_ham_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":553:8:553:9|Removing sequential instance receiver_with_ham_sb_0.CORERESETP_0.POWER_ON_RESET_N_q1 because it is equivalent to instance receiver_with_ham_sb_0.CORERESETP_0.sm1_areset_n_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Removing sequential instance receiver_with_ham_sb_0.CORERESETP_0.sm1_areset_n_clk_base because it is equivalent to instance receiver_with_ham_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
 #### START OF SSF LOG MESSAGES ####
 
 #### END OF SSF LOG MESSAGES ####
-@N: MF135 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\apb_slave_vhdl.vhd":131:8:131:9|RAM receiver_slave_vhdl_0.APB.Memory_Mapped_Registers[31:0] (in view: work.receiver_with_ham_sb(rtl)) is 64 words by 32 bits.
+@N: MF135 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\hdl\apb_slave_vhdl.vhd":131:8:131:9|RAM receiver_slave_vhdl_0.APB.Memory_Mapped_Registers[31:0] (in view: work.receiver_with_ham_sb(rtl)) is 64 words by 32 bits.
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
 
-@W: FX107 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\apb_slave_vhdl.vhd":131:8:131:9|RAM receiver_slave_vhdl_0.APB.Memory_Mapped_Registers[31:0] (in view: work.receiver_with_ham_sb(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\hdl\apb_slave_vhdl.vhd":131:8:131:9|RAM receiver_slave_vhdl_0.APB.Memory_Mapped_Registers[31:0] (in view: work.receiver_with_ham_sb(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
 
 Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
 
@@ -647,46 +649,46 @@ Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 176MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 177MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 178MB peak: 178MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 178MB peak: 179MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 178MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 178MB peak: 179MB)
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:03s; Memory used current: 178MB peak: 178MB)
 
 
 Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 193MB peak: 193MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:04s		    -1.72ns		 406 /       140
-   2		0h:00m:04s		    -1.72ns		 394 /       140
-   3		0h:00m:04s		    -1.31ns		 394 /       140
-@N: FX271 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\apb_slave_vhdl.vhd":131:8:131:9|Replicating instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.APB.Memory_Mapped_Registersror_53 (in view: work.receiver_with_ham(rtl)) with 40 loads 3 times to improve timing.
-@N: FX271 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\apb_slave_vhdl.vhd":131:8:131:9|Replicating instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.APB.Memory_Mapped_Registersror_52 (in view: work.receiver_with_ham(rtl)) with 40 loads 3 times to improve timing.
-@N: FX271 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\apb_slave_vhdl.vhd":131:8:131:9|Replicating instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.APB.Memory_Mapped_Registersror_51 (in view: work.receiver_with_ham(rtl)) with 40 loads 3 times to improve timing.
+   1		0h:00m:03s		    -1.72ns		 406 /       140
+   2		0h:00m:03s		    -1.72ns		 394 /       140
+   3		0h:00m:03s		    -1.31ns		 394 /       140
+@N: FX271 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\hdl\apb_slave_vhdl.vhd":131:8:131:9|Replicating instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.APB.Memory_Mapped_Registersror_53 (in view: work.receiver_with_ham(rtl)) with 40 loads 3 times to improve timing.
+@N: FX271 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\hdl\apb_slave_vhdl.vhd":131:8:131:9|Replicating instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.APB.Memory_Mapped_Registersror_52 (in view: work.receiver_with_ham(rtl)) with 40 loads 3 times to improve timing.
+@N: FX271 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\hdl\apb_slave_vhdl.vhd":131:8:131:9|Replicating instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.APB.Memory_Mapped_Registersror_51 (in view: work.receiver_with_ham(rtl)) with 40 loads 3 times to improve timing.
 Timing driven replication report
 Added 0 Registers via timing driven replication
 Added 9 LUTs via timing driven replication
 
-   4		0h:00m:05s		    -1.56ns		 403 /       140
-   5		0h:00m:05s		    -1.27ns		 404 /       140
-   6		0h:00m:05s		    -1.30ns		 407 /       140
+   4		0h:00m:04s		    -1.56ns		 403 /       140
+   5		0h:00m:04s		    -1.27ns		 404 /       140
+   6		0h:00m:04s		    -1.30ns		 407 /       140
 
-@N: FX271 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\hdl\apb_slave_vhdl.vhd":144:23:144:35|Replicating instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.APB.RD_EN_0_sqmuxa (in view: work.receiver_with_ham(rtl)) with 40 loads 3 times to improve timing.
+@N: FX271 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\hdl\apb_slave_vhdl.vhd":144:23:144:35|Replicating instance receiver_with_ham_sb_0.receiver_slave_vhdl_0.APB.RD_EN_0_sqmuxa (in view: work.receiver_with_ham(rtl)) with 40 loads 3 times to improve timing.
 Timing driven replication report
 Added 0 Registers via timing driven replication
 Added 3 LUTs via timing driven replication
 
-   7		0h:00m:05s		    -1.14ns		 427 /       140
-   8		0h:00m:05s		    -1.15ns		 427 /       140
+   7		0h:00m:04s		    -1.14ns		 427 /       140
+   8		0h:00m:04s		    -1.15ns		 427 /       140
 @N: FP130 |Promoting Net receiver_with_ham_sb_0.MSS_HPMS_READY_int_arst on CLKINT  I_357 
 
 Added 0 Buffers
@@ -694,7 +696,7 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 195MB peak: 196MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 195MB peak: 195MB)
 
 
 Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 195MB peak: 196MB)
@@ -721,31 +723,31 @@ Clock Tree ID     Driving Element                           Drive Element Type  
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 165MB peak: 196MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 164MB peak: 196MB)
 
-Writing Analyst data base C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\synwork\receiver_with_ham_m.srm
+Writing Analyst data base C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\synthesis\synwork\receiver_with_ham_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 195MB peak: 196MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 195MB peak: 196MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 196MB peak: 196MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 196MB peak: 196MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 196MB peak: 197MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 196MB peak: 196MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 194MB peak: 197MB)
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 194MB peak: 196MB)
 
-@W: MT246 :"c:\users\user\documents\isisa\optical_transmission\receiver_ham\component\work\receiver_with_ham_sb\ccc_0\receiver_with_ham_sb_ccc_0_fccc.vhd":106:4:106:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\user\documents\isisa\optical_transmission\project-viltra\receiver_ham\component\work\receiver_with_ham_sb\ccc_0\receiver_with_ham_sb_ccc_0_fccc.vhd":106:4:106:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT420 |Found inferred clock receiver_with_ham_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net receiver_with_ham_sb_0.CCC_0.GL0_net.
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Wed Feb  8 13:19:18 2023
+# Timing report written on Tue Feb 14 19:02:44 2023
 #
 
 
@@ -753,7 +755,7 @@ Top view:               receiver_with_ham
 Requested Frequency:    100.0 MHz
 Wire load mode:         top
 Paths requested:        5
-Constraint File(s):    C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\designer\receiver_with_ham\synthesis.fdc
+Constraint File(s):    C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\designer\receiver_with_ham\synthesis.fdc
                        
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 
@@ -1130,10 +1132,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 195MB peak: 197MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 195MB peak: 196MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 195MB peak: 197MB)
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 195MB peak: 196MB)
 
 ---------------------------------------
 Resource Usage Report for receiver_with_ham 
@@ -1179,9 +1181,9 @@ Total number of LUTs after P&R:  420 + 72 + 0 + 0 = 492;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 66MB peak: 197MB)
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 68MB peak: 196MB)
 
-Process took 0h:00m:08s realtime, 0h:00m:08s cputime
-# Wed Feb  8 13:19:18 2023
+Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+# Tue Feb 14 19:02:45 2023
 
 ###########################################################]

@@ -13,12 +13,12 @@ Hostname: ACER
 
 Implementation : synthesis
 
-# Written on Wed Feb  8 13:19:09 2023
+# Written on Tue Feb 14 19:02:37 2023
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "receiver_with_ham"
-Constraint File(s):      "C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\designer\receiver_with_ham\synthesis.fdc"
+Constraint File(s):      "C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\designer\receiver_with_ham\synthesis.fdc"
 
 
 

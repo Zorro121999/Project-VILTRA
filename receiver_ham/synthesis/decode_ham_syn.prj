@@ -1,12 +1,12 @@
 #--  Synopsys, Inc.
 #--  Version S-2021.09M-SP1
-#--  Project file C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\decode_ham_syn.prj
+#--  Project file C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\synthesis\decode_ham_syn.prj
 #--  Written on Fri Feb  3 11:14:15 2023
 
 
 #project files
-add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/hdl/decode_ham.vhd"
-add_file -fpga_constraint "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/designer/decode_ham/synthesis.fdc"
+add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/hdl/decode_ham.vhd"
+add_file -fpga_constraint "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/designer/decode_ham/synthesis.fdc"
 
 
 #implementation: "synthesis"

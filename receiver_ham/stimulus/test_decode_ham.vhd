@@ -88,7 +88,7 @@ begin
       wait for 500 ns;
     end process;
     
-    pulse_proc : process
+    pulse_proc : process   --toggle between one correct and one error-injected input pulse
     begin
       pulse<="11001000";
       wait for 520 ns;

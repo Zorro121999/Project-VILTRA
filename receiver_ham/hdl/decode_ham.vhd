@@ -45,7 +45,7 @@ architecture architecture_decode_ham of decode_ham is
     
 
 begin
-   EP : process(clk, reset)
+   EP : process(clk, reset)          --detect moment when new pulse is supposed to be read in
 	begin
 	if (reset = '0') then
 		dffr1 <= '0';
@@ -91,7 +91,7 @@ begin
           bit_correct<="00000000";
           LED_correct<='0';
           LED_detect<='0';
-        when "0001" => 
+        when "0001" =>                     --correct words according to the decoded value
           if(LEDs_int(7)='0') then
             bit_correct<="10000000";
             LEDs<=not (LEDs_int or bit_correct);

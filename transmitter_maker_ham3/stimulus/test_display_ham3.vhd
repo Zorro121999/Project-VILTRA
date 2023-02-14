@@ -91,11 +91,11 @@ begin
       wait for 500 ns;
     end process;
     
-    pulse_proc : process
+    pulse_proc : process  -- toggle between to possible pulses
     begin
       pulse<="00000000";
       wait for 520 ns;
-      pulse<="10101010";
+      pulse<="00001111";
       wait for 520 ns;
     end process;
     

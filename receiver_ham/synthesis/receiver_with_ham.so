@@ -2,5 +2,5 @@
 <SynplifyOutput>
 	<result>Success</result>
 	<design>receiver_with_ham</design>
-	<target_verilog>C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\receiver_with_ham.vm</target_verilog>
+	<target_verilog>C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\synthesis\receiver_with_ham.vm</target_verilog>
 </SynplifyOutput>

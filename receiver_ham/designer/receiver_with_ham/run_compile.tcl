@@ -82,7 +82,7 @@ set_compile_info \
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\receiver_with_ham.vm"}
+    -value {"C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\synthesis\receiver_with_ham.vm"}
 set_compile_info \
     -category {"Options"} \
     -name {"Enable Single Event Transient mitigation"} \
@@ -96,7 +96,7 @@ set_compile_info \
     -name {"Limit the number of high fanout nets to display to"} \
     -value {"10"}
 compile \
-    -desdir {C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\designer\receiver_with_ham} \
+    -desdir {C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\designer\receiver_with_ham} \
     -design receiver_with_ham \
     -fam SmartFusion2 \
     -die PA4M1000_N \

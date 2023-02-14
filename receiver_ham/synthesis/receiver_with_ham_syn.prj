@@ -1,27 +1,27 @@
 #--  Synopsys, Inc.
 #--  Version S-2021.09M-SP1
-#--  Project file C:\Users\user\Documents\ISISA\optical_transmission\receiver_ham\synthesis\receiver_with_ham_syn.prj
-#--  Written on Wed Feb  8 13:19:18 2023
+#--  Project file C:\Users\user\Documents\ISISA\optical_transmission\Project-VILTRA\receiver_ham\synthesis\receiver_with_ham_syn.prj
+#--  Written on Tue Feb 14 19:02:45 2023
 
 
 #project files
-add_file -vhdl -lib COREAPB3_LIB "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_muxptob3.vhd"
-add_file -vhdl -lib COREAPB3_LIB "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd"
-add_file -vhdl -lib COREAPB3_LIB "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd"
-add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd"
-add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd"
-add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/hdl/APB_slave_vhdl.vhd"
-add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/hdl/decode_ham.vhd"
-add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/hdl/receiver_slave_vhdl.vhd"
-add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/component/work/receiver_with_ham_sb/CCC_0/receiver_with_ham_sb_CCC_0_FCCC.vhd"
-add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd"
-add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/component/work/receiver_with_ham_sb/FABOSC_0/receiver_with_ham_sb_FABOSC_0_OSC.vhd"
-add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/component/work/receiver_with_ham_sb_MSS/receiver_with_ham_sb_MSS_syn.vhd"
-add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/component/work/receiver_with_ham_sb_MSS/receiver_with_ham_sb_MSS.vhd"
-add_file -vhdl -lib COREAPB3_LIB "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/components.vhd"
-add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/component/work/receiver_with_ham_sb/receiver_with_ham_sb.vhd"
-add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/component/work/receiver_with_ham/receiver_with_ham.vhd"
-add_file -fpga_constraint "C:/Users/user/Documents/ISISA/optical_transmission/receiver_ham/designer/receiver_with_ham/synthesis.fdc"
+add_file -vhdl -lib COREAPB3_LIB "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_muxptob3.vhd"
+add_file -vhdl -lib COREAPB3_LIB "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd"
+add_file -vhdl -lib COREAPB3_LIB "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd"
+add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd"
+add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd"
+add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/hdl/APB_slave_vhdl.vhd"
+add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/hdl/decode_ham.vhd"
+add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/hdl/receiver_slave_vhdl.vhd"
+add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/component/work/receiver_with_ham_sb/CCC_0/receiver_with_ham_sb_CCC_0_FCCC.vhd"
+add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd"
+add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/component/work/receiver_with_ham_sb/FABOSC_0/receiver_with_ham_sb_FABOSC_0_OSC.vhd"
+add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/component/work/receiver_with_ham_sb_MSS/receiver_with_ham_sb_MSS_syn.vhd"
+add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/component/work/receiver_with_ham_sb_MSS/receiver_with_ham_sb_MSS.vhd"
+add_file -vhdl -lib COREAPB3_LIB "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/components.vhd"
+add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/component/work/receiver_with_ham_sb/receiver_with_ham_sb.vhd"
+add_file -vhdl -lib work "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/component/work/receiver_with_ham/receiver_with_ham.vhd"
+add_file -fpga_constraint "C:/Users/user/Documents/ISISA/optical_transmission/Project-VILTRA/receiver_ham/designer/receiver_with_ham/synthesis.fdc"
 
 
 #implementation: "synthesis"
